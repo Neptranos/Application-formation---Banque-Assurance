@@ -1,0 +1,47 @@
+// Schéma de la base de données locale.
+// Le contenu pédagogique (cours, flashcards, quiz, exercices) vit dans le code
+// (src/content) et est versionné avec git. Cette base ne stocke que ce qui doit
+// persister d'une session à l'autre : l'état de révision (répétition espacée)
+// et l'historique des tentatives.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// État de répétition espacée (algorithme SM-2) pour un élément révisable
+// (flashcard ou question de quiz), identifié par son id de contenu stable.
+model EtatRevision {
+  id              String   @id @default(cuid())
+  itemId          String   @unique
+  itemType        String // "flashcard" | "quiz"
+  facilite        Float    @default(2.5)
+  intervalleJours Int      @default(0)
+  repetitions     Int      @default(0)
+  serieReussite   Int      @default(0)
+  serieEchec      Int      @default(0)
+  dernierQualite  Int?
+  dueLe           DateTime @default(now())
+  majLe           DateTime @updatedAt
+  creeLe          DateTime @default(now())
+
+  @@index([dueLe])
+}
+
+// Journal de chaque réponse donnée, pour les statistiques de progression.
+model Tentative {
+  id        String   @id @default(cuid())
+  itemId    String
+  itemType  String // "flashcard" | "quiz" | "exercice"
+  moduleId  String
+  correct   Boolean
+  qualite   Int
+  creeLe    DateTime @default(now())
+
+  @@index([moduleId])
+  @@index([creeLe])
+}
