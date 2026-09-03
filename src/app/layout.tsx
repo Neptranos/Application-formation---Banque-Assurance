@@ -12,6 +12,7 @@ const NAV = [
   { href: "/", label: "Accueil" },
   { href: "/apprendre", label: "Apprendre" },
   { href: "/reviser", label: "Réviser" },
+  { href: "/amf", label: "Certification AMF" },
   { href: "/progres", label: "Progrès" },
 ];
 

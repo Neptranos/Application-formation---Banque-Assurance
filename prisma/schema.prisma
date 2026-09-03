@@ -45,3 +45,19 @@ model Tentative {
   @@index([moduleId])
   @@index([creeLe])
 }
+
+// Historique des passages d'examens blancs AMF (notation, réussite, détail par thème).
+model TentativeExamenBlanc {
+  id               String   @id @default(cuid())
+  examenId         String // "v1" | "v2" | "v3"
+  score            Int // nombre de bonnes réponses
+  total            Int
+  reussite         Boolean
+  seuilReussitePct Int
+  dureeSecondes    Int?
+  detailParTheme   Json // { [theme: string]: { correct: number; total: number } }
+  creeLe           DateTime @default(now())
+
+  @@index([examenId])
+  @@index([creeLe])
+}

@@ -2,11 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { getModule, getModulesByDomaine } from "@/content";
+import { DOMAINES, getModule, getModulesByDomaine } from "@/content";
 
 export function generateStaticParams() {
-  return ["banque", "assurance"].flatMap((domaine) =>
-    getModulesByDomaine(domaine as "banque" | "assurance").map((m) => ({ domaine, moduleId: m.id })),
+  return DOMAINES.flatMap((domaine) =>
+    getModulesByDomaine(domaine.id).map((m) => ({ domaine: domaine.id, moduleId: m.id })),
   );
 }
 

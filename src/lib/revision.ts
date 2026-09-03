@@ -1,7 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import { calculerProchainEtat, dateEcheance, ETAT_INITIAL, niveauMaitrise, type Qualite } from "@/lib/srs";
 import { getTousLesItemsRevisables, resoudreItem } from "@/content";
-import type { ItemRevisable } from "@/content/types";
+import type { Domaine, ItemRevisable } from "@/content/types";
+import { melangerChoixAleatoire } from "@/lib/shuffle";
 
 const TAILLE_SESSION_DEFAUT = 20;
 const PART_NOUVEAUX_MAX = 0.4;
@@ -16,7 +17,7 @@ export interface ItemDeSession {
 
 /** Sélectionne les éléments à réviser maintenant : en priorité les plus en retard, puis quelques nouveaux. */
 export async function construireSession(options?: {
-  domaine?: "banque" | "assurance";
+  domaine?: Domaine;
   moduleId?: string;
   taille?: number;
 }): Promise<ItemDeSession[]> {
@@ -68,14 +69,15 @@ export async function construireSession(options?: {
         },
       });
     } else if (item.type === "quiz" && resolu.question) {
+      const melange = melangerChoixAleatoire(resolu.question.choix, resolu.question.bonneReponse);
       session.push({
         item,
         nouveau,
         contenu: {
           type: "quiz",
           question: resolu.question.question,
-          choix: resolu.question.choix,
-          bonneReponse: resolu.question.bonneReponse,
+          choix: melange.choix,
+          bonneReponse: melange.bonneReponse,
           explication: resolu.question.explication,
           moduleTitre: resolu.module.titre,
         },

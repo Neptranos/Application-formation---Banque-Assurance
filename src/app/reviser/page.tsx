@@ -8,7 +8,8 @@ export default async function ReviserPage({
 }) {
   const { domaine, moduleId } = await searchParams;
   const module_ = moduleId ? getModule(moduleId) : undefined;
-  const domaineValide = DOMAINES.find((d) => d.id === domaine)?.id;
+  const domaineTrouve = DOMAINES.find((d) => d.id === domaine);
+  const domaineValide = domaineTrouve?.id;
 
   return (
     <div className="space-y-6">
@@ -17,8 +18,8 @@ export default async function ReviserPage({
         <p className="mt-1 text-slate-600">
           {module_
             ? `Session ciblée sur : ${module_.titre}.`
-            : domaineValide
-              ? `Session sur le domaine : ${domaineValide === "banque" ? "Banque" : "Assurance"}.`
+            : domaineTrouve
+              ? `Session sur le domaine : ${domaineTrouve.titre}.`
               : "Session mêlant tout le programme, priorisée sur ce qui est dû aujourd'hui."}
         </p>
       </div>

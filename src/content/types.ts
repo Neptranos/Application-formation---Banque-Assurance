@@ -1,4 +1,4 @@
-export type Domaine = "banque" | "assurance";
+export type Domaine = "banque" | "assurance" | "patrimoine" | "amf";
 
 export type Difficulte = "fondamental" | "intermediaire" | "avance";
 
@@ -74,4 +74,25 @@ export interface ItemRevisable {
   moduleId: string;
   domaine: Domaine;
   difficulte: Difficulte;
+}
+
+/** Identifiant des grandes thématiques de l'examen certifié AMF (correspond aux ids des modules amf*). */
+export type ThemeAMF = "amf1" | "amf2" | "amf3" | "amf4" | "amf5";
+
+export interface QuestionExamenBlanc {
+  id: string;
+  theme: ThemeAMF;
+  question: string;
+  choix: string[];
+  bonneReponse: number;
+  explication: string;
+}
+
+export interface ExamenBlanc {
+  id: string;
+  titre: string;
+  description: string;
+  dureeConseilleeMinutes: number;
+  seuilReussitePct: number;
+  questions: QuestionExamenBlanc[];
 }

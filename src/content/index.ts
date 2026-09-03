@@ -12,8 +12,20 @@ import { a3 } from "@/content/assurance/a3-contrat-assurance";
 import { a4 } from "@/content/assurance/a4-assurance-iard";
 import { a5 } from "@/content/assurance/a5-assurance-personnes";
 import { a6 } from "@/content/assurance/a6-distribution-protection-client";
+import { p1 } from "@/content/patrimoine/p1-fiscalite-epargne-placements";
+import { p2 } from "@/content/patrimoine/p2-fiscalite-transmission-patrimoine";
+import { amf1 } from "@/content/amf/amf1-cadre-institutionnel";
+import { amf2 } from "@/content/amf/amf2-instruments-marches";
+import { amf3 } from "@/content/amf/amf3-gestion-portefeuille-fiscalite";
+import { amf4 } from "@/content/amf/amf4-deontologie-protection-client";
+import { amf5 } from "@/content/amf/amf5-abus-marche-lcbft";
 
-export const MODULES: ModuleFormation[] = [b1, b2, b3, b4, b5, b6, a1, a2, a3, a4, a5, a6];
+export const MODULES: ModuleFormation[] = [
+  b1, b2, b3, b4, b5, b6,
+  a1, a2, a3, a4, a5, a6,
+  p1, p2,
+  amf1, amf2, amf3, amf4, amf5,
+];
 
 export const DOMAINES: { id: Domaine; titre: string; description: string }[] = [
   {
@@ -27,6 +39,18 @@ export const DOMAINES: { id: Domaine; titre: string; description: string }[] = [
     titre: "Assurance",
     description:
       "Les fondamentaux techniques, le cadre juridique, le contrat, l'IARD, l'assurance de personnes et la distribution.",
+  },
+  {
+    id: "patrimoine",
+    titre: "Fiscalité & patrimoine",
+    description:
+      "Fiscalité approfondie de l'épargne, des placements financiers et de la transmission du patrimoine.",
+  },
+  {
+    id: "amf",
+    titre: "Certification AMF",
+    description:
+      "Préparation complète à l'examen certifié AMF : cadre institutionnel, instruments financiers, gestion de portefeuille, déontologie, abus de marché.",
   },
 ];
 
