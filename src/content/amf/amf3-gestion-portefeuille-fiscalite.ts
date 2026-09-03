@@ -160,5 +160,14 @@ Enfin, la **fiscalité des instruments financiers** conditionne le rendement net
         "Pour le premier client, une gestion passive (ETF répliquant un indice de grandes capitalisations européennes) est cohérente avec son objectif : sur un marché efficient et très suivi, il est statistiquement difficile pour une gestion active de surperformer durablement net de frais, et les frais réduits de l'ETF maximisent le rendement net à long terme. Pour le second client, une gestion active peut se justifier : sur un segment moins efficient et moins couvert par les analystes (petites capitalisations émergentes), un gérant disposant d'une expertise spécifique peut identifier des opportunités que la gestion indicielle, par construction, ne peut pas cibler.",
       difficulte: "avance",
     },
+    {
+      id: "amf3-ex-03",
+      titre: "Calculer un rendement net de fiscalité",
+      enonce:
+        "Un investisseur réalise une plus-value de 4 000 € sur la vente d'actions détenues sur un compte-titres ordinaire. Il est soumis au PFU de 30 %. Calculez le montant net qu'il perçoit après impôt. Comparez ce montant à ce qu'il aurait perçu sur un PEA de plus de 5 ans (seuls les prélèvements sociaux de 17,2 % s'appliquant alors).",
+      corrige:
+        "Sur compte-titres au PFU : impôt = 4 000 € × 30 % = 1 200 €, net perçu = 4 000 − 1 200 = 2 800 €. Sur un PEA de plus de 5 ans : seuls les prélèvements sociaux de 17,2 % s'appliquent : 4 000 € × 17,2 % = 688 €, net perçu = 4 000 − 688 = 3 312 €. L'écart de 512 € sur cette seule opération illustre concrètement l'avantage fiscal du PEA après 5 ans pour un même gain, à stratégie d'investissement identique.",
+      difficulte: "avance",
+    },
   ],
 };

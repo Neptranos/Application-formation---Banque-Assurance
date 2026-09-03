@@ -158,5 +158,14 @@ En parallèle des règles propres aux abus de marché, les professionnels du sec
         "Le prestataire doit d'abord évaluer, au regard du profil habituel du client et du caractère atypique de l'ordre, si des éléments objectifs permettent de suspecter que le client aurait pu avoir accès à une information privilégiée sur le profit warning à venir. Si un doute raisonnable existe, le prestataire est tenu d'effectuer une déclaration STOR à l'AMF, sans en informer le client (règle de confidentialité comparable à celle de la déclaration de soupçon LCB-FT). Si, par ailleurs, des éléments laissent également suspecter un lien avec des fonds d'origine illicite, une déclaration de soupçon complémentaire à Tracfin peut être nécessaire au titre de la LCB-FT — les deux obligations étant cumulatives et indépendantes l'une de l'autre.",
       difficulte: "avance",
     },
+    {
+      id: "amf5-ex-03",
+      titre: "Calculer une fenêtre négative",
+      enonce:
+        "Une société cotée doit publier ses résultats annuels le 15 mars. En appliquant la durée usuelle de référence de 30 jours calendaires pour la fenêtre négative, à partir de quelle date les dirigeants doivent-ils s'abstenir de toute opération sur les titres de la société ?",
+      corrige:
+        "En comptant 30 jours calendaires en arrière à partir du 15 mars, la fenêtre négative débute le 14 février : à partir de cette date et jusqu'à la publication des résultats le 15 mars, les dirigeants et personnes exerçant des responsabilités dirigeantes doivent s'abstenir de toute opération sur les titres de la société, période durant laquelle ils sont statistiquement les plus susceptibles de détenir une information privilégiée non encore publique sur la performance de l'entreprise.",
+      difficulte: "intermediaire",
+    },
   ],
 };

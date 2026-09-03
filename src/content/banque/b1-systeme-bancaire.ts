@@ -70,6 +70,26 @@ Au sommet du système se trouve la **banque centrale**. En zone euro, la politiq
         definition:
           "Single Euro Payments Area : espace unique de paiement en euros harmonisant virements et prélèvements entre 36 pays européens selon des standards communs (IBAN, BIC).",
       },
+      {
+        terme: "LCR (Liquidity Coverage Ratio)",
+        definition:
+          "Ratio de liquidité à court terme exigé par Bâle III : actifs liquides de haute qualité rapportés aux sorties nettes de trésorerie prévisibles sur 30 jours en scénario de stress ; doit être ≥ 100 %.",
+      },
+      {
+        terme: "NSFR (Net Stable Funding Ratio)",
+        definition:
+          "Ratio de liquidité structurelle qui rapporte les ressources stables disponibles aux besoins de financement stable à un an, pour éviter qu'une banque finance des actifs longs par des ressources trop courtes.",
+      },
+      {
+        terme: "Coussins de fonds propres",
+        definition:
+          "Exigences de fonds propres supplémentaires au minimum réglementaire de base (coussin de conservation de 2,5 %, coussin contracyclique variable, coussin pour les établissements systémiques), qui s'ajoutent au CET1 minimum de 4,5 %.",
+      },
+      {
+        terme: "Autorité bancaire européenne (ABE/EBA)",
+        definition:
+          "Agence de l'Union européenne chargée d'élaborer les normes techniques harmonisées applicables aux banques (dont les tests de résistance européens) et de veiller à la convergence des pratiques de supervision.",
+      },
     ],
     approfondissement: `**La supervision à deux étages.** Depuis 2014, le Mécanisme de surveillance unique (MSU) confie à la BCE la supervision directe des établissements dits "significatifs" (grands groupes bancaires), tandis que l'ACPR continue de superviser directement les établissements plus petits, en lien étroit avec la BCE. C'est la réponse structurelle à la crise des dettes souveraines de 2010-2012, pour éviter que la fragilité d'une banque nationale ne contamine tout le système européen.
 
@@ -161,6 +181,22 @@ Au sommet du système se trouve la **banque centrale**. En zone euro, la politiq
     { id: "b1-fc-10", recto: "En quelle année la loi bancaire fondatrice a-t-elle été adoptée en France ?", verso: "1984 (loi du 24 janvier 1984).", difficulte: "fondamental" },
     { id: "b1-fc-11", recto: "Que signifie SEPA ?", verso: "Single Euro Payments Area, l'espace unique de paiement en euros harmonisant virements et prélèvements en Europe.", difficulte: "fondamental" },
     { id: "b1-fc-12", recto: "Quelle institution régule les marchés financiers et la protection des investisseurs en France ?", verso: "L'AMF, Autorité des marchés financiers.", difficulte: "fondamental" },
+    { id: "b1-fc-13", recto: "Que mesure le LCR ?", verso: "Les actifs liquides de haute qualité rapportés aux sorties nettes de trésorerie prévisibles sur 30 jours en scénario de stress ; doit être ≥ 100 %.", difficulte: "avance" },
+    { id: "b1-fc-14", recto: "Que mesure le NSFR ?", verso: "Les ressources stables disponibles rapportées aux besoins de financement stable à un an.", difficulte: "avance" },
+    { id: "b1-fc-15", recto: "Quel est le minimum réglementaire de base du ratio CET1 sous Bâle III ?", verso: "4,5 %, avant application des coussins supplémentaires.", difficulte: "avance" },
+    { id: "b1-fc-16", recto: "Quel est le taux du coussin de conservation des fonds propres ?", verso: "2,5 %, s'ajoutant au minimum CET1 de 4,5 %.", difficulte: "avance" },
+    { id: "b1-fc-17", recto: "Qu'est-ce que le coussin contracyclique ?", verso: "Un coussin de fonds propres variable, activé par le régulateur national pour freiner une croissance excessive du crédit.", difficulte: "avance" },
+    { id: "b1-fc-18", recto: "Que signifie EBA/ABE et quel est son rôle ?", verso: "L'Autorité bancaire européenne, qui élabore les normes techniques harmonisées et organise les tests de résistance (stress tests) européens.", difficulte: "intermediaire" },
+    { id: "b1-fc-19", recto: "Quels sont les trois piliers de Bâle III ?", verso: "Exigences de fonds propres et de liquidité, processus de surveillance prudentielle, discipline de marché par la transparence.", difficulte: "intermediaire" },
+    { id: "b1-fc-20", recto: "Qu'est-ce qu'un établissement 'systémique' (G-SIB) ?", verso: "Un établissement dont la taille et l'interconnexion sont telles que sa défaillance menacerait la stabilité financière mondiale, soumis à des exigences de fonds propres renforcées.", difficulte: "avance" },
+    { id: "b1-fc-21", recto: "En quelle année la Banque de France a-t-elle été créée, et par qui ?", verso: "1800, par Bonaparte.", difficulte: "intermediaire" },
+    { id: "b1-fc-22", recto: "Quel événement de 2008 a déclenché la refonte réglementaire mondiale de Bâle III ?", verso: "La crise financière mondiale (subprimes, faillite de Lehman Brothers).", difficulte: "fondamental" },
+    { id: "b1-fc-23", recto: "Quelle crise a accéléré le projet d'union bancaire européenne ?", verso: "La crise des dettes souveraines en zone euro (2010-2012).", difficulte: "intermediaire" },
+    { id: "b1-fc-24", recto: "Quelle est la différence entre un établissement de crédit et un établissement de paiement ?", verso: "Seul l'établissement de crédit peut recevoir des fonds remboursables du public et octroyer tout type de crédit ; l'établissement de paiement gère des services de paiement sans cette capacité.", difficulte: "intermediaire" },
+    { id: "b1-fc-25", recto: "Qui compose les équipes de surveillance conjointes (Joint Supervisory Teams) du MSU ?", verso: "Des agents de la BCE et de l'autorité nationale compétente (ACPR pour la France), pour la supervision des établissements significatifs.", difficulte: "avance" },
+    { id: "b1-fc-26", recto: "Le risque de liquidité suppose-t-il nécessairement une insolvabilité ?", verso: "Non : une banque peut être solvable mais temporairement incapable d'honorer ses engagements à court terme, faute de liquidités immédiatement mobilisables.", difficulte: "avance" },
+    { id: "b1-fc-27", recto: "Quelle institution tient le FCC (fichier central des chèques) ?", verso: "La Banque de France.", difficulte: "intermediaire" },
+    { id: "b1-fc-28", recto: "Quel est le montant de la garantie des dépôts par déposant et par établissement en France ?", verso: "100 000 €.", difficulte: "fondamental" },
   ],
   quiz: [
     {
@@ -242,6 +278,158 @@ Au sommet du système se trouve la **banque centrale**. En zone euro, la politiq
       explication: "Le risque opérationnel couvre les pertes liées aux processus, aux personnes, aux systèmes internes ou à des événements externes (fraude, panne, erreur).",
       difficulte: "fondamental",
     },
+    {
+      id: "b1-qz-09",
+      question: "Le minimum réglementaire de base du ratio CET1 sous Bâle III est de :",
+      choix: ["2 %", "4,5 %", "8 %", "10,5 %"],
+      bonneReponse: 1,
+      explication: "4,5 % est le socle, auquel s'ajoutent les coussins (conservation, contracyclique, systémique).",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-10",
+      question: "Le coussin de conservation des fonds propres représente :",
+      choix: ["0,5 %", "2,5 %", "5 %", "10 %"],
+      bonneReponse: 1,
+      explication: "Coussin fixe de 2,5 %, applicable à tous les établissements en plus du minimum CET1.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-11",
+      question: "Le LCR doit être au minimum de :",
+      choix: ["50 %", "80 %", "100 %", "150 %"],
+      bonneReponse: 2,
+      explication: "Le LCR doit être supérieur ou égal à 100 % : les actifs liquides doivent couvrir les sorties nettes de trésorerie sur 30 jours de stress.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-12",
+      question: "L'Autorité bancaire européenne (EBA) est notamment chargée :",
+      choix: [
+        "De fixer les taux directeurs",
+        "D'élaborer les normes techniques harmonisées et d'organiser les tests de résistance européens",
+        "De sanctionner pénalement les dirigeants de banque",
+        "De gérer le FICP français",
+      ],
+      bonneReponse: 1,
+      explication: "L'EBA promeut la convergence des pratiques prudentielles, sans être elle-même un superviseur direct comme la BCE.",
+      difficulte: "intermediaire",
+    },
+    {
+      id: "b1-qz-13",
+      question: "Un établissement 'systémique' (G-SIB) est soumis à :",
+      choix: [
+        "Aucune exigence particulière",
+        "Des exigences de fonds propres renforcées du fait du risque qu'il fait peser sur tout le système",
+        "Une exonération de supervision par la BCE",
+        "Une interdiction d'exercer en zone euro",
+      ],
+      bonneReponse: 1,
+      explication: "La taille et l'interconnexion des G-SIB justifient un coussin de fonds propres systémique additionnel.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-14",
+      question: "Les Joint Supervisory Teams du MSU rassemblent :",
+      choix: [
+        "Uniquement des agents de la BCE",
+        "Des agents de la BCE et de l'autorité nationale compétente",
+        "Uniquement des agents de l'ACPR",
+        "Des agents de l'AMF et de la BCE"
+      ],
+      bonneReponse: 1,
+      explication: "La supervision des établissements significatifs associe BCE et superviseur national (ACPR pour la France).",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-15",
+      question: "Le risque de liquidité, par définition, suppose :",
+      choix: [
+        "Toujours une insolvabilité de la banque",
+        "Une incapacité à honorer ses engagements à court terme, indépendamment de la solvabilité",
+        "Une fraude interne",
+        "Un défaut de l'emprunteur"
+      ],
+      bonneReponse: 1,
+      explication: "Une banque solvable peut néanmoins connaître une crise de liquidité si ses actifs ne sont pas mobilisables assez vite.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-16",
+      question: "Le FCC, fichier tenu par la Banque de France, recense :",
+      choix: ["Les incidents de remboursement de crédit", "Les chèques irréguliers et interdits bancaires", "Les comptes courants ouverts", "Les taux d'usure en vigueur"],
+      bonneReponse: 1,
+      explication: "Le FCC (Fichier central des chèques) est distinct du FICP, consacré au crédit.",
+      difficulte: "intermediaire",
+    },
+    {
+      id: "b1-qz-17",
+      question: "La garantie des dépôts en France couvre, par déposant et par établissement :",
+      choix: ["10 000 €", "50 000 €", "100 000 €", "500 000 €"],
+      bonneReponse: 2,
+      explication: "Le plafond harmonisé européen de garantie des dépôts est de 100 000 €.",
+      difficulte: "fondamental",
+    },
+    {
+      id: "b1-qz-18",
+      question: "Le passage à l'euro fiduciaire (billets et pièces) a eu lieu :",
+      choix: ["Le 1er janvier 1999", "Le 1er janvier 2002", "Le 1er janvier 2008", "Le 1er janvier 1992"],
+      bonneReponse: 1,
+      explication: "1999 : euro scriptural ; 2002 : euro fiduciaire (pièces et billets).",
+      difficulte: "fondamental",
+    },
+    {
+      id: "b1-qz-19",
+      question: "La crise des dettes souveraines de 2010-2012 a notamment eu pour conséquence :",
+      choix: [
+        "La création de la Banque de France",
+        "L'accélération du projet d'union bancaire européenne",
+        "La suppression de l'euro",
+        "La fin de la supervision bancaire nationale"
+      ],
+      bonneReponse: 1,
+      explication: "Cette crise a révélé le risque de contagion entre dette souveraine et fragilité bancaire nationale, d'où l'union bancaire.",
+      difficulte: "intermediaire",
+    },
+    {
+      id: "b1-qz-20",
+      question: "Un établissement de paiement, contrairement à un établissement de crédit, ne peut pas en principe :",
+      choix: [
+        "Gérer des moyens de paiement",
+        "Recevoir des fonds remboursables du public et octroyer tout type de crédit",
+        "Obtenir un agrément",
+        "Bénéficier du passeport européen"
+      ],
+      bonneReponse: 1,
+      explication: "C'est la distinction structurante entre établissement de crédit et établissement de paiement.",
+      difficulte: "intermediaire",
+    },
+    {
+      id: "b1-qz-21",
+      question: "Le NSFR vise à éviter :",
+      choix: [
+        "Qu'une banque finance des actifs longs par des ressources trop courtes",
+        "Toute prise de risque de crédit",
+        "La fraude interne",
+        "Les abus de marché"
+      ],
+      bonneReponse: 0,
+      explication: "Le NSFR encadre la transformation de maturité excessive, source de fragilité structurelle.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-qz-22",
+      question: "En 1984, la loi bancaire française a notamment :",
+      choix: [
+        "Créé l'euro",
+        "Institué le statut unique de banque universelle",
+        "Créé l'ACPR",
+        "Créé le MSU"
+      ],
+      bonneReponse: 1,
+      explication: "La loi du 24 janvier 1984 est la matrice encore largement en vigueur du droit bancaire français.",
+      difficulte: "intermediaire",
+    },
   ],
   exercices: [
     {
@@ -261,6 +449,33 @@ Au sommet du système se trouve la **banque centrale**. En zone euro, la politiq
       corrige:
         "L'ordre d'absorption des pertes suit la hiérarchie du passif : d'abord les actionnaires (capital social), puis les détenteurs d'instruments de dette subordonnée (AT1, Tier 2), puis les créanciers chirographaires selon leur rang, avant que les dépôts garantis (jusqu'à 100 000 € par déposant et par établissement) ne soient jamais mis à contribution. Ce n'est qu'en dernier recours, et sous conditions strictes, que des fonds de résolution ou publics peuvent intervenir.",
       difficulte: "avance",
+    },
+    {
+      id: "b1-ex-03",
+      titre: "Calculer un ratio CET1",
+      enonce:
+        "Une banque affiche des fonds propres CET1 de 9 milliards d'euros pour des actifs pondérés des risques (RWA) de 120 milliards d'euros. Calculez son ratio CET1. Respecte-t-elle le minimum réglementaire de 4,5 % plus le coussin de conservation de 2,5 % (soit 7 % au total) ?",
+      corrige:
+        "Ratio CET1 = fonds propres CET1 / RWA = 9 / 120 = 7,5 %. Ce ratio est supérieur au seuil combiné de 7 % (4,5 % de minimum + 2,5 % de coussin de conservation) : la banque respecte donc cette exigence, avec une marge de 0,5 point. Elle pourrait ne pas respecter un coussin systémique ou contracyclique supplémentaire si celui-ci portait l'exigence totale au-delà de 7,5 %.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-ex-04",
+      titre: "Calculer un LCR simplifié",
+      enonce:
+        "Une banque détient 45 millions d'euros d'actifs liquides de haute qualité. Ses sorties nettes de trésorerie estimées sur 30 jours en scénario de stress s'élèvent à 40 millions d'euros. Calculez son LCR. Respecte-t-elle l'exigence réglementaire ?",
+      corrige:
+        "LCR = actifs liquides de haute qualité / sorties nettes de trésorerie à 30 jours = 45 / 40 = 112,5 %. Le LCR minimum exigé étant de 100 %, la banque respecte l'exigence avec une marge confortable : elle dispose de plus d'actifs liquides mobilisables que ce que le scénario de stress à 30 jours exigerait.",
+      difficulte: "avance",
+    },
+    {
+      id: "b1-ex-05",
+      titre: "Identifier le régulateur compétent selon l'activité",
+      enonce:
+        "Un groupe bancaire français exerce trois activités : (1) collecte de dépôts et distribution de crédits aux particuliers, (2) gestion de portefeuilles de titres pour compte de tiers via sa filiale société de gestion, (3) filiale d'assurance-vie. Pour chaque activité, identifiez le ou les régulateurs compétents.",
+      corrige:
+        "(1) Activité bancaire classique : ACPR (agrément, supervision prudentielle et de la protection de la clientèle), et BCE dans le cadre du MSU si le groupe est classé « significatif ». (2) Gestion de portefeuille pour compte de tiers : AMF (agrément de société de gestion de portefeuille, contrôle des règles de conduite). (3) Filiale d'assurance-vie : ACPR (agrément et supervision prudentielle des assureurs), sous le régime Solvabilité II. Ce groupe relève donc simultanément de trois autorités selon l'activité concernée.",
+      difficulte: "intermediaire",
     },
   ],
 };

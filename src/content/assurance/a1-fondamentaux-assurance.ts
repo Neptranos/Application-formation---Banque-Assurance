@@ -31,6 +31,11 @@ On distingue traditionnellement les **assurances de dommages** (indemnisent un p
       { terme: "Souscripteur", definition: "Personne qui signe le contrat d'assurance et s'engage à payer la prime, distincte le cas échéant de l'assuré ou du bénéficiaire." },
       { terme: "Loi des grands nombres", definition: "Principe statistique selon lequel la fréquence observée d'un événement converge vers sa probabilité théorique lorsque le nombre d'observations (d'assurés) augmente, fondement actuariel de la mutualisation." },
       { terme: "Sélection des risques", definition: "Processus par lequel l'assureur évalue le risque présenté par un candidat à l'assurance (questionnaire, expertise) avant d'accepter de le garantir et de fixer sa prime." },
+      { terme: "Franchise", definition: "Part du sinistre qui reste à la charge de l'assuré, non prise en charge par l'assureur, exprimée en montant fixe, en pourcentage, ou en combinaison des deux." },
+      { terme: "Plafond de garantie", definition: "Montant maximal que l'assureur s'engage à indemniser pour un sinistre ou sur une période donnée, au-delà duquel le préjudice reste à la charge de l'assuré." },
+      { terme: "Exclusion de garantie", definition: "Clause du contrat qui écarte expressément certains événements ou circonstances du champ de la garantie, devant être formelle et limitée pour être opposable à l'assuré (art. L113-1 du Code des assurances)." },
+      { terme: "Ratio sinistres sur primes (S/P)", definition: "Indicateur clé de la rentabilité technique d'un portefeuille d'assurance, rapportant le montant des sinistres indemnisés aux primes encaissées sur une période donnée." },
+      { terme: "Taux de prime", definition: "Pourcentage appliqué à une base assurable (valeur du bien, capital garanti) pour déterminer le montant de la prime, reflet direct du niveau de risque évalué." },
     ],
     approfondissement: `**Anti-sélection et aléa moral**, les deux grandes limites théoriques de l'assurance. L'**anti-sélection** (ou sélection adverse) désigne le risque que seules les personnes les plus exposées à un risque cherchent à s'assurer, déséquilibrant la mutualité (d'où l'importance du questionnaire de risque à la souscription). L'**aléa moral** désigne, lui, le risque que l'existence même de l'assurance modifie le comportement de l'assuré en le rendant moins prudent, voire en l'incitant à la fraude — d'où l'existence de franchises, de plafonds de garantie et de clauses d'exclusion.
 
@@ -73,6 +78,16 @@ On distingue traditionnellement les **assurances de dommages** (indemnisent un p
     { id: "a1-fc-07", recto: "Différence entre prime pure et prime commerciale ?", verso: "La prime pure couvre le coût statistique du risque (fréquence × coût moyen) ; la prime commerciale y ajoute les chargements (frais, commissions, marge).", difficulte: "avance" },
     { id: "a1-fc-08", recto: "Qu'est-ce que la réassurance ?", verso: "Le mécanisme par lequel un assureur cède une partie d'un risque à un réassureur pour limiter son exposition et sécuriser sa solvabilité.", difficulte: "avance" },
     { id: "a1-fc-09", recto: "En quelle année le Code des assurances a-t-il été créé par codification ?", verso: "1976.", difficulte: "fondamental" },
+    { id: "a1-fc-10", recto: "Qu'est-ce qu'une franchise ?", verso: "La part du sinistre qui reste à la charge de l'assuré, non indemnisée par l'assureur.", difficulte: "fondamental" },
+    { id: "a1-fc-11", recto: "Qu'est-ce que le plafond de garantie ?", verso: "Le montant maximal que l'assureur s'engage à indemniser pour un sinistre ou sur une période donnée.", difficulte: "fondamental" },
+    { id: "a1-fc-12", recto: "Que doit respecter une clause d'exclusion pour être opposable à l'assuré ?", verso: "Elle doit être formelle et limitée (art. L113-1 du Code des assurances).", difficulte: "avance" },
+    { id: "a1-fc-13", recto: "Que mesure le ratio S/P (sinistres sur primes) ?", verso: "La rentabilité technique d'un portefeuille d'assurance : montant des sinistres indemnisés rapporté aux primes encaissées.", difficulte: "avance" },
+    { id: "a1-fc-14", recto: "Qu'est-ce que le taux de prime ?", verso: "Le pourcentage appliqué à une base assurable (valeur du bien, capital garanti) pour déterminer le montant de la prime.", difficulte: "intermediaire" },
+    { id: "a1-fc-15", recto: "En quel siècle apparaissent les premiers contrats d'assurance maritime écrits ?", verso: "Le XIVe siècle, en Italie (Gênes, vers 1347).", difficulte: "avance" },
+    { id: "a1-fc-16", recto: "Quel évènement de 1666 a favorisé la naissance des premières compagnies d'assurance incendie ?", verso: "Le grand incendie de Londres.", difficulte: "avance" },
+    { id: "a1-fc-17", recto: "Quelle loi de 1898 introduit une logique d'assurance obligatoire pour l'employeur ?", verso: "La loi sur les accidents du travail.", difficulte: "avance" },
+    { id: "a1-fc-18", recto: "Peut-on assurer un événement déjà survenu ?", verso: "Non, l'absence d'aléa rend le contrat nul.", difficulte: "fondamental" },
+    { id: "a1-fc-19", recto: "Le décès est-il assurable malgré sa certitude absolue ?", verso: "Oui : seule sa date est aléatoire, ce qui suffit à conserver le caractère assurable du risque.", difficulte: "avance" },
   ],
   quiz: [
     {
@@ -109,6 +124,41 @@ On distingue traditionnellement les **assurances de dommages** (indemnisent un p
       explication: "La loi du 13 juillet 1930 est le texte fondateur du droit du contrat d'assurance en France.",
       difficulte: "intermediaire",
     },
+    {
+      id: "a1-qz-04",
+      question: "Une clause d'exclusion de garantie doit être :",
+      choix: ["Vague pour couvrir un maximum de cas", "Formelle et limitée", "Uniquement orale", "Interdite dans tous les contrats"],
+      bonneReponse: 1,
+      explication: "L'article L113-1 du Code des assurances impose que les exclusions soient formelles et limitées pour être opposables.",
+      difficulte: "avance",
+    },
+    {
+      id: "a1-qz-05",
+      question: "Le ratio S/P (sinistres sur primes) mesure :",
+      choix: ["La solvabilité de l'assureur au sens Solvabilité II", "La rentabilité technique d'un portefeuille d'assurance", "Le nombre de contrats souscrits", "Le taux de commission des intermédiaires"],
+      bonneReponse: 1,
+      explication: "Un ratio S/P élevé signale une rentabilité technique dégradée : les sinistres consomment une part importante des primes encaissées.",
+      difficulte: "avance",
+    },
+    {
+      id: "a1-qz-06",
+      question: "La prime pure se calcule comme :",
+      choix: ["Fréquence de survenance × coût moyen du sinistre", "Coût moyen du sinistre uniquement", "Chargements + commissions", "Plafond de garantie / franchise"],
+      bonneReponse: 0,
+      explication: "C'est la définition actuarielle de base de la prime pure, avant ajout des chargements pour obtenir la prime commerciale.",
+      difficulte: "avance",
+    },
+    {
+      id: "a1-qz-07",
+      question: "Le décès est un risque assurable car :",
+      choix: ["Il n'est pas certain", "Seule sa date est incertaine, ce qui suffit", "Il n'engage aucune prime", "Il relève uniquement de la Sécurité sociale"],
+      bonneReponse: 1,
+      explication: "C'est l'exception classique : la certitude de l'événement n'exclut pas l'aléa quand seule la date reste incertaine.",
+      difficulte: "avance",
+    },
+    { id: "a1-qz-08", question: "L'assureur qui cède une partie d'un risque à un réassureur pratique :", choix: ["La mutualisation", "La réassurance", "L'anti-sélection", "La subrogation"], bonneReponse: 1, explication: "La réassurance est une mutualisation de second niveau, entre assureurs.", difficulte: "avance" },
+    { id: "a1-qz-09", question: "Le souscripteur d'un contrat d'assurance est :", choix: ["Toujours identique à l'assuré", "La personne qui signe le contrat et paie la prime", "Toujours le bénéficiaire", "L'assureur lui-même"], bonneReponse: 1, explication: "Le souscripteur peut être distinct de l'assuré et du bénéficiaire selon les contrats.", difficulte: "fondamental" },
+    { id: "a1-qz-10", question: "Un plafond de garantie sert à :", choix: ["Augmenter la prime automatiquement", "Limiter le montant maximal indemnisable", "Supprimer la franchise", "Prolonger la durée du contrat"], bonneReponse: 1, explication: "Au-delà du plafond, le préjudice reste à la charge de l'assuré.", difficulte: "fondamental" },
   ],
   exercices: [
     {
@@ -119,6 +169,24 @@ On distingue traditionnellement les **assurances de dommages** (indemnisent un p
       corrige:
         "Non : l'événement ayant déjà eu lieu au moment de la souscription, il manque l'élément d'aléa, condition essentielle de validité de tout contrat d'assurance. Un contrat souscrit dans ces conditions serait nul pour absence d'aléa (voire pourrait caractériser une fraude à l'assurance si le souscripteur avait connaissance du sinistre).",
       difficulte: "fondamental",
+    },
+    {
+      id: "a1-ex-02",
+      titre: "Calculer une prime pure",
+      enonce:
+        "Sur un portefeuille de 10 000 véhicules assurés, l'assureur observe statistiquement 400 sinistres par an, pour un coût moyen de 1 500 € par sinistre. Calculez la fréquence de sinistralité, puis la prime pure annuelle par véhicule assuré.",
+      corrige:
+        "Fréquence de sinistralité = nombre de sinistres / nombre de véhicules assurés = 400 / 10 000 = 4 % (soit 0,04). Prime pure = fréquence × coût moyen du sinistre = 0,04 × 1 500 € = 60 € par véhicule et par an. C'est cette prime pure de 60 € qui, une fois augmentée des chargements (frais de gestion, commissions, marge de l'assureur, chargement de sécurité), donnera la prime commerciale effectivement facturée à l'assuré — toujours supérieure à la prime pure.",
+      difficulte: "avance",
+    },
+    {
+      id: "a1-ex-03",
+      titre: "Calculer un ratio S/P et l'interpréter",
+      enonce:
+        "Un assureur encaisse 12 millions d'euros de primes sur une branche donnée au cours d'un exercice, et verse 9,6 millions d'euros d'indemnités de sinistres sur la même période. Calculez le ratio S/P de cette branche. Ce résultat est-il favorable ou préoccupant pour l'équilibre technique de l'assureur (sachant qu'il faut aussi couvrir les frais de gestion et la marge, généralement de l'ordre de 20 à 30 % des primes) ?",
+      corrige:
+        "Ratio S/P = sinistres / primes = 9,6 / 12 = 80 %. Ce ratio signifie que 80 % des primes encaissées repartent en indemnisation de sinistres, ne laissant que 20 % des primes pour couvrir les frais de gestion, les commissions et la marge de l'assureur. Si les chargements nécessaires représentent 20 à 30 % des primes, un ratio S/P de 80 % est à la limite de l'équilibre technique, voire déficitaire selon le niveau exact des frais : l'assureur devra probablement ajuster ses tarifs à la hausse ou revoir sa politique de souscription sur cette branche pour restaurer sa rentabilité.",
+      difficulte: "avance",
     },
   ],
 };
