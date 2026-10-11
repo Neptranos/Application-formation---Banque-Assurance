@@ -1,7 +1,7 @@
 # Manuel de préparation à la certification AMF
 
-- `Manuel-Certification-AMF.pdf` : le manuel (12 thèmes du programme officiel, QCM corrigés, examen blanc de 120 questions, annexes).
+- `Manuel-Certification-AMF.pdf` : le manuel (240 pages environ) — les 12 thèmes du programme officiel expliqués en profondeur, 436 QCM d'entraînement corrigés et commentés, 3 examens blancs de 120 questions au format réel (3 propositions, 56/64, 33 A / 87 C) avec corrigés, chiffres clés, confusions classiques, glossaire, sources.
 - `chapitres/*.txt` : sources du manuel, dans un balisage léger décrit en tête de `build.py`.
 - Régénérer le PDF : `pip install reportlab` puis `python3 manuel-amf/build.py`.
 
-Les propositions des QCM sont mélangées de façon déterministe à la génération, pour répartir les bonnes réponses entre a, b, c et d.
+Le script contrôle la cohérence des QCM (3 propositions, une seule ligne de corrigé, pas de doublon) et refuse de générer le PDF en cas d'erreur. Les propositions sont mélangées de façon déterministe pour répartir les bonnes réponses.

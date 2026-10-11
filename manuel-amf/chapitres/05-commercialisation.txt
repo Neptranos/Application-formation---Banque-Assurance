@@ -77,7 +77,7 @@ Ne peuvent pas faire l'objet d'un démarchage, notamment :
 
 m> Démarchage : « **14 jours** pour se rétracter d'un **contrat**, **48 heures** pour réfléchir avant un **ordre** ».
 
-Le non-respect des règles du démarchage est sanctionné **pénalement** et peut entraîner la **nullité** des contrats conclus.
+Le non-respect des règles du démarchage est sanctionné **pénalement** (articles L. 353-1 et suivants du CMF) et engage la **responsabilité civile** du démarcheur et de son mandant ; le client peut aussi, selon les cas, contester la validité du contrat.
 
 ## 3. La vente à distance de services financiers
 
@@ -297,8 +297,8 @@ c) encaisser les fonds en espèces
 
 ?? [A] Le non-respect des règles du démarchage peut entraîner :
 a) uniquement un avertissement
-b) des sanctions pénales et la nullité des contrats conclus
-c) aucune conséquence pour le contrat
+b) des sanctions pénales et la responsabilité civile du démarcheur et de son mandant
+c) aucune conséquence
 =b Le démarchage est un domaine très encadré.
 
 ?? [A] En cas de vente à distance d'un contrat d'assurance-vie, le délai de rétractation est de :

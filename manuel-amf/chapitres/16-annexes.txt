@@ -1,136 +1,331 @@
 # Annexes
 
-## Annexe 1 — Les chiffres clés à connaître
+## Annexe 1 — Les chiffres clés, thème par thème
 
-| Domaine | Chiffre | Règle |
+### L'examen
+
+| Chiffre | Règle |
+|---|---|
+| 120 questions, 3 propositions, 2 heures | Format de l'examen certifié |
+| 56 / 64 | Questions sur les thèmes 1 à 6 / 7 à 12 |
+| 33 A (≥ 27 justes) / 87 C (≥ 70 justes) | Catégories et seuils (80 % dans chaque catégorie, sans compensation) |
+| 6 mois | Délai pour faire vérifier ses connaissances après la prise de fonction |
+| 1er juillet 2010 | Entrée en vigueur du dispositif ; clause du grand-père |
+
+### Thème 1 — Cadre institutionnel
+
+| Chiffre | Règle |
+|---|---|
+| 1er août 2003 | Loi de sécurité financière : création de l'AMF (COB + CMF + CDGF) |
+| 16 / 12 | Membres du Collège / de la Commission des sanctions de l'AMF |
+| 5 ans non renouvelables | Mandat du président de l'AMF |
+| 100 M€ ou 10 × l'avantage | Plafond des sanctions pécuniaires de l'AMF |
+| 6 ans | Prescription des manquements devant l'AMF |
+| Conseil d'État / cour d'appel de Paris | Recours : professionnels régulés / autres personnes |
+| 2 % | Objectif d'inflation de la BCE, à moyen terme, symétrique |
+| 3 % / 60 % du PIB | Références de déficit et de dette publics |
+| 4,5 % / 6 % / 8 % ; 2,5 % ; 3 % ; 100 % | CET1 / Tier 1 / total ; coussin de conservation ; levier ; LCR et NSFR |
+| 72,5 % | Plancher de fonds propres (output floor), d'ici 2030 |
+| 100 000 € (+ 100 000 € livrets réglementés) / 70 000 € | FGDR : dépôts / titres, par client et par établissement |
+| 500 000 €, 3 mois | Dépôts exceptionnels temporaires |
+| 7 jours ouvrables | Délai d'indemnisation du FGDR |
+| 70 000 € | FGAP : assurance-vie, par assuré et par assureur |
+| 35 % / 25 ans | Norme du HCSF sur les crédits immobiliers (taux d'effort / durée) |
+
+### Thème 2 — Déontologie et conformité
+
+| Chiffre | Règle |
+|---|---|
+| Au moins 1 par an | Rapport de la conformité aux dirigeants ; réexamen de la politique d'exécution |
+| 5 ans (jusqu'à 7) | Conservation des enregistrements téléphoniques et électroniques |
+| 50 salariés | Procédure interne obligatoire de recueil des signalements des lanceurs d'alerte |
+| 2016 / 2022 | Loi Sapin 2 / loi Waserman (lanceurs d'alerte) |
+
+### Thème 3 — Sécurité financière
+
+| Chiffre | Règle |
+|---|---|
+| 5 ans, 375 000 € / 10 ans, 750 000 € | Blanchiment simple / aggravé |
+| 10 ans, 225 000 € | Financement du terrorisme |
+| > 25 % | Seuil du bénéficiaire effectif |
+| 15 000 € | Identification d'un client occasionnel |
+| Moins d'un an | Fin des fonctions pour rester PPE |
+| > 1 an d'emprisonnement | Infractions sous-jacentes justifiant une déclaration de soupçon |
+| 10 jours ouvrables | Droit d'opposition de Tracfin |
+| 10 000 € par mois | Communications systématiques d'informations (espèces) |
+| 5 ans | Conservation des documents (fin de relation / exécution de l'opération) |
+| 1 000 € / 15 000 € | Paiement en espèces : résident / non-résident |
+| 10 000 € au 10 juillet 2027 | Plafond européen des paiements en espèces (AMLR) |
+| 500 salariés et 100 M€ ; 8 mesures | Sapin 2 : programme anticorruption |
+| 30 % du CA moyen | Plafond de l'amende d'une CJIP |
+
+### Thème 4 — Abus de marché
+
+| Chiffre | Règle |
+|---|---|
+| 3 juillet 2016 | Application du règlement MAR |
+| 5 ans de conservation | Listes d'initiés |
+| 3 jours ouvrés ; 20 000 € par an | Déclaration des opérations des dirigeants |
+| 30 jours calendaires | Fenêtre négative avant les résultats annuels et semestriels |
+| 25 % du volume quotidien moyen | Limite des rachats d'actions (présomption de légitimité) |
+| 5 ans, 100 M€ (ou 10 × l'avantage) | Sanction pénale maximale |
+| 15 % du CA | Sanction administrative maximale d'une personne morale |
+| 21 juin 2016 | Loi organisant l'aiguillage AMF / PNF |
+| 5, 10, 15, 20, 25, 30, 1/3, 50, 2/3, 90, 95 % | Seuils légaux de déclaration (avant la clôture du 4e jour de négociation) |
+| 10, 15, 20, 25 % ; 6 mois | Déclaration d'intention |
+| 2 ans | Privation des droits de vote en cas de défaut de déclaration |
+
+### Thème 5 — Commercialisation
+
+| Chiffre | Règle |
+|---|---|
+| 14 jours / 48 heures | Démarchage : rétractation (contrats) / réflexion (RTO, exécution) |
+| 14 jours / 30 jours | Vente à distance : rétractation (cas général / assurance-vie) |
+| 19 juin 2026 | Réforme de la vente à distance (bouton de rétractation) |
+| 5 ans | Durée minimale de présentation des performances passées (si disponibles) |
+| 3 pages, SRI de 1 à 7 | Document d'informations clés PRIIPs (depuis 2023 pour les OPCVM) |
+| 2 août 2022 | Recueil des préférences de durabilité |
+| 7 heures par an | Formation continue des CIF |
+
+### Thème 6 — Relations avec les clients
+
+| Chiffre | Règle |
+|---|---|
+| 20 M€ / 40 M€ / 2 M€ | Professionnel par nature : 2 critères sur 3 (bilan, CA, capitaux propres) |
+| 10 par trimestre sur 4 trimestres ; 500 000 € ; 1 an | Opt-up : 2 critères sur 3 |
+| 150 000 € / 225 000 € / 20 000 € | Plafonds PEA / PEA + PEA-PME / PEA jeune |
+| J+1 ouvrable | Avis d'opéré |
+| Trimestriel | Relevé de portefeuille et relevé de gestion |
+| − 10 % | Alerte en gestion sous mandat et sur instruments à effet de levier |
+| 10 jours ouvrables / 2 mois | Réclamations : accusé de réception / réponse |
+| 90 jours | Délai de l'avis du médiateur de l'AMF |
+| 1 an, 15 000 € | Violation du secret professionnel |
+| 72 heures ; 20 M€ ou 4 % | RGPD : notification d'une violation ; sanction maximale |
+| 12 mois / 5 ans | Eckert : inactivité des comptes de dépôt / des comptes-titres et d'épargne |
+| 10 ans (3 ans si décès) | Transfert à la Caisse des dépôts |
+| 20 ans (27 ans si décès) | Acquisition par l'État |
+
+### Thèmes 7 à 11 — Connaissances techniques
+
+| Chiffre | Règle |
+|---|---|
+| 2 ans au nominatif | Droit de vote double dans les sociétés cotées |
+| BBB− / Baa3 | Dernier cran de l'investment grade |
+| 1 an | Limite entre NEU CP et NEU MTN |
+| 30 juin 2024 / 30 décembre 2024 / 1er juillet 2026 | MiCA : jetons adossés / ensemble des crypto-actifs / fin du régime PSAN |
+| 5 % | Rétention minimale de l'initiateur d'une titrisation |
+| 2 fois par mois | Rachats minimaux d'un OPCVM |
+| 50 % / 70 % / 70 % / 60 % | FCPR non coté / FCPI / FIP / OPCI immobilier |
+| 5 / 10 / 40 % ; 35 % ; 100 % (6 émissions, 30 % max) ; 20 % | Diversification des OPCVM |
+| 5 % / 10 % | Risque de contrepartie OTC d'un OPCVM / avec un établissement de crédit |
+| 2 outils au moins (16 avril 2026) | Outils de gestion de la liquidité des fonds ouverts |
+| 5 ans ; 5 à 10 % | Blocage du PEE ; part solidaire du fonds solidaire |
+| 10 mars 2021 ; 80 % | Application de SFDR ; noms de fonds ESG |
+| 30 % (1er mars 2024) | Sélectivité du label ISR |
+| 1 000 au 31/12/1987 ; 15 % | Base et plafond de pondération du CAC 40 |
+| 7 h 15 – 9 h – 17 h 30 – 17 h 35 – 17 h 40 | Séance d'Euronext Paris |
+| A > 1 Md€ ; B 150 M€ – 1 Md€ ; C < 150 M€ | Compartiments d'Euronext Paris |
+| 20 / 25 / 40 % ; 5e jour de bourse avant la fin du mois | SRD : couverture ; liquidation |
+| 0,1 % / 0,5 % | Positions courtes nettes : déclaration / publication |
+| J+2 (depuis 2014) ; J+1 le 11 octobre 2027 | Cycle de règlement |
+| 1er février 2022 | Pénalités CSDR |
+| 3 novembre 1984 | Dématérialisation des titres |
+| 15 % ; 30 jours | Greenshoe ; stabilisation |
+| 10 / 20 jours ouvrables ; 12 mois ; 3 jours ouvrables | Prospectus : délai d'approbation ; validité ; retrait après supplément |
+| 150 personnes ; 100 000 € ; 12 M€ ; 30 % | Dispenses de prospectus |
+| 5 M€ ; 4 jours ; 1 000 € ou 5 % | Financement participatif : plafond ; réflexion ; avertissement |
+| 5 jours de bourse | Durée minimale de souscription avec DPS |
+| 30 % ; 1 % en 12 mois ; 25 jours de bourse ; 50 % ; 90 % ; 10 % | Offres publiques : offre obligatoire ; excès de vitesse ; durée ; caducité ; OPR ; retrait obligatoire |
+| 10 % ; 18 mois | Rachat d'actions |
+| 1/5 puis 0 ; 1/4 puis 1/5 ; 2/3 | Quorums AGO / AGE ; majorité en AGE |
+| 35 jours ; J−2 | BALO ; record date des assemblées |
+| 4 mois / 3 mois | Rapport financier annuel / semestriel |
+
+### Thème 12 — Bases comptables, financières et fiscales
+
+| Chiffre | Règle |
+|---|---|
+| 360 jours | Base des intérêts simples sur le marché monétaire |
+| 72 / t | Nombre d'années pour doubler un capital |
+| 2005 | IFRS obligatoires pour les comptes consolidés des sociétés cotées |
+| 25 % ; 15 % jusqu'à 42 500 € | Impôt sur les sociétés |
+| 5 %, 2 ans ; quote-part 5 % | Régime mère-fille |
+| 95 % | Intégration fiscale |
+| 0,4 % | Taxe sur les transactions financières (actions de sociétés de plus de 1 Md€) |
+| 0 / 11 / 30 / 41 / 45 % ; 11 600 € | Barème de l'impôt sur le revenu 2026 ; seuil d'entrée |
+| 12,8 % + 18,6 % = 31,4 % | PFU en 2026 (prélèvements sociaux de 17,2 % pour l'assurance-vie) |
+| 40 % | Abattement sur les dividendes en cas d'option pour le barème |
+| 10 ans | Report des moins-values mobilières |
+| 5 ans | PEA : exonération d'impôt sur le revenu |
+| 8 ans ; 4 600 / 9 200 € ; 7,5 % ; 150 000 € | Assurance-vie : rachats |
+| 152 500 € ; 20 % / 31,25 % ; 30 500 € | Assurance-vie : décès (primes avant / après 70 ans) |
+| 1,3 M€ ; 0,5 à 1,5 % ; 30 % | IFI : seuil ; barème ; abattement sur la résidence principale |
+| 305 € | Seuil annuel de cessions de crypto-actifs exonérées |
+
+## Annexe 2 — Les confusions classiques
+
+| Ne pas confondre… | … avec | La différence |
 |---|---|---|
-| Examen | 120 questions, 2 h | 80 % en catégorie A **et** 80 % en catégorie C, sans compensation |
-| FGDR | 100 000 € | Garantie des dépôts par client et par établissement |
-| FGDR | 70 000 € | Garantie des titres par client et par établissement |
-| Conformité | 5 ans (jusqu'à 7) | Conservation des enregistrements des communications relatives aux ordres |
-| LCB-FT | 15 000 € | Seuil d'identification d'un client occasionnel |
-| LCB-FT | 25 % | Seuil de détention définissant le bénéficiaire effectif |
-| LCB-FT | 5 ans | Conservation des documents d'identification après la fin de la relation |
-| LCB-FT | 10 000 € par mois | Seuil des communications systématiques (COSI) sur les espèces |
-| LCB-FT | 1 000 € / 15 000 € | Plafond des paiements en espèces (résident / non-résident pour dépenses personnelles) |
-| LCB-FT | 10 000 € | Plafond européen des paiements en espèces à compter du 10 juillet 2027 |
-| Tracfin | 10 jours ouvrables | Durée maximale du droit d'opposition |
-| Blanchiment | 5 ans, 375 000 € | Peines maximales du blanchiment simple |
-| Abus de marché | 5 ans, 100 M€ | Peines pénales maximales (l'amende pouvant atteindre 10 fois l'avantage retiré) |
-| Abus de marché | 100 M€ ou 10 fois l'avantage | Plafond des sanctions administratives de l'AMF |
-| Dirigeants (PDMR) | 3 jours ouvrés, 20 000 € | Délai et seuil annuel de déclaration des transactions |
-| Dirigeants (PDMR) | 30 jours | Période d'abstention avant la publication des résultats |
-| Seuils | 5, 10, 15, 20, 25, 30, 33,33, 50, 66,67, 90, 95 % | Franchissements à déclarer (4e jour de négociation) |
-| Démarchage | 14 jours / 48 heures | Délai de rétractation / délai de réflexion pour la RTO |
-| DIC PRIIPs | 3 pages, SRI de 1 à 7 | Format du document d'informations clés |
-| Réclamations | 10 jours ouvrables / 2 mois | Accusé de réception / réponse |
-| Reporting | J+1 ouvrable ; trimestriel ; −10 % | Avis d'opéré ; relevé de gestion ; alerte de baisse |
-| OPCVM | 5 / 10 / 40 % | Diversification par émetteur |
-| OPCVM | 35 % / 100 % (6 émissions, 30 % max) | Titres d'État |
-| Gestion collective | 80 % | Seuil des noms de fonds ESG (orientations ESMA) |
-| Marché | 7 h 15 – 9 h – 17 h 30 – 17 h 35 – 17 h 40 | Horaires d'Euronext Paris |
-| Marché | Compartiments A > 1 Md€, B 150 M€ – 1 Md€, C < 150 M€ | Euronext Paris |
-| SRD | 20 / 25 / 40 % | Couverture en espèces / obligations / actions |
-| Vente à découvert | 0,1 % / 0,5 % | Déclaration à l'AMF / publication |
-| Post-marché | J+2, puis J+1 le 11 octobre 2027 | Cycle de règlement-livraison |
-| Introduction en bourse | 15 % ; 30 jours | Option de surallocation ; période de stabilisation |
-| Prospectus | 12 mois ; 3 jours ouvrables | Validité ; droit de retrait après supplément |
-| Offres publiques | 30 % ; 1 % en 12 mois ; 50 % ; 90 % | Offre obligatoire ; excès de vitesse ; caducité ; retrait obligatoire |
-| Rachat d'actions | 10 % ; 18 mois | Plafond et durée de l'autorisation |
-| Information | 4 mois ; 3 mois | Rapport financier annuel ; semestriel |
-| Assemblées | 1/5 et 1/4 ; 2/3 | Quorums AGO et AGE ; majorité en AGE |
-| Crypto-actifs | 1er juillet 2026 | Fin du régime transitoire des PSAN ; agrément PSCA obligatoire |
+| Agrément d'une **SGP** (AMF) | Agrément d'une **entreprise d'investissement** (ACPR) | L'AMF approuve le programme d'activité de l'entreprise d'investissement |
+| Recours devant le **Conseil d'État** | Recours devant la **cour d'appel de Paris** | Professionnels régulés / toutes les autres personnes |
+| **Règlement** européen | **Directive** européenne | Directement applicable / à transposer |
+| **Watch list** | **Restricted list** | Confidentielle, surveillance / diffusée, interdiction |
+| Déclaration de soupçon à **Tracfin** | **STOR** à l'**AMF** / **gel** à la **DG Trésor** | Blanchiment et terrorisme / abus de marché / sanctions financières |
+| **Opération d'initié** | **Divulgation illicite** | Utiliser l'information / la communiquer hors du cadre normal des fonctions |
+| **Fenêtre négative** | Interdiction d'**initié** | 30 jours avant les résultats, même sans information / à tout moment, dès qu'on détient l'information |
+| **Rétractation** (14 jours) | **Réflexion** (48 heures) | Démarchage : contrats / ordres (RTO, exécution) |
+| Test d'**adéquation** | Test du **caractère approprié** | Conseil et gestion : connaissances + situation + objectifs / autres services : connaissances seules |
+| Conseil **indépendant** | Conseil **non indépendant** | Rétrocessions reversées / rétrocessions autorisées sous conditions |
+| **Opt-up** | **Opt-down** | 2 critères sur 3 et procédure écrite / toujours possible |
+| **Curatelle** | **Tutelle** | Assistance / représentation |
+| Compte **joint** | Compte **indivis** | Chacun agit seul / signature de tous |
+| **Meilleure exécution** | **Meilleure sélection** | Exécutant / transmetteur d'ordres ou gérant |
+| **SICAV** | **FCP** | Société, actionnaire qui vote / copropriété sans personnalité morale |
+| **OPCVM** | **FIA** | Produit harmonisé (directive UCITS) / tout autre fonds (directive AIFM) |
+| Droits **acquis** au fonds | Droits **non acquis** | Bénéficient aux porteurs / rémunèrent le distributeur |
+| **Article 8** SFDR | **Article 9** SFDR | Promotion de caractéristiques E/S / objectif d'investissement durable |
+| Label **Greenfin** | Label **Finansol** | Transition écologique / épargne solidaire |
+| Ordre **à seuil** de déclenchement | Ordre **à plage** de déclenchement | Devient au marché / devient limité |
+| Ordre **au marché** | Ordre **à cours limité** | Exécution sans maîtrise du prix / prix maîtrisé sans certitude d'exécution |
+| **Marché réglementé** | **SMN** / **SON** | Euronext Paris / Euronext Growth / exécution discrétionnaire, sans actions |
+| **Nominatif pur** | **Nominatif administré** | Compte tenu par l'émetteur / par l'intermédiaire (inscription au registre de l'émetteur) |
+| **Prise ferme** | **Placement garanti** | La banque achète les titres / elle garantit un montant minimal |
+| Date de **détachement** | Date d'**arrêté** (record date) | Cotation sans dividende / identification des bénéficiaires, un jour ouvré après |
+| Date de **négociation** | Date de **dénouement** | Conclusion de l'opération / transfert de propriété |
+| **EBE** (≈ EBITDA) | **Résultat d'exploitation** (≈ EBIT) | Avant / après amortissements |
+| **Fonds de roulement** | **BFR** | Ressources stables − actif immobilisé / stocks + clients − fournisseurs |
+| Taux **proportionnel** | Taux **équivalent** | Division simple / prise en compte de la capitalisation |
+| Risque **spécifique** | Risque **systématique** | Diversifiable / non diversifiable |
+| Assurance-vie primes **avant 70 ans** | Primes **après 70 ans** | 152 500 € par bénéficiaire / 30 500 € global, gains exonérés |
 
-## Annexe 2 — Glossaire des sigles
+## Annexe 3 — Glossaire des sigles
 
 | Sigle | Signification |
 |---|---|
 | ACPR | Autorité de contrôle prudentiel et de résolution |
+| AES | Autorités européennes de surveillance (ESMA, EBA, EIOPA) |
 | AFA | Agence française anticorruption |
+| AFT | Agence France Trésor |
 | AMF | Autorité des marchés financiers |
-| AMLA | Autorité européenne de lutte contre le blanchiment de capitaux et le financement du terrorisme |
-| ART | Asset-referenced token : jeton se référant à un ou des actifs (MiCA) |
+| AMLA / AMLR | Autorité européenne de lutte contre le blanchiment / règlement européen anti-blanchiment |
+| ART | Jeton se référant à un ou des actifs (MiCA) |
 | BCE | Banque centrale européenne |
 | BFR | Besoin en fonds de roulement |
+| BPA | Bénéfice par action |
+| BRRD | Directive sur le redressement et la résolution des banques |
+| BSA | Bon de souscription d'actions |
 | CAF | Capacité d'autofinancement |
-| CCP | Central counterparty : contrepartie centrale, chambre de compensation |
+| CCP | Contrepartie centrale, chambre de compensation |
+| CDS | Credit default swap (dérivé de crédit) |
 | CERS | Comité européen du risque systémique |
+| CFD | Contrat sur différence |
 | CIF | Conseiller en investissements financiers |
+| CJIP | Convention judiciaire d'intérêt public |
 | CMF | Code monétaire et financier |
 | COSI | Communication systématique d'informations (à Tracfin) |
-| CSD | Central securities depository : dépositaire central de titres |
-| CSDR | Règlement sur les dépositaires centraux de titres |
-| DIC | Document d'informations clés |
+| CRR / CRD | Règlement et directive sur les exigences de fonds propres des banques |
+| CSD / CSDR | Dépositaire central de titres / règlement qui les encadre |
+| DIC | Document d'informations clés (PRIIPs) |
+| DORA | Règlement sur la résilience opérationnelle numérique |
 | DPS | Droit préférentiel de souscription |
-| DvP | Delivery versus payment : livraison contre paiement |
+| DvP | Livraison contre paiement |
 | EBA | Autorité bancaire européenne |
 | EBE | Excédent brut d'exploitation |
 | EIOPA | Autorité européenne des assurances et des pensions professionnelles |
-| EMIR | Règlement européen sur les infrastructures de marché (dérivés de gré à gré) |
-| EMT | E-money token : jeton de monnaie électronique (MiCA) |
+| ELTIF | Fonds européen d'investissement à long terme |
+| EMIR | Règlement sur les infrastructures de marché (dérivés de gré à gré) |
+| EMT | Jeton de monnaie électronique (MiCA) |
 | ESMA | Autorité européenne des marchés financiers |
-| ETF | Exchange traded fund : fonds indiciel coté |
-| €STR | Euro short-term rate : taux au jour le jour de la zone euro |
+| €STR | Taux au jour le jour de la zone euro |
+| ETF | Fonds indiciel coté |
+| FCP / FCPE / FCPI / FCPR | Fonds commun de placement / d'entreprise / dans l'innovation / à risque |
+| FGAP | Fonds de garantie des assurances de personnes |
 | FGDR | Fonds de garantie des dépôts et de résolution |
-| FIA | Fonds d'investissement alternatif |
-| FCP | Fonds commun de placement |
-| FCPE | Fonds commun de placement d'entreprise |
-| FCPI / FCPR / FIP | Fonds communs de placement dans l'innovation / à risque ; fonds d'investissement de proximité |
-| IFRS | International Financial Reporting Standards |
-| IS | Internalisateur systématique |
+| FIA / FIVG / FIP | Fonds d'investissement alternatif / à vocation générale / de proximité |
+| FPCI / FPS | Fonds professionnel de capital-investissement / spécialisé |
+| GAFI | Groupe d'action financière |
+| HCSF | Haut Conseil de stabilité financière |
+| IFI | Impôt sur la fortune immobilière |
+| IFRS | Normes internationales d'information financière |
+| IFU | Imprimé fiscal unique |
+| IS | Internalisateur systématique (ou impôt sur les sociétés, selon le contexte) |
 | LCB-FT | Lutte contre le blanchiment de capitaux et le financement du terrorisme |
-| MAR | Market Abuse Regulation : règlement sur les abus de marché |
+| MAR | Règlement sur les abus de marché |
 | MEDAF | Modèle d'évaluation des actifs financiers |
-| MiCA | Markets in Crypto-Assets : règlement sur les marchés de crypto-actifs |
+| MiCA | Règlement sur les marchés de crypto-actifs |
 | MIF 2 / MiFIR | Directive et règlement sur les marchés d'instruments financiers |
-| MTF / SMN | Système multilatéral de négociation |
-| OAT | Obligation assimilable du Trésor |
-| OPA / OPE / OPR | Offre publique d'achat / d'échange / de retrait |
-| OPC | Organisme de placement collectif |
-| OPCI | Organisme de placement collectif immobilier |
-| OPCVM | Organisme de placement collectif en valeurs mobilières |
-| ORIAS | Organisme pour le registre unique des intermédiaires en assurance, banque et finance |
-| OTF / SON | Système organisé de négociation |
-| PDMR | Person discharging managerial responsibilities : personne exerçant des responsabilités dirigeantes |
-| PER | Price earning ratio |
+| MSU | Mécanisme de surveillance unique |
+| NEU CP / NEU MTN | Titres de créances négociables à court / moyen terme |
+| OAT / BTF | Obligation assimilable du Trésor / bon du Trésor à taux fixe |
+| OICV (IOSCO) | Organisation internationale des commissions de valeurs |
+| OPA / OPE / OPR / OPRA | Offre publique d'achat / d'échange / de retrait / de rachat d'actions |
+| OPC / OPCVM / OPCI | Organisme de placement collectif / en valeurs mobilières / immobilier |
+| OPF / OPM / OPO | Offre à prix ferme / minimal / ouvert |
+| ORIAS | Registre unique des intermédiaires en assurance, banque et finance |
+| PDMR | Personne exerçant des responsabilités dirigeantes |
+| PEA / PEE / PER | Plan d'épargne en actions / d'entreprise / retraite |
+| PER (ratio) | Price earning ratio |
+| PFU | Prélèvement forfaitaire unique |
 | PPE | Personne politiquement exposée |
 | PRIIPs | Produits d'investissement packagés de détail et fondés sur l'assurance |
-| PSAN | Prestataire de services sur actifs numériques (ancien régime français) |
-| PSCA (CASP) | Prestataire de services sur crypto-actifs (MiCA) |
+| PSAN / PSCA | Prestataire de services sur actifs numériques (ancien régime) / sur crypto-actifs (MiCA) |
+| PSFP | Prestataire de services de financement participatif |
 | PSI | Prestataire de services d'investissement |
-| RCCI | Responsable de la conformité et du contrôle interne (sociétés de gestion) |
-| RCSI | Responsable de la conformité pour les services d'investissement |
+| RCCI / RCSI | Responsable de la conformité et du contrôle interne / pour les services d'investissement |
 | RGAMF | Règlement général de l'AMF |
-| RTO | Réception et transmission d'ordres pour le compte de tiers |
+| RGPD | Règlement général sur la protection des données |
+| ROE | Rentabilité des capitaux propres |
+| RTO | Réception et transmission d'ordres |
 | SCPI | Société civile de placement immobilier |
-| SFDR | Sustainable Finance Disclosure Regulation : règlement sur la publication d'informations en matière de durabilité |
+| SFDR | Règlement sur la publication d'informations en matière de durabilité |
+| SFTR | Règlement sur les opérations de financement sur titres |
 | SGP | Société de gestion de portefeuille |
 | SICAV | Société d'investissement à capital variable |
+| SMN (MTF) / SON (OTF) | Système multilatéral / organisé de négociation |
 | SRD | Service de règlement différé |
-| SRI | Summary risk indicator : indicateur synthétique de risque (DIC) |
-| STOR | Suspicious transaction and order report : déclaration d'opérations suspectes |
+| SRI | Indicateur synthétique de risque (DIC) |
+| STOR | Déclaration d'ordres et de transactions suspects |
 | SVT | Spécialiste en valeurs du Trésor |
 | T2S | TARGET2-Securities |
 | TCC | Teneur de compte-conservateur |
+| TMI | Taux marginal d'imposition |
 | TRI / VAN | Taux de rendement interne / valeur actuelle nette |
-| UCITS | Undertakings for Collective Investment in Transferable Securities (OPCVM) |
+| TTF | Taxe sur les transactions financières |
+| URD | Document d'enregistrement universel |
+| VaR | Value at risk |
+| VE | Valeur d'entreprise |
 | VL | Valeur liquidative |
 
-## Annexe 3 — Sources et méthode
+## Annexe 4 — La veille de l'examen
+
+> Check-list de la dernière révision (environ deux heures) :
+> - relire l'annexe 1 (chiffres clés) et l'annexe 2 (confusions classiques) ;
+> - relire les fiches « L'essentiel » des thèmes 6, 1, 2 et 3, qui concentrent les questions A ;
+> - refaire les questions de votre carnet d'erreurs ;
+> - ne pas apprendre de nouvelles notions : consolider ce que vous savez ;
+> - vérifier la convocation, la pièce d'identité, l'heure et le lieu (ou la configuration technique pour un examen à distance).
+
+> Le jour J :
+> - lire chaque question jusqu'au bout et repérer les négations ;
+> - éliminer d'abord la proposition manifestement fausse ;
+> - avancer à un rythme d'une minute par question, et revenir sur les questions marquées ;
+> - répondre à toutes les questions : il n'y a pas de points négatifs.
+
+## Annexe 5 — Sources et méthode
 
 Ce manuel a été rédigé à partir des sources suivantes, recoupées entre elles :
 
-- le **programme officiel** de l'examen : annexe 1 de l'instruction AMF **DOC-2010-09**, et les articles **313-7-1 à 313-7-3** du règlement général de l'AMF, ainsi que les programmes publiés par les organismes certifiés (ESBanque, AFG, Lefebvre Dalloz, Cnam) ;
-- les **textes** : code monétaire et financier, règlement général de l'AMF, règlements et directives européens (MIF 2 / MiFIR, MAR, PRIIPs, Prospectus et Listing Act, UCITS et AIFM, EMIR, CSDR, MiCA, SFDR, Taxonomie, règlement sur la vente à découvert), loi Sapin 2, code pénal ;
-- les **publications des autorités** : AMF (doctrine, guides, communiqués), ACPR, ESMA, Commission européenne, Tracfin, FGDR, Agence française anticorruption, Banque de France ;
-- les **ouvrages de préparation reconnus** (notamment *Réussir l'examen AMF*, Pearson) et les manuels de référence en finance de marché et en droit financier ;
-- la documentation des **infrastructures** (Euronext, Euroclear).
+- le **programme officiel** : instruction AMF **DOC-2010-09** (conditions de certification et programme en 12 thèmes), articles **313-7-1 à 313-7-3** du règlement général de l'AMF, doctrine AMF relative à la vérification des connaissances ; programmes publiés par des organismes certifiés et des écoles (ESBanque, Cnam, Lefebvre Dalloz, AFG Formation) ;
+- les **textes** : code monétaire et financier, code civil (capacité, régimes de protection), code pénal (blanchiment, corruption, secret professionnel), code général des impôts, règlement général de l'AMF ; règlements et directives européens (MIF 2 / MiFIR, MAR, PRIIPs, Prospectus et Listing Act, UCITS et AIFM, directive 2024/927, MMF, EMIR, CSDR, SFTR, MiCA, TFR, SFDR, Taxonomie, vente à découvert, CRR / CRD, BRRD, DORA, paquet anti-blanchiment de 2024, financement participatif 2020/1503) ; lois Sapin 2, Waserman, Eckert, PACTE, Attractivité, loi de finances et loi de financement de la sécurité sociale pour 2026 ;
+- les **publications des autorités** : AMF, ACPR, Banque de France, ESMA, Commission européenne, Tracfin, FGDR, Agence française anticorruption, CNIL, administration fiscale ;
+- les **ouvrages de préparation** reconnus (notamment *Réussir l'examen AMF*, Pearson, et *Préparation à l'examen certifié par l'AMF*, Dunod) et les manuels de référence en finance de marché, droit financier et analyse financière ;
+- la documentation des **infrastructures** (Euronext, Euroclear) et des places financières.
 
 ### Limites à connaître
 
-- Les **questions réelles** de l'examen sont **confidentielles** : les QCM de ce manuel sont originaux, construits pour couvrir le programme dans l'esprit de l'examen ;
-- la **répartition exacte** des questions par thème n'est pas publiée : la répartition 33 / 87 entre catégories A et C est celle retenue par les manuels de référence ;
-- la réglementation **évolue en permanence** (Listing Act, révision de SFDR, passage à J+1, nouvelles règles européennes de lutte contre le blanchiment applicables en 2027…). Le manuel est à jour à la date d'octobre 2026 ; vérifiez toujours les règles en vigueur à la date de votre examen sur le site de l'AMF ;
-- certains chiffres présentés comme repères (horaires, seuils de marché, critères d'éligibilité au SRD) relèvent des règles des entreprises de marché et peuvent être ajustés par celles-ci.
+- Les **questions réelles** de l'examen sont **confidentielles** : tous les QCM et examens blancs de ce manuel sont **originaux**, construits pour couvrir le programme dans l'esprit des épreuves.
+- La **grille officielle détaillée** (sujets de chaque thème et leur classement A ou C) n'a pas pu être consultée directement lors de la rédaction ; les étiquettes A et C des QCM sont une **estimation**. Les poids par thème (14, 6, 3, 2, 6, 25 et 6 questions pour les thèmes 1 à 6 et 12) proviennent des programmes publiés par un organisme certifié ; la répartition entre les thèmes 7 à 11 retenue dans les examens blancs (18, 12, 11, 7, 10) est une hypothèse.
+- La réglementation **évolue en permanence**. Le manuel est à jour des textes connus en **octobre 2026**. Les évolutions annoncées mais pas encore applicables sont signalées (J+1 en 2027, règles européennes anti-blanchiment en 2027, révision de SFDR, stratégie européenne pour l'investissement de détail). Avant l'examen, vérifiez les règles en vigueur sur le site de l'AMF et auprès de votre organisme certificateur.
+- Certains chiffres de marché (horaires, seuils de réservation, critères d'éligibilité au SRD, taux de la taxe sur les transactions financières) relèvent des règles des entreprises de marché ou des lois de finances annuelles et peuvent être modifiés.
 
-> Méthode de révision conseillée : un thème par jour, avec relecture des encadrés « À retenir » et « Piège d'examen » ; refaire les QCM sans regarder la correction ; puis l'examen blanc en conditions réelles (2 heures). Visez au moins 90 % de réussite à l'entraînement pour disposer d'une marge le jour de l'examen.
+> Méthode de révision conseillée : un thème par jour ; relecture des encadrés « À retenir », « Piège d'examen » et des fiches « L'essentiel » ; QCM sans regarder la correction ; carnet d'erreurs ; puis les trois examens blancs en conditions réelles. Visez au moins **90 %** de réussite à l'entraînement avant de vous présenter.

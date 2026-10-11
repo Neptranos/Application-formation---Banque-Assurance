@@ -146,7 +146,7 @@ def tableau(lignes):
             raise ValueError(f"Tableau mal formé : {r}")
     data = [[Paragraph(inline(c), S["cellh"] if i == 0 else S["cell"]) for c in r]
             for i, r in enumerate(rangs)]
-    poids = [min(max(len(r[i]) for r in rangs), 70) + 6 for i in range(n)]
+    poids = [max(min(max(len(r[i]) for r in rangs), 70), 16) + 6 for i in range(n)]
     total = sum(poids)
     t = Table(data, colWidths=[LARGEUR * p / total for p in poids], repeatRows=1)
     t.setStyle(TableStyle([
@@ -436,7 +436,7 @@ def qcm(lignes, contexte, examen=False):
     probleme = None
     if sum(l.startswith("=") for l in lignes) > 1:
         probleme = "plusieurs lignes de corrigé"
-    elif corr is None or len(reps) not in (3, 4):
+    elif corr is None or len(reps) != 3:
         probleme = "propositions ou corrigé manquants"
     elif corr[1:2] not in "abcd"[:len(reps)]:
         probleme = "lettre de réponse invalide"
@@ -556,6 +556,9 @@ class Doc(BaseDocTemplate):
         ])
         self.chapitre = ""
 
+    def beforeDocument(self):
+        self.chapitre = ""
+
     def afterFlowable(self, f):
         if hasattr(f, "_toc"):
             niveau, titre = f._toc
@@ -571,7 +574,8 @@ class Doc(BaseDocTemplate):
         c.setFont("Sans", 7.5)
         c.setFillColor(GRIS)
         c.drawString(20 * mm, A4[1] - 12 * mm, "Manuel de préparation à la certification AMF")
-        c.drawRightString(A4[0] - 20 * mm, A4[1] - 12 * mm, self.chapitre[:80])
+        titre = self.chapitre if len(self.chapitre) <= 70 else self.chapitre[:68].rstrip() + "…"
+        c.drawRightString(A4[0] - 20 * mm, A4[1] - 12 * mm, titre)
         c.setStrokeColor(colors.HexColor("#D5DBE3"))
         c.line(20 * mm, A4[1] - 14 * mm, A4[0] - 20 * mm, A4[1] - 14 * mm)
         c.drawCentredString(A4[0] / 2, 10 * mm, str(doc.page))
