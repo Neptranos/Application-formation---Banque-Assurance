@@ -1,265 +1,482 @@
 # Thème 11 — Émissions et opérations sur titres
 
-## Ce que l'examen attend
+o> À la fin de ce chapitre, vous saurez :
+- décrire le fonctionnement du marché primaire : syndication, placement, adjudication, financement participatif ;
+- expliquer une introduction en bourse et le régime du prospectus ;
+- calculer la valeur théorique d'un droit préférentiel de souscription et comprendre les opérations sur le capital ;
+- connaître le calendrier d'un dividende, les divisions et attributions gratuites ;
+- maîtriser les règles des offres publiques, des fusions, des rachats d'actions et des assemblées générales ;
+- connaître les obligations d'information des sociétés cotées.
+Poids à l'examen : quelques questions de **catégorie C**.
 
-Connaître les modalités d'une introduction en bourse et d'une émission de titres, le régime du prospectus, les augmentations de capital et le droit préférentiel de souscription, les opérations courantes sur titres (dividendes, divisions, attributions gratuites), les offres publiques, les rachats d'actions, les assemblées générales et l'information périodique des sociétés cotées.
+## 1. Le marché primaire
 
-## 1. L'introduction en bourse
+### Les acteurs d'une émission
 
-Une société s'introduit en bourse pour **lever des capitaux** (augmentation de capital), permettre à des actionnaires existants de **céder** leurs titres, accroître sa notoriété ou faciliter des opérations futures. L'opération est menée par une ou plusieurs banques (**chef de file**, syndicat de placement) et suppose un prospectus approuvé par l'AMF.
+| Acteur | Rôle |
+|---|---|
+| **Émetteur** | Société, État, collectivité ou banque qui lève des fonds |
+| **Banques** : coordinateur global, **chef de file**, **teneur de livre** (*bookrunner*) | Conseillent l'émetteur, structurent l'opération, recueillent les ordres des investisseurs (livre d'ordres), fixent le prix avec l'émetteur et répartissent les titres |
+| **Syndicat de placement** | Groupe de banques qui placent les titres auprès des investisseurs, avec ou sans garantie |
+| **Conseils** : avocats, commissaires aux comptes, agences de notation | Documentation juridique, vérification des comptes, notation des obligations |
+| **AMF** | Approuve le prospectus |
+| **Entreprise de marché** (Euronext) | Admet les titres aux négociations |
+
+### Les modes de placement
+
+| Mode | Engagement de la banque |
+|---|---|
+| **Prise ferme** | La banque **achète** les titres à l'émetteur et les revend elle-même : l'émetteur est certain du montant levé, la banque supporte le risque de placement |
+| **Placement garanti** | La banque place les titres et **garantit** à l'émetteur la souscription d'un montant minimal : elle achète elle-même les titres non placés |
+| **Placement non garanti** (*best efforts*) | La banque fait ses meilleurs efforts, **sans garantie** : le montant levé peut être inférieur à l'objectif |
+
+### Offre au public et placement privé
+
+| | **Offre au public** | **Placement privé** |
+|---|---|---|
+| Destinataires | Le public, y compris les particuliers | **Investisseurs qualifiés** et/ou un **cercle restreint** d'investisseurs (moins de 150 personnes par État membre, hors investisseurs qualifiés) |
+| Prospectus | **Obligatoire**, sauf dispense | Pas de prospectus pour l'offre (il peut en falloir un pour l'admission à la négociation sur un marché réglementé) |
+| Exemples | Introduction en bourse avec tranche pour les particuliers | Émission obligataire auprès d'assureurs et de fonds |
+
+### La construction du livre d'ordres (*book building*)
+
+Pour les placements auprès des institutionnels, les banques présentent l'opération (*roadshow*), recueillent les **intentions de souscription** à différents niveaux de prix, puis l'émetteur fixe le **prix** et les banques **allouent** les titres. Cette technique permet de fixer le prix au niveau de la demande réelle.
+
+### L'adjudication
+
+Les États émettent leur dette par **adjudication** : en France, l'**Agence France Trésor** organise des enchères selon un calendrier publié ; les **spécialistes en valeurs du Trésor** et les autres participants déposent des offres (prix ou taux, quantité) ; les offres les plus favorables à l'État sont servies, chacune au prix qu'elle a proposé (adjudication « à prix demandé »).
+
+[[FIG:primaire]]
+
+## 2. L'introduction en bourse
+
+Une société s'introduit en bourse pour **lever des capitaux** (augmentation de capital), permettre à des actionnaires existants de **céder** leurs titres (fonds d'investissement, fondateurs), donner une **valeur de marché** à ses actions, accroître sa **notoriété** ou faciliter des opérations futures (acquisitions payées en actions, actionnariat salarié). En contrepartie, elle accepte des **obligations d'information** permanentes et une plus grande exposition au marché.
+
+L'opération suppose un **prospectus approuvé par l'AMF**, une demande d'**admission** à Euronext et une **diffusion** suffisante des titres dans le public (le flottant).
 
 ### Les procédures de mise sur le marché
 
 | Procédure | Principe |
 |---|---|
-| **Placement global** (« book building ») | Destiné aux investisseurs institutionnels ; les banques recueillent les intentions de souscription et construisent un livre d'ordres pour fixer le prix |
-| **Offre à prix ouvert (OPO)** | Destinée aux particuliers ; une fourchette de prix est annoncée, le prix définitif est fixé à l'issue de l'offre |
-| **Offre à prix ferme (OPF)** | Les titres sont proposés à un prix fixé à l'avance ; les ordres sont servis par réduction proportionnelle si la demande excède l'offre |
-| **Offre à prix minimal (OPM)** | Seul un prix minimal est fixé ; les ordres à un prix excessif sont éliminés |
-| **Cotation directe** | Les titres sont inscrits à la cote au prix fixé, comme un ordre de bourse ordinaire |
+| **Placement global** | Destiné aux **investisseurs institutionnels** ; construction d'un livre d'ordres |
+| **Offre à prix ouvert** (OPO) | Destinée aux **particuliers** ; une **fourchette** de prix indicative est annoncée, le prix définitif est fixé à l'issue de l'offre (en général égal à celui du placement global) |
+| **Offre à prix ferme** (OPF) | Les titres sont proposés à un **prix fixé** à l'avance ; les ordres sont servis par **réduction proportionnelle** si la demande excède l'offre |
+| **Offre à prix minimal** (OPM) | Seul un prix **minimal** est fixé ; les ordres à un prix trop élevé sont éliminés, les autres servis selon un taux de réduction |
+| **Cotation directe** | Les titres sont inscrits à la cote au prix fixé, comme un ordre ordinaire |
 
-En pratique, une introduction combine souvent un **placement global** (institutionnels) et une **OPO** (particuliers).
+En pratique, une grande introduction combine un **placement global** (institutionnels) et une **OPO** (particuliers), avec des ordres de particuliers souvent servis en priorité pour les petites quantités.
 
 ### Les mécanismes associés
 
-- **Option de surallocation** (« greenshoe ») : permet d'émettre ou de céder jusqu'à **15 %** de titres supplémentaires en cas de forte demande ;
-- **stabilisation** : le prestataire peut acheter des titres pour soutenir le cours pendant une période limitée (au plus **30 jours** après l'introduction), dans les conditions de la dérogation prévue par MAR ;
-- **engagement de conservation** (« lock-up ») : les dirigeants et actionnaires historiques s'engagent à ne pas céder leurs titres pendant une durée déterminée (souvent 6 à 12 mois).
+- **Option de surallocation** (*greenshoe*) : permet d'augmenter la taille de l'offre de **15 %** au plus en cas de forte demande ; elle est liée à la stabilisation ;
+- **stabilisation** : pendant au plus **30 jours** après le début des négociations, la banque stabilisatrice peut acheter des titres pour soutenir le cours, sans dépasser le prix de l'offre, dans les conditions de la dérogation prévue par MAR (thème 4) ;
+- **engagement de conservation** (*lock-up*) : les dirigeants et actionnaires historiques s'engagent à ne pas céder leurs titres pendant une durée déterminée (souvent 6 à 12 mois), pour rassurer le marché ;
+- **actions à droits de vote multiples** : depuis la loi « Attractivité » du 13 juin 2024, une société peut émettre, lors de son introduction, des actions de préférence à droits de vote multiples (pour dix ans au plus, renouvelables), afin de permettre aux fondateurs de garder le contrôle (thème 7).
 
-## 2. Le prospectus
+## 3. Le prospectus
 
 Le règlement **Prospectus** (UE 2017/1129), modifié par le **Listing Act** (règlement 2024/2809), impose la publication d'un **prospectus approuvé** en cas d'**offre au public** de titres financiers ou d'**admission aux négociations sur un marché réglementé**.
 
-- **Contenu** : informations sur l'émetteur (activité, résultats, risques, gouvernance), sur les titres et sur l'offre ; un **résumé** standardisé ;
-- **approbation** par l'autorité compétente (l'AMF en France) ; passeport européen ;
-- **validité** de **12 mois** pour d'autres offres, à condition d'être complété par des **suppléments** ;
-- tout **fait nouveau significatif**, erreur ou inexactitude substantielle survenant avant la clôture de l'offre impose un **supplément**, qui ouvre aux investisseurs un **droit de retrait** de leurs ordres pendant **trois jours ouvrables**.
+| Aspect | Règle |
+|---|---|
+| Contenu | Informations nécessaires à l'investisseur pour évaluer l'émetteur (activité, résultats, situation financière, **facteurs de risque**, gouvernance), les titres et l'offre |
+| Structure | Document unique ou en plusieurs parties : **document d'enregistrement** (sur l'émetteur), **note relative aux titres**, **résumé** standardisé |
+| Approbation | Par l'autorité compétente (l'**AMF** en France), en principe dans un délai de **10 jours ouvrables** (**20** pour un premier appel au marché) |
+| **Document d'enregistrement universel** (URD) | Document annuel déposé par les émetteurs réguliers, qui accélère leurs futures approbations |
+| Passeport | Un prospectus approuvé dans un État est valable dans toute l'Union après notification |
+| Validité | **12 mois** pour d'autres offres, s'il est complété par des **suppléments** |
+| **Supplément** | Obligatoire pour tout **fait nouveau significatif**, erreur ou inexactitude substantielle survenant avant la clôture de l'offre ; il ouvre aux investisseurs un **droit de retrait** de leurs ordres pendant **trois jours ouvrables** |
+| Responsabilité | L'émetteur et les signataires sont responsables de l'exactitude du prospectus (responsabilité civile, sanctions de l'AMF) |
 
-### Principales dispenses
+### Les principales dispenses de prospectus
 
 - offres adressées uniquement à des **investisseurs qualifiés** ;
 - offres adressées à moins de **150 personnes** par État membre (hors investisseurs qualifiés) ;
 - titres d'une valeur nominale unitaire d'au moins **100 000 €** ;
-- **petites offres** : le Listing Act fixe un seuil européen de **12 M€ sur 12 mois** (les États membres pouvant retenir 5 M€), applicable depuis le 5 juin 2026 ; il a remplacé le seuil de 8 M€ retenu auparavant par la France ;
-- **émissions secondaires** de titres fongibles avec des titres déjà admis représentant moins de **30 %** de ceux-ci sur 12 mois (contre 20 % auparavant), moyennant un document d'information.
+- **petites offres** : le Listing Act fixe un seuil européen de **12 M€ sur 12 mois** (les États membres pouvant retenir 5 M€), applicable depuis le **5 juin 2026** ; il remplace le seuil de 8 M€ que retenait jusque-là la France ;
+- **émissions secondaires** de titres fongibles avec des titres déjà admis représentant moins de **30 %** de ceux-ci sur 12 mois (contre 20 % auparavant), moyennant un court document d'information ;
+- certaines opérations particulières (offres d'échange, fusions, attributions gratuites, actionnariat salarié), moyennant un document d'exemption.
 
-!> Une offre non soumise au prospectus peut rester soumise à d'autres règles : MIF 2 pour la commercialisation, DIC PRIIPs pour les produits packagés, règles sur le démarchage, et toujours **MAR**.
+Le Listing Act a aussi créé des formats allégés : **prospectus de suivi** pour les émetteurs déjà cotés, **prospectus d'émission de croissance de l'Union** pour les PME.
 
-Pour les PME, il existe un **prospectus allégé** (« prospectus de croissance de l'Union ») et, depuis le Listing Act, un **prospectus de suivi** pour les émetteurs déjà cotés.
+!> Une offre dispensée de prospectus n'échappe pas aux autres règles : MIF 2 pour la commercialisation, DIC PRIIPs pour les produits packagés, démarchage, et toujours **MAR**.
 
-## 3. Les augmentations de capital
+## 4. Les émissions obligataires
 
-| Modalité | Effet |
+Une entreprise ou une banque émet des obligations par **syndication** : les banques chefs de file construisent un livre d'ordres auprès des investisseurs institutionnels, puis fixent le coupon et le prix en fonction de la demande et du **spread** de crédit exigé. Les émetteurs réguliers utilisent des **programmes** (programme **EMTN**) : un prospectus de base est approuvé une fois, puis chaque émission fait l'objet de **conditions définitives** courtes.
+
+En droit français, les obligataires d'une même émission sont groupés en une **masse**, représentée par un **représentant de la masse**, qui défend leurs intérêts communs ; les décisions importantes (modification des conditions de l'emprunt) relèvent de l'assemblée générale des obligataires.
+
+## 5. Le financement participatif
+
+d> Le **financement participatif** (*crowdfunding*) permet à des porteurs de projets (entreprises, souvent jeunes ou petites) de lever des fonds auprès d'un grand nombre d'investisseurs, par l'intermédiaire d'une **plateforme en ligne**.
+
+Depuis le règlement européen **2020/1503** (applicable depuis novembre 2021, avec une transition jusqu'en novembre 2023), les plateformes qui proposent des **prêts** rémunérés à des entreprises ou des **titres** (actions, obligations) sont des **prestataires de services de financement participatif** (PSFP), **agréés par l'AMF** en France et bénéficiant d'un passeport européen.
+
+| Règle | Contenu |
 |---|---|
-| En numéraire | Apport d'argent frais ; création d'actions nouvelles |
-| Par incorporation de réserves | Pas d'argent frais ; **attribution gratuite** d'actions ou élévation du nominal |
-| Par apport en nature | Apport d'un bien (fusion, apport d'actifs) |
-| Par conversion de créances | Créances transformées en capital |
-| Par exercice de titres donnant accès au capital | Conversion d'obligations, exercice de bons de souscription |
+| Plafond par porteur de projet | **5 M€** sur 12 mois |
+| Information | **Fiche d'informations clés sur l'investissement** pour chaque offre |
+| Investisseurs **non avertis** | **Test de connaissances** et **simulation de la capacité à supporter des pertes** (10 % du patrimoine net) avant d'investir |
+| **Délai de réflexion** | **4 jours calendaires** pendant lesquels l'investisseur non averti peut révoquer son offre sans frais ni motif |
+| Avertissement | Avertissement sur les risques et **consentement exprès** lorsque l'investissement dépasse **1 000 €** ou **5 %** du patrimoine net de l'investisseur non averti (ce n'est pas un plafond) |
 
-### Le droit préférentiel de souscription (DPS)
+Les plateformes de **dons** et certains prêts entre particuliers relèvent d'un statut national d'**intermédiaire en financement participatif** (IFP), immatriculé à l'ORIAS.
 
-Lors d'une augmentation de capital **en numéraire**, chaque actionnaire dispose d'un **droit préférentiel de souscription** proportionnel à sa participation. Ce droit est **détachable et négociable** pendant la période de souscription, qui ne peut être inférieure à **cinq jours de bourse**. Il permet à l'actionnaire de ne pas être dilué ou de vendre ses droits pour compenser la baisse théorique du cours.
+!> Le financement participatif comporte un **risque de perte totale** (défaillance de la PME) et un risque d'**illiquidité** (pas de marché secondaire organisé). Il ne doit représenter qu'une petite part de l'épargne.
+
+## 6. Les opérations sur le capital
+
+| Opération | Effet |
+|---|---|
+| Augmentation de capital **en numéraire** | Apport d'argent frais ; création d'actions nouvelles, avec ou sans DPS |
+| Augmentation de capital **par incorporation de réserves** | Pas d'argent frais ; **attribution gratuite** d'actions ou élévation du nominal |
+| Augmentation de capital **par apport en nature** | Apport d'un bien ou de titres (fusion, apport d'actifs), évalué par un commissaire aux apports |
+| Augmentation **par conversion de créances** | Des dettes sont transformées en capital (restructuration financière) |
+| Augmentation **par exercice de titres donnant accès au capital** | Conversion d'obligations, exercice de bons de souscription (BSA), d'options de souscription |
+| **Réduction de capital** | Par annulation d'actions rachetées, ou pour apurer des pertes |
+
+### Le droit préférentiel de souscription
+
+Lors d'une augmentation de capital **en numéraire**, chaque actionnaire dispose d'un **droit préférentiel de souscription** (DPS) proportionnel à sa participation. Ce droit est **détachable et négociable** pendant la période de souscription, qui ne peut être inférieure à **cinq jours de bourse**.
 
 - souscription **à titre irréductible** : l'actionnaire est servi à hauteur de ses droits ;
-- souscription **à titre réductible** (si prévue) : il demande plus d'actions que ses droits, et sera servi en fonction des titres non souscrits ;
-- l'assemblée générale extraordinaire peut **supprimer** le DPS (avec, le cas échéant, un délai de priorité).
+- souscription **à titre réductible** (si l'assemblée l'a prévue) : il demande plus d'actions que ses droits ne le permettent ; il sera servi, proportionnellement, sur les actions non souscrites à titre irréductible ;
+- l'actionnaire qui ne souhaite pas souscrire **vend** ses droits sur le marché, ce qui compense la baisse théorique du cours ;
+- l'**assemblée générale extraordinaire** peut **supprimer** le DPS (au profit d'investisseurs désignés, ou pour une offre au public), le cas échéant avec un **délai de priorité** pour les actionnaires ; des règles encadrent alors le prix d'émission.
 
-> Valeur théorique du cours après opération (ex-droit) = (N × C + n × E) / (N + n)
-> Valeur théorique du DPS = C − cours ex-droit = (C − E) × n / (N + n)
-> où N = actions anciennes, n = actions nouvelles, C = cours avant opération, E = prix d'émission.
+> Cours théorique après l'opération (**ex-droit**) = (N × C + n × E) / (N + n)
+> Valeur théorique du **DPS** = C − cours ex-droit = (C − E) × n / (N + n)
+> N = nombre d'actions anciennes, n = nombre d'actions nouvelles, C = cours avant l'opération, E = prix d'émission.
 
 i> Une société émet 1 action nouvelle pour 4 anciennes au prix de 40 €. Le cours est de 50 €.
-Cours ex-droit théorique = (4 × 50 + 1 × 40) / 5 = 48 €.
-Valeur du DPS = 50 − 48 = 2 € (soit (50 − 40) × 1 / 5).
-Pour souscrire 1 action nouvelle, il faut 4 DPS. Un actionnaire qui détient 100 actions peut souscrire 25 actions nouvelles ; s'il ne souscrit pas, il vend ses 100 DPS environ 200 €, ce qui compense la baisse théorique de son portefeuille (100 × 2 €).
+- Cours ex-droit théorique = (4 × 50 + 1 × 40) / 5 = **48 €**.
+- Valeur du DPS = 50 − 48 = **2 €** (soit (50 − 40) × 1 / 5).
+- Pour souscrire 1 action nouvelle, il faut **4 DPS** (un DPS par action ancienne).
+- Un actionnaire qui détient 100 actions peut souscrire 25 actions nouvelles (25 × 40 = 1 000 €). S'il ne souscrit pas, il vend ses 100 DPS environ 200 €, ce qui compense la baisse théorique de ses actions (100 × 2 €) : sa richesse est préservée, mais sa part du capital est diluée.
 
-## 4. Les autres opérations sur titres
+c> Pourquoi le DPS existe-t-il ? Parce qu'une émission d'actions à un prix inférieur au cours **dilue** les anciens actionnaires : la valeur de chaque action baisse. Le DPS leur donne la priorité pour souscrire, et s'ils ne souscrivent pas, une valeur à revendre qui compense cette perte. C'est une protection des actionnaires existants.
+
+### Les autres opérations sur titres
 
 | Opération | Effet sur le nombre de titres | Effet sur la valeur du portefeuille |
 |---|---|---|
-| **Division du nominal** (split) | Multiplié (ex. 1 action devient 10) | Aucun en théorie : le cours est divisé d'autant |
-| **Regroupement** | Divisé | Aucun en théorie |
-| **Attribution gratuite** | Augmente (ex. 1 nouvelle pour 10 anciennes) | Aucun en théorie : le cours s'ajuste |
-| **Dividende en numéraire** | Inchangé | Le cours baisse du montant du dividende au détachement |
-| **Dividende en actions** | Augmente | Paiement du dividende sous forme de titres |
+| **Division du nominal** (*split*) | Multiplié (ex. 1 action devient 10) | **Aucun** en théorie : le cours est divisé d'autant ; rend l'action plus accessible |
+| **Regroupement** | Divisé (ex. 10 actions deviennent 1) | Aucun en théorie : utilisé pour les actions cotant très bas |
+| **Attribution gratuite** (incorporation de réserves) | Augmente (ex. 1 nouvelle pour 10 anciennes) | Aucun en théorie : le cours s'ajuste à la baisse |
+| **Dividende en numéraire** | Inchangé | Le cours baisse en principe du montant du dividende au détachement |
+| **Dividende en actions** (option) | Augmente | Le dividende est payé en titres nouveaux, souvent avec une décote |
 
 ### Le calendrier d'un dividende
 
 | Date | Signification |
 |---|---|
-| Date de détachement (« ex-date ») | À partir de ce jour, l'action cote **sans** le droit au dividende |
-| Date d'arrêté des positions (« record date ») | Jour où sont identifiés les bénéficiaires, **un jour ouvré après** le détachement (avec un cycle de règlement J+2) |
-| Date de mise en paiement | Versement effectif aux actionnaires |
+| **Assemblée générale** | Décide du dividende (montant, date de paiement, éventuelle option en actions) |
+| **Date de détachement** (*ex-date*) | À partir de ce jour, l'action cote **sans** le droit au dividende |
+| **Date d'arrêté des positions** (*record date*) | Jour où sont arrêtés les bénéficiaires du dividende : **un jour ouvré après** la date de détachement, avec un cycle de règlement à J+2 |
+| **Date de mise en paiement** | Versement effectif, par l'intermédiaire des teneurs de compte |
 
-!> Pour percevoir le dividende, il faut avoir **acheté au plus tard la veille** de la date de détachement. Celui qui achète le jour du détachement n'y a pas droit.
+!> Pour percevoir le dividende, il faut avoir **acheté au plus tard la veille** de la date de détachement. Celui qui achète le jour du détachement n'y a pas droit (et paie un cours « ex-dividende »). Avec le passage au règlement à J+1 en 2027, la date d'arrêté coïncidera avec la date de détachement.
 
-## 5. Les offres publiques
+Une société peut aussi verser un **acompte sur dividende** en cours d'exercice, sur la base d'un bilan certifié faisant apparaître un bénéfice distribuable.
 
-| Offre | Contrepartie proposée |
+## 7. Les offres publiques
+
+| Offre | Contrepartie proposée aux actionnaires de la cible |
 |---|---|
-| **OPA** (offre publique d'achat) | Numéraire |
-| **OPE** (offre publique d'échange) | Titres |
-| **Offre mixte / alternative** | Combinaison de numéraire et de titres, ou choix entre les deux |
-| **OPR** (offre publique de retrait) | Permet aux minoritaires de sortir lorsque l'actionnaire majoritaire détient au moins 90 % des droits de vote |
-| **Retrait obligatoire** | Les titres des minoritaires sont transférés à l'actionnaire majoritaire, moyennant indemnisation |
+| **OPA** (offre publique d'achat) | Du **numéraire** |
+| **OPE** (offre publique d'échange) | Des **titres** (souvent ceux de l'initiateur) |
+| **Offre mixte** ou **alternative** | Combinaison de numéraire et de titres, ou choix entre les deux |
+| **OPR** (offre publique de retrait) | Permet aux minoritaires de sortir lorsque l'actionnaire majoritaire détient au moins **90 %** des droits de vote |
+| **Retrait obligatoire** | Les titres des minoritaires sont transférés à l'actionnaire majoritaire, moyennant indemnisation, et la société est **radiée** de la cote |
+| **OPRA** (offre publique de rachat d'actions) | La société propose à ses actionnaires de **racheter** ses propres actions, en vue de les annuler |
 
-Principes directeurs : **égalité de traitement** des actionnaires, **transparence et intégrité** du marché, **loyauté** dans la compétition entre offres, **libre jeu** des offres et surenchères.
+### Les principes directeurs
+
+L'AMF veille au respect de principes fixés par son règlement général : **égalité de traitement** et d'information des actionnaires, **transparence** et **intégrité** du marché, **loyauté** dans les transactions et la compétition, **libre jeu** des offres et des surenchères.
 
 ### Les règles essentielles
 
-- **Offre obligatoire** : toute personne, seule ou de concert, qui vient à détenir plus de **30 %** du capital ou des droits de vote d'une société cotée sur un marché réglementé doit déposer une offre ; de même, celui qui détient entre 30 % et 50 % et accroît sa participation de plus de **1 %** en moins de douze mois ;
-- **déclaration de conformité** de l'AMF, qui vaut visa de la note d'information ;
-- **durée** : au moins **25 jours de bourse** en procédure normale ; la procédure simplifiée (initiateur détenant déjà la majorité, notamment) est plus courte (en général 10 jours de bourse) ;
-- **seuil de caducité** : une offre est caduque si l'initiateur ne détient pas, à sa clôture, plus de **50 %** du capital ou des droits de vote ;
-- **retrait obligatoire** : possible lorsque les minoritaires ne détiennent pas plus de **10 %** du capital et des droits de vote (seuil abaissé de 5 % à 10 % par la loi Pacte de 2019) ; un **expert indépendant** se prononce sur le caractère équitable du prix ;
-- le conseil de la société visée émet un **avis motivé** sur l'intérêt de l'offre.
+| Règle | Contenu |
+|---|---|
+| **Offre obligatoire** | Toute personne, seule ou de concert, qui vient à détenir **plus de 30 %** du capital ou des droits de vote d'une société cotée sur un marché réglementé doit déposer une offre ; de même, celle qui détient entre **30 % et 50 %** et accroît sa participation d'au moins **1 %** en moins de **douze mois** (« excès de vitesse ») |
+| Prix de l'offre obligatoire | Au moins égal au prix le plus élevé payé par l'initiateur au cours des 12 mois précédents |
+| **Déclaration de conformité** | L'AMF examine le projet d'offre et sa **note d'information** et déclare l'offre conforme ; cette décision vaut visa de la note d'information |
+| **Avis motivé** | Le conseil d'administration de la cible donne un avis motivé sur l'intérêt de l'offre pour la société, ses actionnaires et ses salariés ; le comité social et économique est consulté |
+| **Expert indépendant** | Dans certains cas (conflits d'intérêts, retrait obligatoire), il atteste le caractère **équitable** du prix |
+| **Durée** | Au moins **25 jours de bourse** en procédure **normale** ; la procédure **simplifiée** (initiateur détenant déjà la majorité, notamment) est plus courte (en général 10 jours de bourse) |
+| **Seuil de caducité** | Une offre est **caduque** si l'initiateur ne détient pas, à sa clôture, **plus de 50 %** du capital ou des droits de vote |
+| **Retrait obligatoire** | Possible lorsque les minoritaires ne détiennent pas plus de **10 %** du capital et des droits de vote (seuil fixé par la loi PACTE de 2019, contre 5 % auparavant) |
+| Mesures de défense | Depuis 2014, le conseil d'administration de la cible peut prendre des mesures de défense dans l'intérêt de la société (fin de l'obligation de neutralité), sous réserve des pouvoirs de l'assemblée |
 
-## 6. Le rachat d'actions propres
+i> Un fonds détient 28 % du capital et des droits de vote d'une société cotée sur Euronext Paris. Il achète 3 % supplémentaires : il passe à 31 %. Ayant franchi le seuil de 30 %, il doit **déposer une offre** sur toutes les actions restantes. S'il en détenait déjà 35 % et achetait 1,5 % en six mois, il devrait aussi déposer une offre (excès de vitesse).
+
+## 8. Les fusions et les scissions
+
+| Opération | Principe |
+|---|---|
+| **Fusion-absorption** | Une société absorbe une autre, qui disparaît ; les actionnaires de l'absorbée reçoivent des actions de l'absorbante selon une **parité d'échange** |
+| **Fusion par création** | Deux sociétés disparaissent au profit d'une société nouvelle |
+| **Scission** | Une société disparaît en transmettant son patrimoine à plusieurs sociétés |
+| **Apport partiel d'actif** | Une société apporte une branche d'activité à une autre, en échange de titres, sans disparaître |
+
+La fusion est approuvée par l'**assemblée générale extraordinaire** de chaque société ; un **commissaire à la fusion** se prononce sur la parité ; les **créanciers** peuvent faire opposition. Pour les sociétés cotées, un document d'information (prospectus ou document d'exemption) est publié.
+
+## 9. Le rachat d'actions propres
 
 Une société cotée peut racheter ses propres actions dans le cadre d'un **programme de rachat** autorisé par l'assemblée générale :
 
-- dans la limite de **10 %** du capital ;
-- autorisation donnée pour **18 mois** au maximum ;
-- objectifs possibles : annulation (réduction de capital), couverture de plans d'actionnariat salarié, contrat de liquidité, opérations de croissance externe ;
-- la société publie un **descriptif du programme** et déclare ses opérations ; les actions autodétenues sont **privées de droit de vote et de dividende**.
+| Règle | Contenu |
+|---|---|
+| Limite | **10 %** du capital |
+| Durée de l'autorisation | **18 mois** au maximum |
+| Objectifs | Annulation (réduction de capital), couverture de plans d'actionnariat salarié ou de titres donnant accès au capital, **contrat de liquidité**, opérations de croissance externe |
+| Transparence | Publication d'un **descriptif du programme** ; déclarations régulières des opérations |
+| Droits attachés | Les actions **autodétenues** sont privées de **droit de vote** et de **droit au dividende** |
+| MAR | Le respect des conditions (prix, volume quotidien au plus égal à **25 %** du volume moyen) permet de bénéficier de la présomption de légitimité (thème 4) |
 
-Le respect des conditions de MAR (prix, volume quotidien au plus égal à 25 % du volume moyen, transparence) permet de bénéficier de la présomption de légitimité (voir thème 4).
+## 10. Les assemblées générales
 
-## 7. Les assemblées générales
-
-| | AG ordinaire (AGO) | AG extraordinaire (AGE) |
+| | **AG ordinaire** (AGO) | **AG extraordinaire** (AGE) |
 |---|---|---|
-| Compétence | Approbation des comptes, affectation du résultat, nomination des administrateurs | Modification des statuts : capital, fusion, transformation… |
+| Compétence | Approbation des comptes, affectation du résultat (dividende), nomination et révocation des administrateurs, autorisation du programme de rachat | Modification des statuts : capital (augmentation, réduction, suppression du DPS), fusion, transformation |
 | Quorum (1re convocation) | **1/5** des actions ayant le droit de vote | **1/4** |
-| Quorum (2e convocation) | Aucun | **1/5** |
-| Majorité | Majorité des voix exprimées | **Deux tiers** des voix exprimées |
+| Quorum (2e convocation) | **Aucun** | **1/5** |
+| Majorité | **Majorité** des voix exprimées | **Deux tiers** des voix exprimées |
 
-Depuis 2019, les **abstentions** ne sont plus comptées comme des voix exprimées. L'AGO annuelle doit se réunir dans les **six mois** de la clôture de l'exercice. Dans les sociétés cotées, un **avis de réunion** est publié au BALO au moins **35 jours** avant l'assemblée ; la participation est subordonnée à l'inscription des titres au **deuxième jour ouvré** précédant l'assemblée à zéro heure. Les actionnaires peuvent voter par correspondance, donner procuration ou voter à distance.
+- Depuis 2019, les **abstentions** ne sont plus comptées comme des voix exprimées (elles ne sont plus assimilées à des votes contre).
+- L'AGO annuelle doit se réunir dans les **six mois** de la clôture de l'exercice.
+- Dans les sociétés cotées, un **avis de réunion** est publié au **BALO** au moins **35 jours** avant l'assemblée ; le droit de participer est subordonné à l'inscription des titres au **deuxième jour ouvré** précédant l'assemblée, à zéro heure (*record date*).
+- Les actionnaires peuvent voter **par correspondance**, donner **procuration** ou voter par **internet** ; ils peuvent poser des **questions écrites** et, s'ils détiennent une fraction suffisante du capital, faire inscrire des points ou des projets de résolution à l'ordre du jour.
+- Dans les sociétés cotées, l'assemblée se prononce sur la **rémunération** des dirigeants (*say on pay*), avant (politique de rémunération) et après (rémunérations versées).
 
-## 8. L'information des sociétés cotées
+## 11. L'information des sociétés cotées
 
 | Information | Délai ou contenu |
 |---|---|
-| Information permanente | Publication dès que possible de toute **information privilégiée** (MAR) |
-| Rapport financier annuel | Dans les **4 mois** suivant la clôture de l'exercice (format électronique ESEF) |
-| Rapport financier semestriel | Dans les **3 mois** suivant la fin du semestre |
-| Information trimestrielle | **Plus obligatoire** depuis 2015 (publication volontaire) |
-| Franchissements de seuils | Déclaration par l'actionnaire (voir thème 4) |
-| Informations de durabilité | Intégrées au rapport de gestion (directive CSRD, dont le calendrier a été allégé et reporté par la directive « Omnibus » de 2025) |
+| **Information permanente** | Publication **dès que possible** de toute **information privilégiée** (MAR, thème 4) |
+| **Rapport financier annuel** | Dans les **4 mois** suivant la clôture de l'exercice ; comptes, rapport de gestion, déclaration des responsables, rapport des commissaires aux comptes ; format électronique européen unique (**ESEF**) |
+| **Rapport financier semestriel** | Dans les **3 mois** suivant la fin du semestre |
+| Information trimestrielle | **Facultative** depuis 2015 (publication volontaire) |
+| **Document d'enregistrement universel** | Facultatif, annuel, il peut tenir lieu de rapport financier annuel |
+| Franchissements de seuils, opérations des dirigeants | Déclarations publiées par l'AMF (thème 4) |
+| **Informations de durabilité** | Intégrées au rapport de gestion (directive **CSRD**, dont le calendrier et le champ ont été allégés et reportés par la directive « Omnibus » de 2025) |
+| Gouvernance | Rapport sur le gouvernement d'entreprise ; référence à un **code** (code AFEP-MEDEF, code Middlenext), selon le principe « **appliquer ou expliquer** » |
 
-Les comptes **consolidés** des sociétés cotées sont établis selon les normes **IFRS** (voir thème 12).
+Les comptes **consolidés** des sociétés cotées sont établis selon les normes **IFRS** (thème 12).
+
+## L'essentiel
+
+> - Prise ferme (la banque achète) ; placement **garanti** (montant minimal garanti) ; **non garanti** (*best efforts*).
+> - **Placement privé** : investisseurs qualifiés ou moins de **150** personnes par État ; offre au public : prospectus.
+> - **Adjudication** : mode d'émission des titres d'État (AFT, SVT).
+> - Introduction : **placement global** (institutionnels) + **OPO** (particuliers, fourchette) ; OPF (prix fixe), OPM (prix minimal) ; **greenshoe 15 %**, stabilisation **30 jours**, **lock-up**.
+> - Prospectus : approuvé par l'AMF (**10** jours ouvrables, **20** pour un premier appel), valable **12 mois** avec suppléments ; supplément → **retrait 3 jours ouvrables** ; dispenses : qualifiés, < **150** personnes, nominal ≥ **100 000 €**, petites offres (**12 M€**), émissions secondaires < **30 %**.
+> - Financement participatif : **PSFP agréés par l'AMF**, **5 M€** par porteur sur 12 mois, test et simulation pour les non-avertis, **délai de réflexion de 4 jours**, avertissement au-delà de **1 000 € ou 5 %**.
+> - DPS : détachable et négociable, souscription ≥ **5 jours de bourse** ; **DPS = (C − E) × n / (N + n)** ; suppression par l'**AGE**.
+> - Split, regroupement, attribution gratuite : **pas d'effet** théorique sur la valeur du portefeuille.
+> - Dividende : acheter au plus tard la **veille** du détachement ; record date = **détachement + 1 jour ouvré** (à J+2).
+> - Offre obligatoire au-delà de **30 %**, ou **+1 %** en moins de 12 mois entre 30 et 50 % ; procédure normale ≥ **25 jours de bourse** ; caducité si ≤ **50 %** ; **retrait obligatoire** si minoritaires ≤ **10 %** ; OPR à partir de **90 %**.
+> - Rachat d'actions : **10 %** du capital, **18 mois**, actions autodétenues sans vote ni dividende.
+> - AGO : quorum **1/5** puis aucun, majorité simple ; AGE : **1/4** puis **1/5**, majorité des **2/3** ; abstentions non comptées ; BALO **35 jours** avant ; record date **J−2**.
+> - RFA **4 mois**, RFS **3 mois**, trimestriel facultatif ; code AFEP-MEDEF : « appliquer ou expliquer ».
 
 ## QCM d'entraînement
 
-?? L'option de surallocation (greenshoe) permet d'augmenter la taille d'une offre d'au plus :
-a) 5 %
-b) 10 %
-c) 15 %
-d) 25 %
-=c Elle est exercée en cas de forte demande.
+?? [C] Dans une prise ferme :
+a) la banque achète les titres à l'émetteur et supporte le risque de placement
+b) la banque place les titres sans aucune garantie
+c) l'émetteur vend directement ses titres aux particuliers
+=a L'émetteur est certain du montant levé.
 
-?? La procédure d'introduction destinée aux particuliers, avec une fourchette de prix indicative, est :
+?? [C] Un placement non garanti (best efforts) signifie que :
+a) la banque garantit le montant levé
+b) la banque fait ses meilleurs efforts sans garantir le montant levé
+c) l'opération est interdite
+=b Le montant levé peut être inférieur à l'objectif.
+
+?? [C] Un placement privé s'adresse notamment :
+a) à des investisseurs qualifiés ou à moins de 150 personnes par État membre
+b) à l'ensemble du public
+c) uniquement aux salariés de l'émetteur
+=a Il n'exige pas de prospectus pour l'offre.
+
+?? [C] Les titres d'État français sont émis principalement :
+a) par adjudication organisée par l'Agence France Trésor
+b) par introduction en bourse
+c) par financement participatif
+=a Les SVT participent aux adjudications.
+
+?? [C] La procédure d'introduction destinée aux particuliers, avec une fourchette de prix indicative, est :
 a) le placement global
 b) l'offre à prix ouvert
 c) la cotation directe
-d) l'offre publique de retrait
 =b Le placement global vise les institutionnels.
 
-?? Un prospectus approuvé est valable pour d'autres offres pendant :
-a) 3 mois
-b) 6 mois
-c) 12 mois
-d) 24 mois
-=c À condition d'être complété par des suppléments.
+?? [C] Dans une offre à prix ferme (OPF), si la demande excède l'offre :
+a) les ordres sont servis par réduction proportionnelle
+b) le prix est relevé
+c) l'offre est annulée
+=a Le prix est fixé à l'avance.
 
-?? La publication d'un supplément au prospectus ouvre aux investisseurs un droit de retrait de :
+?? [C] L'option de surallocation (greenshoe) permet d'augmenter la taille d'une offre d'au plus :
+a) 5 %
+b) 15 %
+c) 30 %
+=b Elle est exercée en cas de forte demande.
+
+?? [C] Un engagement de lock-up est :
+a) un engagement des actionnaires historiques de ne pas céder leurs titres pendant une durée déterminée
+b) une suspension de cotation
+c) une garantie de cours
+=a Il rassure le marché après l'introduction.
+
+?? [C] L'AMF approuve en principe un prospectus dans un délai de :
+a) 10 jours ouvrables, ou 20 pour un premier appel au marché
+b) 2 mois
+c) 48 heures
+=a Le document d'enregistrement universel accélère les approbations suivantes.
+
+?? [C] Un prospectus approuvé est valable pour d'autres offres pendant :
+a) 6 mois
+b) 12 mois
+c) 24 mois
+=b À condition d'être complété par des suppléments.
+
+?? [C] La publication d'un supplément au prospectus ouvre aux investisseurs un droit de retrait de :
 a) 24 heures
 b) trois jours ouvrables
 c) quatorze jours calendaires
-d) un mois
-=b Pour révoquer les ordres passés avant la publication.
+=b Pour révoquer les ordres passés avant sa publication.
 
-?? Est dispensée de prospectus une offre :
-a) adressée uniquement à des investisseurs qualifiés
-b) adressée à 500 particuliers dans un même État
-c) de 50 M€ adressée au public
-d) de toute admission sur un marché réglementé
-=a D'autres dispenses existent (moins de 150 personnes par État, petites offres…).
+?? [C] Est dispensée de prospectus une offre de titres dont la valeur nominale unitaire est d'au moins :
+a) 1 000 €
+b) 100 000 €
+c) 1 000 000 €
+=b D'autres dispenses existent (investisseurs qualifiés, moins de 150 personnes…).
 
-?? Une société émet 1 action nouvelle pour 5 anciennes au prix de 30 € ; le cours est de 42 €. La valeur théorique du DPS est de :
-a) 12 €
-b) 2 €
-c) 2,40 €
-d) 10 €
-=b (42 − 30) × 1 / 6 = 2 €.
+?? [C] Depuis le Listing Act, une émission d'actions fongibles avec des actions déjà admises est dispensée de prospectus si elle représente moins de :
+a) 10 % des titres déjà admis sur 12 mois
+b) 30 % des titres déjà admis sur 12 mois
+c) 50 % des titres déjà admis sur 12 mois
+=b Le seuil était auparavant de 20 %.
 
-?? Dans le même exemple, le cours théorique ex-droit est de :
+?? [C] Les plateformes de financement participatif proposant des titres ou des prêts aux entreprises sont :
+a) agréées par l'AMF comme prestataires de services de financement participatif
+b) libres de toute autorisation
+c) agréées par l'ESMA
+=a Règlement européen 2020/1503.
+
+?? [C] Un investisseur non averti sur une plateforme de financement participatif bénéficie d'un délai de réflexion de :
+a) 48 heures
+b) 4 jours calendaires
+c) 14 jours calendaires
+=b Il peut révoquer son offre sans frais ni motif.
+
+?? [C] Le montant maximal qu'un porteur de projet peut lever via les plateformes de financement participatif européennes est de :
+a) 1 M€ sur 12 mois
+b) 5 M€ sur 12 mois
+c) 12 M€ sur 12 mois
+=b Au-delà, d'autres régimes s'appliquent.
+
+?? [C] Une société émet 1 action nouvelle pour 5 anciennes au prix de 30 € ; le cours est de 42 €. La valeur théorique du DPS est de :
+a) 2 €
+b) 2,40 €
+c) 12 €
+=a (42 − 30) × 1 / 6 = 2 €.
+
+?? [C] Dans le même exemple, le cours théorique ex-droit est de :
 a) 40 €
 b) 42 €
 c) 36 €
-d) 30 €
-=a (5 × 42 + 30) / 6 = 240 / 6 = 40 €, soit 42 − 2.
+=a (5 × 42 + 30) / 6 = 40 €, soit 42 − 2.
 
-?? Le droit préférentiel de souscription :
-a) n'existe que pour les augmentations de capital par incorporation de réserves
-b) est détachable et négociable pendant la période de souscription
+?? [C] Le droit préférentiel de souscription :
+a) est détachable et négociable pendant la période de souscription
+b) n'existe que pour les augmentations de capital par incorporation de réserves
 c) ne peut jamais être supprimé
-d) est réservé aux actionnaires détenant plus de 5 %
-=b Il peut être supprimé par l'AGE.
+=a Il peut être supprimé par l'assemblée générale extraordinaire.
 
-?? Après une division du nominal par 10, un actionnaire qui détenait 50 actions à 300 € détient :
+?? [C] La période de souscription d'une augmentation de capital avec DPS ne peut être inférieure à :
+a) 2 jours de bourse
+b) 5 jours de bourse
+c) 30 jours de bourse
+=b Les droits sont négociables pendant cette période.
+
+?? [C] Après une division du nominal par 10, un actionnaire qui détenait 50 actions à 300 € détient en théorie :
 a) 50 actions à 30 €
-b) 500 actions à 30 € environ
+b) 500 actions à 30 €
 c) 500 actions à 300 €
-d) 5 actions à 3 000 €
-=b La valeur du portefeuille (15 000 €) est inchangée en théorie.
+=b La valeur du portefeuille (15 000 €) est inchangée.
 
-?? Pour percevoir un dividende, un investisseur doit avoir acheté l'action au plus tard :
+?? [C] Pour percevoir un dividende, un investisseur doit avoir acheté l'action au plus tard :
 a) le jour du détachement
 b) la veille du jour du détachement
 c) le jour de la mise en paiement
-d) le jour de l'assemblée générale
 =b Le jour du détachement, l'action cote sans le dividende.
 
-?? Le dépôt d'une offre publique est obligatoire lorsqu'une personne vient à détenir plus de :
+?? [C] Avec un cycle de règlement à J+2, la date d'arrêté des positions (record date) d'un dividende intervient :
+a) la veille du détachement
+b) un jour ouvré après la date de détachement
+c) le jour de l'assemblée générale
+=b Avec J+1, elle coïncidera avec la date de détachement.
+
+?? [C] Le dépôt d'une offre publique est obligatoire lorsqu'une personne vient à détenir plus de :
 a) 25 % du capital ou des droits de vote
 b) 30 % du capital ou des droits de vote
-c) 33,33 % du capital ou des droits de vote
-d) 50 % du capital ou des droits de vote
-=b Ou lorsque, entre 30 % et 50 %, elle augmente sa participation de plus de 1 % en moins de douze mois.
+c) 50 % du capital ou des droits de vote
+=b Pour les sociétés cotées sur un marché réglementé.
 
-?? Le retrait obligatoire est possible lorsque les actionnaires minoritaires ne détiennent pas plus de :
-a) 5 % du capital et des droits de vote
-b) 10 % du capital et des droits de vote
-c) 15 % du capital et des droits de vote
-d) 33 % du capital et des droits de vote
-=b Seuil issu de la loi Pacte de 2019.
+?? [C] Une personne qui détient 40 % des droits de vote d'une société cotée et augmente sa participation de 2 % en six mois :
+a) n'a aucune obligation
+b) doit déposer une offre publique
+c) perd ses droits de vote
+=b C'est l'« excès de vitesse » : au moins 1 % en moins de douze mois entre 30 et 50 %.
 
-?? Une offre publique est caduque si, à sa clôture, l'initiateur ne détient pas plus de :
+?? [C] Une offre publique en procédure normale dure au moins :
+a) 10 jours de bourse
+b) 25 jours de bourse
+c) 3 mois
+=b La procédure simplifiée est plus courte.
+
+?? [C] Une offre publique est caduque si, à sa clôture, l'initiateur ne détient pas plus de :
 a) 30 % du capital ou des droits de vote
 b) 50 % du capital ou des droits de vote
-c) 66,67 % du capital ou des droits de vote
-d) 90 % du capital ou des droits de vote
+c) 90 % du capital ou des droits de vote
 =b C'est le seuil de caducité.
 
-?? Un programme de rachat d'actions est limité à :
+?? [C] Le retrait obligatoire est possible lorsque les minoritaires ne détiennent pas plus de :
+a) 5 % du capital et des droits de vote
+b) 10 % du capital et des droits de vote
+c) 25 % du capital et des droits de vote
+=b Seuil issu de la loi PACTE de 2019.
+
+?? [C] Dans une fusion-absorption, les actionnaires de la société absorbée :
+a) reçoivent des actions de la société absorbante selon une parité d'échange
+b) perdent leurs titres sans contrepartie
+c) reçoivent obligatoirement du numéraire
+=a Un commissaire à la fusion se prononce sur la parité.
+
+?? [C] Un programme de rachat d'actions est limité à :
 a) 5 % du capital, pour 12 mois
 b) 10 % du capital, pour 18 mois au maximum
 c) 20 % du capital, pour 24 mois
-d) 10 % du capital, sans limite de durée
 =b Les actions autodétenues sont privées de droit de vote et de dividende.
 
-?? En assemblée générale extraordinaire, les décisions sont prises à la majorité :
+?? [C] En assemblée générale extraordinaire, les décisions sont prises à la majorité :
 a) simple des voix exprimées
 b) des deux tiers des voix exprimées
 c) des trois quarts des actionnaires présents
-d) de l'unanimité
 =b Le quorum est d'un quart sur première convocation.
 
-?? Le rapport financier annuel d'une société cotée doit être publié dans un délai de :
-a) 2 mois suivant la clôture
-b) 3 mois suivant la clôture
-c) 4 mois suivant la clôture
-d) 6 mois suivant la clôture
-=c Le rapport semestriel doit l'être dans les 3 mois suivant la fin du semestre.
+?? [C] En assemblée générale ordinaire sur deuxième convocation, le quorum requis est de :
+a) un cinquième des actions
+b) un quart des actions
+c) aucun quorum
+=c Sur première convocation, il est d'un cinquième.
+
+?? [C] Le rapport financier annuel d'une société cotée doit être publié dans un délai de :
+a) 3 mois suivant la clôture
+b) 4 mois suivant la clôture
+c) 6 mois suivant la clôture
+=b Le rapport semestriel doit l'être dans les 3 mois suivant la fin du semestre.
