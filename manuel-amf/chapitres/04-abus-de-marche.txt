@@ -1,211 +1,382 @@
 # Thème 4 — Réglementation « abus de marché »
 
-## Ce que l'examen attend
+o> À la fin de ce chapitre, vous saurez :
+- définir l'information privilégiée par ses quatre critères et l'appliquer à des cas concrets ;
+- distinguer les trois abus de marché : opération d'initié, divulgation illicite, manipulation de marché ;
+- connaître les exceptions (rachats d'actions, stabilisation, pratiques de marché admises, sondages de marché) ;
+- maîtriser les obligations des émetteurs (publication, différé, listes d'initiés, opérations des dirigeants) et des professionnels (déclaration STOR) ;
+- connaître les sanctions et l'articulation entre AMF et juge pénal, ainsi que les déclarations de franchissement de seuils.
+Poids à l'examen : environ **2 questions**, souvent de **catégorie A**.
 
-Savoir définir l'information privilégiée et les trois grandes catégories d'abus de marché, connaître les obligations des émetteurs (publication, listes d'initiés, opérations des dirigeants), celles des professionnels (détection et déclaration des opérations suspectes) et les sanctions, administratives et pénales.
+## 1. Pourquoi sanctionner les abus de marché ?
 
-## 1. Le cadre juridique
+Un marché financier n'attire les investisseurs que s'ils ont confiance dans l'**égalité d'accès à l'information** et dans la **sincérité des prix**. Si certains peuvent acheter avant tout le monde grâce à une information secrète, ou faire monter un cours artificiellement, les autres investisseurs se retirent, le marché perd sa liquidité et les entreprises se financent plus cher.
 
-Le **règlement MAR** (Market Abuse Regulation, n° 596/2014), directement applicable depuis le **3 juillet 2016**, définit les abus de marché et les obligations de prévention. La **directive 2014/57/UE** (MAD) impose aux États de prévoir des sanctions pénales. En France, la répression pénale figure aux articles **L. 465-1 et suivants du CMF**, la répression administrative relève de l'AMF.
+c> L'abus de marché ne se limite pas aux « délits d'initiés » des grands dirigeants. Il concerne **toute personne** : un conseiller bancaire qui entend parler d'une OPA à venir, un salarié d'une agence de communication qui prépare un communiqué, un internaute qui diffuse une fausse rumeur sur un forum. Les professionnels sont aussi en première ligne pour **détecter** ces abus chez leurs clients.
 
-Champ d'application : les instruments financiers admis ou en cours d'admission sur un **marché réglementé**, négociés sur un **MTF** ou un **OTF**, ainsi que ceux dont le prix dépend de ces instruments (dérivés, CDS…), quel que soit le lieu où l'opération est réalisée. Les **indices de référence** (benchmarks) et les **quotas d'émission** sont également couverts. Les abus de marché sur crypto-actifs relèvent, eux, du règlement **MiCA**, qui reprend une logique très proche.
+## 2. Le cadre juridique
 
-## 2. L'information privilégiée
-
-Une information est privilégiée lorsqu'elle remplit **quatre conditions cumulatives** :
-
-| Critère | Signification |
+| Texte | Rôle |
 |---|---|
-| Précise | Elle fait mention d'événements survenus ou susceptibles raisonnablement de survenir, assez précis pour en tirer une conclusion sur l'effet possible sur les cours |
-| Non publique | Elle n'a pas été rendue publique |
-| Concerne un émetteur ou un instrument | Directement ou indirectement |
-| Influence sensible | Si elle était rendue publique, elle serait susceptible d'influencer de façon sensible le cours (un investisseur raisonnable l'utiliserait pour fonder sa décision) |
+| **Règlement MAR** (n° 596/2014), applicable depuis le **3 juillet 2016** | Définit les abus de marché, les exceptions et les obligations de prévention ; directement applicable ; modifié par le **Listing Act** (2024) |
+| **Directive MAD** (2014/57/UE) | Impose aux États des sanctions **pénales** |
+| CMF, art. **L. 465-1 et suivants** | Délits boursiers (sanctions pénales) |
+| CMF, art. **L. 621-15** et livre VI du RGAMF | Sanctions administratives de l'AMF |
+| Règlement **MiCA** | Régime d'abus de marché propre aux **crypto-actifs** |
 
-Une **étape intermédiaire** d'un processus qui se déroule en plusieurs étapes (négociation d'une fusion, par exemple) peut constituer à elle seule une information privilégiée si elle remplit ces critères.
+### Le champ d'application
 
-!> Il n'est pas nécessaire de savoir dans quel sens le cours va réagir pour qu'une information soit « précise ». Il suffit qu'on puisse en tirer une conclusion sur l'effet possible sur le cours.
+MAR s'applique aux instruments financiers :
 
-## 3. Les trois catégories d'abus de marché
+- admis ou en cours d'admission sur un **marché réglementé** ;
+- négociés ou admis sur un **système multilatéral de négociation** (SMN, par exemple Euronext Growth) ou un **système organisé de négociation** (SON) ;
+- ainsi qu'aux instruments dont le prix dépend de ces instruments (**dérivés**, CDS…), **quel que soit le lieu** où la transaction est réalisée, même de gré à gré.
 
-### Les opérations d'initiés
+Il couvre aussi les **quotas d'émission** de gaz à effet de serre et la manipulation des **indices de référence** (comme l'Euribor).
 
-- **Utiliser** une information privilégiée en acquérant ou cédant (ou en tentant d'acquérir ou de céder), pour son compte ou pour autrui, les instruments concernés ; **annuler ou modifier** un ordre passé avant de détenir l'information est aussi visé ;
-- **recommander** à un tiers d'effectuer une telle opération, ou l'**inciter** à le faire ;
-- la **divulgation illicite** : communiquer l'information privilégiée à un tiers en dehors du cadre normal de son travail, de sa profession ou de ses fonctions.
+!> Un abus de marché peut être commis **hors marché** : une opération de gré à gré sur un dérivé dont le sous-jacent est une action cotée est couverte par MAR.
 
-Est initié **toute personne** qui détient une information privilégiée et sait ou devrait savoir qu'il s'agit d'une information privilégiée : dirigeants et administrateurs (initiés « primaires »), mais aussi toute personne qui l'a obtenue de quelque façon que ce soit, y compris de manière fortuite.
+## 3. L'information privilégiée
 
-### Les manipulations de marché
+d> Une **information privilégiée** est une information **à caractère précis**, qui **n'a pas été rendue publique**, qui concerne, directement ou indirectement, un ou plusieurs **émetteurs** ou un ou plusieurs **instruments financiers**, et qui, si elle était rendue publique, serait susceptible d'**influencer de façon sensible le cours** des instruments concernés ou de leurs dérivés.
 
-- passer des ordres ou effectuer des opérations donnant des **indications fausses ou trompeuses** sur l'offre, la demande ou le cours, ou **fixant le cours à un niveau anormal ou artificiel** ;
-- recourir à des **procédés fictifs** ou à toute forme de tromperie ;
-- **diffuser des informations fausses ou trompeuses** (y compris par internet et les réseaux sociaux, rumeurs) alors que leur auteur savait ou aurait dû savoir qu'elles l'étaient ;
-- manipuler le calcul d'un **indice de référence**.
+| Critère | Signification | Exemple |
+|---|---|---|
+| **Précise** | Elle mentionne un ensemble de circonstances ou un événement survenu ou qui peut raisonnablement survenir, suffisamment précis pour en tirer une conclusion sur l'effet possible sur les cours | « La société X va recevoir une offre d'achat à 45 € par action » est précis ; « le secteur pourrait se consolider un jour » ne l'est pas |
+| **Non publique** | Elle n'a pas été diffusée au public par un canal effectif | Une information connue de quelques dirigeants et conseils |
+| **Concerne un émetteur ou un instrument** | Directement (résultats, contrat) ou indirectement (décision d'une autorité, d'un concurrent, d'un client important) | La perte d'un contrat majeur ; la décision d'un régulateur d'autoriser un médicament |
+| **Influence sensible** | Un **investisseur raisonnable** serait susceptible de l'utiliser pour fonder sa décision d'investissement | Des résultats très éloignés du consensus, une acquisition majeure, une difficulté de financement |
 
-Exemples de pratiques manipulatoires : achats massifs en fin de séance pour fixer un cours de clôture (« marking the close ») ; ordres passés et annulés sans intention d'exécution (« spoofing », « layering ») ; transactions croisées entre comptes liés sans changement réel de propriétaire (« wash trades ») ; diffusion d'une fausse rumeur pour vendre après la hausse (« pump and dump »).
+!> Il n'est **pas nécessaire** de savoir dans quel **sens** le cours réagira pour qu'une information soit précise : il suffit de pouvoir en tirer une conclusion sur l'effet **possible** sur le cours. Il n'est pas non plus nécessaire que l'événement soit certain : il suffit qu'il puisse **raisonnablement** survenir.
 
-### La divulgation illicite d'informations privilégiées
+### Les processus en plusieurs étapes
 
-Traitée ci-dessus : elle est une infraction autonome, même si le destinataire n'utilise pas l'information.
+Dans un processus qui se déroule par étapes (négociation d'une fusion pendant plusieurs mois, par exemple), une **étape intermédiaire** peut elle-même constituer une information privilégiée si elle remplit les critères : l'interdiction d'utiliser l'information s'applique dès cette étape.
 
-## 4. Les exceptions et « ports sûrs »
+## 4. Les trois abus de marché
 
-- **Programmes de rachat d'actions** et **stabilisation** d'un cours après une émission : ne constituent pas un abus de marché s'ils respectent les conditions de MAR (transparence, limites de volumes et de prix) ;
-- **Pratiques de marché admises** (PMA) par l'autorité nationale, par exemple les **contrats de liquidité** conclus entre un émetteur et un prestataire, reconnus par l'AMF ;
-- **Sondages de marché** (« market soundings ») : communication d'informations à des investisseurs potentiels avant une opération, licite si la procédure de MAR est respectée (consentement, enregistrement, information sur le moment où l'information cesse d'être privilégiée).
+### L'opération d'initié
 
-## 5. Les obligations des émetteurs
+d> Il y a **opération d'initié** lorsqu'une personne détient une information privilégiée et l'**utilise** en acquérant ou en cédant, pour son compte ou pour le compte d'autrui, directement ou indirectement, les instruments financiers auxquels elle se rapporte.
+
+Sont aussi visés :
+
+- l'**annulation ou la modification** d'un ordre passé avant de détenir l'information, lorsqu'elle est décidée grâce à l'information ;
+- le fait de **recommander** à une autre personne d'effectuer une opération d'initié, ou de l'**inciter** à le faire, sur la base de l'information ;
+- l'**utilisation** d'une telle recommandation par celui qui sait qu'elle repose sur une information privilégiée ;
+- la **tentative**.
+
+Est initié **toute personne** qui détient une information privilégiée en sachant, ou en devant savoir, qu'il s'agit d'une information privilégiée :
+
+| Type d'initié | Exemples |
+|---|---|
+| Du fait de sa **fonction** dans l'émetteur | Dirigeants, administrateurs, membres de l'organe de surveillance |
+| Du fait de sa **participation** au capital | Actionnaire important |
+| Du fait de sa **profession** ou de ses **fonctions** | Banquier conseil, avocat, commissaire aux comptes, salarié, journaliste, imprimeur |
+| Du fait d'**activités criminelles** | Piratage informatique |
+| **Toute autre personne** | Le proche à qui un dirigeant se confie, la personne qui surprend une conversation, si elle sait ou devrait savoir que l'information est privilégiée |
+
+i> Un conseiller bancaire apprend, lors d'un déjeuner, par un ami directeur financier, que sa société cotée va annoncer la semaine suivante des pertes très supérieures aux prévisions. Il vend le lendemain les actions de cette société qu'il détient et conseille à sa sœur de faire de même.
+- Le directeur financier commet une **divulgation illicite** (communication hors du cadre normal de ses fonctions).
+- Le conseiller commet une **opération d'initié** (vente fondée sur l'information) et une **recommandation** fondée sur une information privilégiée.
+- La sœur, si elle savait ou devait savoir que le conseil reposait sur une information privilégiée, commet elle aussi une opération d'initié.
+
+### La divulgation illicite d'information privilégiée
+
+d> La **divulgation illicite** consiste à communiquer une information privilégiée à une autre personne, **sauf** lorsque cette communication a lieu dans le **cadre normal** de l'exercice d'un travail, d'une profession ou de fonctions.
+
+C'est une infraction **autonome** : elle est constituée même si le destinataire n'utilise pas l'information. La communication à un avocat ou à une banque conseil qui en ont besoin pour l'opération est normale ; la confidence à un ami ne l'est pas.
+
+### La manipulation de marché
+
+d> La **manipulation de marché** consiste notamment à : effectuer une opération, passer un ordre ou adopter un comportement qui donne ou est susceptible de donner des **indications fausses ou trompeuses** sur l'offre, la demande ou le cours d'un instrument, ou qui **fixe le cours à un niveau anormal ou artificiel** ; recourir à des **procédés fictifs** ou à toute autre forme de tromperie ; **diffuser des informations fausses ou trompeuses** alors que leur auteur savait ou aurait dû savoir qu'elles l'étaient ; manipuler le calcul d'un **indice de référence**.
+
+| Pratique | Description |
+|---|---|
+| **Marking the close** | Acheter ou vendre massivement juste avant la clôture pour fixer un cours de clôture artificiel (valorisation d'un portefeuille, d'un produit structuré) |
+| **Spoofing / layering** | Passer de nombreux ordres sans intention de les exécuter, pour créer une fausse impression d'offre ou de demande, puis les annuler |
+| **Wash trades** | Transactions croisées entre comptes liés, sans changement réel de propriétaire, pour simuler une activité |
+| **Pump and dump** | Faire monter le cours (rumeurs, achats) puis vendre au plus haut |
+| **Trash and cash** | L'inverse : faire baisser le cours par de fausses mauvaises nouvelles, puis racheter au plus bas |
+| **Abusive squeeze** | Profiter d'une position dominante sur l'offre ou la demande pour imposer des prix anormaux |
+| **Diffusion de fausses informations** | Communiqués trompeurs, rumeurs sur les réseaux sociaux, faux communiqués d'émetteur |
+
+!> La diffusion d'une fausse information est une manipulation **même si son auteur n'a réalisé aucune transaction** : il suffit qu'il ait su ou dû savoir que l'information était fausse ou trompeuse. Les journalistes bénéficient d'un régime adapté, tenant compte de la liberté de la presse, sauf s'ils en tirent un avantage.
+
+m> Les **trois abus** : **U**tiliser (initié), **D**ivulguer (divulgation illicite), **M**anipuler. « **U-D-M** ».
+
+## 5. Les exceptions et présomptions de légitimité
+
+| Mécanisme | Conditions |
+|---|---|
+| **Programmes de rachat d'actions** (*safe harbour*) | Programme autorisé par l'assemblée générale (thème 11), objectif autorisé (réduction de capital, couverture de plans d'actionnariat salarié, titres de créance convertibles), information du public, limites de **prix** et de **volume** (en principe pas plus de **25 %** du volume quotidien moyen), déclarations des opérations |
+| **Stabilisation** après une émission (*safe harbour*) | Pendant une durée limitée (au plus **30 jours** après une introduction en bourse), à un prix ne dépassant pas le prix de l'offre, avec information du public |
+| **Pratiques de marché admises** (PMA) | Pratiques reconnues par l'autorité nationale ; en France, le **contrat de liquidité** sur actions, conclu par un émetteur avec un prestataire qui anime le titre dans des limites fixées par l'AMF |
+| **Sondages de marché** (*market soundings*) | Communication d'informations à des investisseurs potentiels avant une opération, pour en évaluer l'intérêt : licite si la procédure de MAR est respectée (consentement de l'investisseur sondé, enregistrement des échanges, information sur le moment où l'information cesse d'être privilégiée) |
+| **Comportements légitimes** | Exécution d'un ordre d'un client par un intermédiaire de bonne foi ; teneur de marché agissant dans le cadre normal de son activité ; exécution d'un engagement antérieur à la détention de l'information ; acquisition dans le cadre d'une offre publique |
+
+!> Ces exceptions sont des **présomptions** : elles ne protègent que si **toutes** les conditions sont respectées. Un programme de rachat qui dépasse les limites de volume ne bénéficie plus de la protection.
+
+## 6. Les obligations des émetteurs
 
 ### Publier l'information privilégiée
 
-L'émetteur rend publique **dès que possible** toute information privilégiée qui le concerne directement, par un communiqué diffusé de manière effective et intégrale, et la met en ligne sur son site pendant au moins 5 ans.
+L'émetteur rend publique, **dès que possible**, toute information privilégiée qui le concerne directement, par un communiqué diffusé de manière effective et intégrale (diffuseur professionnel), et la conserve sur son site internet pendant au moins **5 ans**. Il ne doit pas combiner cette publication avec la commercialisation de ses activités.
 
-Le **Listing Act** a assoupli cette obligation pour les processus qui se déroulent en plusieurs étapes (une fusion négociée sur plusieurs mois, par exemple) : seul l'événement final, ou les circonstances finales, doivent être publiés, et non chaque étape intermédiaire. Attention : une étape intermédiaire peut rester une information privilégiée au sens de la définition, et l'interdiction d'en faire usage (opération d'initié) demeure pleinement applicable.
+Le **Listing Act** a précisé l'obligation pour les **processus en plusieurs étapes** : l'émetteur n'a à publier que l'**événement final** (la signature de l'accord de fusion, par exemple), et non chaque étape intermédiaire. Mais attention :
 
-Il peut **différer** la publication, sous sa propre responsabilité, si trois conditions sont réunies : la publication immédiate porterait atteinte à ses intérêts légitimes ; le retard n'est pas susceptible d'induire le public en erreur ; il peut assurer la confidentialité de l'information. L'AMF est informée du différé au moment de la publication.
+> L'allègement porte sur l'obligation de **publier**, pas sur l'interdiction d'**utiliser** : une étape intermédiaire qui remplit les critères reste une information privilégiée, et les initiés ne peuvent pas opérer.
 
-### Tenir des listes d'initiés
+### Différer la publication
 
-L'émetteur (et les personnes agissant pour son compte : banques conseils, avocats, agences de communication) établit et tient à jour la **liste des personnes ayant accès à des informations privilégiées**, avec la date et l'heure de l'accès. Elle est transmise à l'AMF sur demande et conservée **5 ans**. Les personnes inscrites sont informées de leurs obligations par écrit.
+L'émetteur peut, **sous sa propre responsabilité**, différer la publication d'une information privilégiée si les conditions suivantes sont réunies :
+
+1. la publication immédiate est susceptible de porter atteinte à ses **intérêts légitimes** (négociations en cours, par exemple) ;
+2. l'information à différer n'est **pas en contradiction** avec la dernière annonce publique de l'émetteur sur le même sujet (condition introduite par le Listing Act, qui remplace l'ancien critère « ne pas induire le public en erreur ») ;
+3. il est en mesure d'assurer la **confidentialité** de l'information.
+
+Il informe l'**AMF** du différé au moment de la publication. Si la confidentialité n'est plus assurée (rumeur précise, fuite), il doit publier **immédiatement**.
+
+### Tenir les listes d'initiés
+
+L'émetteur, et les personnes agissant pour son compte (banques conseils, avocats, agences de communication), établissent et tiennent à jour la **liste des personnes ayant accès à des informations privilégiées**, avec l'identité, la raison de l'inscription, la **date et l'heure** de l'accès. La liste comprend une section des **initiés permanents**.
+
+- Elle est transmise à l'AMF **sur demande** et conservée au moins **5 ans** ;
+- les personnes inscrites reconnaissent **par écrit** leurs obligations et les sanctions encourues.
 
 ### Déclarer les opérations des dirigeants
 
-Les **personnes exerçant des responsabilités dirigeantes (PDMR)** et les personnes qui leur sont étroitement liées déclarent leurs opérations sur les titres de l'émetteur :
+Les **personnes exerçant des responsabilités dirigeantes** (PDMR : membres des organes d'administration, de direction ou de surveillance, et cadres dirigeants ayant accès à des informations privilégiées et le pouvoir de prendre des décisions de gestion) et les **personnes qui leur sont étroitement liées** (conjoint ou partenaire, enfants à charge, parents vivant sous le même toit depuis au moins un an, sociétés qu'elles dirigent ou contrôlent) déclarent leurs opérations sur les titres de l'émetteur.
 
 | Règle | Contenu |
 |---|---|
-| Délai | Dans les **3 jours ouvrés** suivant l'opération, à l'émetteur et à l'AMF |
-| Seuil | Au-delà d'un montant cumulé de **20 000 €** par année civile depuis la réforme du Listing Act (seuil auparavant de 5 000 €, modulable par les autorités nationales entre 10 000 et 50 000 €) |
-| Période d'arrêt | Interdiction d'opérer pendant les **30 jours calendaires** précédant la publication d'un rapport financier intermédiaire ou annuel (« fenêtre négative »), sauf exceptions |
+| Destinataires | L'**émetteur** et l'**AMF**, qui publie la déclaration |
+| Délai | **3 jours ouvrés** suivant l'opération |
+| Seuil | Au-delà d'un montant cumulé de **20 000 €** par année civile (seuil relevé par le Listing Act ; l'autorité nationale peut le fixer entre 10 000 € et 50 000 €) |
+| Fenêtre négative (*closed period*) | Interdiction d'opérer pendant les **30 jours calendaires** précédant l'annonce d'un rapport financier **intermédiaire ou annuel** que l'émetteur est tenu de publier, sauf exceptions limitées (circonstances exceptionnelles, plans salariaux, opérations sans décision d'investissement du dirigeant) |
 
-!> La fenêtre négative de 30 jours s'applique **même** à un dirigeant qui ne détient aucune information privilégiée. C'est une règle préventive, indépendante de l'interdiction des opérations d'initiés.
+!> La fenêtre négative de 30 jours s'applique **même** à un dirigeant qui ne détient **aucune** information privilégiée. C'est une règle **préventive**, distincte de l'interdiction des opérations d'initiés, qui, elle, s'applique **à tout moment** dès que l'on détient une information privilégiée.
 
-## 6. Les obligations des professionnels
+## 7. Les obligations des professionnels
 
-Les prestataires et les opérateurs de plateformes doivent mettre en place des dispositifs de **détection** et **déclarer sans délai à l'AMF** toute opération ou ordre (y compris annulé) suspect de constituer un abus de marché : c'est la **déclaration d'ordres et de transactions suspects (STOR)**. Comme la déclaration de soupçon LCB-FT, elle est **confidentielle** : le client n'en est pas informé.
+Les prestataires qui organisent ou exécutent des transactions à titre professionnel, ainsi que les opérateurs de marché, doivent :
 
-Les établissements tiennent aussi leurs **listes de surveillance et d'interdiction**, encadrent les **transactions personnelles** et organisent les **barrières à l'information** (voir thème 2).
+- mettre en place des **dispositifs de détection** des abus de marché (outils automatisés d'alertes, analyse par la conformité) ;
+- **déclarer sans délai à l'AMF** tout ordre ou toute transaction, **y compris un ordre annulé ou non exécuté**, dont ils ont des raisons de suspecter qu'il pourrait constituer un abus de marché : c'est la **déclaration d'ordres et de transactions suspects** (**STOR**, *suspicious transaction and order report*).
 
-## 7. Les sanctions
+Comme la déclaration de soupçon LCB-FT, la STOR est **confidentielle** : la personne concernée n'en est pas informée. Les établissements tiennent aussi leurs listes de surveillance et d'interdiction, encadrent les transactions personnelles et organisent les barrières à l'information (thème 2).
+
+| | Déclaration de soupçon (LCB-FT) | Déclaration STOR (abus de marché) |
+|---|---|---|
+| Destinataire | **Tracfin** | **AMF** |
+| Objet | Blanchiment, financement du terrorisme, fraude fiscale | Opération d'initié, manipulation de marché (et tentatives) |
+| Confidentialité | Oui, interdiction d'informer le client | Oui |
+
+## 8. La surveillance et les sanctions
+
+L'AMF surveille les marchés grâce aux **déclarations de transactions** que lui transmettent les prestataires (MiFIR), aux STOR et à ses propres outils de détection. Elle mène des **enquêtes** (thème 1).
 
 ### Une double voie, sans cumul
 
-Un même fait peut relever d'une **sanction administrative** (AMF) ou d'une **sanction pénale** (juge pénal, sur poursuites du Parquet national financier). Depuis la **loi du 21 juin 2016**, prise après une décision du Conseil constitutionnel de 2015 (affaire EADS) interdisant le cumul des poursuites, un mécanisme de **concertation (« aiguillage »)** entre le PNF et l'AMF détermine la voie choisie.
+Un même fait peut relever d'une **sanction administrative** (Commission des sanctions de l'AMF) ou d'une **sanction pénale** (tribunal correctionnel, sur poursuites du **Parquet national financier**). À la suite d'une décision du Conseil constitutionnel de 2015 (affaire EADS) interdisant le cumul des poursuites pour les mêmes faits, la **loi du 21 juin 2016** a créé un mécanisme d'**aiguillage** : le PNF et l'AMF se concertent pour choisir **une seule** voie ; en cas de désaccord, le procureur général près la cour d'appel de Paris tranche.
 
 | Voie | Sanction maximale |
 |---|---|
-| Pénale (art. L. 465-1 et s. CMF) | **5 ans d'emprisonnement** et **100 millions d'euros** d'amende, ce montant pouvant être porté au **décuple de l'avantage** retiré ; amende quintuplée pour les personnes morales |
-| Administrative (AMF) | **100 millions d'euros** ou le décuple de l'avantage retiré ; jusqu'à **15 % du chiffre d'affaires** annuel pour une personne morale |
+| **Pénale** (délits d'initié, de divulgation illicite, de manipulation : art. L. 465-1 et s. du CMF) | **5 ans** d'emprisonnement et **100 millions d'euros** d'amende, montant pouvant être porté jusqu'au **décuple de l'avantage** retiré ; amende jusqu'à **cinq fois** plus élevée pour les personnes morales |
+| **Administrative** (AMF) | **100 millions d'euros** ou **dix fois** l'avantage retiré ; pour une personne morale, jusqu'à **15 % du chiffre d'affaires** annuel total |
 
-## 8. Les déclarations de franchissement de seuils
+Les manquements aux obligations **préventives** (listes d'initiés, déclarations des dirigeants, publication de l'information) sont également sanctionnables par l'AMF.
 
-Liées à la transparence du marché (et traitées aussi au thème 11), elles permettent de détecter les prises de contrôle rampantes. Toute personne qui franchit, à la hausse ou à la baisse, les seuils de **5 %, 10 %, 15 %, 20 %, 25 %, 30 %, 1/3, 50 %, 2/3, 90 % et 95 %** du capital ou des droits de vote d'une société cotée sur un marché réglementé en informe la société et l'AMF au plus tard avant la clôture du **4e jour de négociation** suivant le franchissement.
+## 9. Les déclarations de franchissement de seuils
 
-Au franchissement des seuils de 10 %, 15 %, 20 % et 25 %, le déclarant précise ses **intentions** pour les six mois à venir. Les statuts peuvent prévoir des seuils supplémentaires à partir de 0,5 %. Le défaut de déclaration est sanctionné par la **privation des droits de vote** excédant la fraction non déclarée pendant deux ans.
+Ces déclarations relèvent de la **transparence** des marchés (code de commerce, art. L. 233-7) plus que des abus de marché, mais elles sont souvent étudiées ensemble : elles permettent au marché et à la société de connaître la montée d'un actionnaire au capital et de détecter les prises de contrôle « rampantes ».
+
+| Règle | Contenu |
+|---|---|
+| Seuils légaux (marché réglementé) | **5 %, 10 %, 15 %, 20 %, 25 %, 30 %, 1/3, 50 %, 2/3, 90 % et 95 %** du capital **ou** des droits de vote, à la hausse comme à la baisse |
+| Calcul | Actions détenues **seul ou de concert**, plus certaines actions **assimilées** (accords ou instruments donnant droit à acquérir des actions, dérivés à dénouement en espèces…) |
+| Destinataires | La **société** et l'**AMF**, qui publie la déclaration |
+| Délai | Au plus tard avant la **clôture du 4e jour de négociation** suivant le franchissement |
+| Déclaration d'intention | Au franchissement des seuils de **10 %, 15 %, 20 % et 25 %** : intentions pour les **six mois** à venir (poursuite des achats, prise de contrôle, stratégie, demande de sièges au conseil…) |
+| Seuils statutaires | Les statuts peuvent prévoir des seuils supplémentaires, à partir de **0,5 %**, déclarés à la société |
+| Sanction | **Privation des droits de vote** excédant la fraction non déclarée, pendant **deux ans** suivant la régularisation, et sanctions de l'AMF |
+| Euronext Growth | Seuls les seuils de **50 %** et **95 %** sont légalement applicables (les statuts peuvent en prévoir d'autres) |
+
+i> Un fonds détient 9,2 % du capital d'une société cotée sur Euronext Paris. Le lundi, il achète 1,1 % supplémentaire : il détient 10,3 %. Il franchit le seuil de 10 % : il doit le déclarer à la société et à l'AMF avant la clôture du jeudi (4e jour de négociation), et préciser ses intentions pour les six mois à venir.
+
+## L'essentiel
+
+> - **MAR** (règlement, 3 juillet 2016) : marchés réglementés, SMN, SON et instruments liés, **même hors marché** ; aussi indices de référence et quotas d'émission.
+> - Information privilégiée : **précise, non publique, concernant un émetteur ou un instrument, susceptible d'influencer sensiblement le cours** (investisseur raisonnable). Pas besoin de connaître le sens de la variation.
+> - Trois abus : **opération d'initié** (utiliser, y compris annuler ou modifier un ordre, recommander, inciter), **divulgation illicite** (hors du cadre normal des fonctions, même sans utilisation), **manipulation** (ordres trompeurs, procédés fictifs, fausses informations, indices).
+> - Initié : **toute personne** qui sait ou devrait savoir.
+> - Exceptions : rachats d'actions (25 % du volume), stabilisation (30 jours), **contrat de liquidité** (pratique de marché admise), sondages de marché, comportements légitimes — si **toutes** les conditions sont respectées.
+> - Émetteur : publication **dès que possible** ; **différé** possible (intérêts légitimes, pas de contradiction avec la dernière annonce, confidentialité) avec information de l'AMF ; listes d'initiés conservées **5 ans**.
+> - Dirigeants : déclaration sous **3 jours ouvrés** au-delà de **20 000 €** par an ; **fenêtre négative de 30 jours** avant les résultats annuels et semestriels, même sans information privilégiée.
+> - Professionnels : **STOR** à l'**AMF**, sans délai, même pour un ordre non exécuté ; confidentielle.
+> - Sanctions : pénal **5 ans / 100 M€** (ou 10 × l'avantage) ; AMF **100 M€** ou 10 × l'avantage, **15 % du CA** pour une personne morale ; **pas de cumul** (loi du 21 juin 2016).
+> - Seuils : **5, 10, 15, 20, 25, 30, 1/3, 50, 2/3, 90, 95 %** ; déclaration avant la clôture du **4e jour de négociation** ; intentions à **10, 15, 20, 25 %** ; sanction : privation des droits de vote pendant **2 ans**.
 
 ## QCM d'entraînement
 
-?? Une information privilégiée doit être :
-a) précise, publique et concerner un émetteur
-b) précise, non publique, concerner un émetteur ou un instrument, et susceptible d'influencer sensiblement le cours
-c) chiffrée et certaine
-d) diffusée par l'émetteur
-=b Les quatre critères sont cumulatifs.
+?? [A] Pour qu'une information soit privilégiée, elle doit notamment :
+a) être précise, non publique et susceptible d'influencer sensiblement le cours
+b) avoir été publiée par l'émetteur
+c) permettre de savoir avec certitude si le cours montera ou baissera
+=a Il n'est pas nécessaire de connaître le sens de la variation du cours.
 
-?? Un ami d'un dirigeant apprend fortuitement, lors d'un dîner, une fusion non annoncée et achète des actions. Il :
-a) n'est pas concerné car il n'est pas dirigeant
-b) commet une opération d'initié s'il savait ou devait savoir qu'il s'agissait d'une information privilégiée
-c) commet une manipulation de cours
-d) ne risque rien car l'information n'était pas écrite
-=b Toute personne détenant sciemment une information privilégiée est initiée, quelle que soit la manière dont elle l'a obtenue.
+?? [A] Le critère de l'influence sensible sur le cours s'apprécie au regard :
+a) de la variation effectivement constatée le lendemain
+b) de l'usage qu'en ferait un investisseur raisonnable pour fonder sa décision
+c) de l'avis de l'émetteur
+=b C'est le test de l'investisseur raisonnable.
 
-?? Passer puis annuler massivement des ordres sans intention de les exécuter afin de faire bouger les cours est :
+?? [A] Le règlement MAR s'applique à une opération de gré à gré sur un dérivé dont le sous-jacent est une action cotée sur Euronext Paris :
+a) non, car l'opération n'a pas lieu sur un marché
+b) oui, MAR couvre les instruments dont le prix dépend d'instruments cotés, quel que soit le lieu de la transaction
+c) seulement si le montant dépasse 1 million d'euros
+=b Le lieu de la transaction est indifférent.
+
+?? [A] L'annulation d'un ordre de bourse, décidée grâce à une information privilégiée obtenue après la passation de l'ordre :
+a) est toujours licite
+b) peut constituer une opération d'initié
+c) n'est visée que si l'ordre portait sur plus de 5 % du capital
+=b MAR vise expressément l'annulation ou la modification d'un ordre.
+
+?? [A] Peut être qualifiée d'initiée :
+a) seulement un dirigeant de l'émetteur
+b) toute personne qui détient une information privilégiée et sait ou devrait savoir qu'elle l'est
+c) seulement un professionnel de la finance
+=b Y compris une personne qui l'a obtenue de façon fortuite.
+
+?? [A] Un dirigeant qui confie à un ami, au cours d'un dîner, que sa société va être rachetée, sans que l'ami n'achète de titres :
+a) ne commet aucun manquement puisque l'ami n'a rien acheté
+b) commet une divulgation illicite d'information privilégiée
+c) commet une manipulation de marché
+=b La divulgation est sanctionnée même si l'information n'est pas utilisée.
+
+?? [A] La communication d'une information privilégiée à l'avocat qui prépare l'opération concernée :
+a) est une divulgation illicite
+b) est licite, car elle a lieu dans le cadre normal de l'exercice d'une profession
+c) doit être autorisée par l'AMF
+=b L'avocat est inscrit sur la liste d'initiés.
+
+?? [A] Passer de nombreux ordres d'achat sans intention de les exécuter, pour faire croire à une forte demande, puis les annuler, est :
 a) une pratique de marché admise
-b) une opération d'initié
-c) une manipulation de marché
-d) une stabilisation
-=c On parle de « spoofing » ou « layering ».
+b) une manipulation de marché
+c) une opération d'initié
+=b On parle de *spoofing* ou de *layering*.
 
-?? Les dirigeants d'un émetteur doivent déclarer leurs opérations sur les titres de la société dans un délai de :
-a) 24 heures
-b) 3 jours ouvrés
-c) 15 jours
-d) 1 mois
-=b Déclaration à l'émetteur et à l'AMF au-delà du seuil annuel cumulé.
+?? [A] Un internaute qui diffuse sur un forum une fausse information sur une société cotée, sans acheter ni vendre de titres :
+a) ne commet aucun abus puisqu'il n'a pas opéré
+b) peut commettre une manipulation de marché par diffusion d'informations fausses ou trompeuses
+c) commet une opération d'initié
+=b Aucune transaction n'est nécessaire.
 
-?? Pendant la fenêtre négative de 30 jours précédant une publication de résultats, un dirigeant :
-a) peut opérer s'il ne détient aucune information privilégiée
-b) ne peut pas, en principe, réaliser d'opérations sur les titres de l'émetteur
-c) peut opérer après autorisation de l'AMF
-d) peut uniquement vendre
-=b C'est une interdiction préventive, sauf exceptions limitées prévues par MAR.
+?? [A] Acheter massivement une action quelques minutes avant la clôture pour en fixer artificiellement le cours de clôture est :
+a) du *marking the close*, une manipulation de marché
+b) un contrat de liquidité
+c) une opération de stabilisation
+=a Il s'agit de fixer le cours à un niveau artificiel.
 
-?? Un prestataire qui détecte un ordre suspect d'abus de marché doit :
-a) en informer son client
-b) adresser sans délai une déclaration à l'AMF
-c) refuser systématiquement l'ordre
-d) attendre de connaître l'issue de l'opération
-=b La déclaration STOR est confidentielle et porte même sur les ordres annulés.
+?? [A] En France, le contrat de liquidité conclu entre un émetteur et un prestataire est :
+a) interdit
+b) une pratique de marché admise par l'AMF
+c) une opération d'initié par nature
+=b Il bénéficie d'une présomption de légitimité s'il respecte les conditions fixées.
 
-?? La peine maximale d'emprisonnement encourue pour délit d'initié est de :
+?? [A] Un programme de rachat d'actions bénéficie de la présomption de légitimité prévue par MAR :
+a) dans tous les cas
+b) seulement s'il respecte toutes les conditions, notamment de prix et de volume
+c) seulement s'il est réalisé hors marché
+=b Le dépassement des limites fait perdre la protection.
+
+?? [A] Un sondage de marché (market sounding) est licite :
+a) si la procédure prévue par MAR est respectée : consentement, enregistrement des échanges, information sur la fin du caractère privilégié
+b) en toutes circonstances
+c) jamais
+=a Il permet de tester l'intérêt d'investisseurs avant une opération.
+
+?? [A] Un émetteur doit rendre publique une information privilégiée qui le concerne directement :
+a) dès que possible
+b) dans un délai d'un mois
+c) lors de la prochaine assemblée générale
+=a Sauf différé justifié.
+
+?? [A] Parmi ces conditions, laquelle est exigée pour différer la publication d'une information privilégiée ?
+a) l'accord préalable de l'AMF
+b) la capacité de l'émetteur à assurer la confidentialité de l'information
+c) l'accord des principaux actionnaires
+=b L'AMF est informée du différé au moment de la publication, pas avant.
+
+?? [A] Si une rumeur précise montre que la confidentialité d'une information dont la publication a été différée n'est plus assurée, l'émetteur doit :
+a) maintenir le différé
+b) publier l'information immédiatement
+c) démentir la rumeur
+=b La condition de confidentialité n'est plus remplie.
+
+?? [A] Les listes d'initiés doivent être conservées au moins :
 a) 1 an
-b) 2 ans
-c) 5 ans
-d) 10 ans
-=c Avec une amende de 100 millions d'euros, pouvant être portée au décuple de l'avantage retiré.
+b) 5 ans
+c) 10 ans
+=b Elles sont transmises à l'AMF sur demande.
 
-?? Les listes d'initiés sont conservées pendant au moins :
-a) 1 an
-b) 3 ans
-c) 5 ans
-d) 10 ans
-=c Elles sont transmises à l'AMF sur demande.
+?? [A] Un dirigeant d'une société cotée doit déclarer ses opérations sur les titres de la société :
+a) dans les 3 jours ouvrés, au-delà d'un montant cumulé de 20 000 € sur l'année civile
+b) dans les 15 jours, quel que soit le montant
+c) une fois par an, dans le rapport annuel
+=a Le seuil a été relevé de 5 000 € à 20 000 € par le Listing Act.
 
-?? Un contrat de liquidité conforme conclu entre un émetteur et un prestataire est :
-a) une manipulation de cours
-b) une pratique de marché admise
-c) interdit depuis MAR
-d) une opération d'initié
-=b Il bénéficie d'une présomption de légitimité s'il respecte le cadre fixé par l'AMF.
+?? [A] La période d'interdiction (closed period) précède la publication des rapports financiers annuels et intermédiaires de :
+a) 15 jours calendaires
+b) 30 jours calendaires
+c) 60 jours calendaires
+=b Elle s'applique même au dirigeant qui ne détient aucune information privilégiée.
 
-?? Un émetteur peut différer la publication d'une information privilégiée si :
-a) l'AMF l'y autorise préalablement
-b) la publication nuirait à ses intérêts légitimes, le retard n'induit pas le public en erreur et la confidentialité est assurée
-c) le cours de bourse risque de baisser
-d) ses dirigeants le décident à l'unanimité
-=b Les trois conditions sont cumulatives ; l'AMF est informée a posteriori.
+?? [A] La conjointe d'un dirigeant d'une société cotée qui achète des actions de cette société :
+a) n'a aucune déclaration à faire
+b) doit déclarer son opération en tant que personne étroitement liée, au-delà du seuil applicable
+c) doit obtenir l'autorisation de l'AMF
+=b Les personnes étroitement liées aux dirigeants sont soumises à la même obligation.
 
-?? Un même manquement d'initié peut-il donner lieu à une sanction pénale et à une sanction AMF pour les mêmes faits ?
-a) Oui, systématiquement
-b) Non, un mécanisme de concertation entre le PNF et l'AMF détermine la voie retenue
-c) Oui, si l'AMF le décide
-d) Non, seule la voie pénale existe
-=b Le cumul a été écarté par la loi du 21 juin 2016.
+?? [A] Un prestataire qui suspecte qu'un ordre de son client, finalement annulé, pourrait constituer une manipulation de marché doit :
+a) ne rien faire, puisque l'ordre n'a pas été exécuté
+b) déclarer sans délai l'ordre suspect à l'AMF (STOR)
+c) en informer le client
+=b La STOR couvre aussi les ordres non exécutés et reste confidentielle.
 
-?? Le premier seuil légal de déclaration de franchissement de participation dans une société cotée sur un marché réglementé est de :
-a) 1 %
-b) 3 %
-c) 5 %
-d) 10 %
-=c Des seuils statutaires plus bas (dès 0,5 %) peuvent s'ajouter.
+?? [A] La déclaration d'ordres et de transactions suspects d'abus de marché est adressée :
+a) à Tracfin
+b) à l'AMF
+c) à Euronext
+=b Tracfin reçoit les déclarations de soupçon de blanchiment.
 
-?? Communiquer une information privilégiée à un ami, sans qu'il l'utilise :
-a) n'est pas sanctionnable
-b) constitue une divulgation illicite
-c) n'est sanctionnable que s'il réalise un gain
-d) constitue une manipulation de cours
-=b La divulgation illicite est une infraction autonome.
+?? [A] Une opération d'initié est punie pénalement au maximum de :
+a) 2 ans d'emprisonnement et 1,5 million d'euros d'amende
+b) 5 ans d'emprisonnement et 100 millions d'euros d'amende, pouvant être porté au décuple de l'avantage retiré
+c) 10 ans d'emprisonnement et 750 000 € d'amende
+=b La sanction administrative peut aussi atteindre 100 M€ ou dix fois l'avantage.
 
-?? Le règlement MAR s'applique notamment aux instruments financiers :
-a) uniquement admis sur un marché réglementé
-b) admis sur un marché réglementé ou négociés sur un MTF ou un OTF
-c) non cotés uniquement
-d) uniquement français
-=b Ainsi qu'aux instruments dont le prix dépend de ceux-ci.
+?? [A] Depuis la loi du 21 juin 2016, une personne soupçonnée d'opération d'initié :
+a) peut être sanctionnée par l'AMF puis condamnée pénalement pour les mêmes faits
+b) ne peut être poursuivie que par une seule voie, administrative ou pénale, choisie après concertation entre l'AMF et le PNF
+c) ne peut plus être poursuivie pénalement
+=b C'est le mécanisme d'aiguillage.
 
-?? En cas de défaut de déclaration d'un franchissement de seuil, l'actionnaire est privé des droits de vote excédant la fraction non déclarée pendant :
-a) 6 mois
-b) 1 an
-c) 2 ans
-d) 5 ans
-=c À compter de la régularisation de la déclaration.
+?? [C] Un investisseur qui franchit à la hausse le seuil de 10 % du capital d'une société cotée sur Euronext Paris doit le déclarer à la société et à l'AMF :
+a) le jour même
+b) avant la clôture du 4e jour de négociation suivant le franchissement
+c) dans le mois
+=b Il doit aussi déclarer ses intentions pour les six mois à venir.
+
+?? [C] La déclaration d'intention doit être faite lors du franchissement des seuils de :
+a) 5 % et 50 %
+b) 10 %, 15 %, 20 % et 25 %
+c) 33,33 % et 66,67 %
+=b Elle porte sur les six mois à venir.
+
+?? [C] Le défaut de déclaration d'un franchissement de seuil légal est notamment sanctionné par :
+a) la nullité des achats
+b) la privation des droits de vote excédant la fraction non déclarée pendant deux ans
+c) la radiation de la société de la cote
+=b L'AMF peut aussi prononcer des sanctions.
