@@ -1,224 +1,434 @@
 # Thème 5 — Commercialisation d'instruments financiers, démarchage, vente à distance et conseil
 
-## Ce que l'examen attend
+o> À la fin de ce chapitre, vous saurez :
+- reconnaître un acte de démarchage, savoir qui peut démarcher, quels produits sont exclus et quels délais protègent le client ;
+- appliquer les règles de la vente à distance de services financiers, y compris la réforme de juin 2026 ;
+- vérifier qu'une communication promotionnelle est conforme ;
+- connaître le document d'informations clés (DIC) et la gouvernance des produits ;
+- choisir le bon test MIF 2 (adéquation, caractère approprié, exécution simple) et distinguer conseil indépendant et non indépendant ;
+- décrire le statut de conseiller en investissements financiers (CIF).
+Poids à l'examen : environ **6 questions**, dont beaucoup de **catégorie A**.
 
-Connaître les règles qui s'appliquent au moment de la vente : démarchage bancaire et financier, vente à distance, communications publicitaires, information précontractuelle (dont le document d'informations clés PRIIPs), gouvernance des produits, conseil en investissement (indépendant ou non), tests d'adéquation et de caractère approprié, statut des conseillers en investissements financiers.
+## 1. La logique de la commercialisation
 
-## 1. Le démarchage bancaire et financier
+Vendre un produit financier, c'est vendre une **promesse incertaine** à un client qui n'a pas les moyens d'en mesurer seul tous les risques. Les règles de commercialisation suivent donc le parcours du client :
 
-### Définition (art. L. 341-1 CMF)
+1. **Comment on l'a approché** : démarchage, vente à distance, publicité.
+2. **Ce qu'on lui a dit** : information claire, exacte et non trompeuse ; document d'informations clés.
+3. **Ce qu'on lui a proposé** : un produit conçu pour une clientèle à laquelle il appartient (gouvernance des produits) et adapté à sa situation (tests MIF 2).
+4. **Comment on l'a conseillé** : conseil indépendant ou non, déclaration d'adéquation, coûts.
 
-Constitue un acte de démarchage :
+c> Le fil conducteur : plus le client est **vulnérable** (non professionnel, sollicité chez lui, produit complexe), plus la **protection** est forte. C'est pourquoi le démarchage, qui consiste à aller chercher le client, est le cadre le plus encadré.
 
-- toute **prise de contact non sollicitée**, par quelque moyen que ce soit (téléphone, courrier, courriel, visite), avec une personne physique ou morale déterminée, en vue d'obtenir son accord sur la réalisation d'une opération (souscription, conseil, service d'investissement…) ;
-- quelle que soit l'initiative, le fait de **se rendre physiquement** au domicile des personnes, sur leur lieu de travail ou dans des lieux non destinés à la commercialisation de produits financiers.
+## 2. Le démarchage bancaire et financier
 
-!> Ne constitue **pas** un démarchage la prise de contact avec un client existant pour lui proposer un produit **correspondant à ceux qu'il a déjà souscrits**, ni la sollicitation des investisseurs qualifiés et des personnes morales dépassant certains seuils de taille. En revanche, se déplacer chez un particulier à **sa propre demande** reste un acte de démarchage.
+### Définition
 
-### Qui peut démarcher
+d> Constitue un **acte de démarchage bancaire ou financier** (art. L. 341-1 du CMF) :
+- toute **prise de contact non sollicitée**, par quelque moyen que ce soit (téléphone, courrier, courriel, SMS, visite), avec une **personne physique ou morale déterminée**, en vue d'obtenir son accord sur la réalisation d'une opération (souscription d'un instrument financier, fourniture d'un service d'investissement, opération de banque…) ;
+- **quelle que soit la personne à l'initiative**, le fait de **se rendre physiquement** au domicile des personnes, sur leur lieu de travail ou dans des lieux non destinés à la commercialisation de produits financiers, en vue des mêmes fins.
 
-Les établissements de crédit, les entreprises d'investissement, les sociétés de gestion, les entreprises d'assurance, les conseillers en investissements financiers, les PSCA (pour les services sur crypto-actifs), ainsi que les **personnes physiques mandatées** par eux, qui doivent être enregistrées (fichier des démarcheurs, consultable par le public). Le mandant est **civilement responsable** des agissements de ses démarcheurs.
+i> Sont des actes de démarchage :
+- un appel téléphonique non sollicité d'un conseiller à un prospect pour lui proposer un fonds ;
+- la visite d'un conseiller au domicile d'un client, **même à la demande de ce client** ;
+- une présentation de produits financiers sur un salon non spécialisé ou dans une entreprise.
+Ne sont pas des actes de démarchage :
+- le client qui se rend de lui-même en agence ;
+- une publicité générale (affiche, annonce dans la presse, site internet) qui ne vise pas une personne déterminée ;
+- la prise de contact avec un client existant pour lui proposer un produit **de même nature** que ceux qu'il détient déjà ou qu'il a déjà souscrits (renouvellement, opération habituelle).
 
-### Ce qui ne peut pas être démarché
+!> Se déplacer chez un particulier **à sa demande** reste un démarchage : pour le déplacement physique, l'initiative est **indifférente**. Le critère de la sollicitation ne joue que pour les prises de contact à distance.
 
-Notamment les produits dont le **risque maximum n'est pas connu au moment de la souscription** ou pour lesquels le risque de perte est **supérieur au montant de l'apport financier initial** (sauf exceptions réglementaires), et les produits non autorisés à la commercialisation en France.
+Ne relèvent pas non plus du démarchage les contacts avec les **investisseurs qualifiés** et les **personnes morales** dépassant certains seuils de taille, réputées capables de se protéger elles-mêmes.
 
-### Délais de protection
+### Qui peut démarcher ?
+
+| Démarcheurs « directs » | Démarcheurs mandatés |
+|---|---|
+| Établissements de crédit, entreprises d'investissement, sociétés de gestion, entreprises d'assurance, CIF, PSCA (pour les services sur crypto-actifs), PSFP…, **et leurs salariés** | **Personnes physiques ou morales mandatées** par ces établissements (dont les agents liés), qui doivent être **enregistrées** au fichier public des démarcheurs |
+
+- Le mandant délivre une **carte de démarchage** à la personne physique qui démarche pour son compte.
+- Le mandant est **civilement responsable** des agissements de ses démarcheurs agissant en cette qualité.
+
+### Les obligations du démarcheur
+
+Le démarcheur doit :
+
+- communiquer son **identité**, l'identité et l'adresse de son **mandant**, son numéro d'enregistrement ;
+- s'**enquérir** de la situation financière, de l'expérience et des objectifs de la personne démarchée en matière de placements ;
+- lui fournir une information **claire, exacte et non trompeuse** sur le produit, ses **risques**, ses conditions (prix, frais), l'existence ou non d'un **droit de rétractation** ;
+- respecter les règles de bonne conduite MIF 2 applicables au service fourni (tests d'adéquation ou de caractère approprié).
+
+### Les produits exclus du démarchage
+
+Ne peuvent pas faire l'objet d'un démarchage, notamment :
+
+- les produits dont le **risque maximum n'est pas connu** au moment de la souscription, ou pour lesquels le **risque de perte est supérieur au montant de l'apport** financier initial (sauf exceptions prévues par les textes, comme certaines opérations réalisées dans le cadre d'un mandat) ;
+- les produits **non autorisés** à la commercialisation en France (par exemple un fonds étranger non notifié) ;
+- les produits dont le démarchage est spécifiquement interdit (certains instruments très spéculatifs).
+
+### Les délais de protection
 
 | Situation | Protection |
 |---|---|
-| Contrat conclu à la suite d'un démarchage (cas général) | Délai de **rétractation de 14 jours calendaires** révolus, sans motif ni pénalité |
-| Services de réception-transmission et exécution d'ordres | Pas de délai de rétractation, mais un **délai de réflexion de 48 heures** avant que la personne démarchée ne puisse s'engager (sauf demande expresse d'exécution) |
-| Instruments financiers dont le prix dépend des fluctuations du marché | Pas de droit de rétractation |
+| Contrat conclu à la suite d'un démarchage (cas général : ouverture de compte, contrat de service…) | Délai de **rétractation de 14 jours calendaires** révolus, sans motif ni pénalité ; aucun commencement d'exécution avant la fin du délai sans l'accord du client |
+| Services de **réception-transmission** et d'**exécution d'ordres** | Pas de rétractation, mais un **délai de réflexion de 48 heures** : la personne démarchée ne peut pas s'engager avant l'expiration de ce délai (qui court à partir de la remise d'un récépissé) |
+| Souscription d'**instruments financiers** dont le prix dépend des fluctuations des marchés | **Pas** de droit de rétractation (le client pourrait sinon spéculer sans risque) |
 
-Le démarcheur doit communiquer son identité, celle de son mandant, les caractéristiques et les risques des produits proposés, les conditions de l'offre et l'existence (ou non) d'un droit de rétractation. Il doit s'informer de la situation financière, de l'expérience et des objectifs de la personne démarchée.
+m> Démarchage : « **14 jours** pour se rétracter d'un **contrat**, **48 heures** pour réfléchir avant un **ordre** ».
 
-## 2. La vente à distance de services financiers
+Le non-respect des règles du démarchage est sanctionné **pénalement** et peut entraîner la **nullité** des contrats conclus.
 
-Contrat conclu sans présence physique simultanée des parties (internet, téléphone, courrier). Le consommateur bénéficie :
+## 3. La vente à distance de services financiers
 
-- d'une **information précontractuelle** complète, transmise sur support durable avant la conclusion ;
-- d'un droit de **rétractation de 14 jours calendaires** (30 jours pour l'assurance-vie et certains contrats de retraite), sauf pour les services dont le prix dépend des fluctuations des marchés financiers et pour les contrats exécutés intégralement à la demande expresse du consommateur.
+d> La **vente à distance** est la conclusion d'un contrat sans la présence physique simultanée des parties, au moyen d'une ou plusieurs techniques de communication à distance (internet, téléphone, courrier, application).
 
-Depuis le **19 juin 2026**, en application de la réforme européenne de la vente à distance de services financiers, le professionnel qui vend en ligne doit proposer une **fonctionnalité de rétractation** facilement accessible sur son interface (du type « Rétractez-vous du contrat ici »), et le consommateur bénéficie d'un droit à une intervention humaine lorsqu'il interagit avec un outil automatisé.
+Le consommateur bénéficie :
 
-## 3. Les communications à caractère promotionnel
+- d'une **information précontractuelle** complète, transmise sur **support durable** (papier, PDF, courriel…) avant d'être engagé ;
+- d'un **droit de rétractation de 14 jours calendaires** (**30 jours** pour l'assurance-vie et certains contrats de retraite), sauf pour les services dont le prix dépend des fluctuations des marchés financiers et pour les contrats exécutés intégralement à la demande expresse du consommateur avant qu'il n'exerce ce droit.
 
-Toute communication publicitaire relative à un instrument financier ou un service d'investissement doit être :
+Depuis le **19 juin 2026**, la réforme européenne de la vente à distance de services financiers (directive 2023/2673, intégrée au code de la consommation) impose notamment :
 
-- **claire, exacte et non trompeuse** ;
-- **identifiable** comme publicitaire ;
-- **équilibrée** : la mention des avantages s'accompagne d'une indication correcte et visible des **risques** ;
-- cohérente avec la documentation réglementaire (prospectus, DIC).
+- une **fonctionnalité de rétractation** facilement accessible sur l'interface en ligne (du type « Rétractez-vous du contrat ici »), avec un accusé de réception ;
+- des **explications adéquates** sur les contrats proposés, et le droit d'obtenir une **intervention humaine** lorsque le consommateur interagit avec un outil automatisé (agent conversationnel) ;
+- une protection renforcée contre les **interfaces trompeuses** (*dark patterns*).
 
-Les performances passées ne peuvent pas être l'élément le plus visible ; elles portent sur des périodes complètes (au moins 5 ans lorsque disponibles) et s'accompagnent de l'avertissement selon lequel elles ne préjugent pas des performances futures. Les simulations de performances futures reposent sur des hypothèses raisonnables.
+!> Démarchage et vente à distance peuvent se **cumuler** : un appel non sollicité suivi d'une souscription en ligne relève des deux régimes. En cas de doute, appliquez la règle la plus protectrice.
 
-La loi Sapin 2 a **interdit la publicité par voie électronique** (et le parrainage) en faveur de certains contrats financiers très risqués proposés aux particuliers (contrats sur différences dits CFD, options binaires, forex à effet de levier). L'AMF a aussi interdit la commercialisation des options binaires aux non-professionnels et limité l'effet de levier des CFD (mesures ESMA reprises en droit français).
+## 4. Les communications à caractère promotionnel
 
-## 4. L'information précontractuelle : le DIC PRIIPs
-
-Le règlement **PRIIPs** impose un **document d'informations clés (DIC, ou KID)** pour tout produit d'investissement packagé destiné aux investisseurs de détail (OPC, produits structurés, contrats d'assurance-vie en unités de compte…). Depuis le **1er janvier 2023**, il a remplacé le DICI des OPCVM.
-
-| Caractéristique | Règle |
-|---|---|
-| Longueur | 3 pages A4 maximum |
-| Indicateur de risque | Indicateur synthétique de risque (SRI) de **1 à 7** |
-| Contenu | Objectifs, profil de risque, scénarios de performance, coûts (dont l'incidence des coûts sur le rendement), durée de détention recommandée, modalités de réclamation |
-| Remise | Avant la souscription, gratuitement |
-
-## 5. MIF 2 : les niveaux de service et les tests
-
-### Les trois niveaux de service
-
-| Service | Test requis | Contenu |
-|---|---|---|
-| Conseil en investissement et gestion de portefeuille | **Test d'adéquation** | Connaissances et expérience, situation financière (dont capacité à subir des pertes), objectifs d'investissement (dont tolérance au risque et préférences en matière de durabilité) |
-| Autres services (RTO, exécution) sur instruments complexes | **Test du caractère approprié** | Connaissances et expérience uniquement |
-| Exécution simple (« execution only ») | Aucun test | Instruments **non complexes**, à l'initiative du client, qui est averti que le caractère approprié n'est pas évalué |
-
-!> Si le client refuse de répondre au questionnaire d'adéquation, le prestataire **ne peut pas** lui fournir de conseil en investissement ni gérer son portefeuille. En revanche, pour le test du caractère approprié, si le client ne fournit pas les informations ou si le produit paraît inapproprié, le prestataire l'en **avertit** et peut néanmoins exécuter l'ordre à la demande du client.
-
-### Le conseil en investissement
-
-C'est la fourniture de **recommandations personnalisées** à un client, à sa demande ou à l'initiative du prestataire, concernant une ou plusieurs transactions sur instruments financiers. Une information générale ou une publicité n'est pas un conseil.
-
-| | Conseil indépendant | Conseil non indépendant |
-|---|---|---|
-| Gamme analysée | Gamme suffisamment large et diversifiée, pas limitée aux produits du groupe | Peut se limiter aux produits maison ou de partenaires |
-| Rétrocessions | Interdites (reversées au client, hors avantages non monétaires mineurs) | Autorisées si elles améliorent la qualité du service et sont transparentes |
-| Information du client | Le prestataire indique, avant la prestation, s'il fournit un conseil indépendant ou non | |
-
-Avant la transaction, le prestataire remet au client non professionnel une **déclaration d'adéquation** expliquant en quoi la recommandation correspond à ses objectifs et sa situation.
-
-### Les préférences en matière de durabilité
-
-Depuis le **2 août 2022**, le questionnaire d'adéquation doit recueillir les **préférences du client en matière de durabilité** (part d'investissements alignés sur la taxonomie, part d'investissements durables au sens de SFDR, prise en compte des principales incidences négatives). Le conseiller ne peut pas recommander un produit qui n'y répond pas, sauf si le client adapte expressément ses préférences.
-
-### La gouvernance des produits
-
-Le **producteur** (concepteur) définit pour chaque produit un **marché cible** (type de client, connaissances, capacité à subir des pertes, tolérance au risque, objectifs, besoins) et un marché cible négatif. Le **distributeur** affine ce marché cible, vérifie la cohérence de ses ventes et fait remonter les informations au producteur. Les deux réexaminent régulièrement leurs produits.
-
-### L'information sur les coûts et frais
-
-Le client reçoit, **avant** la prestation (ex ante) et **au moins annuellement après** (ex post), une information agrégée sur l'ensemble des coûts et frais (du service et de l'instrument), en montant et en pourcentage, avec leur effet cumulé sur le rendement.
-
-## 6. Le conseiller en investissements financiers (CIF)
+> Toute communication relative à un instrument financier ou à un service d'investissement doit être **claire, exacte et non trompeuse**. Les communications publicitaires doivent en outre être **clairement identifiables** comme telles.
 
 | Exigence | Contenu |
 |---|---|
-| Activité | Conseil en investissement, conseil en matière de structure de capital et de fusions-acquisitions, réception-transmission d'ordres sur les parts d'OPC sur lesquels il a fourni un conseil (pour le compte d'un client) |
-| Immatriculation | Registre de l'**ORIAS** |
-| Association | Adhésion obligatoire à une **association professionnelle agréée par l'AMF**, qui vérifie les compétences et contrôle ses membres |
-| Conditions | Majeur, honorabilité, compétence (diplôme, formation ou expérience), assurance de responsabilité civile professionnelle |
-| Formation continue | Au moins 7 heures par an |
-| Formalisme | Lettre de mission avant toute prestation, rapport écrit (déclaration d'adéquation) justifiant le conseil |
-| Interdictions | Ne peut recevoir d'autres fonds que ceux destinés à rémunérer son activité ; ne peut pas exécuter d'ordres ni tenir de comptes |
+| **Équilibre** | La mention des avantages s'accompagne d'une indication correcte et **bien visible** des **risques** (au moins aussi lisible) |
+| **Performances passées** | Ne sont pas l'élément le plus visible ; périodes complètes, au moins **5 ans** si disponibles (ou depuis la création) ; source indiquée ; avertissement : elles **ne préjugent pas des performances futures** ; effet des frais et de la devise mentionné |
+| **Simulations** | Hypothèses raisonnables, avertissement sur leur caractère indicatif |
+| **Cohérence** | Avec la documentation réglementaire (prospectus, DIC) et le marché cible du produit |
+| **Termes** | Pas d'utilisation trompeuse des mots « garanti », « protégé », « sans risque » ; mention des conditions de la garantie ou de la protection |
+| **Durabilité** | Les mentions extra-financières doivent être proportionnées à la réalité de la démarche (doctrine AMF, orientations de l'ESMA sur les noms de fonds : voir thème 8) |
 
-Le CIF est contrôlé par l'AMF et par son association. Il peut fournir un conseil indépendant ou non indépendant, en le précisant à son client.
+### Les restrictions spécifiques
+
+- La **loi Sapin 2** (2016) a **interdit la publicité par voie électronique** (et le parrainage) en faveur de certains contrats financiers très risqués proposés aux particuliers : **contrats sur différences** (CFD), **options binaires**, **forex** à effet de levier, lorsque le risque n'est pas limité.
+- L'ESMA (2018), puis l'AMF, ont **interdit la commercialisation des options binaires** aux clients non professionnels et **encadré les CFD** : effet de levier plafonné (de 30:1 à 2:1 selon le sous-jacent), protection contre le solde négatif, clôture automatique des positions, avertissement indiquant le pourcentage de comptes de clients perdants.
+- La **loi du 9 juin 2023** sur l'influence commerciale interdit aux influenceurs de promouvoir certains produits financiers risqués et encadre la promotion des crypto-actifs (réservée aux prestataires autorisés).
+- L'AMF recommande de ne **pas commercialiser** auprès des clients non professionnels des produits **trop complexes** (produits structurés reposant sur de multiples mécanismes difficiles à comprendre).
+
+## 5. Le document d'informations clés (DIC)
+
+Le règlement **PRIIPs** impose un **document d'informations clés** (DIC, ou KID en anglais) pour tout **produit d'investissement packagé de détail** : OPC, produits structurés, dérivés vendus aux particuliers, contrats d'assurance-vie en unités de compte… Depuis le **1er janvier 2023**, il a remplacé le DICI des OPCVM.
+
+| Caractéristique | Règle |
+|---|---|
+| Remise | **Gratuite**, **avant** la souscription, à tout investisseur de détail ; par le **distributeur** (le **producteur** le rédige) |
+| Format | **3 pages A4** maximum, document autonome, langage simple |
+| Rubriques | Produit ; « En quoi consiste ce produit ? » ; « Quels sont les risques et qu'est-ce que je pourrais obtenir en retour ? » ; « Que se passe-t-il si [le producteur] n'est pas en mesure d'effectuer les versements ? » ; « Que va me coûter cet investissement ? » ; « Combien de temps dois-je le conserver, et puis-je retirer de l'argent de façon anticipée ? » ; « Comment puis-je formuler une réclamation ? » ; autres informations pertinentes |
+| Risque | **Indicateur synthétique de risque** (SRI) de **1 à 7**, combinant risque de marché et risque de crédit |
+| Performance | **Scénarios** de performance (défavorable, intermédiaire, favorable, et de tensions) |
+| Coûts | Coûts totaux et **incidence annuelle des coûts** sur le rendement |
+| Mise à jour | Au moins une fois par an, et à chaque changement significatif |
+
+[[FIG:sri]]
+
+!> Le SRI ne mesure **pas** seulement la volatilité : il combine le **risque de marché** et le **risque de crédit** de l'émetteur. Un produit structuré « à capital protégé » peut avoir un SRI élevé si l'émetteur est fragile.
+
+## 6. La gouvernance des produits
+
+d> La **gouvernance des produits** (MIF 2) impose à ceux qui conçoivent et distribuent des instruments financiers de penser, dès la conception, à **qui** le produit est destiné, et de s'assurer qu'il est effectivement vendu à cette clientèle.
+
+| Acteur | Obligations |
+|---|---|
+| **Producteur** (concepteur) | Définir pour chaque produit un **marché cible** : type de client, connaissances et expérience, situation financière et **capacité à subir des pertes**, tolérance au risque, objectifs et besoins (dont la durabilité) ; et un **marché cible négatif** (clients auxquels il ne convient pas) ; tester le produit (scénarios) ; choisir une stratégie de distribution ; le **réexaminer** régulièrement |
+| **Distributeur** | Affiner le marché cible au regard de sa clientèle ; définir sa stratégie de distribution ; vérifier que les ventes se font dans le marché cible ; faire **remonter** les informations au producteur (ventes hors marché cible, réclamations) |
+
+c> La gouvernance des produits agit **en amont** (le produit est-il fait pour ce type de client ?), le test d'adéquation **au cas par cas** (ce produit convient-il à ce client précis ?). Une vente peut être conforme au marché cible et pourtant inadéquate pour un client donné, et inversement une vente hors marché cible peut exceptionnellement se justifier (diversification d'un portefeuille, par exemple), si elle est documentée.
+
+## 7. Les services et les tests MIF 2
+
+### Les trois niveaux de service
+
+| Service | Test requis | Informations à recueillir |
+|---|---|---|
+| **Conseil en investissement** et **gestion de portefeuille** | **Test d'adéquation** | **Connaissances et expérience** ; **situation financière**, dont la **capacité à subir des pertes** ; **objectifs d'investissement**, dont la **tolérance au risque**, l'horizon et les **préférences en matière de durabilité** |
+| Autres services (RTO, exécution) | **Test du caractère approprié** | **Connaissances et expérience** seulement |
+| **Exécution simple** (*execution only*) | **Aucun test** | Possible seulement pour des **instruments non complexes**, à l'**initiative du client**, qui est **averti** que le caractère approprié n'est pas évalué |
+
+m> « **Adéquation = C + S + O** » (Connaissances, Situation financière, Objectifs) ; « **Approprié = C** » (Connaissances et expérience seules).
+
+### Les instruments non complexes et complexes
+
+| Non complexes (exécution simple possible) | Complexes (test du caractère approprié obligatoire) |
+|---|---|
+| Actions admises sur un marché réglementé (ou équivalent), hors actions de FIA et actions incorporant un dérivé | Dérivés (options, futures, swaps, CFD, warrants, turbos) |
+| Obligations et titres de créance n'incorporant pas de dérivé ni de structure rendant le risque difficile à comprendre | Obligations convertibles, produits structurés, titres subordonnés complexes |
+| Instruments du marché monétaire | Parts de la plupart des FIA |
+| Parts d'**OPCVM** (hors OPCVM structurés) | OPCVM structurés |
+
+### Les règles à connaître
+
+- **Refus de répondre** au questionnaire d'adéquation : le prestataire **ne peut pas** fournir de conseil en investissement ni gérer le portefeuille. Il ne peut pas non plus inciter le client à ne pas répondre.
+- **Test du caractère approprié** : si le client ne répond pas ou si le produit paraît inapproprié, le prestataire l'**avertit** (sur support durable) ; il **peut** néanmoins exécuter l'ordre si le client maintient sa demande.
+- Le prestataire peut s'appuyer sur les informations fournies par le client, sauf s'il sait ou devrait savoir qu'elles sont manifestement périmées, inexactes ou incomplètes ; il doit les **mettre à jour**.
+- L'adéquation s'apprécie aussi au niveau du **portefeuille** (concentration, diversification) et prend en compte les **coûts** : en cas de remplacement d'un produit par un autre (*switch*), le prestataire vérifie que les avantages l'emportent sur les coûts.
+
+i> M. Petit, 72 ans, retraité, 40 000 € d'épargne qui constituent toute sa réserve, aucune expérience des marchés, souhaite « ne pas perdre d'argent » et pouvoir disposer de ses fonds dans deux ans.
+- Un fonds actions de pays émergents (SRI 6) serait **inadéquat** : tolérance au risque nulle, horizon court, faible capacité à subir des pertes.
+- Une recommandation cohérente porterait sur des supports peu risqués et liquides (fonds monétaire, obligations courtes, fonds en euros d'assurance-vie).
+- Si M. Petit veut **de sa propre initiative** acheter ce fonds actions en exécution simple, le prestataire peut exécuter l'ordre (OPCVM non complexe), en l'avertissant que le caractère approprié n'est pas évalué.
+
+### Le conseil en investissement
+
+Le **conseil en investissement** est la fourniture de **recommandations personnalisées** à un client, à sa demande ou à l'initiative du prestataire, concernant une ou plusieurs transactions sur instruments financiers. Avant de le fournir, le prestataire indique au client :
+
+| | Conseil **indépendant** | Conseil **non indépendant** |
+|---|---|---|
+| Gamme analysée | Gamme **suffisamment large et diversifiée**, non limitée aux produits du groupe ou de partenaires | Peut se limiter aux produits **maison** ou de partenaires |
+| Rétrocessions de tiers | **Interdites** : reversées intégralement au client (hors avantages non monétaires mineurs) | **Autorisées** si elles améliorent la qualité du service et sont transparentes |
+| Information préalable | Le prestataire précise s'il fournit un conseil indépendant ou non, s'il fournit une **évaluation périodique** de l'adéquation, et la gamme d'instruments analysée | |
+
+Avant la transaction, le prestataire remet au client non professionnel une **déclaration d'adéquation**, sur support durable, qui précise le conseil fourni et explique **en quoi il correspond** à ses préférences, objectifs et autres caractéristiques. Lorsque la transaction est conclue à distance et que le client y consent, la déclaration peut être remise **juste après**, si le client a eu la possibilité de différer la transaction.
+
+### Les préférences en matière de durabilité
+
+Depuis le **2 août 2022**, le test d'adéquation doit recueillir les **préférences du client en matière de durabilité** : souhaite-t-il investir, et dans quelle proportion minimale, dans des investissements **alignés sur la taxonomie** européenne, dans des **investissements durables** au sens de SFDR, ou dans des produits qui prennent en compte les **principales incidences négatives** ?
+
+- Ces préférences sont recueillies **après** l'évaluation des autres objectifs d'investissement, et ne doivent pas l'influencer.
+- Le conseiller ne recommande pas un produit qui ne répond pas aux préférences du client ; si aucun produit ne convient, il peut, **à la demande du client**, adapter les préférences, ce qu'il documente.
+
+### L'information sur les coûts et frais
+
+Le client reçoit :
+
+- **ex ante** (avant la prestation) : une estimation **agrégée** de tous les coûts et frais (du service et de l'instrument, y compris les rétrocessions), en **montant** et en **pourcentage**, et une illustration de leur **effet cumulé sur le rendement** ;
+- **ex post** : au moins **une fois par an**, les coûts réellement supportés.
+
+## 8. Le conseiller en investissements financiers (CIF)
+
+d> Le **CIF** est un professionnel qui exerce, à titre habituel, le **conseil en investissement**, le conseil sur la fourniture de services d'investissement, le conseil sur les opérations de **haut de bilan** (structure du capital, fusions-acquisitions), ainsi que, accessoirement, la **réception-transmission d'ordres** sur les **parts d'OPC** sur lesquelles il a fourni un conseil.
+
+| Exigence | Contenu |
+|---|---|
+| Statut | Personne physique ou morale établie en France |
+| Immatriculation | Registre de l'**ORIAS** |
+| Association | Adhésion **obligatoire** à une **association professionnelle agréée par l'AMF**, qui vérifie l'aptitude de ses membres, les forme et les contrôle |
+| Conditions personnelles | Majorité, **honorabilité**, **compétence professionnelle** (diplôme, formation ou expérience) et connaissances minimales vérifiées |
+| Assurance | **Responsabilité civile professionnelle** obligatoire |
+| Formation continue | Au moins **7 heures par an** |
+| Entrée en relation | Remise d'un **document d'entrée en relation** (statut, association, activités, liens avec des producteurs, mode de rémunération…) |
+| Formalisme | **Lettre de mission** avant toute prestation ; **rapport écrit** (déclaration d'adéquation) justifiant le conseil |
+| Interdictions | Ne peut **recevoir d'autres fonds** que ceux destinés à rémunérer son activité ; ne peut ni exécuter d'ordres ni tenir de comptes |
+| Contrôle | Par l'**AMF** et par son **association** |
+
+Le CIF peut exercer un **conseil indépendant** (rémunéré par ses honoraires, sans rétrocessions conservées) ou **non indépendant** (rétrocessions possibles dans les conditions MIF 2), en le précisant à son client. Il exerce souvent aussi d'autres activités sous d'autres statuts : courtier en assurance, intermédiaire en opérations de banque, agent immobilier.
+
+!> Un CIF **ne peut pas** encaisser les sommes que son client veut investir : les fonds vont directement chez le producteur ou le teneur de compte. Un « conseiller » qui demande un virement sur son propre compte pour investir est un signal d'**escroquerie**.
+
+## 9. Les autres canaux de distribution à connaître
+
+| Canal | Règles propres |
+|---|---|
+| **Assurance-vie** (contrats en unités de compte) | Directive sur la distribution d'assurances (**DDA**) : devoir de conseil, test d'adéquation pour les produits d'investissement fondés sur l'assurance, préférences de durabilité ; contrôle de l'**ACPR** |
+| **Plateformes de financement participatif** (PSFP) | Règlement européen 2020/1503 : test de connaissances et simulation de capacité à supporter des pertes pour les investisseurs non avertis, **délai de réflexion de 4 jours**, avertissement renforcé (voir thème 11) |
+| **Crypto-actifs** | Règlement MiCA : prestataires agréés (PSCA), règles de bonne conduite, livre blanc (voir thème 7) |
+
+## L'essentiel
+
+> - **Démarchage** : prise de contact **non sollicitée** avec une personne déterminée, ou **déplacement physique** au domicile, sur le lieu de travail ou dans un lieu non dédié, **quelle que soit l'initiative**.
+> - Pas de démarchage : client existant pour un produit de même nature, publicité générale, investisseurs qualifiés.
+> - Démarcheurs : établissements et leurs salariés, ou mandataires **enregistrés** (carte de démarchage) ; le **mandant est civilement responsable**.
+> - Exclus : produits à **risque maximal inconnu** ou à **perte supérieure à l'apport**, produits non autorisés en France.
+> - **14 jours** de rétractation (contrats) ; **48 heures** de réflexion (RTO, exécution) ; pas de rétractation sur les instruments dont le prix fluctue.
+> - **Vente à distance** : 14 jours (**30 jours** en assurance-vie) ; depuis le **19 juin 2026**, bouton de **rétractation en ligne** et droit à une **intervention humaine**.
+> - Publicité : **claire, exacte, non trompeuse**, identifiable, **risques aussi visibles que les avantages** ; performances passées sur **5 ans** avec avertissement.
+> - Sapin 2 : pas de publicité électronique pour les CFD, options binaires, forex à effet de levier.
+> - **DIC PRIIPs** : **3 pages**, **SRI de 1 à 7** (marché + crédit), scénarios, coûts, gratuit et **avant** la souscription.
+> - Gouvernance : **producteur** (marché cible + marché cible négatif) / **distributeur** (affine, vérifie, fait remonter).
+> - **Adéquation** (conseil, gestion) = connaissances + situation financière + objectifs (dont durabilité) ; **refus** de répondre → **pas de conseil**.
+> - **Caractère approprié** (autres services) = connaissances et expérience ; avertissement, exécution possible.
+> - **Exécution simple** : instruments **non complexes**, initiative du client, avertissement.
+> - Conseil **indépendant** : gamme large, **rétrocessions reversées** ; **déclaration d'adéquation** avant la transaction.
+> - **CIF** : **ORIAS** + **association agréée par l'AMF**, RC professionnelle, **7 h** de formation par an, lettre de mission, **ne reçoit pas de fonds**.
 
 ## QCM d'entraînement
 
-?? Un conseiller se rend au domicile d'un client qui l'a lui-même invité. Cette visite :
-a) n'est pas un démarchage puisque le client l'a sollicitée
-b) constitue un acte de démarchage
-c) est interdite
-d) nécessite l'accord préalable de l'AMF
-=b Le déplacement au domicile constitue un démarchage quelle que soit l'initiative.
+?? [A] Constitue un acte de démarchage :
+a) la visite d'un conseiller au domicile d'un particulier, même à la demande de celui-ci
+b) la venue spontanée d'un client dans une agence bancaire
+c) une affiche publicitaire dans une gare
+=a Pour le déplacement physique, l'initiative est indifférente.
 
-?? Le délai de rétractation de droit commun en matière de démarchage bancaire et financier est de :
-a) 48 heures
-b) 7 jours
-c) 14 jours calendaires
-d) 30 jours
-=c Un délai de réflexion de 48 heures s'applique au service de réception-transmission d'ordres.
+?? [A] Ne constitue pas un acte de démarchage :
+a) un appel non sollicité à un prospect pour lui proposer un fonds
+b) la prise de contact avec un client existant pour lui proposer un produit de même nature que ceux qu'il a déjà souscrits
+c) une présentation de produits financiers dans les locaux d'une entreprise
+=b C'est une exception prévue par les textes.
 
-?? Le document d'informations clés (DIC) PRIIPs :
-a) fait au maximum 3 pages
-b) est réservé aux clients professionnels
-c) est facultatif pour les OPC
-d) ne mentionne pas les coûts
-=a Il comporte notamment un indicateur de risque de 1 à 7, des scénarios de performance et les coûts.
+?? [A] Le mandant d'un démarcheur :
+a) n'est pas responsable des fautes de son démarcheur
+b) est civilement responsable des agissements de ses démarcheurs
+c) n'est responsable que si le démarcheur est son salarié
+=b Il répond des démarcheurs qu'il a mandatés, agissant en cette qualité.
 
-?? L'indicateur synthétique de risque du DIC PRIIPs est gradué :
-a) de 1 à 5
-b) de 1 à 7
-c) de A à E
-d) de 0 à 10
-=b Le 1 correspond au risque le plus faible.
+?? [A] Lequel de ces produits ne peut pas faire l'objet d'un démarchage ?
+a) une part d'OPCVM actions
+b) un produit dont le risque de perte peut être supérieur au montant de l'apport initial
+c) une obligation d'État
+=b Sauf exceptions prévues par les textes.
 
-?? Le test d'adéquation porte sur :
-a) les seules connaissances et l'expérience du client
-b) la situation financière, les objectifs, les connaissances et l'expérience du client
-c) uniquement la tolérance au risque
-d) l'âge et la profession du client
-=b Le test du caractère approprié, lui, ne porte que sur les connaissances et l'expérience.
+?? [A] Après un démarchage, le délai de rétractation applicable à la souscription d'un contrat de service est de :
+a) 7 jours calendaires
+b) 14 jours calendaires
+c) 30 jours calendaires
+=b Il n'existe pas pour les instruments dont le prix dépend des fluctuations des marchés.
 
-?? Un client refuse de remplir le questionnaire d'adéquation mais souhaite un conseil. Le prestataire :
-a) lui fournit un conseil prudent
-b) ne peut pas lui fournir de conseil en investissement
-c) lui fait signer une décharge et le conseille
-d) le classe en client professionnel
-=b Faute d'information, l'adéquation ne peut pas être évaluée.
+?? [A] Une personne démarchée qui souhaite ouvrir un service de réception et transmission d'ordres :
+a) bénéficie d'un délai de rétractation de 14 jours
+b) ne peut s'engager qu'après un délai de réflexion de 48 heures
+c) peut passer des ordres immédiatement
+=b Il n'y a pas de rétractation pour ces services, mais un délai de réflexion.
 
-?? En conseil indépendant, les rétrocessions perçues des producteurs :
-a) sont conservées par le conseiller
-b) sont interdites ou reversées au client
-c) sont plafonnées à 0,5 %
-d) sont autorisées si le client les accepte
+?? [A] Le démarcheur doit notamment :
+a) s'enquérir de la situation financière, de l'expérience et des objectifs de la personne démarchée
+b) garantir la performance du produit
+c) encaisser les fonds en espèces
+=a Il communique aussi son identité et celle de son mandant.
+
+?? [A] Le non-respect des règles du démarchage peut entraîner :
+a) uniquement un avertissement
+b) des sanctions pénales et la nullité des contrats conclus
+c) aucune conséquence pour le contrat
+=b Le démarchage est un domaine très encadré.
+
+?? [A] En cas de vente à distance d'un contrat d'assurance-vie, le délai de rétractation est de :
+a) 14 jours calendaires
+b) 30 jours calendaires
+c) 48 heures
+=b Il est de 14 jours pour la plupart des autres services financiers.
+
+?? [A] Depuis le 19 juin 2026, un professionnel qui vend des services financiers en ligne doit notamment :
+a) proposer une fonctionnalité de rétractation facilement accessible sur son interface
+b) supprimer le droit de rétractation
+c) imposer une signature manuscrite
+=a Le consommateur peut aussi demander une intervention humaine face à un outil automatisé.
+
+?? [A] Une communication publicitaire sur un fonds doit :
+a) mettre en avant les performances passées comme élément principal
+b) présenter les risques de façon aussi visible que les avantages
+c) garantir un rendement minimal
+=b Elle doit être claire, exacte et non trompeuse.
+
+?? [A] Lorsqu'une publicité mentionne des performances passées, elle doit :
+a) préciser qu'elles ne préjugent pas des performances futures et porter, si possible, sur au moins 5 ans
+b) se limiter à la meilleure année
+c) ne jamais indiquer la source
+=a Elles ne doivent pas être l'élément le plus visible.
+
+?? [C] La loi Sapin 2 a interdit :
+a) toute publicité pour les OPCVM
+b) la publicité par voie électronique pour certains contrats financiers très risqués comme les CFD et les options binaires
+c) le démarchage téléphonique pour les livrets d'épargne
+=b Les options binaires sont en outre interdites à la commercialisation auprès des particuliers.
+
+?? [A] Le DIC d'un produit d'investissement packagé :
+a) comporte au maximum 3 pages et un indicateur synthétique de risque de 1 à 7
+b) est remis après la souscription
+c) est facultatif pour les clients non professionnels
+=a Il est remis gratuitement avant la souscription.
+
+?? [C] L'indicateur synthétique de risque (SRI) du DIC combine :
+a) le risque de marché et le risque de crédit
+b) uniquement la volatilité passée
+c) les frais et la fiscalité
+=a Un produit à capital protégé peut avoir un SRI élevé si l'émetteur est fragile.
+
+?? [A] Depuis le 1er janvier 2023, les OPCVM proposés aux investisseurs de détail sont accompagnés :
+a) d'un DICI
+b) d'un DIC PRIIPs
+c) d'aucun document
+=b Le DIC PRIIPs a remplacé le DICI.
+
+?? [A] Dans le cadre de la gouvernance des produits, le marché cible est défini :
+a) par le producteur, puis affiné par le distributeur
+b) uniquement par l'AMF
+c) par le client
+=a Le producteur définit aussi un marché cible négatif.
+
+?? [A] Le test d'adéquation est requis :
+a) pour l'exécution simple d'ordres
+b) pour le conseil en investissement et la gestion de portefeuille
+c) pour la réception-transmission d'ordres uniquement
+=b Le test du caractère approprié s'applique aux autres services.
+
+?? [A] Le test d'adéquation porte sur :
+a) les seules connaissances et expérience du client
+b) les connaissances et l'expérience, la situation financière (dont la capacité à subir des pertes) et les objectifs (dont la tolérance au risque et les préférences de durabilité)
+c) la seule situation fiscale du client
+=b Le test du caractère approprié ne porte que sur les connaissances et l'expérience.
+
+?? [A] Un client refuse de répondre au questionnaire d'adéquation. Le prestataire :
+a) peut lui fournir un conseil en investissement en l'avertissant
+b) ne peut ni lui fournir de conseil en investissement ni gérer son portefeuille
+c) doit clôturer tous ses comptes
+=b Il peut en revanche lui fournir d'autres services.
+
+?? [A] Dans le cadre d'une réception-transmission d'ordres, un produit complexe paraît inapproprié au client. Le prestataire :
+a) doit refuser l'ordre dans tous les cas
+b) avertit le client et peut exécuter l'ordre s'il maintient sa demande
+c) exécute sans rien dire
+=b L'avertissement est donné sur support durable.
+
+?? [A] L'exécution simple (execution only) n'est possible que :
+a) pour des instruments non complexes, à l'initiative du client, qui est averti que le caractère approprié n'est pas évalué
+b) pour tous les instruments, sans condition
+c) pour les produits dérivés
+=a Les dérivés sont des instruments complexes.
+
+?? [A] Parmi ces instruments, lequel est en principe non complexe ?
+a) une part d'OPCVM non structuré
+b) un warrant
+c) un CFD
+=a Les dérivés sont complexes.
+
+?? [A] Un prestataire qui fournit un conseil en investissement indépendant :
+a) peut conserver les rétrocessions des sociétés de gestion
+b) doit analyser une gamme suffisamment large d'instruments et reverser au client les rétrocessions perçues
+c) ne peut conseiller que les produits de son groupe
 =b Seuls les avantages non monétaires mineurs restent admis.
 
-?? Un CIF doit obligatoirement :
-a) être agréé par l'ACPR
-b) adhérer à une association professionnelle agréée par l'AMF et être immatriculé à l'ORIAS
-c) détenir un capital minimum de 1 million d'euros
-d) tenir les comptes-titres de ses clients
-=b Il ne peut ni tenir de comptes ni recevoir de fonds autres que sa rémunération.
+?? [A] La déclaration d'adéquation remise au client non professionnel :
+a) explique en quoi la recommandation correspond à ses objectifs et à sa situation
+b) est facultative
+c) est rédigée par l'AMF
+=a Elle est remise avant la transaction, sur support durable.
 
-?? L'exécution simple (« execution only ») sans test est possible :
-a) pour tout instrument financier
-b) pour les instruments non complexes, à l'initiative du client
+?? [A] Les préférences du client en matière de durabilité sont recueillies :
+a) avant tout autre élément du test d'adéquation
+b) après l'évaluation des autres objectifs d'investissement, sans les influencer
 c) uniquement pour les clients professionnels
-d) uniquement pour les produits dérivés
-=b Le client est averti que le caractère approprié n'est pas évalué.
+=b Obligation en vigueur depuis le 2 août 2022.
 
-?? Les préférences du client en matière de durabilité doivent être recueillies dans le cadre :
-a) du test d'adéquation
-b) de l'ouverture du compte uniquement
-c) de la déclaration fiscale
-d) du test du caractère approprié uniquement
-=a Obligation applicable depuis le 2 août 2022.
+?? [A] L'information sur les coûts et frais doit être fournie :
+a) uniquement à la demande du client
+b) avant la prestation et au moins une fois par an après
+c) seulement en cas de perte
+=b En montant et en pourcentage, avec l'effet cumulé sur le rendement.
 
-?? Dans la gouvernance des produits, le marché cible est défini en premier lieu par :
-a) le client
-b) le producteur du produit
-c) l'AMF
-d) le commissaire aux comptes
-=b Le distributeur l'affine ensuite au regard de sa clientèle.
+?? [A] Un conseiller en investissements financiers doit notamment :
+a) être agréé par l'ACPR
+b) être immatriculé à l'ORIAS et adhérer à une association professionnelle agréée par l'AMF
+c) détenir les fonds de ses clients
+=b Il remet un document d'entrée en relation et une lettre de mission.
 
-?? La publicité par voie électronique en faveur des CFD et options binaires auprès des particuliers est :
-a) libre
-b) interdite depuis la loi Sapin 2
-c) soumise au visa de l'AMF
-d) autorisée avec un avertissement
-=b Cette interdiction vise certains contrats financiers très risqués.
+?? [A] Un CIF peut :
+a) recevoir les fonds que son client souhaite investir
+b) transmettre des ordres sur des parts d'OPC sur lesquelles il a fourni un conseil
+c) tenir des comptes-titres
+=b Il ne peut recevoir d'autres fonds que ceux destinés à rémunérer son activité.
 
-?? Dans une communication promotionnelle, les performances passées :
-a) peuvent être l'élément le plus visible
-b) doivent s'accompagner de l'avertissement qu'elles ne préjugent pas des performances futures
-c) sont interdites
-d) ne doivent couvrir qu'une année
-=b Elles portent sur des périodes complètes, idéalement au moins 5 ans.
-
-?? Avant une transaction recommandée à un client non professionnel, le prestataire remet :
-a) une déclaration d'adéquation
-b) un prospectus visé
-c) un relevé de portefeuille
-d) un avis d'opéré
-=a Elle explique en quoi la recommandation correspond au profil du client.
-
-?? Le démarchage d'un produit dont le risque de perte est supérieur à l'apport initial est :
-a) autorisé auprès de tous
-b) interdit, sauf exceptions réglementaires
-c) autorisé avec un délai de rétractation de 30 jours
-d) autorisé uniquement par téléphone
-=b C'est l'une des catégories de produits exclues du démarchage.
+?? [C] L'obligation de formation continue d'un CIF est d'au moins :
+a) 7 heures par an
+b) 35 heures par an
+c) 7 heures tous les cinq ans
+=a Sa compétence et son honorabilité sont vérifiées par son association.
