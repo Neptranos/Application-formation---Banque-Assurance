@@ -1,0 +1,737 @@
+# Examen blanc n° 2
+
+Même format que l'examen n° 1 : 120 questions, trois propositions, 2 heures ; questions 1 à 56 sur les thèmes 1 à 6, questions 57 à 120 sur les thèmes 7 à 12 ; seuils de réussite : 27/33 en catégorie A et 70/87 en catégorie C.
+
+[[SAUT]]
+
+## Partie 1 — Environnement réglementaire et déontologique (questions 1 à 56)
+
+?! [C] Une directive européenne :
+a) doit être transposée par chaque État membre dans le délai qu'elle fixe
+b) s'applique directement, sans transposition
+c) n'a aucune force obligatoire
+=a Thème 1. Le règlement, lui, est directement applicable.
+
+?! [C] Les orientations (guidelines) de l'ESMA s'appliquent selon le principe :
+a) « se conformer ou s'expliquer »
+b) « premier arrivé, premier servi »
+c) de l'unanimité des États
+=a Thème 1. Chaque autorité nationale indique si elle s'y conforme.
+
+?! [C] L'Autorité européenne des assurances et des pensions professionnelles (EIOPA) siège à :
+a) Paris
+b) Francfort
+c) Bruxelles
+=b Thème 1. L'ESMA et l'EBA siègent à Paris.
+
+?! [C] Le Comité européen du risque systémique (CERS) est adossé à :
+a) la Banque centrale européenne
+b) l'ESMA
+c) la Commission européenne
+=a Thème 1. Il est chargé de la surveillance macroprudentielle.
+
+?! [C] Pour la BCE, une inflation durablement inférieure à l'objectif de 2 % est :
+a) aussi indésirable qu'une inflation durablement supérieure
+b) toujours préférable
+c) sans importance
+=a Thème 1. L'objectif est symétrique depuis 2021.
+
+?! [C] L'AMF est née en 2003 de la fusion de la COB, du Conseil des marchés financiers et du :
+a) Conseil de discipline de la gestion financière
+b) Comité des établissements de crédit
+c) Conseil national du crédit
+=a Thème 1. Loi de sécurité financière du 1er août 2003.
+
+?! [C] La Commission des sanctions de l'AMF comprend notamment :
+a) des conseillers d'État, des conseillers à la Cour de cassation et des professionnels
+b) uniquement des membres du Collège
+c) des représentants de l'ESMA
+=a Thème 1. Elle est distincte du Collège.
+
+?! [C] Les services de l'AMF peuvent mener une enquête :
+a) à l'égard de toute personne, notamment en matière d'abus de marché
+b) uniquement à l'égard des professionnels agréés
+c) uniquement sur autorisation du Parlement
+=a Thème 1. Les contrôles visent, eux, les professionnels régulés.
+
+?! [C] Le Haut Conseil de stabilité financière est présidé par :
+a) le ministre chargé de l'Économie
+b) le président de l'AMF
+c) le président de la BCE
+=a Thème 1. Il conduit la politique macroprudentielle française.
+
+?! [C] Un courtier en assurance doit être immatriculé :
+a) à l'ORIAS
+b) à l'AMF
+c) à l'ESMA
+=a Thème 1. L'ORIAS tient le registre unique des intermédiaires.
+
+?! [A] Un agent lié d'un prestataire de services d'investissement :
+a) peut recevoir les fonds des clients pour les transmettre au prestataire
+b) ne peut recevoir ni fonds ni instruments financiers des clients
+c) peut travailler pour plusieurs prestataires
+=b Thème 1. Il agit pour un seul PSI, qui est entièrement responsable de ses actes.
+
+?! [C] L'octroi d'un crédit à un client pour lui permettre de réaliser une opération sur instruments financiers est :
+a) un service connexe
+b) un service d'investissement
+c) une activité interdite aux banques
+=a Thème 1. Comme la tenue de compte-conservation.
+
+?! [C] Le coussin de conservation des fonds propres imposé aux banques par Bâle III est de :
+a) 2,5 %
+b) 8 %
+c) 30 %
+=a Thème 1. Il s'ajoute aux exigences minimales.
+
+?! [C] Après la vente de sa résidence principale, un client dépose le prix sur son compte. En cas de faillite de la banque dans les trois mois, la garantie des dépôts peut être portée jusqu'à :
+a) 100 000 €
+b) 500 000 €
+c) 1 000 000 €
+=b Thème 1. C'est la garantie des dépôts exceptionnels temporaires.
+
+?! [A] La fonction conformité doit notamment disposer :
+a) de l'autorité, des ressources et de l'accès à toutes les informations nécessaires
+b) d'un rattachement au service commercial
+c) d'une rémunération indexée sur les ventes
+=a Thème 2. C'est une condition de son efficacité et de son indépendance.
+
+?! [A] Lorsqu'une valeur figure sur la liste d'interdiction (restricted list) d'un établissement :
+a) les collaborateurs concernés ne peuvent pas opérer, ou de façon restreinte, sur cette valeur
+b) seule la conformité en est informée
+c) l'AMF suspend la cotation
+=a Thème 2. Contrairement à la liste de surveillance, elle est diffusée en interne.
+
+?! [A] Un prestataire qui externalise une fonction opérationnelle importante doit notamment :
+a) encadrer l'externalisation par un contrat et contrôler le prestataire
+b) cesser tout contrôle sur cette fonction
+c) en transférer la responsabilité au prestataire
+=a Thème 2. Il reste pleinement responsable.
+
+?! [A] En conseil non indépendant, le client doit être informé du montant exact des rétrocessions perçues :
+a) a posteriori, au moins une fois par an
+b) jamais
+c) uniquement s'il le demande par lettre recommandée
+=a Thème 2. Il est informé avant le service du montant ou de sa méthode de calcul.
+
+?! [A] Un fournisseur propose à un conseiller une enveloppe contenant des espèces pour le remercier. Le conseiller doit :
+a) la refuser et en informer la conformité selon la politique de l'établissement
+b) l'accepter si le montant est faible
+c) la reverser au client
+=a Thème 2. Les cadeaux en espèces sont proscrits.
+
+?! [C] Les associations professionnelles comme l'AFG et l'AMAFI :
+a) élaborent des codes de déontologie et représentent leurs membres
+b) prononcent des sanctions pénales
+c) agréent les prestataires
+=a Thème 2. Elles sont consultées sur la réglementation.
+
+?! [A] Un client occasionnel, sans relation d'affaires avec la banque, souhaite effectuer une opération de 18 000 €. L'identification est :
+a) obligatoire
+b) facultative
+c) interdite
+=a Thème 3. Elle est obligatoire au-delà de 15 000 € (et en cas de soupçon).
+
+?! [A] M. Roux détient 40 % de la société B, qui détient elle-même 50 % de la société A. Sans autre lien de contrôle, M. Roux est-il bénéficiaire effectif de A ?
+a) oui, car il détient plus de 25 % de B
+b) non, car sa détention indirecte dans A n'est que de 20 %
+c) oui, dans tous les cas
+=b Thème 3. 40 % × 50 % = 20 %, sous le seuil de 25 % (sauf contrôle par un autre moyen).
+
+?! [A] Le gel des avoirs interdit notamment :
+a) de mettre des fonds, directement ou indirectement, à la disposition d'une personne désignée
+b) de faire une déclaration de soupçon
+c) d'informer la DG Trésor
+=a Thème 3. Les avoirs existants sont bloqués et aucun fonds ne doit lui être fourni.
+
+?! [A] Un dirigeant d'une société cotée souhaite vendre des actions de sa société 20 jours avant la publication des résultats annuels, sans détenir d'information privilégiée. Il :
+a) le peut librement
+b) ne le peut pas, car il est dans la fenêtre négative de 30 jours
+c) le peut s'il en informe l'AMF la veille
+=b Thème 4. La fenêtre négative s'applique même sans information privilégiée.
+
+?! [A] Avant leur publication, des résultats annuels très supérieurs aux attentes du marché, connus de la direction, constituent :
+a) une information privilégiée
+b) une information publique
+c) une rumeur
+=a Thème 4. Ils sont précis, non publics et susceptibles d'influencer sensiblement le cours.
+
+?! [A] Un conseiller qui présente des fonds à un particulier rencontré sur le stand de sa banque dans un salon de l'automobile réalise :
+a) un acte de démarchage
+b) une vente en agence
+c) une simple information
+=a Thème 5. Le salon n'est pas un lieu destiné à la commercialisation de produits financiers.
+
+?! [A] Ne peut pas faire l'objet d'un démarchage :
+a) un fonds étranger non autorisé à la commercialisation en France
+b) une part d'OPCVM agréé
+c) une obligation d'État française
+=a Thème 5. Les produits non autorisés en France sont exclus.
+
+?! [A] Une publicité pour un produit structuré qui affiche en gros caractères « capital garanti » sans préciser les conditions de la garantie est :
+a) conforme
+b) trompeuse
+c) obligatoire
+=b Thème 5. Les conditions de la garantie (échéance, émetteur) doivent être indiquées.
+
+?! [A] Le document d'informations clés (DIC) est :
+a) rédigé par le producteur et remis par le distributeur au client avant la souscription
+b) rédigé par le client
+c) rédigé par l'AMF pour chaque produit
+=a Thème 5. Il est gratuit.
+
+?! [A] Le test du caractère approprié porte sur :
+a) les connaissances et l'expérience du client
+b) la situation financière et les objectifs du client
+c) la situation fiscale du client
+=a Thème 5. Le test d'adéquation porte en plus sur la situation financière et les objectifs.
+
+?! [C] Un conseiller en investissements financiers peut :
+a) exécuter lui-même les ordres de bourse de ses clients
+b) fournir un conseil en investissement et transmettre des ordres sur des parts d'OPC qu'il a conseillées
+c) tenir les comptes-titres de ses clients
+=b Thème 5. Il ne peut ni exécuter d'ordres ni tenir de comptes.
+
+?! [A] Un client professionnel doit informer son prestataire :
+a) de tout changement susceptible de modifier sa catégorie
+b) de chacun de ses ordres sur d'autres plateformes
+c) de sa situation fiscale chaque mois
+=a Thème 6. Le prestataire peut alors revoir sa classification.
+
+?! [A] Pour apprécier le critère du portefeuille de 500 000 € de l'opt-up, on tient compte :
+a) des instruments financiers et des dépôts en espèces
+b) uniquement des actions
+c) de la résidence principale
+=a Thème 6. L'immobilier n'est pas pris en compte.
+
+?! [A] Un fonds de pension est :
+a) un client professionnel par nature
+b) un client non professionnel
+c) exclu de toute classification
+=a Thème 6. Il peut aussi être contrepartie éligible pour certains services.
+
+?! [A] Le juge des tutelles peut, lorsque le patrimoine du mineur le justifie, décider que certains actes de disposition seront soumis à :
+a) son autorisation préalable
+b) l'accord de la banque
+c) l'avis de l'AMF
+=a Thème 6. Il protège ainsi les intérêts du mineur.
+
+?! [A] Les actes accomplis par une personne placée sous sauvegarde de justice :
+a) peuvent être réduits ou annulés s'ils sont excessifs ou lésionnaires
+b) sont toujours nuls
+c) doivent être signés par un tuteur
+=a Thème 6. La personne conserve l'exercice de ses droits.
+
+?! [A] Un tuteur qui gère le portefeuille d'une personne protégée :
+a) peut réaliser des placements spéculatifs pour accroître le patrimoine
+b) doit gérer prudemment et obtenir l'autorisation du juge pour les actes de disposition
+c) n'a aucun compte à rendre
+=b Thème 6. Il rend compte chaque année de sa gestion.
+
+?! [A] À l'égard de la banque dépositaire, l'époux qui a ouvert seul un compte de titres à son nom :
+a) est réputé avoir la libre disposition des titres
+b) doit obtenir l'accord de son conjoint pour chaque vente
+c) ne peut pas passer d'ordres
+=a Thème 6. Article 221 du code civil.
+
+?! [A] Au décès de l'un des cotitulaires d'un compte indivis :
+a) le compte est bloqué
+b) le survivant continue de le faire fonctionner seul
+c) le compte devient un compte joint
+=a Thème 6. Toutes les opérations exigeaient déjà la signature de tous.
+
+?! [A] Une procuration sur compte-titres prend fin notamment :
+a) lorsque le mandant est placé sous tutelle
+b) à chaque fin de trimestre
+c) lorsque le mandataire passe un ordre
+=a Thème 6. Elle prend aussi fin au décès du mandant.
+
+?! [A] À l'ouverture d'un compte au nom d'une société, la banque vérifie notamment :
+a) les pouvoirs de la personne qui la représente, au vu d'un extrait Kbis récent et des statuts
+b) le casier judiciaire de tous les salariés
+c) les comptes de tous les clients de la société
+=a Thème 6. Elle identifie aussi les bénéficiaires effectifs.
+
+?! [A] Un client non professionnel préfère recevoir ses informations sur papier. Le prestataire :
+a) doit les lui fournir gratuitement sur papier
+b) peut les lui facturer
+c) peut refuser
+=a Thème 6. La communication électronique est devenue le mode par défaut depuis 2021.
+
+?! [A] Les ordres comparables des clients sont exécutés dans l'ordre de leur arrivée, sauf :
+a) si les conditions du marché ou les caractéristiques de l'ordre ne le permettent pas, ou si l'intérêt du client l'exige
+b) si le client est un particulier
+c) en fin de mois
+=a Thème 6. Le traitement doit être rapide et équitable.
+
+?! [A] La politique d'exécution des ordres est réexaminée :
+a) au moins une fois par an
+b) tous les cinq ans
+c) uniquement à la demande de l'AMF
+=a Thème 6. Le prestataire surveille aussi son efficacité.
+
+?! [A] Le relevé des instruments financiers et des fonds détenus par un client est adressé au moins :
+a) chaque mois
+b) chaque trimestre
+c) chaque année
+=b Thème 6. Le client peut demander une fréquence plus élevée.
+
+?! [A] En gestion sous mandat, l'information en cas de baisse de 10 % du portefeuille doit parvenir au client :
+a) au plus tard à la fin du jour ouvrable où le seuil est franchi
+b) dans le mois
+c) avec le relevé annuel
+=a Thème 6. Puis à chaque multiple de 10 %.
+
+?! [A] Avec un client non professionnel, un transfert de propriété de titres à titre de garantie est :
+a) autorisé avec son accord
+b) interdit
+c) obligatoire pour le SRD
+=b Thème 6. Les avoirs des clients de détail sont ainsi protégés.
+
+?! [A] Dans une procédure de divorce, le juge civil demande à la banque le solde du compte personnel de l'un des époux. La banque :
+a) peut opposer le secret professionnel, sauf exceptions prévues par la loi
+b) doit toujours communiquer le solde
+c) doit communiquer le solde à l'autre époux
+=a Thème 6. Le secret n'est pas opposable au juge pénal, mais il l'est en principe au juge civil.
+
+?! [C] Une violation du RGPD peut être sanctionnée par la CNIL d'une amende allant jusqu'à :
+a) 20 millions d'euros ou 4 % du chiffre d'affaires mondial
+b) 100 000 €
+c) 1 % du chiffre d'affaires français
+=a Thème 6. Le montant le plus élevé est retenu.
+
+?! [C] Le médiateur de l'AMF n'est pas compétent pour :
+a) un litige relatif à l'impôt sur les plus-values
+b) un litige sur l'exécution d'un ordre de bourse
+c) un litige sur la souscription de parts de FCP
+=a Thème 6. Les litiges fiscaux ne relèvent pas de sa compétence.
+
+?! [C] Le traitement d'une réclamation par le professionnel est :
+a) gratuit
+b) facturé au client
+c) facturé seulement si la réclamation est rejetée
+=a Thème 6. La médiation de l'AMF est également gratuite.
+
+?! [C] Selon la loi Eckert, un compte de dépôt est réputé inactif après une période sans opération ni manifestation du titulaire de :
+a) 12 mois
+b) 5 ans
+c) 10 ans
+=a Thème 6. Le délai est de 5 ans pour les comptes-titres et d'épargne.
+
+?! [C] Les sommes transférées à la Caisse des dépôts au titre d'un compte inactif d'un titulaire vivant sont acquises à l'État :
+a) 20 ans après leur dépôt
+b) 5 ans après leur dépôt
+c) immédiatement
+=a Thème 6. 27 ans en cas de décès du titulaire.
+
+?! [C] Au décès d'un cotitulaire d'un compte joint, le fonctionnement du compte par le survivant peut être bloqué :
+a) par l'opposition d'un héritier
+b) par l'AMF
+c) jamais
+=a Thème 6. Sinon, le compte continue de fonctionner sous la signature du survivant.
+
+?! [C] Le plafond de versements d'un PEA « jeune » est de :
+a) 20 000 €
+b) 75 000 €
+c) 150 000 €
+=a Thème 6. Il est réservé aux 18-25 ans rattachés au foyer fiscal de leurs parents.
+
+?! [C] La convention de compte-titres précise notamment :
+a) les conditions de résiliation et de transfert du compte
+b) la performance garantie
+c) le nom des autres clients
+=a Thème 6. Elle précise aussi les services, les tarifs et les comptes rendus.
+
+[[SAUT]]
+
+## Partie 2 — Connaissances techniques (questions 57 à 120)
+
+?! [C] Un bon de souscription d'actions (BSA) donne le droit :
+a) de souscrire des actions nouvelles à un prix fixé, pendant une période donnée
+b) de percevoir un coupon fixe
+c) de voter en assemblée générale
+=a Thème 7. Il s'apparente à un call.
+
+?! [C] En cas de liquidation d'une société, le boni de liquidation revient :
+a) aux actionnaires, après remboursement de tous les créanciers
+b) aux obligataires en priorité
+c) à l'État
+=a Thème 7. L'actionnaire est payé en dernier.
+
+?! [C] Une société capitalise 2 milliards d'euros pour un résultat net de 100 millions d'euros. Son PER est de :
+a) 5
+b) 20
+c) 200
+=b Thème 7. Capitalisation / résultat net = 20.
+
+?! [C] Une action cote 75 € et verse un dividende de 3 €. Son rendement est de :
+a) 3 %
+b) 4 %
+c) 25 %
+=b Thème 7. 3 / 75 = 4 %.
+
+?! [C] Une obligation remboursable in fine est remboursée :
+a) en une seule fois à l'échéance
+b) par annuités constantes
+c) par tirage au sort chaque année
+=a Thème 7. C'est le mode de remboursement le plus courant.
+
+?! [C] Le prix d'une obligation est coté « pied de coupon », ce qui signifie :
+a) hors coupon couru
+b) coupon couru inclus
+c) après impôt
+=a Thème 7. L'acheteur paie en plus le coupon couru.
+
+?! [C] Une obligation de nominal 1 000 € verse un coupon annuel de 3,65 %. 100 jours se sont écoulés depuis le dernier coupon (année de 365 jours). Le coupon couru est de :
+a) 10 €
+b) 36,50 €
+c) 3,65 €
+=a Thème 7. 1 000 × 3,65 % × 100 / 365 = 10 €.
+
+?! [C] Une obligation notée Ba1 par Moody's appartient à la catégorie :
+a) investment grade
+b) spéculative (high yield)
+c) défaut
+=b Thème 7. La dernière note investment grade est Baa3.
+
+?! [C] Un NEU MTN est un titre de créance négociable d'une durée :
+a) supérieure à un an
+b) inférieure à un an
+c) indéterminée
+=a Thème 7. Le NEU CP a une durée d'un an au plus.
+
+?! [C] Un contrat forward se distingue d'un future notamment par :
+a) sa négociation de gré à gré, avec un risque de contrepartie
+b) sa standardisation
+c) l'intervention d'une chambre de compensation
+=a Thème 7. Le future est standardisé et compensé.
+
+?! [C] Un investisseur achète un future d'une valeur notionnelle de 50 000 € en déposant 5 000 € de garantie. Le sous-jacent monte de 2 %. Son gain représente, rapporté à sa mise :
+a) 2 %
+b) 20 %
+c) 10 %
+=b Thème 7. Gain de 1 000 € pour 5 000 € déposés : effet de levier de 10.
+
+?! [C] Un investisseur qui détient des actions et achète des puts sur ces mêmes actions cherche à :
+a) se protéger contre une baisse des cours
+b) amplifier ses gains en cas de hausse
+c) percevoir un revenu immédiat
+=a Thème 7. Le put fonctionne comme une assurance, dont le coût est la prime.
+
+?! [C] Toutes choses égales par ailleurs, plus le prix d'exercice d'un call est élevé :
+a) plus sa prime est élevée
+b) moins sa prime est élevée
+c) sa prime ne change pas
+=b Thème 7. Le droit d'acheter plus cher vaut moins.
+
+?! [C] Vendre un call sur une action que l'on détient (covered call) permet :
+a) d'encaisser une prime en renonçant à une partie de la hausse au-delà du prix d'exercice
+b) de se protéger totalement contre la baisse
+c) d'emprunter les titres
+=a Thème 7. La protection contre la baisse se limite au montant de la prime.
+
+?! [C] Dans un credit default swap (CDS), l'acheteur de protection :
+a) verse une prime périodique et est indemnisé en cas de défaut de l'émetteur de référence
+b) reçoit une prime et indemnise le vendeur
+c) échange des devises
+=a Thème 7. Le vendeur de protection supporte le risque de crédit.
+
+?! [C] Dans une titrisation, les tranches « senior » :
+a) sont remboursées en priorité et sont les moins risquées
+b) supportent les premières pertes
+c) n'ont aucun droit au remboursement
+=a Thème 7. Les tranches « equity » supportent les premières pertes.
+
+?! [C] Un jeton non fongible (NFT) véritablement unique :
+a) ne relève en principe pas de MiCA
+b) est un jeton de monnaie électronique
+c) est un instrument financier dans tous les cas
+=a Thème 7. MiCA exclut les crypto-actifs uniques et non fongibles.
+
+?! [C] Une obligation à taux variable indexée sur l'€STR présente :
+a) une sensibilité au taux très faible
+b) une sensibilité au taux très forte
+c) un coupon fixe
+=a Thème 7. Son coupon s'ajuste aux taux du marché.
+
+?! [C] La directive sur les gestionnaires de fonds d'investissement alternatifs (AIFM) date de :
+a) 2009
+b) 2011
+c) 2019
+=b Thème 8. Directive 2011/61/UE ; la directive OPCVM actuelle date de 2009.
+
+?! [C] Les règles de fonctionnement d'un FCP figurent dans :
+a) son règlement
+b) ses statuts
+c) le règlement général de l'AMF seulement
+=a Thème 8. Une SICAV, qui est une société, a des statuts.
+
+?! [C] En cas de perte d'instruments financiers chez un sous-conservateur, le dépositaire d'un OPCVM :
+a) est responsable de leur restitution, sauf événement extérieur échappant à son contrôle raisonnable
+b) n'est jamais responsable
+c) transfère la responsabilité à la société de gestion
+=a Thème 8. C'est une protection forte des porteurs.
+
+?! [C] Le centralisateur d'un OPC :
+a) reçoit et centralise les ordres de souscription et de rachat
+b) prend les décisions d'investissement
+c) certifie les comptes
+=a Thème 8. Les ordres sont ensuite exécutés sur la prochaine valeur liquidative.
+
+?! [C] Les frais de gestion d'un fonds sont :
+a) prélevés en continu sur l'actif du fonds
+b) payés une seule fois à la souscription
+c) payés par la société de gestion aux porteurs
+=a Thème 8. Ils pèsent directement sur la valeur liquidative.
+
+?! [C] Un OPCVM de 200 M€ détient cinq lignes de plus de 5 % : 9 %, 8 %, 8 %, 7 % et 6 %. Au regard de la règle 5/10/40, il :
+a) la respecte (38 %)
+b) ne la respecte pas
+c) dépasse le plafond de 10 % par émetteur
+=a Thème 8. Aucune ligne ne dépasse 10 % et leur total est de 38 %.
+
+?! [C] Une poche de cantonnement (side pocket) permet :
+a) d'isoler des actifs devenus illiquides du reste du portefeuille
+b) de réduire les frais de gestion
+c) de suspendre définitivement le fonds
+=a Thème 8. C'est un outil de gestion de la liquidité.
+
+?! [C] Un fonds réalise 7 % avec une volatilité de 12 %, le taux sans risque étant de 1 %. Son ratio de Sharpe est de :
+a) 0,5
+b) 0,58
+c) 6
+=a Thème 8. (7 − 1) / 12 = 0,5.
+
+?! [C] L'alpha d'un fonds mesure :
+a) la surperformance non expliquée par son exposition au marché
+b) sa sensibilité au marché
+c) ses frais de gestion
+=a Thème 8. La sensibilité au marché est mesurée par le bêta.
+
+?! [C] Pour être considérée comme durable au sens de la taxonomie, une activité doit notamment :
+a) respecter des garanties sociales minimales
+b) être exercée en France
+c) être cotée en bourse
+=a Thème 8. En plus de la contribution substantielle et du principe DNSH.
+
+?! [C] Le label Finansol distingue :
+a) les placements d'épargne solidaire
+b) les fonds monétaires
+c) les fonds indiciels
+=a Thème 8. Greenfin vise la transition écologique, le label ISR l'investissement responsable.
+
+?! [C] Une société de gestion exerce les droits de vote attachés aux titres détenus par ses fonds :
+a) dans l'intérêt exclusif des porteurs, selon une politique de vote
+b) dans l'intérêt de son groupe
+c) jamais
+=a Thème 8. Elle rend compte de l'exercice de ces droits.
+
+?! [C] Euronext Access est :
+a) un système multilatéral de négociation destiné aux jeunes sociétés
+b) un marché réglementé
+c) une chambre de compensation
+=a Thème 9. Euronext Growth est aussi un SMN.
+
+?! [C] Les ordres des investisseurs parviennent au marché réglementé par l'intermédiaire :
+a) des membres du marché
+b) de l'AMF
+c) du dépositaire central
+=a Thème 9. Les membres sont des prestataires de services d'investissement.
+
+?! [C] Un teneur de marché :
+a) affiche en permanence des prix d'achat et de vente sur un titre
+b) contrôle les émetteurs
+c) tient les comptes des actionnaires
+=a Thème 9. Il apporte de la liquidité.
+
+?! [C] La composition du CAC 40 est revue :
+a) chaque trimestre
+b) chaque jour
+c) tous les cinq ans
+=a Thème 9. Par un comité indépendant d'Euronext.
+
+?! [C] Carnet au fixing — achats : 100 titres à 10,20 €, 300 à 10,10 €, 400 à 10,00 € ; ventes : 250 à 9,90 €, 200 à 10,00 €, 300 à 10,10 €. Le cours de fixing est de :
+a) 9,90 €
+b) 10,00 €
+c) 10,10 €
+=b Thème 9. À 10,00 € : demande 800, offre 450, soit 450 titres échangés, le volume maximal.
+
+?! [C] Un ordre au marché sur une valeur très peu liquide expose surtout à un risque :
+a) d'exécution à un prix très éloigné du dernier cours
+b) de non-exécution
+c) d'annulation automatique
+=a Thème 9. L'ordre au marché garantit l'exécution, pas le prix.
+
+?! [C] Un investisseur détient une action qui cote 50 € et veut limiter sa perte si le cours baisse. Il peut placer :
+a) un ordre de vente à seuil de déclenchement à 45 €
+b) un ordre d'achat à cours limité à 45 €
+c) un ordre d'achat au marché
+=a Thème 9. Le stop devient un ordre au marché si le cours atteint 45 €.
+
+?! [C] Sur le SRD, un ordre passé après le jour de liquidation du mois :
+a) est reporté sur la liquidation du mois suivant
+b) est annulé
+c) est réglé immédiatement
+=a Thème 9. Le jour de liquidation est le cinquième jour de bourse avant la fin du mois.
+
+?! [C] En mars 2020, face à la chute des marchés, l'AMF a :
+a) temporairement interdit la création ou l'augmentation de positions courtes nettes sur les actions
+b) fermé définitivement Euronext Paris
+c) supprimé le SRD
+=a Thème 9. Le règlement européen sur la vente à découvert le permet en cas de baisse exceptionnelle.
+
+?! [C] Les dérogations à la transparence pré-négociation concernent notamment :
+a) les ordres de grande taille
+b) tous les ordres des particuliers
+c) les ordres au marché
+=a Thème 9. Elles permettent d'éviter un impact excessif sur le marché.
+
+?! [C] Si le cours EUR/USD passe de 1,10 à 1,20 :
+a) le dollar se déprécie face à l'euro
+b) le dollar s'apprécie face à l'euro
+c) les deux monnaies restent stables
+=a Thème 9. Il faut plus de dollars pour obtenir un euro.
+
+?! [C] L'intervention d'une contrepartie centrale réduit principalement :
+a) le risque de contrepartie entre les participants
+b) le risque de change
+c) le risque d'inflation
+=a Thème 10. Chaque participant n'est plus exposé qu'à la chambre.
+
+?! [C] Les appels de marge d'une chambre de compensation peuvent être :
+a) quotidiens, voire intrajournaliers
+b) seulement annuels
+c) seulement à l'échéance du contrat
+=a Thème 10. Ils couvrent les pertes latentes.
+
+?! [C] LCH SA, à Paris, reste une chambre de compensation importante notamment pour :
+a) les pensions livrées sur titres d'État
+b) les actions d'Euronext Paris
+c) les livrets d'épargne
+=a Thème 10. Les actions d'Euronext Paris sont compensées par Euronext Clearing.
+
+?! [C] Le règlement CSDR impose notamment :
+a) l'inscription en compte des valeurs mobilières négociées sur une plateforme de négociation
+b) la cotation des fonds monétaires
+c) la publication d'un DIC
+=a Thème 10. Il encadre aussi les dépositaires centraux et la discipline de règlement.
+
+?! [C] Avec un cycle de règlement à J+1, applicable à partir du 11 octobre 2027, des actions achetées le vendredi seront livrées :
+a) le samedi
+b) le lundi suivant
+c) le mardi suivant
+=b Thème 10. Le samedi et le dimanche ne sont pas des jours ouvrés.
+
+?! [C] Au nominatif pur, l'actionnaire supporte en général :
+a) aucun droit de garde
+b) des droits de garde plus élevés qu'au porteur
+c) une taxe spécifique
+=a Thème 10. Le compte est tenu par l'émetteur ou son mandataire.
+
+?! [C] Dans une pension livrée, le cédant des titres :
+a) s'engage à les racheter à une date et à un prix fixés
+b) les vend définitivement
+c) n'a aucune obligation
+=a Thème 10. Économiquement, il emprunte des espèces en donnant des titres en garantie.
+
+?! [C] Dans une prise ferme, le risque que les titres ne trouvent pas preneur est supporté par :
+a) la banque
+b) l'émetteur
+c) l'AMF
+=a Thème 11. La banque a acheté les titres.
+
+?! [C] L'offre à prix ouvert (OPO) est destinée principalement :
+a) aux particuliers
+b) aux seuls investisseurs institutionnels
+c) aux salariés de l'émetteur
+=a Thème 11. Les institutionnels passent par le placement global.
+
+?! [C] L'option de surallocation est liée à :
+a) la stabilisation du cours après l'introduction
+b) la suppression du droit préférentiel de souscription
+c) l'offre publique de retrait
+=a Thème 11. Elle permet de servir une demande supérieure et de stabiliser le cours.
+
+?! [C] L'engagement de lock-up pris par les actionnaires historiques lors d'une introduction en bourse vise à :
+a) rassurer le marché en évitant des ventes massives après l'opération
+b) interdire aux nouveaux actionnaires de vendre
+c) garantir le cours
+=a Thème 11. Sa durée est souvent de 6 à 12 mois.
+
+?! [C] Le prospectus comporte :
+a) un résumé standardisé, destiné à faciliter la lecture par les investisseurs
+b) une garantie de performance
+c) l'avis de l'AMF sur l'opportunité d'investir
+=a Thème 11. L'approbation de l'AMF ne porte pas sur l'opportunité de l'investissement.
+
+?! [C] Une offre de titres adressée à 120 particuliers dans un seul État membre :
+a) est dispensée de prospectus
+b) exige un prospectus
+c) est interdite
+=a Thème 11. Moins de 150 personnes par État membre, hors investisseurs qualifiés.
+
+?! [C] Sur une plateforme de financement participatif, l'avertissement renforcé lorsque l'investissement dépasse 1 000 € ou 5 % du patrimoine net d'un investisseur non averti :
+a) n'empêche pas l'investissement, qui reste possible après consentement exprès
+b) interdit l'investissement
+c) n'existe pas
+=a Thème 11. Ce n'est pas un plafond d'investissement.
+
+?! [C] La suppression du droit préférentiel de souscription relève de :
+a) l'assemblée générale extraordinaire
+b) l'AMF
+c) chaque actionnaire individuellement
+=a Thème 11. Elle peut s'accompagner d'un délai de priorité.
+
+?! [C] Une société attribue gratuitement 1 action nouvelle pour 4 anciennes. L'action cotait 50 € avant l'opération. Son cours théorique après l'opération est de :
+a) 40 €
+b) 50 €
+c) 62,50 €
+=a Thème 11. 4 × 50 = 200 € répartis sur 5 actions.
+
+?! [C] Dans une offre publique, le conseil d'administration de la société visée doit :
+a) émettre un avis motivé sur l'intérêt de l'offre
+b) accepter l'offre
+c) se dissoudre
+=a Thème 11. Pour la société, ses actionnaires et ses salariés.
+
+?! [C] La valeur actuelle de 5 000 € reçus dans 3 ans, actualisés à 4 %, est d'environ :
+a) 4 445 €
+b) 4 400 €
+c) 5 624 €
+=a Thème 12. 5 000 / 1,04³ ≈ 4 444,98 €.
+
+?! [C] Le résultat courant avant impôt est égal :
+a) au résultat d'exploitation augmenté du résultat financier
+b) à l'EBE diminué des impôts
+c) au chiffre d'affaires diminué des achats
+=a Thème 12. Viennent ensuite le résultat exceptionnel, la participation et l'impôt.
+
+?! [C] Une obligation à taux fixe qui cote exactement au pair a un taux de rendement actuariel :
+a) égal au taux de son coupon
+b) supérieur au taux de son coupon
+c) nul
+=a Thème 12. Sous le pair, il est supérieur ; au-dessus du pair, inférieur.
+
+?! [C] Selon le modèle de Gordon-Shapiro, une action dont le prochain dividende est de 1,50 €, avec une rentabilité exigée de 7 % et une croissance perpétuelle de 2 %, vaut :
+a) 21,43 €
+b) 30 €
+c) 75 €
+=b Thème 12. 1,50 / (0,07 − 0,02) = 30 €.
+
+?! [C] Le taux marginal d'imposition d'un contribuable est :
+a) le taux de la tranche la plus élevée atteinte par son revenu imposable par part
+b) le rapport entre son impôt et son revenu
+c) toujours égal à 30 %
+=a Thème 12. Le taux moyen est toujours inférieur.
+
+?! [C] Au décès de l'assuré, les capitaux d'assurance-vie issus de primes versées après 70 ans bénéficient :
+a) d'un abattement global de 30 500 €, les gains étant exonérés
+b) d'un abattement de 152 500 € par bénéficiaire
+c) d'aucun abattement
+=a Thème 12. Au-delà, les primes supportent les droits de succession.
+
+[[SAUT]]
+
+## Corrigé de l'examen blanc n° 2
+
+[[CORRIGE]]
