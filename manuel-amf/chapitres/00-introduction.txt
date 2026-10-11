@@ -1,86 +1,146 @@
-# Introduction — L'examen certifié AMF
+# Introduction — Réussir l'examen certifié AMF
 
 ## Pourquoi cette certification existe
 
-Depuis la transposition de la directive MIF et l'entrée en vigueur du dispositif de vérification des connaissances minimales (règlement général de l'AMF, articles 313-7-1 à 313-7-3 pour les prestataires de services d'investissement, et dispositions équivalentes pour les sociétés de gestion), toute personne exerçant certaines fonctions sous l'autorité d'un prestataire de services d'investissement doit justifier d'un niveau de connaissances minimales en matière financière, réglementaire et déontologique.
+Un client qui confie son épargne à un établissement financier ne peut pas vérifier lui-même la compétence de la personne qui le conseille. Pour garantir un socle commun de connaissances, l'Autorité des marchés financiers (AMF) impose depuis le **1er juillet 2010** que les collaborateurs exerçant certaines fonctions sensibles justifient d'un **niveau minimal de connaissances** en matière réglementaire, déontologique et technique.
 
-L'AMF ne fait pas passer l'examen elle-même : elle **certifie des examens** organisés par des organismes extérieurs (organismes de formation, écoles, associations professionnelles), selon un cahier des charges fixé par son **instruction DOC-2010-09**, dont l'**annexe 1** définit le contenu des connaissances minimales. C'est ce programme officiel, organisé en **12 thèmes**, que suit fidèlement ce manuel.
+Le fondement est le **règlement général de l'AMF** (RGAMF), aux articles **313-7-1 à 313-7-3** pour les prestataires de services d'investissement (banques, entreprises d'investissement), avec des dispositions équivalentes pour les sociétés de gestion de portefeuille et, depuis 2017, pour les conseillers en investissements financiers (CIF). Ces articles appliquent eux-mêmes une exigence européenne : la directive MIF 2 impose aux établissements de s'assurer que leurs collaborateurs disposent des connaissances et compétences nécessaires.
+
+c> L'AMF ne fait pas passer l'examen elle-même. Elle **certifie** des examens organisés par des organismes extérieurs (écoles, organismes de formation, associations professionnelles) selon un cahier des charges : son **instruction DOC-2010-09**. L'annexe de cette instruction fixe le **programme officiel**, en **12 thèmes**. Tous les organismes certifiés puisent dans une **base de questions commune**, validée par l'AMF : quel que soit l'organisme choisi, le niveau exigé est le même.
 
 ## Qui doit être certifié
 
-Les fonctions visées par la réglementation sont, pour l'essentiel :
+Sont notamment concernées les personnes physiques qui exercent, sous l'autorité ou pour le compte d'un prestataire, les fonctions suivantes :
 
-- le **vendeur** (personne chargée de fournir des informations ou du conseil sur des instruments financiers à des clients) ;
-- le **gérant** de portefeuille pour compte de tiers ;
-- le **responsable de la compensation** d'instruments financiers ;
-- le **responsable du post-marché** ;
-- le **négociateur** d'instruments financiers ;
-- le **compensateur** d'instruments financiers ;
-- l'**analyste financier** ;
-- le **responsable de la conformité et du contrôle interne (RCCI)** des sociétés de gestion et le **responsable de la conformité pour les services d'investissement (RCSI)**, qui doivent en outre être titulaires d'une carte professionnelle délivrée par l'AMF.
+- **vendeur** : toute personne chargée d'informer ou de conseiller les clients sur des instruments financiers ou des services d'investissement — en pratique, la plupart des conseillers bancaires qui proposent des placements financiers ;
+- **gérant** de portefeuille pour compte de tiers ;
+- **négociateur** d'instruments financiers ;
+- **responsable de la compensation** et **responsable du post-marché** ;
+- **analyste financier** ;
+- **responsable de la conformité** (RCSI dans les banques et entreprises d'investissement, RCCI dans les sociétés de gestion), qui doit en outre obtenir une **carte professionnelle** délivrée par l'AMF.
 
-Le professionnel nouvellement affecté à l'une de ces fonctions dispose en pratique d'un **délai de six mois** pour satisfaire à l'obligation, période pendant laquelle il exerce sous supervision. La vérification peut aussi être réalisée en interne par l'employeur pour les collaborateurs déjà en poste lors de l'entrée en vigueur du dispositif (« clause du grand-père »), mais l'examen certifié est devenu la voie normale.
+Le collaborateur qui prend l'une de ces fonctions dispose d'un **délai de six mois** pour faire vérifier ses connaissances ; pendant ce délai, il exerce sous la supervision d'une personne qualifiée.
 
-> Une fois obtenue, la certification n'a pas de date d'expiration et suit son titulaire d'un employeur à l'autre. L'employeur reste toutefois tenu de s'assurer, dans la durée, de la formation et de la compétence de ses collaborateurs.
+| Voie de vérification | Caractéristiques |
+|---|---|
+| **Examen certifié par l'AMF** | Passé auprès d'un organisme certifié ; valable **sans limite de durée** et **reconnu par tous les employeurs** |
+| **Vérification interne** | Organisée par l'employeur, sous sa responsabilité ; ne vaut que **chez cet employeur** (et son groupe) |
+| **Clause du grand-père** | Dispense des collaborateurs déjà en fonction au 1er juillet 2010, tant qu'ils restent chez le même employeur ou dans son groupe |
 
-## Format de l'examen
+> La certification obtenue n'expire pas et suit son titulaire d'un employeur à l'autre. Mais l'employeur doit, en continu, veiller à la formation et à la compétence de ses collaborateurs : avoir réussi l'examen ne dispense pas de se tenir à jour.
+
+## Le format de l'examen
 
 | Caractéristique | Règle |
 |---|---|
-| Format | QCM sur ordinateur, une seule bonne réponse par question |
-| Nombre de questions | 120 |
-| Durée | 2 heures |
-| Catégorie A | Connaissances et compétences « indispensables » (réglementation, déontologie) |
-| Catégorie C | Connaissances de culture financière générale |
-| Seuil de réussite | 80 % de bonnes réponses en catégorie A **et** 80 % en catégorie C |
-| Compensation | Aucune : un excellent score dans une catégorie ne rattrape pas l'autre |
+| Nombre de questions | **120** questions à choix multiples |
+| Forme des questions | **Trois propositions**, **une seule** bonne réponse |
+| Durée | **2 heures**, en une seule séance (environ une minute par question) |
+| Lieu | En centre d'examen ou à distance sous surveillance, selon l'organisme |
+| Notation | Pas de points négatifs : une mauvaise réponse vaut 0, comme une absence de réponse |
+| Structure | **56 questions** sur les thèmes 1 à 6 (environnement réglementaire et déontologique) et **64 questions** sur les thèmes 7 à 12 (connaissances techniques) |
+| Catégories | **33 questions de catégorie A** (connaissances indispensables) et **87 de catégorie C** (culture financière générale), réparties dans les deux parties |
+| Seuil de réussite | **80 % de bonnes réponses en catégorie A et 80 % en catégorie C** |
+| Compensation | **Aucune** : un excellent score dans une catégorie ne rattrape pas l'autre |
 
-Selon les manuels de préparation de référence (notamment les éditions Pearson *Réussir l'examen AMF*), les 120 questions se répartissent en **33 questions de catégorie A** et **87 de catégorie C**. Les thèmes 1 à 6 couvrent l'environnement réglementaire et déontologique, les thèmes 7 à 12 les connaissances techniques.
+i> Concrètement, il faut au moins **27 bonnes réponses sur 33** en catégorie A (26/33 = 78,8 % : échec) et au moins **70 bonnes réponses sur 87** en catégorie C (69/87 = 79,3 % : échec).
+Vous pouvez donc vous tromper au maximum **6 fois** sur les questions A et **17 fois** sur les questions C.
 
-!> Les seuils ont évolué : les anciennes versions de l'examen (100 questions) exigeaient 85 % en A et 75 % en C. Méfiez-vous des supports anciens qui citent encore ces chiffres. La règle actuelle est 80 % / 80 %, sans compensation.
+c> Les catégories A et C ne correspondent pas aux deux parties de l'examen. Chaque **sujet** du programme officiel est classé A ou C par l'AMF. Les sujets A, « indispensables », portent surtout sur la réglementation et la relation avec le client : règles de bonne conduite, connaissance du client, déontologie, lutte contre le blanchiment, abus de marché. La contrainte la plus forte est donc la catégorie A : avec seulement 33 questions, chaque erreur coûte 3 points de pourcentage.
 
-Avec 33 questions de catégorie A, 80 % représentent au moins **27 bonnes réponses**, soit **six erreurs au maximum** sur les questions les plus réglementaires. C'est la contrainte la plus serrée de l'examen : la déontologie, la conformité et les règles de protection du client se travaillent jusqu'au réflexe.
+!> Méfiez-vous des supports anciens. Avant la réforme, l'examen comptait 100 questions, avec des seuils de 85 % en A et 75 % en C. Certains sites présentent aussi d'autres répartitions (par exemple 56 A / 64 C, en confondant les deux parties et les deux catégories). La règle à retenir : 120 questions, 33 A et 87 C, 80 % dans chaque catégorie, sans compensation.
 
-## Les 12 thèmes du programme
+## Les 12 thèmes et leur poids
 
-| N° | Thème | Partie |
-|---|---|---|
-| 1 | Cadre institutionnel et réglementaire français, européen et international | Réglementaire |
-| 2 | Déontologie, conformité et organisation déontologique des établissements | Réglementaire |
-| 3 | Sécurité financière : lutte contre le blanchiment, le terrorisme et la corruption ; embargos | Réglementaire |
-| 4 | Réglementation « abus de marché » | Réglementaire |
-| 5 | Commercialisation d'instruments financiers, démarchage, vente à distance et conseil | Réglementaire |
-| 6 | Relations avec les clients | Réglementaire |
-| 7 | Instruments financiers, crypto-actifs et leurs risques | Technique |
-| 8 | Gestion collective / gestion pour compte de tiers | Technique |
-| 9 | Fonctionnement et organisation des marchés | Technique |
-| 10 | Post-marché et infrastructures de marché | Technique |
-| 11 | Émissions et opérations sur titres | Technique |
-| 12 | Bases comptables et financières | Technique |
+| N° | Thème | Partie | Poids indicatif |
+|---|---|---|---|
+| 1 | Cadre institutionnel et réglementaire français, européen et international | Réglementaire | environ 14 questions |
+| 2 | Déontologie, conformité et organisation déontologique des établissements | Réglementaire | environ 6 questions |
+| 3 | Sécurité financière (blanchiment, financement du terrorisme, corruption, sanctions financières) | Réglementaire | environ 3 questions |
+| 4 | Réglementation « abus de marché » | Réglementaire | environ 2 questions |
+| 5 | Commercialisation d'instruments financiers, démarchage, vente à distance et conseil | Réglementaire | environ 6 questions |
+| 6 | Relations avec les clients | Réglementaire | environ **25 questions** |
+| 7 | Instruments financiers, crypto-actifs et leurs risques | Technique | part des 58 questions des thèmes 7 à 11 (probablement le plus lourd) |
+| 8 | Gestion collective / gestion pour compte de tiers | Technique | part des 58 questions des thèmes 7 à 11 |
+| 9 | Fonctionnement et organisation des marchés | Technique | part des 58 questions des thèmes 7 à 11 |
+| 10 | Post-marché et infrastructures de marché | Technique | part des 58 questions des thèmes 7 à 11 |
+| 11 | Émissions et opérations sur titres | Technique | part des 58 questions des thèmes 7 à 11 |
+| 12 | Bases comptables et financières (y compris fiscalité) | Technique | environ 6 questions |
+
+Les poids des thèmes 1 à 6 et 12 sont ceux qu'annonce un organisme certifié (Lefebvre Dalloz) ; leur total, 56, correspond bien à la première partie de l'examen. La répartition fine entre les thèmes 7 à 11 n'est pas publiée.
+
+> Trois enseignements pour vos révisions :
+> - le **thème 6** (relations avec les clients) pèse à lui seul plus d'un cinquième de l'examen et concentre une grande partie des questions A : c'est le chapitre à connaître par cœur ;
+> - le **thème 1** (cadre institutionnel) est le deuxième thème réglementaire : des questions faciles à gagner si l'on connaît bien « qui fait quoi » ;
+> - les thèmes 3 et 4 pèsent peu en nombre, mais leurs questions sont souvent de catégorie A : une erreur y coûte cher.
 
 ## Ne pas confondre avec l'examen « finance durable »
 
-L'AMF certifie également, depuis 2022, un **examen distinct consacré à la finance durable** (60 questions, seuil de 80 %). Il ne remplace pas l'examen général et ne dispense pas de celui-ci. Les notions de finance durable figurent néanmoins dans le programme général (thème 8) et sont traitées dans ce manuel.
+Depuis 2022, l'AMF certifie aussi un **examen distinct consacré à la finance durable** (60 questions, seuil de 80 %), destiné notamment aux conseillers qui présentent des produits durables. Il ne remplace pas l'examen général et n'en dispense pas. Les notions de finance durable du programme général sont traitées dans ce manuel (thèmes 5, 6 et 8).
 
 ## Comment utiliser ce manuel
 
-Chaque chapitre correspond à un thème officiel et suit la même structure : le cours, des tableaux de synthèse, des encadrés **À retenir** (ce qui tombe), **Piège d'examen** (les formulations qui font perdre des points) et **Exemple** (calculs ou cas concrets), puis une série de QCM corrigés et commentés. Un **examen blanc** de 120 questions, aux proportions de l'examen réel, figure en fin d'ouvrage.
+Chaque chapitre correspond à un thème officiel et suit la même structure :
 
-Méthode conseillée :
+1. les **objectifs** du chapitre et son poids à l'examen ;
+2. le **cours**, construit pour être compris et pas seulement appris : chaque règle est accompagnée de sa raison d'être ;
+3. des **schémas** et **tableaux de synthèse** ;
+4. des encadrés pour mémoriser l'essentiel ;
+5. une fiche **« L'essentiel »** qui résume le chapitre ;
+6. une série de **QCM corrigés et commentés**, au format de l'examen (trois propositions).
 
-- lire un chapitre en entier, puis répondre aux QCM **sans regarder les corrigés** ;
-- noter chaque erreur et relire la section correspondante le lendemain, puis trois jours plus tard, puis une semaine plus tard (répétition espacée) ;
-- passer l'examen blanc en conditions réelles (2 heures, sans support) une fois tous les chapitres travaillés ;
-- viser au moins 90 % à l'entraînement avant de se présenter : le jour de l'examen, le stress coûte toujours quelques points.
+| Encadré | Rôle |
+|---|---|
+| **À retenir** | Ce qui doit être su par cœur : définitions, chiffres, règles |
+| **Comprendre** | La logique de la règle : pourquoi elle existe, comment elle s'articule avec les autres |
+| **Définition** | La définition juridique ou technique exacte |
+| **Exemple** | Un cas concret ou un calcul, résolu pas à pas |
+| **Piège d'examen** | Les confusions et formulations qui font perdre des points |
+| **Mémo** | Un moyen mnémotechnique |
+
+Dans les QCM, l'étiquette **A** ou **C** indique la catégorie probable de la question. L'AMF ne publie pas la catégorie de chaque question : ce classement est une estimation fondée sur la nature du sujet. Il permet de repérer les connaissances « indispensables ».
+
+## Méthode de travail recommandée
+
+### Le plan de révision en six semaines
+
+| Semaine | Programme |
+|---|---|
+| 1 | Introduction, thème 1 (cadre institutionnel), thème 2 (déontologie) |
+| 2 | Thèmes 3 (sécurité financière), 4 (abus de marché), 5 (commercialisation) |
+| 3 | Thème 6 (relations avec les clients), en deux passages |
+| 4 | Thèmes 7 (instruments financiers) et 8 (gestion collective) |
+| 5 | Thèmes 9 (marchés), 10 (post-marché), 11 (émissions), 12 (comptabilité, fiscalité) |
+| 6 | Examen blanc n° 1, révision ciblée des erreurs, examen blanc n° 2, révision, examen blanc n° 3 |
+
+Prévoyez environ **une heure par jour**, ou davantage si vous débutez en finance.
+
+### La répétition espacée
+
+On oublie environ la moitié de ce que l'on vient d'apprendre en quelques jours si on ne le revoit pas. La parade est de **revoir au bon moment** :
+
+- le jour même : refaire les QCM du chapitre sans regarder les réponses ;
+- le lendemain : relire les encadrés « À retenir » et « Piège d'examen » ;
+- trois jours plus tard, puis une semaine plus tard : refaire uniquement les QCM manqués ;
+- tenir un **carnet d'erreurs** : pour chaque question ratée, noter en une ligne la règle exacte.
+
+### La technique du QCM
+
+- **Lire la question jusqu'au bout**, et repérer les mots qui inversent le sens : « ne… pas », « sauf », « n'est pas », « interdit », « obligatoirement ».
+- **Méfiance envers les absolus** : « toujours », « jamais », « dans tous les cas », « automatiquement » signalent souvent une proposition fausse, car le droit financier est fait de principes et d'exceptions.
+- **Procéder par élimination** : avec trois propositions, écarter une seule réponse fausse laisse une chance sur deux.
+- **Se méfier des chiffres voisins** : l'examen joue sur les seuils (5 % ou 10 %, 2 jours ou 3 jours, 5 ans ou 10 ans). Les tableaux de chiffres clés de l'annexe 1 sont faits pour cela.
+- **Répondre à toutes les questions** : il n'y a pas de points négatifs.
+- **Gérer son temps** : 120 questions en 120 minutes. Ne bloquez pas plus d'une minute et demie sur une question ; marquez-la et revenez-y.
+
+> Objectif d'entraînement : au moins **90 %** de bonnes réponses aux QCM et aux examens blancs avant de vous présenter. Le stress du jour J coûte toujours quelques points ; une marge de 10 points vous met à l'abri.
 
 ## Sources et limites de ce manuel
 
-Ce manuel s'appuie sur les textes officiels (Code monétaire et financier, règlement général de l'AMF, règlements et directives européens cités dans chaque chapitre, instruction DOC-2010-09), sur les publications de l'AMF et de l'ACPR, et sur le recoupement des principaux manuels de préparation du marché.
+Ce manuel s'appuie sur les textes officiels (Code monétaire et financier, règlement général de l'AMF, règlements et directives européens cités dans chaque chapitre, instruction DOC-2010-09), sur les publications de l'AMF, de l'ACPR, de l'ESMA et des pouvoirs publics, et sur le recoupement des manuels et programmes des organismes de préparation. La liste détaillée figure en annexe.
 
 Trois limites sont assumées et signalées honnêtement :
 
-- les **questions réelles de l'examen ne sont pas publiques** : la base de questions est confidentielle et détenue par les organismes certifiés. Les QCM de ce manuel sont des questions originales construites sur le programme officiel et le style des épreuves ; aucun « sujet tombé » n'est reproduit ;
-- la **répartition exacte du nombre de questions par thème** n'a pas pu être vérifiée sur la source officielle lors de la rédaction : elle n'est donc pas indiquée chapitre par chapitre ;
-- la réglementation financière évolue en permanence. Les montants et seuils sont à jour des textes connus en **octobre 2026** ; les évolutions annoncées mais non encore applicables (par exemple le passage au règlement-livraison à J+1 dans l'Union européenne, prévu le 11 octobre 2027) sont signalées comme telles.
-
-Avant l'examen, vérifiez toujours auprès de votre organisme certificateur la version du référentiel en vigueur.
+- les **questions réelles de l'examen sont confidentielles** : la base commune n'est accessible qu'aux organismes certifiés. Les QCM de ce manuel sont **originaux**, construits sur le programme officiel et le style des épreuves ; aucun « sujet tombé » n'est reproduit ;
+- la **grille officielle détaillée** (les sujets de chaque thème et leur catégorie A ou C) n'a pas pu être consultée directement lors de la rédaction : le découpage des chapitres suit les intitulés officiels des 12 thèmes et les programmes publiés par les organismes certifiés ;
+- la réglementation **évolue en permanence**. Les montants, seuils et taux sont à jour des textes connus en **octobre 2026** ; les évolutions annoncées mais pas encore applicables (passage au règlement-livraison à J+1 le 11 octobre 2027, nouvelles règles européennes de lutte contre le blanchiment en juillet 2027…) sont signalées comme telles. Avant l'examen, vérifiez auprès de votre organisme certificateur la version du référentiel en vigueur.

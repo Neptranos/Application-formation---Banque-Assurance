@@ -1,267 +1,651 @@
 # Thème 1 — Cadre institutionnel et réglementaire français, européen et international
 
-## Ce que l'examen attend
+o> À la fin de ce chapitre, vous saurez :
+- dire, pour chaque niveau (mondial, européen, français), **qui fait la règle, qui contrôle et qui sanctionne** ;
+- distinguer règlement et directive, et situer les grands textes européens ;
+- décrire l'AMF et l'ACPR : statut, organisation, pouvoirs, procédure de sanction et voies de recours ;
+- connaître les statuts des acteurs (établissements de crédit, entreprises d'investissement, sociétés de gestion, CIF, agents liés…) et les services d'investissement ;
+- expliquer la politique monétaire de la BCE, les règles prudentielles et les mécanismes de garantie des clients.
+Poids à l'examen : environ **14 questions**, le deuxième thème le plus lourd.
 
-Savoir qui fait la règle, qui contrôle et qui sanctionne, à chaque niveau (international, européen, français) ; connaître la hiérarchie des textes, les grands règlements et directives qui structurent les marchés financiers, les statuts des acteurs (prestataires de services d'investissement, sociétés de gestion, conseillers) et les mécanismes de protection des investisseurs.
+## 1. Pourquoi réguler la finance ?
 
-## 1. Le niveau international : des normes sans force obligatoire directe
+Une banque ou un marché financier ne vend pas un produit ordinaire : il vend de la **confiance**. Le client remet aujourd'hui son argent contre une promesse future, sans pouvoir tout vérifier. Trois risques justifient une régulation particulière :
 
-Les organismes internationaux élaborent des **recommandations et standards** que les États et l'Union européenne transposent ensuite dans leurs propres textes. Ils n'ont pas de pouvoir de sanction direct sur les établissements.
+- l'**asymétrie d'information** : le professionnel en sait plus que son client, l'émetteur plus que l'investisseur ;
+- le **risque systémique** : la faillite d'un établissement peut entraîner celle des autres par contagion (crise de 2008) ;
+- l'**intégrité des marchés** : sans règles, les initiés et les manipulateurs fausseraient les prix.
+
+D'où deux grandes familles de règles, qu'il faut savoir distinguer :
+
+| Type de régulation | Objectif | Exemples | Autorité principale en France |
+|---|---|---|---|
+| **Prudentielle** | Solidité financière des établissements (ils doivent pouvoir faire face à leurs engagements) | Fonds propres, liquidité, gestion des risques | **ACPR** (et BCE pour les grandes banques) |
+| **De marché et de bonne conduite** | Protection des investisseurs, information, intégrité et bon fonctionnement des marchés | Information des clients, conflits d'intérêts, abus de marché, prospectus | **AMF** |
+
+c> Ce découpage explique la plupart des questions « qui fait quoi ». L'ACPR veille à ce que l'établissement **ne fasse pas faillite** ; l'AMF veille à ce qu'il **traite correctement ses clients et les marchés**. Une même banque est donc contrôlée par les deux : par l'ACPR pour sa solidité, par l'AMF pour sa manière de fournir des services d'investissement.
+
+## 2. Le niveau mondial : des standards sans force obligatoire directe
+
+Les organismes internationaux élaborent des **standards et recommandations**. Ils n'ont **pas de pouvoir de contrainte** sur les établissements : leurs normes ne s'appliquent qu'une fois reprises par l'Union européenne ou par les États.
 
 | Organisme | Rôle |
 |---|---|
-| OICV / IOSCO (Organisation internationale des commissions de valeurs) | Standards de régulation des marchés de titres ; l'AMF en est membre |
-| Comité de Bâle sur le contrôle bancaire (BRI, Bâle) | Normes prudentielles bancaires (Bâle III) |
-| Conseil de stabilité financière (CSF / FSB) | Coordination de la stabilité financière mondiale (G20) |
-| GAFI / FATF | Normes de lutte contre le blanchiment et le financement du terrorisme ; listes de pays à risque |
-| IASB | Normes comptables internationales IFRS |
-| OCDE | Normes d'échange automatique d'informations fiscales (norme commune de déclaration / CRS) |
+| **G20** et **Conseil de stabilité financière** (CSF / FSB, Bâle) | Coordination mondiale de la stabilité financière, réformes d'après-crise (dérivés, banques systémiques) |
+| **Comité de Bâle** sur le contrôle bancaire (hébergé par la BRI) | Normes prudentielles bancaires : accords de Bâle I, II, III |
+| **OICV / IOSCO** (Organisation internationale des commissions de valeurs) | Principes de régulation des marchés de titres ; l'AMF en est membre |
+| **AICA / IAIS** | Normes de supervision de l'assurance |
+| **GAFI / FATF** (Paris, siège à l'OCDE) | Normes de lutte contre le blanchiment et le financement du terrorisme ; listes de pays à haut risque |
+| **IASB** | Normes comptables internationales IFRS |
+| **OCDE** | Fiscalité internationale : échange automatique d'informations (norme CRS), cadre CARF pour les crypto-actifs |
+| **FMI** et **Banque mondiale** | Stabilité monétaire internationale, financement du développement, évaluation des systèmes financiers |
 
-## 2. Le niveau européen : la source principale des règles
+!> Le Comité de Bâle ne « sanctionne » aucune banque et ses accords ne s'appliquent pas directement : en Europe, Bâle III est appliqué par le **règlement CRR** et la **directive CRD**. De même, les recommandations du GAFI deviennent obligatoires une fois reprises par les directives et règlements anti-blanchiment.
 
-### Règlement ou directive ?
+## 3. Le niveau européen : la source principale des règles
 
-- Un **règlement** européen est directement applicable dans tous les États membres, sans transposition (exemples : MAR, PRIIPs, EMIR, MiCA, SFDR).
-- Une **directive** fixe des objectifs que chaque État doit **transposer** dans son droit national (exemples : MIF 2, OPCVM, AIFM, CRD).
+[[FIG:architecture]]
 
-!> Une question classique demande lequel de ces textes « s'applique sans transposition ». La réponse est toujours un **règlement**. MIF 2 est une directive (accompagnée du règlement MiFIR, lui directement applicable).
+### Les institutions et les actes
 
-### Le processus Lamfalussy
+Les textes financiers européens sont proposés par la **Commission européenne** et adoptés conjointement par le **Parlement européen** et le **Conseil de l'Union européenne** (les ministres des États membres).
 
-La législation financière européenne est produite à quatre niveaux :
+| Acte | Effet | Exemples en finance |
+|---|---|---|
+| **Règlement** | **Directement applicable** dans tous les États membres, sans transposition ; identique partout | MAR, PRIIPs, EMIR, CSDR, MiFIR, MiCA, SFDR, Prospectus, DORA, CRR |
+| **Directive** | Fixe des objectifs ; chaque État doit la **transposer** dans son droit national, dans un délai donné | MIF 2, OPCVM, AIFM, CRD, BRRD, directives anti-blanchiment |
+| **Décision** | Obligatoire pour ses seuls destinataires | Décisions individuelles |
+| **Recommandation, avis** | Non contraignants | — |
+
+c> Pourquoi l'Europe recourt-elle de plus en plus aux règlements ? Parce qu'une directive transposée différemment dans 27 pays crée des écarts (« gold-plating », arbitrages réglementaires). Le règlement garantit un « code unique » (*single rulebook*). C'est pour cela que MIF 2 (directive) est accompagnée de MiFIR (règlement) pour les règles qui doivent être identiques partout, comme la transparence des marchés.
+
+!> Question classique : « Quel texte s'applique sans transposition ? » Réponse : un **règlement**. Attention, MIF 2 est une **directive** ; MAR est un **règlement**.
+
+### Le processus Lamfalussy : quatre niveaux de règles
 
 | Niveau | Contenu | Auteur |
 |---|---|---|
-| 1 | Textes cadres (règlements, directives) | Commission (proposition), Parlement européen et Conseil (adoption) |
-| 2 | Mesures d'exécution détaillées, normes techniques (RTS, ITS) | Commission, sur projets des autorités européennes |
-| 3 | Orientations, questions-réponses, convergence des pratiques | Autorités européennes de surveillance (ESMA, EBA, EIOPA) |
-| 4 | Contrôle de l'application homogène du droit | Commission |
+| 1 | Textes cadres : règlements et directives | Commission (proposition), Parlement et Conseil (adoption) |
+| 2 | Mesures d'exécution détaillées : actes délégués, normes techniques de réglementation (RTS) et d'exécution (ITS) | Commission, le plus souvent sur projets des autorités européennes de surveillance |
+| 3 | Orientations (*guidelines*), questions-réponses, convergence des pratiques de supervision | Autorités européennes de surveillance (ESMA, EBA, EIOPA) |
+| 4 | Contrôle de l'application homogène du droit, procédures en manquement | Commission |
+
+Les **orientations** de l'ESMA suivent le principe « **se conformer ou s'expliquer** » : chaque autorité nationale indique si elle s'y conforme ; l'AMF les intègre en général à sa doctrine.
 
 ### Le Système européen de surveillance financière (SESF)
 
-Créé en 2011 en réponse à la crise de 2008, il associe trois autorités sectorielles et un organe macroprudentiel :
+Créé en 2011 en réponse à la crise de 2008, il comprend trois **autorités européennes de surveillance** (AES), un organe macroprudentiel et les autorités nationales :
 
 | Autorité | Siège | Champ |
 |---|---|---|
-| ESMA (Autorité européenne des marchés financiers) | Paris | Marchés financiers, valeurs mobilières, agences de notation, référentiels centraux |
-| EBA / ABE (Autorité bancaire européenne) | Paris (depuis 2019) | Banques |
-| EIOPA / AEAPP (assurances et pensions professionnelles) | Francfort | Assurance, retraite professionnelle |
-| CERS / ESRB (Comité européen du risque systémique) | Francfort | Surveillance macroprudentielle |
+| **ESMA** (Autorité européenne des marchés financiers) | **Paris** | Marchés financiers, gestion d'actifs, infrastructures |
+| **EBA** (Autorité bancaire européenne) | **Paris** (depuis 2019, auparavant Londres) | Banques |
+| **EIOPA** (Autorité européenne des assurances et des pensions professionnelles) | **Francfort** | Assurance, retraite professionnelle |
+| **CERS / ESRB** (Comité européen du risque systémique) | **Francfort** (adossé à la BCE) | Surveillance **macroprudentielle** : alertes et recommandations |
 
-S'y ajoutent l'**union bancaire** (Mécanisme de surveillance unique confiant depuis 2014 à la BCE la supervision des grandes banques de la zone euro, et Mécanisme de résolution unique) et, dans le domaine de la lutte anti-blanchiment, la nouvelle **AMLA**, autorité européenne créée en 2024 et installée à Francfort.
+Les pouvoirs de l'ESMA à connaître :
 
-> L'ESMA siège à **Paris** et coordonne les régulateurs de marché nationaux, dont l'AMF. Elle peut, dans certains cas, superviser directement (agences de notation, référentiels centraux) et adopter des mesures d'intervention temporaires sur certains produits.
+- élaborer des projets de normes techniques et publier des orientations ;
+- **superviser directement** certains acteurs : agences de notation, référentiels centraux, prestataires de services de communication de données, administrateurs de certains indices de référence, CCP de pays tiers d'importance systémique (avec les autorités nationales) ;
+- **intervenir sur les produits** : interdire ou restreindre temporairement la commercialisation de certains produits dans toute l'Union (elle l'a fait en 2018 pour les options binaires et les CFD) ;
+- régler des différends entre autorités nationales, mener des évaluations par les pairs.
 
-### Les grands textes européens à connaître
+### L'union bancaire et la BCE
 
-| Texte | Objet |
+Depuis **novembre 2014**, l'**union bancaire** confie à la **BCE**, au sein du **Mécanisme de surveillance unique (MSU)**, la supervision directe des banques « importantes » de la zone euro (une centaine de groupes, dont les grandes banques françaises) ; les autres restent supervisées par les autorités nationales (l'ACPR en France) sous le contrôle de la BCE. Le **Mécanisme de résolution unique** (Conseil de résolution unique, CRU, à Bruxelles, et Fonds de résolution unique) organise la gestion des défaillances bancaires.
+
+### L'AMLA
+
+L'**Autorité européenne de lutte contre le blanchiment de capitaux et le financement du terrorisme** (AMLA), créée en 2024 et installée à **Francfort**, coordonne les autorités nationales et supervisera directement, à partir de 2028, une quarantaine d'établissements parmi les plus risqués de l'Union.
+
+### Les grands textes européens
+
+| Texte | Nature | Objet |
+|---|---|---|
+| **MIF 2** (directive 2014/65/UE) et **MiFIR** (règlement 600/2014) | Directive + règlement | Services d'investissement, protection des investisseurs, organisation et transparence des marchés (application : 3 janvier 2018) |
+| **MAR** (règlement 596/2014) | Règlement | Abus de marché (application : 3 juillet 2016) |
+| **OPCVM / UCITS** (directive 2009/65/CE) | Directive | Fonds coordonnés commercialisables dans toute l'Union |
+| **AIFM** (directive 2011/61/UE) | Directive | Gestionnaires de fonds d'investissement alternatifs |
+| **Prospectus** (règlement 2017/1129) | Règlement | Information lors d'offres au public et d'admissions sur un marché réglementé |
+| **PRIIPs** (règlement 1286/2014) | Règlement | Document d'informations clés des produits packagés |
+| **EMIR** (règlement 648/2012) | Règlement | Dérivés de gré à gré, chambres de compensation |
+| **CSDR** (règlement 909/2014) | Règlement | Dépositaires centraux, discipline de règlement |
+| **CRR / CRD** | Règlement + directive | Exigences prudentielles des banques (Bâle III) |
+| **BRRD** | Directive | Redressement et résolution des banques |
+| **SFDR** (2019/2088) et **Taxonomie** (2020/852) | Règlements | Finance durable |
+| **MiCA** (règlement 2023/1114) | Règlement | Crypto-actifs |
+| **DORA** (règlement 2022/2554) | Règlement | Résilience opérationnelle numérique (depuis le 17 janvier 2025) |
+| **Listing Act** (2024) | Règlement + directives | Allègement des obligations des sociétés cotées |
+| Paquet **anti-blanchiment** (2024) | Règlement AMLR + directive + règlement AMLA | Règles harmonisées de LCB-FT (application principale : 10 juillet 2027) |
+
+L'Union poursuit depuis 2015 un projet d'**Union des marchés de capitaux**, relancé en 2025 sous le nom d'**Union de l'épargne et des investissements** : mieux orienter l'épargne européenne vers le financement des entreprises.
+
+## 4. La politique monétaire et économique
+
+### La BCE et l'Eurosystème
+
+La **Banque centrale européenne** (BCE, Francfort) conduit la politique monétaire de la zone euro avec les banques centrales nationales, dont la **Banque de France** : c'est l'**Eurosystème**. Elle est **indépendante** des gouvernements.
+
+- **Objectif principal** : la **stabilité des prix**, définie comme une inflation de **2 % à moyen terme** (objectif symétrique depuis 2021).
+- **Instruments** : trois **taux directeurs** — le taux de la **facilité de dépôt** (rémunération des dépôts des banques à la banque centrale), le taux des **opérations principales de refinancement** et le taux de la **facilité de prêt marginal** ; les opérations de refinancement ; les achats de titres (assouplissement quantitatif) ; les réserves obligatoires.
+- Depuis le changement de cadre opérationnel de 2024, le **taux de la facilité de dépôt** est le taux qui pilote en pratique les taux du marché monétaire, dont l'**€STR**.
+
+c> La transmission : quand la BCE **relève** ses taux directeurs, le coût de refinancement des banques augmente, elles relèvent les taux des crédits, la demande de crédit et la consommation ralentissent, et l'inflation recule. Les taux de marché montent, ce qui fait **baisser le prix des obligations existantes** (voir thème 7). C'est le mécanisme de 2022-2023. Inversement, une **baisse** des taux soutient l'activité et le prix des obligations.
+
+### La politique budgétaire
+
+La politique budgétaire (dépenses publiques, impôts) relève des **États**, encadrée au niveau européen par le **Pacte de stabilité et de croissance** (références : déficit public de **3 %** du PIB, dette publique de **60 %** du PIB), réformé en 2024 autour de trajectoires de dépenses pluriannuelles. En France, le budget est voté chaque année par le Parlement (loi de finances, loi de financement de la sécurité sociale).
+
+## 5. Le niveau français : les autorités
+
+### Le Parlement, le Gouvernement, la direction générale du Trésor
+
+Le **Parlement** vote les lois, codifiées pour l'essentiel dans le **Code monétaire et financier** (CMF). Le **ministre chargé de l'Économie** prend les décrets et arrêtés d'application et **homologue par arrêté le règlement général de l'AMF**. La **direction générale du Trésor** prépare les textes financiers et représente la France dans les négociations européennes ; elle met aussi en œuvre les mesures de **gel des avoirs** (voir thème 3).
+
+### L'Autorité des marchés financiers (AMF)
+
+d> L'AMF est une **autorité publique indépendante**, dotée de la **personnalité morale** et de l'**autonomie financière**. Elle a été créée par la **loi de sécurité financière du 1er août 2003**, par la fusion de la Commission des opérations de bourse (COB, 1967), du Conseil des marchés financiers (CMF) et du Conseil de discipline de la gestion financière (CDGF).
+
+Ses **missions** (art. L. 621-1 du CMF) : veiller à la **protection de l'épargne** investie dans les instruments financiers et les autres placements offerts au public, à l'**information des investisseurs** et au **bon fonctionnement des marchés**. Elle apporte aussi son concours à la régulation européenne et internationale.
+
+Elle est financée par des **contributions** versées par les acteurs qu'elle régule (et non par le budget de l'État ni par les sanctions, dont le produit est versé au Trésor public ou au fonds de garantie compétent).
+
+| Organe | Composition et rôle |
 |---|---|
-| MIF 2 (directive 2014/65/UE) et MiFIR (règlement 600/2014) | Services d'investissement, protection des investisseurs, structure des marchés, transparence (application 3 janvier 2018) |
-| MAR (règlement 596/2014) | Abus de marché (application 3 juillet 2016) |
-| Directive OPCVM (UCITS) | Fonds coordonnés commercialisables dans toute l'UE |
-| AIFM (directive 2011/61/UE) | Gestionnaires de fonds d'investissement alternatifs |
-| Règlement Prospectus (2017/1129) | Information à publier lors d'offres au public et d'admissions |
-| PRIIPs (règlement 1286/2014) | Document d'informations clés (DIC/KID) des produits packagés |
-| EMIR (règlement 648/2012) | Dérivés de gré à gré, contreparties centrales, référentiels centraux |
-| CSDR (règlement 909/2014) | Dépositaires centraux, discipline de règlement |
-| SFDR (règlement 2019/2088) et Taxonomie (2020/852) | Transparence en matière de durabilité |
-| MiCA (règlement 2023/1114) | Crypto-actifs et prestataires de services sur crypto-actifs |
-| DORA (règlement 2022/2554) | Résilience opérationnelle numérique (applicable depuis le 17 janvier 2025) |
-| Paquet « Listing Act » (2024) | Allègement des obligations des émetteurs cotés |
+| **Président** | Nommé par **décret** pour **5 ans, non renouvelable** ; préside le Collège |
+| **Collège** | **16 membres** (magistrats, personnalités qualifiées, représentants des salariés actionnaires…) ; adopte le règlement général et la doctrine, prend les décisions individuelles (agréments, visas), **décide d'ouvrir les procédures de sanction** et notifie les griefs |
+| **Commission des sanctions** | **12 membres** (conseillers d'État, conseillers à la Cour de cassation, professionnels…), **distincte du Collège** ; elle **juge** et prononce les sanctions |
+| **Médiateur** | Règlement amiable et gratuit des litiges entre épargnants et professionnels (voir thème 6) |
+| **Secrétaire général** | Dirige les services ; nommé par le président après avis du Collège |
+| Commissions consultatives | Associent les professionnels et les épargnants à l'élaboration de la réglementation |
 
-## 3. Le niveau français
+c> Pourquoi séparer le Collège et la Commission des sanctions ? Pour respecter le droit à un procès équitable : celui qui **poursuit** (le Collège, qui ouvre la procédure et notifie les griefs) ne peut pas être celui qui **juge** (la Commission des sanctions). Cette séparation, imposée en 2003 et renforcée depuis, est une garantie d'impartialité.
 
-### Les autorités
+Les **pouvoirs** de l'AMF :
 
-Le **législateur** (Parlement) adopte les lois, codifiées pour l'essentiel dans le **Code monétaire et financier (CMF)**. Le **ministre de l'Économie** prend les décrets et arrêtés, et **homologue le règlement général de l'AMF**.
-
-L'**Autorité des marchés financiers (AMF)** a été créée par la **loi de sécurité financière du 1er août 2003**, par fusion de la Commission des opérations de bourse (COB), du Conseil des marchés financiers (CMF) et du Conseil de discipline de la gestion financière (CDGF). C'est une **autorité publique indépendante** dotée de la personnalité morale et de l'autonomie financière.
-
-Ses missions (art. L. 621-1 CMF) : veiller à la **protection de l'épargne** investie dans les instruments financiers et les autres placements offerts au public, à l'**information des investisseurs** et au **bon fonctionnement des marchés**. Elle exerce quatre types de pouvoirs : **réglementer** (règlement général), **autoriser** (agréments de sociétés de gestion, approbation des prospectus, visas des offres publiques), **surveiller et contrôler**, **sanctionner**.
-
-| Organe de l'AMF | Composition et rôle |
+| Pouvoir | Contenu |
 |---|---|
-| Collège | 16 membres ; présidé par le président de l'AMF (nommé par décret pour 5 ans, non renouvelable) ; adopte la réglementation, prend les décisions individuelles, ouvre les procédures de sanction |
-| Commission des sanctions | 12 membres, distincte du Collège ; juge et prononce les sanctions |
-| Médiateur de l'AMF | Règlement amiable des litiges entre épargnants et professionnels |
-| Secrétaire général | Dirige les services de l'AMF |
+| **Réglementaire** | Règlement général (homologué par le ministre), instructions ; doctrine (positions, recommandations) |
+| **Décisions individuelles** | Agrément des **sociétés de gestion de portefeuille**, des PSCA, des PSFP ; approbation des **prospectus** ; décision de conformité des **offres publiques** ; agrément des OPCVM et de nombreux FIA ; approbation du programme d'activité des PSI pour les services d'investissement ; carte professionnelle des RCSI et RCCI |
+| **Surveillance et contrôle** | Surveillance des marchés (détection d'anomalies), **contrôles** des professionnels, **enquêtes** sur toute personne (abus de marché, information financière) |
+| **Mesures d'urgence** | Injonctions, suspension d'activité, demande au juge de faire cesser une pratique, **mises en garde** publiques et **listes noires** de sites non autorisés, demande de **blocage** de sites illicites |
+| **Sanction** | Par la Commission des sanctions, après une procédure contradictoire |
 
-L'**Autorité de contrôle prudentiel et de résolution (ACPR)**, adossée à la **Banque de France**, agrée et contrôle les banques, les entreprises d'investissement (pour leur solidité financière) et les assureurs, et veille à la protection de leur clientèle. Les deux autorités coopèrent au sein d'un **pôle commun** (« Assurance Banque Épargne Info Service »).
+### La procédure de sanction de l'AMF
 
-!> Une entreprise d'investissement est **agréée par l'ACPR** (après approbation par l'AMF de son programme d'activité pour les services d'investissement). Une **société de gestion de portefeuille** est **agréée par l'AMF**. Ne pas inverser.
+1. **Détection** : surveillance des marchés, signalements, plaintes, déclarations d'opérations suspectes.
+2. **Contrôle** (professionnels régulés) ou **enquête** (toute personne) par les services de l'AMF, qui disposent de pouvoirs d'investigation (accès aux documents, auditions, enregistrements téléphoniques ; visites domiciliaires sur autorisation du juge).
+3. Le **Collège** examine le rapport et, s'il estime que des manquements sont caractérisés, **notifie les griefs** à la personne mise en cause et saisit la Commission des sanctions. Il peut aussi, pour certains manquements, proposer une **composition administrative** (sorte de transaction : la personne s'engage à verser une somme et à corriger ses pratiques), qui doit être **homologuée** par la Commission des sanctions et est rendue publique.
+4. La **Commission des sanctions** instruit (un rapporteur), entend la personne lors d'une **séance publique** (sauf exceptions), puis décide.
+5. La décision est en principe **publiée**.
 
-Autres acteurs français :
+Le Collège ne peut être saisi de faits remontant à plus de **six ans** s'il n'a été fait, dans ce délai, aucun acte tendant à leur recherche, à leur constatation ou à leur sanction.
 
-- **Banque de France** : banque centrale membre de l'Eurosystème, stabilité financière ;
-- **Haut Conseil de stabilité financière (HCSF)** : politique macroprudentielle ;
-- **Comité consultatif du secteur financier (CCSF)** : concertation entre professionnels et consommateurs ;
-- **ORIAS** : registre unique des intermédiaires en assurance, banque et finance (dont les conseillers en investissements financiers) ;
-- **Tracfin** : cellule de renseignement financier (voir thème 3) ;
-- **Parquet national financier (PNF)** : poursuites pénales en matière financière.
+| Sanctions possibles | Pour qui |
+|---|---|
+| **Avertissement, blâme** | Professionnels régulés et leurs collaborateurs |
+| **Interdiction** temporaire ou définitive d'exercer tout ou partie des activités ; **retrait** de la carte professionnelle | Professionnels régulés et leurs collaborateurs |
+| **Sanction pécuniaire** jusqu'à **100 millions d'euros** ou **dix fois le montant de l'avantage retiré** ; pour certains manquements des personnes morales, un pourcentage du chiffre d'affaires annuel (jusqu'à 15 % en matière d'abus de marché) | Toute personne (professionnel ou non) |
 
-### Les textes français
+### Les voies de recours
 
-- le **Code monétaire et financier** (partie législative L et réglementaire R/D) ;
-- le **règlement général de l'AMF (RGAMF)**, organisé en livres : Livre I (l'Autorité), Livre II (émetteurs et information financière), Livre III (prestataires), Livre IV (placements collectifs), Livre V (infrastructures de marché), Livre VI (abus de marché), Livre VII (actifs numériques) ;
-- la **doctrine** de l'AMF : instructions, positions, recommandations, questions-réponses. Les instructions précisent l'application du règlement général ; positions et recommandations expriment l'interprétation de l'AMF.
+| Personne sanctionnée | Juridiction compétente |
+|---|---|
+| **Professionnel** régulé (PSI, SGP, CIF…) et ses collaborateurs, pour un manquement à ses obligations professionnelles | **Conseil d'État** (juge administratif) |
+| **Toute autre personne** (par exemple un particulier ou un dirigeant d'émetteur sanctionné pour abus de marché) | **Cour d'appel de Paris** (juge judiciaire) |
 
-## 4. Les prestataires et leurs statuts
+Le **président de l'AMF**, après accord du Collège, peut lui aussi former un recours contre une décision de la Commission des sanctions (par exemple s'il juge la sanction insuffisante).
 
-### Les services d'investissement (art. L. 321-1 CMF)
+!> Piège fréquent : « Toutes les sanctions de l'AMF relèvent de la cour d'appel de Paris. » Faux : les sanctions des **professionnels régulés** relèvent du **Conseil d'État**.
+
+m> « **Pro → Palais-Royal** » : le Conseil d'État siège au Palais-Royal ; les **professionnels** y vont. Les autres vont devant la **cour d'appel de Paris**.
+
+### Sanction administrative et poursuite pénale
+
+Certains faits (abus de marché notamment) peuvent constituer à la fois un **manquement administratif** (AMF) et un **délit pénal** (poursuivi par le **Parquet national financier**). Depuis la **loi du 21 juin 2016**, une même personne ne peut plus être poursuivie deux fois pour les mêmes faits d'abus de marché : l'AMF et le PNF se concertent pour choisir **une seule voie** (« aiguillage »), en cas de désaccord, le procureur général près la cour d'appel de Paris tranche. Voir le thème 4.
+
+### L'Autorité de contrôle prudentiel et de résolution (ACPR)
+
+d> L'**ACPR**, autorité administrative indépendante **adossée à la Banque de France** et présidée par le **gouverneur de la Banque de France**, agrée et contrôle les **banques**, les **entreprises d'investissement** (sur le plan prudentiel), les **assureurs**, les établissements de paiement et de monnaie électronique ; elle veille à la **stabilité financière**, à la **protection de la clientèle** (pratiques commerciales de la banque et de l'assurance) et organise la **résolution** des établissements défaillants.
+
+Elle comprend un **Collège de supervision**, un **Collège de résolution** et une **Commission des sanctions** distincte. Dans la zone euro, elle travaille au sein du MSU avec la BCE.
+
+| Sujet | AMF | ACPR |
+|---|---|---|
+| Agrément d'une **banque** | — (approuve le programme d'activité pour les services d'investissement) | **Oui** (la BCE décide pour l'agrément des établissements de crédit, sur proposition de l'ACPR) |
+| Agrément d'une **entreprise d'investissement** | Approuve le **programme d'activité** | **Oui** |
+| Agrément d'une **société de gestion de portefeuille** | **Oui** | — |
+| Agrément d'un **assureur** | — | **Oui** |
+| Contrôle des **règles de bonne conduite** en matière de services d'investissement | **Oui** | — |
+| Contrôle des **pratiques commerciales** en assurance et crédit | — | **Oui** |
+| Solvabilité, liquidité, fonds propres | — | **Oui** |
+
+!> Une **entreprise d'investissement** est agréée par l'**ACPR**, après approbation par l'**AMF** de son programme d'activité ; une **société de gestion de portefeuille** est agréée par l'**AMF**. Les deux sont des pièges très classiques.
+
+Les deux autorités partagent un **pôle commun**, dont le service d'information du public s'appelle **Assurance Banque Épargne Info Service** (ABEIS) : coordination des contrôles de commercialisation, veille sur les publicités, information du public.
+
+### Les autres acteurs publics
+
+| Acteur | Rôle |
+|---|---|
+| **Banque de France** | Banque centrale membre de l'Eurosystème ; stabilité financière ; tenue de fichiers (FICP, FCC) ; secrétariat des commissions de surendettement |
+| **Haut Conseil de stabilité financière** (HCSF) | Autorité **macroprudentielle** présidée par le ministre de l'Économie : coussin de fonds propres contracyclique, norme d'octroi des crédits immobiliers (taux d'effort maximal de 35 %, durée maximale de 25 ans, avec dérogations limitées) |
+| **Comité consultatif du secteur financier** (CCSF) | Concertation entre établissements et représentants de la clientèle |
+| **ORIAS** | Registre unique des intermédiaires : intermédiaires en assurance, en opérations de banque (IOBSP), **conseillers en investissements financiers**, **agents liés** de PSI, intermédiaires en financement participatif |
+| **Tracfin** | Cellule de renseignement financier (voir thème 3) |
+| **Agence française anticorruption** (AFA) | Contrôle des programmes anticorruption (voir thème 3) |
+| **CNIL** | Protection des données personnelles (voir thème 6) |
+| **DGCCRF** | Pratiques commerciales trompeuses, droit de la consommation |
+| **Parquet national financier** (PNF) | Poursuites pénales en matière boursière et de corruption |
+| **Haute Autorité de l'audit** (H2A) | Supervision des commissaires aux comptes |
+
+### Les associations professionnelles
+
+Elles représentent les professionnels, élaborent des codes de bonne conduite et sont consultées sur la réglementation : **Fédération bancaire française** (FBF), **Association française de la gestion financière** (AFG), **Association française des marchés financiers** (AMAFI), **France Assureurs**, **Association française des sociétés financières** (ASF), Association française des professionnels des titres (AFTI). Les **associations de CIF** agréées par l'AMF (voir thème 5) ont un rôle particulier : l'adhésion à l'une d'elles est **obligatoire** pour exercer comme CIF.
+
+## 6. Les textes français
+
+### La hiérarchie des normes
+
+Du plus haut au plus bas : Constitution → traités et droit européen → lois (et ordonnances ratifiées) → décrets → arrêtés → règlement général de l'AMF (homologué par arrêté) → doctrine.
+
+### Le Code monétaire et financier
+
+Le CMF rassemble les lois (articles **L.**) et les décrets (articles **R.** et **D.**) applicables à la monnaie, aux établissements, aux services d'investissement et aux marchés. Quelques repères : L. 211-1 (instruments financiers), L. 321-1 et L. 321-2 (services d'investissement et services connexes), L. 341-1 et suivants (démarchage), L. 533-1 et suivants (règles de bonne conduite), L. 561-1 et suivants (LCB-FT), L. 621-1 et suivants (AMF).
+
+### Le règlement général de l'AMF
+
+| Livre | Contenu |
+|---|---|
+| I | L'Autorité des marchés financiers |
+| II | Émetteurs et information financière (offres au public, offres publiques d'acquisition, information périodique et permanente) |
+| III | Prestataires (règles d'organisation et de bonne conduite, CIF, démarchage) |
+| IV | Produits d'épargne collective (OPC) |
+| V | Infrastructures de marché |
+| VI | Abus de marché |
+| VII | Crypto-actifs (anciens actifs numériques) |
+
+### La doctrine de l'AMF
+
+| Instrument | Portée |
+|---|---|
+| **Instruction** | Précise les modalités d'application du règlement général (procédures, formulaires) |
+| **Position** | Interprétation des textes par l'AMF ; elle indique comment l'AMF les applique |
+| **Recommandation** | Incite à adopter une pratique jugée souhaitable, sans caractère obligatoire |
+| **Questions-réponses**, guides | Réponses pratiques à des questions récurrentes |
+
+## 7. Les acteurs et leurs statuts
+
+### Les services d'investissement
+
+d> Les **services d'investissement** (art. L. 321-1 du CMF) portent sur des **instruments financiers**. Ils ne peuvent être fournis à titre habituel que par des **prestataires agréés** (établissements de crédit et entreprises d'investissement), sous peine de sanctions pénales.
 
 | Service d'investissement | En bref |
 |---|---|
-| Réception et transmission d'ordres pour compte de tiers (RTO) | Recevoir l'ordre du client et le transmettre à un autre prestataire |
-| Exécution d'ordres pour compte de tiers | Conclure la transaction au nom du client |
-| Négociation pour compte propre | Engager ses propres capitaux |
-| Gestion de portefeuille pour le compte de tiers | Décider discrétionnairement, dans le cadre d'un mandat |
-| Conseil en investissement | Fournir des recommandations personnalisées |
-| Prise ferme | Acquérir les titres émis pour les revendre |
-| Placement garanti | Placer en garantissant à l'émetteur un montant minimal |
-| Placement non garanti | Rechercher des souscripteurs sans garantie |
-| Exploitation d'un système multilatéral de négociation (MTF) | Gérer une plateforme non discrétionnaire |
-| Exploitation d'un système organisé de négociation (OTF) | Gérer une plateforme discrétionnaire (obligations, dérivés) |
+| **Réception et transmission d'ordres** pour le compte de tiers (RTO) | Recevoir l'ordre du client et le transmettre à un autre prestataire pour exécution |
+| **Exécution d'ordres** pour le compte de tiers | Conclure la transaction au nom du client sur un lieu d'exécution |
+| **Négociation pour compte propre** | Engager ses propres capitaux (contrepartie) |
+| **Gestion de portefeuille** pour le compte de tiers | Gérer de façon discrétionnaire, dans le cadre d'un mandat |
+| **Conseil en investissement** | Fournir des recommandations **personnalisées** sur des instruments financiers |
+| **Prise ferme** | Acquérir les titres d'une émission pour les revendre |
+| **Placement garanti** | Placer une émission en garantissant à l'émetteur un montant minimal |
+| **Placement non garanti** | Rechercher des souscripteurs sans garantie de résultat |
+| Exploitation d'un **système multilatéral de négociation** (SMN / MTF) | Gérer une plateforme aux règles non discrétionnaires |
+| Exploitation d'un **système organisé de négociation** (SON / OTF) | Gérer une plateforme à exécution discrétionnaire (hors actions) |
 
-Les **services connexes** (art. L. 321-2) comprennent notamment la tenue de compte-conservation, l'octroi de crédits pour permettre une opération sur instruments financiers, le conseil aux entreprises en matière de structure du capital, les services de change liés, la recherche en investissement.
+Les **services connexes** (art. L. 321-2) n'exigent pas d'agrément spécifique s'ils sont rendus seuls, mais sont souvent fournis avec les services d'investissement : **tenue de compte-conservation** d'instruments financiers, **octroi de crédits** pour permettre une opération sur instruments financiers, **conseil aux entreprises** (structure du capital, fusions-acquisitions), **services de change** liés aux services d'investissement, **recherche en investissement** et analyse financière, services liés à la prise ferme.
+
+!> Le **conseil en investissement** suppose une **recommandation personnalisée** : présentée comme adaptée à la personne ou fondée sur sa situation. Une information générale sur un produit, ou une recommandation diffusée au public (presse, site internet), n'est pas du conseil en investissement au sens de MIF 2.
 
 ### Les statuts
 
-- **Prestataires de services d'investissement (PSI)** : établissements de crédit et entreprises d'investissement agréés pour fournir des services d'investissement ;
-- **Sociétés de gestion de portefeuille (SGP)** : agréées par l'AMF, gèrent des OPC et/ou des mandats ;
-- **Conseillers en investissements financiers (CIF)** : immatriculés à l'ORIAS, membres d'une association professionnelle agréée par l'AMF, contrôlés par l'AMF (voir thème 5) ;
-- **Prestataires de services sur crypto-actifs (PSCA)**, agréés au titre de MiCA (voir thème 7) ;
-- **Agents liés** : mandataires d'un seul PSI, sous sa responsabilité.
+| Statut | Activité | Agrément / immatriculation | Contrôle |
+|---|---|---|---|
+| **Établissement de crédit** (banque, banque mutualiste ou coopérative, établissement de crédit spécialisé) | Opérations de banque (dépôts, crédits, moyens de paiement) et, s'il est agréé pour cela, services d'investissement | ACPR / BCE | ACPR / BCE (prudentiel), AMF (services d'investissement) |
+| **Entreprise d'investissement** | Services d'investissement, sans recevoir de dépôts | ACPR, après approbation du programme d'activité par l'AMF | ACPR (prudentiel), AMF (bonne conduite) |
+| **Société de gestion de portefeuille** (SGP) | Gestion d'OPC et/ou gestion sous mandat ; conseil en investissement possible | **AMF** | AMF |
+| **Conseiller en investissements financiers** (CIF) | Conseil en investissement, conseil sur la fourniture de services d'investissement, conseil en gestion de patrimoine | **ORIAS** + adhésion à une **association agréée par l'AMF** | AMF et association |
+| **Agent lié** | Agit pour le compte d'**un seul** PSI : RTO, placement, conseil, démarchage | Mandat écrit + immatriculation **ORIAS** | Sous la **responsabilité entière et inconditionnelle** du PSI mandant |
+| **Prestataire de services sur crypto-actifs** (PSCA) | Services sur crypto-actifs (MiCA) | **AMF** (avis de l'ACPR) | AMF |
+| **Prestataire de services de financement participatif** (PSFP) | Plateformes de financement participatif (règlement européen 2020/1503) | **AMF** | AMF |
+| **Établissement de paiement / de monnaie électronique** | Services de paiement, émission de monnaie électronique | ACPR | ACPR |
+| **Intermédiaire en assurance** (courtier, agent général, mandataire) | Distribution d'assurance (dont assurance-vie) | ORIAS | ACPR |
+| **IOBSP** | Intermédiation en crédit et services de paiement | ORIAS | ACPR |
+
+c> L'**agent lié** est la solution choisie par de nombreux réseaux (conseillers indépendants travaillant pour une seule plateforme, par exemple). Il ne peut **ni recevoir de fonds ni recevoir d'instruments financiers** des clients ; il doit indiquer son statut et l'identité de son mandant. Le client est protégé car le PSI répond de tous ses actes. À l'inverse, le **CIF** est indépendant des producteurs (il peut travailler avec plusieurs), mais il ne peut pas non plus détenir les fonds de ses clients.
+
+Les **infrastructures de marché** ont leurs propres statuts : **entreprise de marché** (gère un marché réglementé : Euronext Paris), **chambre de compensation** (contrepartie centrale), **dépositaire central** (Euroclear France). Voir thèmes 9 et 10.
 
 ### Le passeport européen
 
-Un prestataire agréé dans un État membre peut exercer dans tout l'Espace économique européen, soit par **libre prestation de services**, soit par **libre établissement** (succursale), après une simple notification à son autorité d'origine. La surveillance prudentielle reste celle de l'État d'origine ; les règles de bonne conduite applicables à une succursale relèvent de l'État d'accueil.
+d> Un prestataire agréé dans un État membre peut exercer dans tout l'**Espace économique européen** (Union européenne + Islande, Liechtenstein, Norvège), soit en **libre prestation de services** (sans implantation), soit en **libre établissement** (succursale), après une simple **notification** à l'autorité de son pays d'origine, qui la transmet à l'autorité du pays d'accueil.
 
-## 5. Les mécanismes de garantie
-
-Le **Fonds de garantie des dépôts et de résolution (FGDR)** indemnise les clients en cas de défaillance de leur établissement :
-
-| Garantie | Plafond par client et par établissement |
+| Sujet | Autorité compétente |
 |---|---|
-| Dépôts (comptes courants, livrets non réglementés, comptes à terme) | 100 000 € |
-| Livret A, LDDS et LEP | 100 000 € supplémentaires, distincts de la garantie des dépôts |
-| Titres (instruments financiers conservés, en cas d'indisponibilité) | 70 000 € |
+| Agrément, solidité financière, organisation | **État d'origine** |
+| Règles de bonne conduite appliquées par une **succursale** aux clients du pays d'accueil | **État d'accueil** |
+| Libre prestation de services | État d'origine pour l'essentiel |
 
-!> La garantie des titres ne couvre **pas** la perte de valeur des titres liée au marché : elle intervient si l'établissement est incapable de restituer les titres qu'il conservait.
+Le passeport existe pour les services d'investissement (MIF 2), les OPCVM, les gestionnaires de FIA (commercialisation auprès des professionnels), les prospectus, les PSCA (MiCA), les PSFP. Les prestataires établis **hors de l'Union** (pays tiers) n'en bénéficient pas : ils doivent en principe créer une filiale ou une succursale agréée.
 
-## 6. Les sanctions de l'AMF
+## 8. Les règles prudentielles
 
-La procédure distingue rigoureusement **poursuite** (Collège, qui notifie les griefs) et **jugement** (Commission des sanctions). Les décisions de la Commission des sanctions sont susceptibles de recours devant le **Conseil d'État** lorsqu'elles visent un professionnel régulé (prestataire, société de gestion, CIF…), et devant la **cour d'appel de Paris** dans les autres cas (par exemple un particulier sanctionné pour manquement d'initié). Les sanctions peuvent être rendues publiques.
+### Les banques : Bâle III, CRR et CRD
 
-| Personne sanctionnée | Plafond de la sanction pécuniaire |
+Les accords de **Bâle III**, appliqués dans l'Union par le règlement **CRR** et la directive **CRD** (dernière version, « CRR3 », applicable depuis le **1er janvier 2025** avec des mesures transitoires jusqu'en 2032), imposent aux banques :
+
+| Exigence | Règle principale |
 |---|---|
-| Professionnels (personnes morales) et auteurs d'abus de marché | 100 millions d'euros, ou le décuple de l'avantage retiré ; pour les personnes morales, jusqu'à 15 % du chiffre d'affaires annuel total |
-| Personnes physiques placées sous l'autorité d'un professionnel | 15 millions d'euros ou le décuple de l'avantage retiré |
+| **Fonds propres** | Fonds propres de base de catégorie 1 (CET1) d'au moins **4,5 %** des actifs pondérés par les risques ; fonds propres de catégorie 1 d'au moins **6 %** ; fonds propres totaux d'au moins **8 %** ; plus des **coussins** (coussin de conservation de **2,5 %**, coussin contracyclique, coussins pour les banques systémiques) |
+| **Ratio de levier** | Fonds propres de catégorie 1 d'au moins **3 %** de l'exposition totale non pondérée |
+| **Liquidité à court terme (LCR)** | Actifs liquides suffisants pour couvrir **30 jours** de sorties de trésorerie en situation de tension : ratio d'au moins **100 %** |
+| **Financement stable (NSFR)** | Financement stable disponible au moins égal au financement stable exigé à **un an** : ratio d'au moins **100 %** |
+| **Plancher de fonds propres** (*output floor*) | Les actifs pondérés calculés par les modèles internes ne peuvent être inférieurs à **72,5 %** de ceux calculés selon les méthodes standard (montée en charge progressive de 2025 à 2030) |
 
-L'AMF peut également prononcer des **sanctions disciplinaires** (avertissement, blâme, interdiction temporaire ou définitive d'exercer, retrait de carte professionnelle) et conclure des **compositions administratives** (accord transactionnel homologué par la Commission des sanctions).
+Les **entreprises d'investissement** relèvent depuis 2021 d'un régime prudentiel adapté (règlement **IFR** et directive **IFD**), sauf les plus grandes, qui restent soumises à CRR. Les **assureurs** relèvent de **Solvabilité II**.
+
+### La résolution des banques
+
+La directive **BRRD** organise la **résolution** d'une banque en difficulté sans recourir à l'argent public : les autorités de résolution (CRU, ACPR) peuvent notamment imposer un **renflouement interne** (*bail-in*), qui fait supporter les pertes aux **actionnaires**, puis aux **créanciers** selon leur rang. Les **dépôts garantis** (jusqu'à 100 000 €) sont exclus du renflouement interne. Les banques doivent détenir un montant minimal de fonds propres et de dettes « absorbant les pertes » (exigence **MREL**).
+
+## 9. Les mécanismes de garantie
+
+Le **Fonds de garantie des dépôts et de résolution** (FGDR) indemnise les clients d'un établissement défaillant :
+
+| Garantie | Plafond par client et par établissement | Points clés |
+|---|---|---|
+| **Dépôts** (comptes courants, livrets non réglementés, comptes à terme, PEL, CEL…) | **100 000 €** | Indemnisation en principe sous **7 jours ouvrables** ; plafond porté jusqu'à **500 000 €** pendant 3 mois pour certains dépôts exceptionnels (vente d'un logement, héritage, indemnité…) |
+| **Livret A, LDDS, LEP** | **100 000 €** supplémentaires, distincts des 100 000 € ci-dessus | Garantie de l'État, versée par le FGDR |
+| **Titres** (instruments financiers conservés) | **70 000 €** | Seulement si l'établissement est **incapable de restituer** les titres ; les espèces liées aux titres relèvent de la garantie des dépôts |
+| **Cautions** | Selon le cas | Engagements de caution délivrés par l'établissement |
+
+Le **Fonds de garantie des assurances de personnes** (FGAP) protège de son côté les souscripteurs d'**assurance-vie** (jusqu'à **70 000 €** par assuré et par assureur, tous contrats confondus).
+
+!> La garantie des titres **ne couvre pas la baisse des cours**. Un client dont les actions ont perdu 40 % en bourse n'est pas indemnisé : la garantie ne joue que si le conservateur, défaillant, ne peut pas restituer les titres. Voir aussi la ségrégation des avoirs (thème 10).
+
+i> Un client détient dans la même banque, qui fait faillite : un compte courant de 30 000 €, un livret bancaire de 90 000 €, un Livret A de 22 950 € et un compte-titres de 150 000 € dont les titres ont disparu.
+- Dépôts : 30 000 + 90 000 = 120 000 € → indemnisés à hauteur de **100 000 €**.
+- Livret A : **22 950 €**, garantie distincte.
+- Titres : **70 000 €** au maximum.
+Total : 192 950 €. La perte non couverte est de 20 000 € sur les dépôts et 80 000 € sur les titres.
+
+## L'essentiel
+
+> - Régulation **prudentielle** (solidité : ACPR, BCE) ≠ régulation **de marché et de bonne conduite** (AMF).
+> - Normes mondiales (Bâle, OICV, GAFI…) **sans force obligatoire directe**.
+> - **Règlement** : directement applicable. **Directive** : à transposer. MIF 2 est une directive ; MAR, PRIIPs, EMIR, MiCA, SFDR sont des règlements.
+> - Lamfalussy : 4 niveaux ; les orientations de niveau 3 suivent le principe « se conformer ou s'expliquer ».
+> - ESMA et EBA à **Paris** ; EIOPA, CERS, BCE et AMLA à **Francfort**.
+> - BCE : stabilité des prix, inflation de **2 %** à moyen terme ; trois taux directeurs.
+> - AMF : loi du **1er août 2003** (COB + CMF + CDGF), autorité publique indépendante dotée de la personnalité morale ; Collège de **16** membres, Commission des sanctions de **12** membres, président nommé pour **5 ans non renouvelables**.
+> - Sanctions AMF : jusqu'à **100 M€** ou **10 fois** l'avantage retiré ; recours : **Conseil d'État** pour les professionnels, **cour d'appel de Paris** pour les autres.
+> - Agrément : banques et entreprises d'investissement par l'**ACPR** (BCE pour les établissements de crédit) ; **SGP, PSCA, PSFP par l'AMF** ; CIF et agents liés immatriculés à l'**ORIAS**.
+> - Passeport européen : notification ; prudentiel = État d'origine ; bonne conduite des succursales = État d'accueil.
+> - Bâle III : CET1 **4,5 %**, total **8 %**, coussin de conservation **2,5 %**, levier **3 %**, LCR et NSFR **100 %**.
+> - FGDR : **100 000 €** de dépôts + **100 000 €** de livrets réglementés + **70 000 €** de titres, par client et par établissement ; indemnisation sous **7 jours ouvrables**.
 
 ## QCM d'entraînement
 
-?? Quel organisme siège à Paris et coordonne les autorités nationales de régulation des marchés financiers de l'Union européenne ?
-a) L'EBA
-b) L'EIOPA
-c) L'ESMA
-d) Le CERS
-=c L'ESMA (European Securities and Markets Authority) a son siège à Paris. L'EBA siège également à Paris mais concerne le secteur bancaire.
+?? [C] Les recommandations du Comité de Bâle s'appliquent aux banques européennes :
+a) directement, dès leur publication
+b) après leur reprise dans des textes européens comme le règlement CRR et la directive CRD
+c) uniquement aux banques suisses
+=b Les organismes internationaux n'ont pas de pouvoir contraignant direct.
 
-?? Un règlement européen :
-a) doit être transposé par chaque État membre dans un délai de deux ans
+?? [C] L'organisme international qui élabore les normes de lutte contre le blanchiment et dresse des listes de pays à haut risque est :
+a) le GAFI
+b) l'OICV
+c) le FMI
+=a Le GAFI siège à Paris, dans les locaux de l'OCDE.
+
+?? [C] L'OICV (IOSCO) regroupe :
+a) les banques centrales
+b) les régulateurs des marchés de valeurs mobilières, dont l'AMF
+c) les agences de notation
+=b Elle élabore des principes de régulation des marchés de titres.
+
+?? [C] Un règlement européen :
+a) doit être transposé par chaque État membre
 b) est directement applicable dans tous les États membres
-c) ne s'applique qu'aux États de la zone euro
-d) n'a qu'une valeur de recommandation
-=b C'est la différence essentielle avec la directive, qui doit être transposée.
+c) ne s'applique qu'aux institutions européennes
+=b Contrairement à la directive, qui fixe des objectifs à transposer.
 
-?? L'AMF a été créée par :
-a) la loi de sécurité financière du 1er août 2003
-b) la loi de régulation bancaire et financière de 2010
-c) la loi PACTE de 2019
-d) la loi bancaire de 1984
-=a Elle résulte de la fusion de la COB, du CMF et du CDGF.
-
-?? Combien de membres compte le Collège de l'AMF ?
-a) 9
-b) 12
-c) 16
-d) 25
-=c La Commission des sanctions compte, elle, 12 membres.
-
-?? Qui ouvre une procédure de sanction devant l'AMF ?
-a) La Commission des sanctions
-b) Le Collège
-c) Le médiateur
-d) Le ministre de l'Économie
-=b Le Collège notifie les griefs ; la Commission des sanctions, organe distinct, juge.
-
-?? Le règlement général de l'AMF entre en vigueur après :
-a) son vote par le Parlement
-b) son approbation par l'ESMA
-c) son homologation par arrêté du ministre de l'Économie
-d) sa publication par la Banque de France
-=c Le RGAMF est rédigé par l'AMF mais homologué par arrêté ministériel.
-
-?? Une société de gestion de portefeuille est agréée par :
-a) l'AMF
-b) l'ACPR
-c) la Banque de France
-d) l'ORIAS
-=a L'ACPR agrée les entreprises d'investissement et les établissements de crédit ; l'AMF agrée les sociétés de gestion.
-
-?? Lequel de ces textes est une directive ?
+?? [C] Parmi ces textes, lequel est une directive ?
 a) MAR
-b) PRIIPs
-c) EMIR
-d) MIF 2
-=d MIF 2 est une directive, complétée par le règlement MiFIR.
+b) MIF 2
+c) PRIIPs
+=b MIF 2 (2014/65/UE) est une directive ; elle est complétée par le règlement MiFIR.
 
-?? Au niveau 3 du processus Lamfalussy, on trouve :
-a) les directives et règlements adoptés par le Parlement et le Conseil
-b) les orientations et questions-réponses des autorités européennes de surveillance
-c) les normes techniques adoptées par la Commission
-d) les décisions de la Cour de justice de l'Union
-=b Le niveau 3 vise la convergence des pratiques de supervision.
+?? [C] Dans le processus Lamfalussy, les orientations et questions-réponses de l'ESMA relèvent du :
+a) niveau 1
+b) niveau 2
+c) niveau 3
+=c Le niveau 3 vise la convergence des pratiques de supervision.
 
-?? Le plafond de garantie des titres par le FGDR est de :
-a) 70 000 € par client et par établissement
-b) 100 000 € par client et par établissement
-c) 150 000 € par client, tous établissements confondus
-d) Il n'existe pas de garantie des titres
-=a Les dépôts sont garantis à 100 000 €, les titres à 70 000 €.
+?? [C] Le siège de l'ESMA est situé à :
+a) Francfort
+b) Paris
+c) Bruxelles
+=b L'EBA est aussi à Paris ; l'EIOPA et le CERS sont à Francfort.
 
-?? Lequel de ces services est un service connexe et non un service d'investissement ?
-a) Le conseil en investissement
-b) La gestion de portefeuille pour compte de tiers
-c) La tenue de compte-conservation
-d) La réception et transmission d'ordres
-=c La tenue de compte-conservation figure parmi les services connexes (art. L. 321-2 CMF).
+?? [C] Le Comité européen du risque systémique (CERS) est chargé :
+a) de la supervision directe des banques
+b) de la surveillance macroprudentielle du système financier européen
+c) de l'agrément des sociétés de gestion
+=b Il émet des alertes et des recommandations ; il n'agrée ni ne sanctionne.
 
-?? Le passeport européen permet à un prestataire agréé en France :
-a) d'exercer dans l'Espace économique européen après simple notification
-b) d'exercer partout dans le monde sans autorisation
-c) de se soustraire au contrôle de l'AMF
-d) d'obtenir automatiquement un agrément bancaire
-=a La libre prestation de services ou l'établissement d'une succursale supposent une notification préalable, pas un nouvel agrément.
+?? [C] L'ESMA a utilisé en 2018 son pouvoir d'intervention sur les produits pour :
+a) interdire la vente d'options binaires et restreindre celle des CFD aux clients non professionnels
+b) interdire les OPCVM monétaires
+c) fermer Euronext
+=a Ces mesures ont ensuite été reprises par les autorités nationales, dont l'AMF.
 
-?? Le GAFI est l'organisme international chargé :
-a) des normes comptables
-b) de la lutte contre le blanchiment et le financement du terrorisme
-c) des normes prudentielles bancaires
-d) de la régulation des marchés de titres
-=b Ses recommandations et ses listes de pays à risque structurent le dispositif LCB-FT.
+?? [C] Depuis 2014, la supervision directe des banques les plus importantes de la zone euro est assurée par :
+a) l'EBA
+b) la BCE, dans le cadre du mécanisme de surveillance unique
+c) la Commission européenne
+=b C'est le premier pilier de l'union bancaire.
 
-?? Pour une personne physique placée sous l'autorité d'un professionnel, la sanction pécuniaire maximale de l'AMF est de :
+?? [C] L'objectif principal de la politique monétaire de la BCE est :
+a) le plein emploi
+b) la stabilité des prix, avec une inflation de 2 % à moyen terme
+c) la stabilité du taux de change de l'euro
+=b L'objectif de 2 % est symétrique.
+
+?? [C] Une hausse des taux directeurs de la BCE a en principe pour effet :
+a) de faire monter le prix des obligations à taux fixe existantes
+b) de renchérir le crédit et de faire baisser le prix des obligations à taux fixe existantes
+c) d'augmenter l'inflation
+=b Les taux de marché montent, et les obligations anciennes, moins rémunératrices, perdent de la valeur.
+
+?? [C] L'AMF a été créée par :
+a) la loi de sécurité financière du 1er août 2003
+b) la loi de modernisation des activités financières de 1996
+c) la loi PACTE de 2019
+=a Par fusion de la COB, du CMF et du CDGF.
+
+?? [C] L'AMF est :
+a) un service du ministère de l'Économie
+b) une autorité publique indépendante dotée de la personnalité morale
+c) une association professionnelle
+=b Elle dispose aussi de l'autonomie financière.
+
+?? [C] L'AMF est financée principalement par :
+a) le produit des sanctions qu'elle prononce
+b) les contributions des acteurs qu'elle régule
+c) une dotation du budget de l'État
+=b Le produit des sanctions est versé au Trésor public ou à un fonds de garantie.
+
+?? [C] Le règlement général de l'AMF entre en vigueur après :
+a) son vote par le Parlement
+b) son homologation par arrêté du ministre chargé de l'Économie
+c) son approbation par l'ESMA
+=b Il est publié au Journal officiel avec l'arrêté d'homologation.
+
+?? [C] Au sein de l'AMF, l'organe qui décide d'ouvrir une procédure de sanction et notifie les griefs est :
+a) la Commission des sanctions
+b) le Collège
+c) le médiateur
+=b La Commission des sanctions, distincte du Collège, juge.
+
+?? [C] La Commission des sanctions de l'AMF compte :
+a) 6 membres
+b) 12 membres
+c) 16 membres
+=b Le Collège compte 16 membres.
+
+?? [C] Le président de l'AMF est nommé :
+a) par le Collège pour 3 ans renouvelables
+b) par décret pour 5 ans non renouvelables
+c) par l'ESMA
+=b Il préside le Collège.
+
+?? [A] Un conseiller en investissements financiers sanctionné par la Commission des sanctions de l'AMF pour manquement à ses obligations professionnelles peut former un recours devant :
+a) la cour d'appel de Paris
+b) le Conseil d'État
+c) le tribunal de commerce
+=b Les recours des professionnels régulés relèvent du juge administratif.
+
+?? [C] Un particulier sanctionné par l'AMF pour une opération d'initié peut former un recours devant :
+a) le Conseil d'État
+b) la cour d'appel de Paris
+c) la Cour de justice de l'Union européenne
+=b Les personnes non régulées relèvent du juge judiciaire.
+
+?? [C] Le montant maximal de la sanction pécuniaire que peut prononcer la Commission des sanctions de l'AMF est en principe de :
 a) 1,5 million d'euros
-b) 15 millions d'euros ou le décuple de l'avantage retiré
-c) 100 millions d'euros
-d) 15 % du chiffre d'affaires
-=b Le plafond de 100 millions d'euros vise les professionnels et les auteurs d'abus de marché.
+b) 100 millions d'euros ou dix fois l'avantage retiré
+c) 1 milliard d'euros
+=b Des plafonds en pourcentage du chiffre d'affaires existent aussi pour certains manquements des personnes morales.
 
-?? Le règlement DORA porte sur :
-a) la résilience opérationnelle numérique du secteur financier
-b) les fonds monétaires
-c) les crypto-actifs
-d) les dérivés de gré à gré
-=a DORA est applicable depuis le 17 janvier 2025.
+?? [C] La composition administrative est :
+a) une sanction pénale
+b) une transaction proposée par le Collège, qui doit être homologuée par la Commission des sanctions
+c) un recours devant le Conseil d'État
+=b Elle permet de clore une procédure moyennant le versement d'une somme et des engagements.
+
+?? [C] Le Collège de l'AMF ne peut être saisi de faits remontant à plus de :
+a) trois ans, sans acte de recherche ou de sanction dans ce délai
+b) six ans, sans acte de recherche ou de sanction dans ce délai
+c) dix ans, sans acte de recherche ou de sanction dans ce délai
+=b C'est le délai de prescription des manquements.
+
+?? [C] L'ACPR est :
+a) adossée à la Banque de France et présidée par son gouverneur
+b) une direction de l'AMF
+c) une autorité européenne
+=a Elle est chargée du contrôle prudentiel et de la protection de la clientèle en banque et en assurance.
+
+?? [C] Une société de gestion de portefeuille doit être agréée par :
+a) l'ACPR
+b) l'AMF
+c) la BCE
+=b C'est un piège fréquent : les entreprises d'investissement, elles, sont agréées par l'ACPR.
+
+?? [C] Une entreprise d'investissement est agréée par :
+a) l'AMF seule
+b) l'ACPR, après approbation de son programme d'activité par l'AMF
+c) l'ORIAS
+=b L'AMF approuve le programme d'activité pour les services d'investissement.
+
+?? [C] Les mesures macroprudentielles comme la norme d'octroi des crédits immobiliers (taux d'effort de 35 %) relèvent :
+a) du Haut Conseil de stabilité financière
+b) de l'AMF
+c) du CCSF
+=a Le HCSF est présidé par le ministre de l'Économie.
+
+?? [C] Le registre unique des intermédiaires, sur lequel doivent être immatriculés les CIF et les agents liés, est tenu par :
+a) l'AMF
+b) l'ORIAS
+c) la Banque de France
+=b L'immatriculation à l'ORIAS est une condition d'exercice.
+
+?? [C] Les instructions de l'AMF :
+a) précisent les modalités d'application du règlement général
+b) sont des lois
+c) sont adoptées par le Parlement européen
+=a Les positions expriment l'interprétation des textes par l'AMF, les recommandations des pratiques souhaitables.
+
+?? [C] Le livre III du règlement général de l'AMF porte sur :
+a) les émetteurs
+b) les prestataires
+c) les abus de marché
+=b Livre II : émetteurs ; livre IV : placements collectifs ; livre VI : abus de marché.
+
+?? [C] Lequel de ces services est un service d'investissement ?
+a) la tenue de compte-conservation
+b) le conseil en investissement
+c) le conseil aux entreprises en matière de structure du capital
+=b Les deux autres sont des services connexes.
+
+?? [C] Lequel de ces services est un service connexe ?
+a) la réception et la transmission d'ordres
+b) la gestion de portefeuille pour le compte de tiers
+c) la tenue de compte-conservation d'instruments financiers
+=c La tenue de compte-conservation est le principal service connexe.
+
+?? [A] Pour constituer un conseil en investissement au sens de MIF 2, une recommandation doit notamment :
+a) être diffusée au public par voie de presse
+b) être personnalisée, c'est-à-dire présentée comme adaptée à la personne ou fondée sur sa situation
+c) porter exclusivement sur des actions cotées
+=b Une recommandation générale diffusée au public n'est pas un conseil en investissement.
+
+?? [C] Un agent lié :
+a) peut agir pour le compte de plusieurs prestataires de services d'investissement
+b) agit pour le compte d'un seul PSI, qui est entièrement responsable de ses actes
+c) peut recevoir les fonds de ses clients
+=b Il ne peut recevoir ni fonds ni instruments financiers des clients.
+
+?? [C] Un prestataire agréé en France qui souhaite ouvrir une succursale en Italie doit :
+a) obtenir un nouvel agrément en Italie
+b) notifier son projet à son autorité d'origine, qui le transmet à l'autorité italienne
+c) demander l'autorisation de l'ESMA
+=b C'est le passeport européen.
+
+?? [C] Les règles de bonne conduite applicables par la succursale italienne d'un prestataire français aux clients italiens relèvent :
+a) de l'autorité française
+b) de l'autorité italienne (État d'accueil)
+c) de l'ESMA
+=b La surveillance prudentielle reste celle de l'État d'origine.
+
+?? [C] Selon Bâle III, le ratio de fonds propres de base de catégorie 1 (CET1) minimal, hors coussins, est de :
+a) 3 %
+b) 4,5 %
+c) 8 %
+=b 6 % pour les fonds propres de catégorie 1, 8 % pour les fonds propres totaux.
+
+?? [C] Le ratio de liquidité à court terme (LCR) impose aux banques de détenir des actifs liquides couvrant leurs sorties de trésorerie en période de tension pendant :
+a) 7 jours
+b) 30 jours
+c) 1 an
+=b Le NSFR porte, lui, sur un horizon d'un an.
+
+?? [C] En cas de renflouement interne (bail-in) d'une banque, les pertes sont supportées en premier lieu par :
+a) les déposants garantis
+b) les actionnaires
+c) l'État
+=b Puis par les créanciers selon leur rang ; les dépôts garantis sont exclus.
+
+?? [C] Un client a 80 000 € sur un compte courant et 60 000 € sur un compte à terme dans une banque qui fait faillite. Le FGDR l'indemnise à hauteur de :
+a) 100 000 €
+b) 140 000 €
+c) 70 000 €
+=a Les dépôts sont cumulés et plafonnés à 100 000 € par client et par établissement.
+
+?? [C] La garantie des titres du FGDR intervient :
+a) en cas de baisse des cours des titres
+b) lorsque l'établissement défaillant ne peut pas restituer les titres qu'il conservait
+c) uniquement pour les actions françaises
+=b Elle est plafonnée à 70 000 € par client et par établissement.
+
+?? [C] Les sommes placées sur un Livret A et un LDDS dans une banque défaillante :
+a) sont incluses dans le plafond de 100 000 € de la garantie des dépôts
+b) bénéficient d'une garantie distincte de 100 000 €
+c) ne sont pas garanties
+=b Elles s'ajoutent aux 100 000 € de la garantie des dépôts ordinaires.
+
+?? [C] Depuis la loi du 21 juin 2016, en matière d'abus de marché, une même personne :
+a) peut être poursuivie à la fois par l'AMF et au pénal pour les mêmes faits
+b) ne peut plus être poursuivie à la fois par l'AMF et par le parquet pour les mêmes faits
+c) ne peut être poursuivie que par l'AMF
+=b L'AMF et le PNF se concertent pour choisir une seule voie.
