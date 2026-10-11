@@ -6,7 +6,7 @@ export const examenV3: ExamenBlanc = {
   description:
     "60 questions supplémentaires, avec davantage de mises en situation, mêmes proportions thématiques que les versions 1 et 2.",
   dureeConseilleeMinutes: 50,
-  seuilReussitePct: 70,
+  seuilReussitePct: 80,
   questions: [
     // AMF1 (6)
     { id: "v3-01", theme: "amf1", question: "La COB, fusionnée dans l'AMF en 2003, était historiquement centrée sur :", choix: ["La supervision bancaire", "La protection de l'épargne et l'information financière", "La politique monétaire", "La fiscalité des successions"], bonneReponse: 1, explication: "La Commission des opérations de bourse préfigurait la mission de protection de l'épargne de l'AMF." },

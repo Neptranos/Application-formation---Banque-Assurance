@@ -1,0 +1,229 @@
+# Thème 2 — Déontologie, conformité et organisation déontologique des établissements
+
+## Ce que l'examen attend
+
+C'est le cœur des questions de catégorie A. Il faut maîtriser l'organisation de la fonction conformité, la prévention et la gestion des conflits d'intérêts, l'encadrement des transactions personnelles, les avantages et rémunérations, la protection des lanceurs d'alerte, et la façon dont les établissements s'organisent pour que l'intérêt du client prime.
+
+## 1. Le principe directeur
+
+> Les prestataires de services d'investissement agissent d'une manière **honnête, loyale et professionnelle** qui sert au mieux les intérêts de leurs clients (art. L. 533-11 CMF, transposant l'article 24 de MIF 2). Toutes les règles de ce thème en sont des déclinaisons concrètes.
+
+La déontologie n'est pas une morale individuelle laissée à l'appréciation de chacun : c'est un ensemble d'**obligations organisationnelles** imposées à l'établissement (procédures, contrôles, enregistrements) et d'**obligations de comportement** imposées à chaque collaborateur, dont le non-respect est sanctionnable par l'AMF.
+
+## 2. La fonction conformité
+
+### Missions
+
+La fonction conformité doit être **permanente, efficace et indépendante**. Elle :
+
+- identifie et évalue le **risque de non-conformité** (risque de sanction, de perte financière ou d'atteinte à la réputation né du non-respect des règles) ;
+- conseille et assiste les opérationnels ;
+- contrôle et évalue régulièrement l'adéquation des procédures ;
+- rend compte aux dirigeants (rapport au moins annuel) ;
+- forme et sensibilise les collaborateurs.
+
+### Le RCSI et le RCCI
+
+| | RCSI | RCCI |
+|---|---|---|
+| Signification | Responsable de la conformité pour les services d'investissement | Responsable de la conformité et du contrôle interne |
+| Établissement | Prestataires de services d'investissement (banques, entreprises d'investissement) | Sociétés de gestion de portefeuille |
+| Carte professionnelle | Délivrée par l'AMF après examen spécifique | Délivrée par l'AMF après examen spécifique |
+| Nomination | Par l'établissement, carte demandée à l'AMF | Par la société de gestion, carte demandée à l'AMF |
+
+!> Pour le RCSI et le RCCI, c'est **l'AMF** qui délivre la carte professionnelle. Pour les autres fonctions (vendeur, négociateur, gérant…), la vérification des connaissances relève de l'employeur, sur la base de l'examen certifié.
+
+### Les trois niveaux de contrôle
+
+- **Contrôle de premier niveau** : réalisé par les opérationnels eux-mêmes et leur hiérarchie (auto-contrôle, double regard) ;
+- **Contrôle permanent de second niveau** : réalisé par des équipes dédiées (conformité, contrôle des risques), indépendantes des opérationnels ;
+- **Contrôle périodique** (troisième niveau) : réalisé par l'audit interne / l'inspection générale, à intervalles réguliers, sur l'ensemble de l'organisation, y compris la conformité.
+
+Dans les sociétés de gestion de petite taille, ces fonctions peuvent être cumulées ou externalisées sous conditions, mais l'établissement reste toujours **responsable** de ce qu'il externalise.
+
+## 3. Les conflits d'intérêts
+
+### Définition
+
+Il y a conflit d'intérêts lorsque l'intérêt de l'établissement, de ses collaborateurs ou d'un client peut entrer en concurrence avec l'intérêt d'un autre client, au détriment de celui-ci.
+
+Situations typiques : l'établissement réalise un gain financier aux dépens du client ; il a un intérêt dans le résultat d'un service distinct de celui du client ; il est incité à privilégier un client par rapport à un autre ; il exerce la même activité que le client ; il reçoit d'un tiers un avantage lié au service rendu.
+
+### La démarche obligatoire
+
+| Étape | Contenu |
+|---|---|
+| 1. Identifier | Cartographie des situations de conflits potentiels |
+| 2. Prévenir | Politique écrite de gestion des conflits, séparation des fonctions, « murailles de Chine » (barrières à l'information), rémunérations non incitatives |
+| 3. Gérer | Procédures d'escalade, arbitrage par la conformité, registre des conflits survenus |
+| 4. Informer le client | **En dernier recours seulement**, lorsque les mesures prises ne suffisent pas à garantir avec une certitude raisonnable que le risque de porter atteinte aux intérêts du client sera évité |
+
+!> L'information du client n'est **pas** une manière de régler un conflit d'intérêts : c'est l'ultime recours, après échec de la prévention et de la gestion. Une réponse du type « il suffit d'informer le client » est fausse.
+
+### Les barrières à l'information (« murailles de Chine »)
+
+Elles séparent les équipes détenant des informations sensibles (financement des entreprises, fusions-acquisitions, recherche) des équipes de marché ou de vente. On distingue les **zones d'initiés** (côté « privé ») et les zones publiques. Le **franchissement** d'une muraille (« wall crossing ») doit être autorisé et tracé par la conformité, et la personne concernée est inscrite sur les listes de suivi.
+
+### Les listes de suivi
+
+- **Liste de surveillance (watch list)** : confidentielle, tenue par la conformité ; recense les valeurs sur lesquelles l'établissement détient une information sensible ; permet de surveiller les transactions sans les interdire ;
+- **Liste d'interdiction (restricted list)** : diffusée en interne ; les collaborateurs ne peuvent pas intervenir (ou de façon restreinte) sur les valeurs qui y figurent.
+
+## 4. Les transactions personnelles des collaborateurs
+
+Les collaborateurs dits « concernés » (exposés à des informations sensibles ou à des conflits d'intérêts) sont soumis à un encadrement de leurs opérations pour compte propre :
+
+- interdiction d'utiliser une information privilégiée ou confidentielle ;
+- interdiction de réaliser des opérations contraires aux intérêts des clients, ou de faire du « front running » (passer un ordre pour soi avant celui d'un client) ;
+- obligation de déclarer leurs comptes et leurs opérations selon la procédure de l'établissement ;
+- éventuelles périodes d'interdiction et durée minimale de détention fixées par l'établissement.
+
+L'établissement doit être informé **rapidement** de toute transaction personnelle et en conserver l'enregistrement.
+
+## 5. Avantages, rémunérations et cadeaux
+
+### Les avantages reçus ou versés à des tiers (« inducements »)
+
+Sous MIF 2, un prestataire ne peut percevoir ou verser un avantage (commission, rétrocession, avantage non monétaire) en lien avec un service à un client que si cet avantage :
+
+- a pour objet d'**améliorer la qualité du service** fourni au client ;
+- ne nuit pas au respect de l'obligation d'agir au mieux de ses intérêts ;
+- est **porté à la connaissance du client** de façon complète, exacte et compréhensible avant la fourniture du service.
+
+En **gestion de portefeuille sous mandat** et en **conseil indépendant**, les rétrocessions sont **interdites** (ou doivent être intégralement reversées au client), à l'exception des avantages non monétaires mineurs.
+
+### Cadeaux et invitations
+
+Les établissements fixent une politique (seuils, déclaration à la conformité, refus au-delà d'un montant). Un cadeau de valeur significative susceptible d'influencer un collaborateur doit être refusé ou soumis à la conformité.
+
+### La politique de rémunération
+
+La rémunération des collaborateurs ne doit pas les inciter à recommander un produit plutôt qu'un autre mieux adapté au client. Les objectifs commerciaux purement quantitatifs, déconnectés de la qualité du service et de l'adéquation, sont à proscrire.
+
+## 6. Les autres obligations organisationnelles
+
+- **Enregistrement des communications** : les conversations téléphoniques et communications électroniques relatives aux transactions (ou susceptibles d'y conduire) doivent être enregistrées et conservées **5 ans** (jusqu'à 7 ans à la demande de l'autorité) ; le client en est informé ;
+- **Conservation des données** : les enregistrements des services et transactions sont conservés au minimum 5 ans ;
+- **Externalisation** : possible, mais sans délégation de responsabilité ; l'externalisation de fonctions opérationnelles importantes est encadrée par contrat et doit permettre le contrôle ;
+- **Continuité d'activité** et **résilience numérique** (DORA) ;
+- **Traitement des réclamations** (voir thème 6) ;
+- **Code de déontologie** de l'établissement, souvent annexé au règlement intérieur, rendant les manquements passibles de sanctions disciplinaires.
+
+## 7. Les lanceurs d'alerte
+
+La **loi Sapin 2** (9 décembre 2016), renforcée par la **loi Waserman** (21 mars 2022), protège toute personne physique qui signale, sans contrepartie financière directe et de bonne foi, des informations sur un crime, un délit, une violation du droit ou une menace pour l'intérêt général.
+
+- Le lanceur d'alerte peut choisir entre le **signalement interne** (procédure obligatoire dans les entités d'au moins 50 salariés) et le **signalement externe** (autorité compétente : l'AMF pour ce qui relève de sa compétence, l'ACPR, le Défenseur des droits…) ;
+- l'AMF dispose d'un **dispositif dédié** de réception des signalements ;
+- il bénéficie d'une **confidentialité** de son identité et d'une **protection contre les représailles** (licenciement, sanction, discrimination), et d'une irresponsabilité civile et pénale sous conditions.
+
+## 8. Les règles spécifiques aux analystes financiers et à la recherche
+
+La recherche en investissement doit être produite de façon objective et indépendante ; elle mentionne les conflits d'intérêts éventuels. Les analystes ne peuvent pas réaliser de transactions personnelles contraires à leurs recommandations en cours. Depuis MIF 2, la recherche fournie aux gérants doit être payée séparément (« unbundling ») ou par le gérant sur ses propres ressources ; le **Listing Act** a assoupli ce régime en 2024 pour stimuler la recherche sur les petites et moyennes capitalisations.
+
+## QCM d'entraînement
+
+?? En matière de conflits d'intérêts, l'information du client intervient :
+a) systématiquement, dès qu'un conflit potentiel est identifié
+b) en dernier recours, lorsque les mesures de prévention et de gestion sont insuffisantes
+c) uniquement à la demande du client
+d) jamais, pour préserver la confidentialité
+=b L'information est un ultime recours, non une solution de principe.
+
+?? La carte professionnelle de RCSI est délivrée par :
+a) l'employeur
+b) l'ACPR
+c) l'AMF
+d) l'ORIAS
+=c Pour le RCSI comme pour le RCCI, la carte est délivrée par l'AMF après un examen spécifique.
+
+?? La liste de surveillance (watch list) :
+a) est diffusée à tous les collaborateurs
+b) interdit toute transaction sur les valeurs qu'elle contient
+c) est confidentielle et permet à la conformité de surveiller les opérations sur des valeurs sensibles
+d) est publiée par l'AMF
+=c La liste d'interdiction est diffusée ; la liste de surveillance reste confidentielle.
+
+?? Le contrôle périodique (troisième niveau) est exercé par :
+a) les opérationnels
+b) la conformité
+c) l'audit interne ou l'inspection générale
+d) le commissaire aux comptes
+=c Le contrôle permanent relève des premier et second niveaux.
+
+?? Le « front running » consiste à :
+a) passer un ordre pour son propre compte avant celui d'un client, en connaissant cet ordre
+b) exécuter un ordre client au meilleur prix
+c) transmettre rapidement un ordre au marché
+d) publier une recherche avant son concurrent
+=a C'est un manquement grave aux règles de transactions personnelles et à la primauté de l'intérêt du client.
+
+?? En gestion de portefeuille sous mandat, les rétrocessions versées par un producteur de fonds :
+a) sont librement conservées par le gérant
+b) sont interdites ou doivent être reversées au client, sauf avantages non monétaires mineurs
+c) sont autorisées si elles ne dépassent pas 1 % de l'encours
+d) doivent seulement figurer dans le rapport annuel
+=b Même régime pour le conseil indépendant.
+
+?? Les enregistrements téléphoniques relatifs aux transactions sont conservés au minimum :
+a) 1 an
+b) 3 ans
+c) 5 ans
+d) 10 ans
+=c Jusqu'à 7 ans à la demande de l'autorité compétente.
+
+?? Une « muraille de Chine » a pour objet :
+a) d'empêcher la circulation d'informations sensibles entre services
+b) de protéger les locaux contre les intrusions
+c) de séparer les clients professionnels et non professionnels
+d) d'interdire toute communication entre filiales
+=a C'est une barrière à l'information, outil de prévention des conflits d'intérêts et des abus de marché.
+
+?? Un avantage perçu d'un tiers en lien avec un service fourni au client est admissible notamment s'il :
+a) est versé en numéraire
+b) améliore la qualité du service et est porté à la connaissance du client
+c) est inférieur à 500 euros
+d) est approuvé par le dirigeant
+=b Les deux conditions sont cumulatives, avec l'absence d'atteinte à l'intérêt du client.
+
+?? La fonction conformité doit être :
+a) rattachée à la direction commerciale
+b) permanente, efficace et indépendante
+c) exercée par le commissaire aux comptes
+d) facultative dans les petites structures
+=b Elle peut être externalisée ou cumulée sous conditions, jamais supprimée.
+
+?? Un lanceur d'alerte, au sens de la loi Sapin 2 modifiée en 2022 :
+a) doit obligatoirement signaler d'abord en interne
+b) peut choisir entre signalement interne et externe
+c) ne peut s'adresser qu'à la presse
+d) doit être rémunéré pour son signalement
+=b Depuis la loi Waserman de 2022, le passage préalable par l'interne n'est plus obligatoire.
+
+?? Une rémunération variable des conseillers fondée uniquement sur le volume de ventes d'un produit maison :
+a) est conforme si elle est plafonnée
+b) est contraire à l'obligation d'agir au mieux des intérêts des clients
+c) est obligatoire sous MIF 2
+d) ne relève pas du contrôle de la conformité
+=b Elle crée une incitation à recommander un produit indépendamment de son adéquation.
+
+?? Un collaborateur reçoit d'un client une montre de grande valeur. Il doit :
+a) l'accepter sans formalité
+b) l'accepter et la déclarer au fisc
+c) appliquer la politique cadeaux : déclaration à la conformité, refus au-delà des seuils
+d) la revendre pour le compte de l'établissement
+=c Chaque établissement fixe une politique écrite en matière de cadeaux et avantages.
+
+?? L'externalisation d'une fonction opérationnelle importante :
+a) transfère la responsabilité au prestataire externe
+b) est interdite
+c) laisse l'établissement pleinement responsable
+d) nécessite l'accord préalable de chaque client
+=c On peut déléguer une tâche, jamais la responsabilité.
+
+?? Le risque de non-conformité est le risque :
+a) de perte liée à la baisse des marchés
+b) de sanction, de perte financière ou d'atteinte à la réputation né du non-respect des règles
+c) de défaillance d'une contrepartie
+d) de panne informatique
+=b C'est la définition réglementaire du risque que la conformité doit maîtriser.

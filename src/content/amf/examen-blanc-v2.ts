@@ -6,7 +6,7 @@ export const examenV2: ExamenBlanc = {
   description:
     "60 nouvelles questions, mêmes proportions thématiques que la version 1 mais formulations et mises en situation différentes.",
   dureeConseilleeMinutes: 50,
-  seuilReussitePct: 70,
+  seuilReussitePct: 80,
   questions: [
     // AMF1 (6)
     { id: "v2-01", theme: "amf1", question: "La loi de sécurité financière fondatrice de l'AMF date de :", choix: ["1996", "2003", "2010", "2018"], bonneReponse: 1, explication: "Loi du 1er août 2003." },

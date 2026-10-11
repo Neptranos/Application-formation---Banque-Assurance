@@ -1,0 +1,245 @@
+# Thème 3 — Sécurité financière : blanchiment, terrorisme, corruption, embargos
+
+## Ce que l'examen attend
+
+Connaître les infractions (blanchiment, financement du terrorisme, corruption), les obligations de vigilance des professionnels (connaissance du client, bénéficiaire effectif, approche par les risques), la déclaration de soupçon à Tracfin et ses règles de confidentialité, le gel des avoirs et les embargos, et le dispositif anticorruption de la loi Sapin 2.
+
+## 1. Les infractions
+
+### Le blanchiment
+
+Le blanchiment (art. 324-1 du Code pénal) est le fait de **faciliter la justification mensongère de l'origine** des biens ou revenus de l'auteur d'un crime ou d'un délit, ou d'**apporter son concours** à une opération de placement, de dissimulation ou de conversion du produit d'un crime ou d'un délit. Il est puni de **5 ans d'emprisonnement et 375 000 €** d'amende (10 ans et 750 000 € lorsqu'il est commis de façon habituelle ou en bande organisée).
+
+Le blanchiment se décompose classiquement en trois étapes :
+
+| Étape | Description | Exemple |
+|---|---|---|
+| Placement (prélavage) | Introduire les fonds illicites dans le système financier | Dépôts fractionnés d'espèces |
+| Empilement (dispersion) | Multiplier les opérations pour brouiller la trace | Virements en cascade, sociétés écrans, comptes dans plusieurs pays |
+| Intégration | Réinjecter les fonds dans l'économie légale | Achat immobilier, investissement dans une entreprise |
+
+Toute infraction punie d'une peine d'emprisonnement supérieure à un an peut être l'infraction d'origine — y compris la **fraude fiscale**.
+
+### Le financement du terrorisme
+
+Il consiste à fournir, réunir ou gérer des fonds en sachant qu'ils sont destinés à commettre un acte terroriste. Contrairement au blanchiment, les fonds peuvent avoir une **origine parfaitement licite** : c'est leur **destination** qui est criminelle, et les montants sont souvent faibles.
+
+### La corruption et le trafic d'influence
+
+- **Corruption** : solliciter ou accepter (corruption passive), proposer ou accorder (corruption active) un avantage pour qu'une personne accomplisse ou s'abstienne d'accomplir un acte de sa fonction ;
+- **trafic d'influence** : monnayer une influence réelle ou supposée pour obtenir une décision favorable d'une autorité.
+
+## 2. Le cadre et les acteurs
+
+| Acteur | Rôle |
+|---|---|
+| GAFI | Normes internationales, listes de pays à haut risque et sous surveillance renforcée |
+| Union européenne | Directives anti-blanchiment successives ; paquet 2024 (règlement 2024/1624 « AMLR » et nouvelle autorité **AMLA** à Francfort) |
+| Tracfin | Cellule de renseignement financier française (ministère de l'Économie) : reçoit et analyse les déclarations de soupçon |
+| ACPR et AMF | Contrôlent le respect des obligations LCB-FT par les établissements qu'elles supervisent et sanctionnent les manquements |
+| DG Trésor | Mesures de gel des avoirs nationales |
+| AFA (Agence française anticorruption) | Contrôle des programmes de conformité anticorruption |
+
+Les obligations des professionnels sont codifiées aux **articles L. 561-1 et suivants du Code monétaire et financier**. Les assujettis comprennent notamment les banques, les entreprises d'investissement, les sociétés de gestion, les assureurs, les CIF, les PSCA, mais aussi les notaires, agents immobiliers, experts-comptables, etc.
+
+## 3. L'approche par les risques
+
+Chaque établissement élabore une **classification des risques** (selon le client, le produit, le canal de distribution, le pays) et adapte l'intensité de sa vigilance :
+
+| Niveau | Quand | Exemples |
+|---|---|---|
+| Vigilance simplifiée | Risque faible identifié et justifié | Certains clients publics, produits à très faible risque |
+| Vigilance standard | Cas général | Client particulier ordinaire |
+| Vigilance renforcée | Risque élevé | Personnes politiquement exposées (PPE), pays tiers à haut risque désignés, opérations complexes ou inhabituellement élevées sans justification économique apparente |
+
+### Les personnes politiquement exposées (PPE)
+
+Sont visées les personnes qui exercent ou ont exercé (depuis moins d'un an) une fonction politique, juridictionnelle ou administrative importante, ainsi que **les membres directs de leur famille et leurs proches associés**. L'entrée en relation avec une PPE doit être autorisée par un membre de la direction, et l'origine du patrimoine et des fonds doit être établie.
+
+## 4. Les obligations de vigilance
+
+### Avant l'entrée en relation
+
+- **Identifier** le client et **vérifier** son identité sur document probant (pièce d'identité officielle en cours de validité, extrait Kbis pour une société) ;
+- identifier le **bénéficiaire effectif** et prendre des mesures adaptées pour vérifier son identité ;
+- recueillir les informations sur **l'objet et la nature** de la relation d'affaires.
+
+Le **bénéficiaire effectif** d'une société est la personne physique qui détient, directement ou indirectement, **plus de 25 % du capital ou des droits de vote**, ou qui exerce par tout autre moyen un pouvoir de contrôle. À défaut, c'est le représentant légal qui est retenu.
+
+Pour un **client occasionnel** (sans relation d'affaires), l'identification est requise notamment pour toute opération supérieure à **15 000 €**, ou dès le premier euro en cas de soupçon.
+
+!> Si le professionnel **ne peut pas** identifier son client ou le bénéficiaire effectif, il **ne doit pas** entrer en relation ni exécuter l'opération (et doit envisager une déclaration de soupçon). L'absence d'identification n'est jamais un simple « dossier incomplet » à régulariser plus tard.
+
+### Pendant la relation : la vigilance constante
+
+Le professionnel actualise la connaissance du client et examine les opérations au regard de son profil. Toute opération **particulièrement complexe, d'un montant inhabituellement élevé ou sans justification économique apparente** doit faire l'objet d'un **examen renforcé** (renseignements sur l'origine et la destination des fonds, l'objet de l'opération, l'identité du bénéficiaire), consigné par écrit.
+
+### Conservation
+
+Les documents relatifs à l'identité des clients et aux opérations sont conservés **5 ans** à compter de la clôture du compte ou de la cessation de la relation (5 ans après l'opération pour un client occasionnel).
+
+## 5. La déclaration de soupçon (DS)
+
+### Quand déclarer
+
+Le professionnel doit déclarer à **Tracfin** les sommes ou opérations dont il **sait, soupçonne ou a de bonnes raisons de soupçonner** qu'elles proviennent d'une infraction passible de plus d'un an d'emprisonnement ou participent au financement du terrorisme. Une déclaration est également obligatoire pour toute opération dont l'identité du donneur d'ordre ou du bénéficiaire reste douteuse malgré les diligences.
+
+La déclaration est faite **en principe avant l'exécution** de l'opération. Elle est effectuée par les **déclarants et correspondants Tracfin** désignés par l'établissement (le collaborateur alerte sa hiérarchie / la conformité, qui décide).
+
+### Règles essentielles
+
+| Règle | Contenu |
+|---|---|
+| Confidentialité | Il est **interdit** de porter à la connaissance du client (ou d'un tiers) l'existence de la déclaration et ses suites, sous peine de sanctions pénales |
+| Irresponsabilité | Le déclarant de bonne foi ne peut être poursuivi (dénonciation calomnieuse, violation du secret professionnel, responsabilité civile) |
+| Droit d'opposition de Tracfin | Tracfin peut s'opposer à l'exécution d'une opération déclarée, pour une durée limitée (10 jours ouvrables) |
+| Absence de seuil | La déclaration ne dépend d'aucun montant minimal |
+
+!> Le secret bancaire **n'est pas opposable** à Tracfin. Et un collaborateur ne doit jamais demander au client des explications de nature à lui révéler qu'une déclaration est envisagée ou effectuée.
+
+### La communication systématique d'informations (COSI)
+
+Indépendamment de tout soupçon, les établissements transmettent automatiquement à Tracfin certaines informations, notamment sur les **versements et retraits d'espèces** dépassant **10 000 € cumulés sur un mois civil** sur un même compte, et sur certaines transmissions de fonds en espèces ou monnaie électronique.
+
+### Paiements en espèces
+
+En France, le paiement en espèces d'une dette à un professionnel est limité à **1 000 €** pour un débiteur résident fiscal en France (15 000 € pour un non-résident agissant pour ses besoins personnels). À partir du **10 juillet 2027**, le règlement européen 2024/1624 instaurera un plafond harmonisé de 10 000 € dans l'Union, les États pouvant conserver un plafond plus bas — ce que fera la France.
+
+## 6. Gel des avoirs et embargos
+
+Le **gel des avoirs** consiste à empêcher tout mouvement, transfert ou utilisation des fonds et ressources économiques appartenant à des personnes ou entités désignées (terroristes, régimes sanctionnés). Les mesures proviennent :
+
+- du **Conseil de sécurité des Nations unies** ;
+- de l'**Union européenne** (règlements du Conseil) ;
+- de la **France** (arrêtés du ministre de l'Économie, registre national des gels tenu par la **DG Trésor**).
+
+Les établissements doivent **filtrer** leurs clients et leurs opérations au regard de ces listes, geler sans délai les avoirs concernés et en informer la DG Trésor. Il est interdit de mettre directement ou indirectement des fonds à la disposition d'une personne désignée.
+
+Un **embargo** restreint les échanges (financiers, commerciaux, de biens à double usage) avec un pays. Les sanctions américaines (OFAC) ont une portée extraterritoriale dès qu'un lien avec les États-Unis existe (paiement en dollars notamment) : les établissements français en tiennent compte dans leurs dispositifs.
+
+## 7. Le dispositif anticorruption : la loi Sapin 2
+
+La loi du 9 décembre 2016 a créé l'**Agence française anticorruption (AFA)** et imposé aux sociétés d'au moins **500 salariés** dont le chiffre d'affaires dépasse **100 millions d'euros** un programme de conformité en huit piliers :
+
+- un code de conduite ;
+- un dispositif d'alerte interne ;
+- une cartographie des risques de corruption ;
+- des procédures d'évaluation des clients, fournisseurs et intermédiaires ;
+- des contrôles comptables ;
+- un dispositif de formation des personnes exposées ;
+- un régime disciplinaire ;
+- un dispositif de contrôle et d'évaluation interne.
+
+Elle a également créé la **convention judiciaire d'intérêt public (CJIP)**, permettant à une personne morale poursuivie pour corruption (ou pour fraude fiscale et blanchiment de fraude fiscale) de conclure un accord avec le parquet moyennant le paiement d'une amende (jusqu'à 30 % du chiffre d'affaires moyen) et la mise en place d'un programme de conformité.
+
+## 8. La lutte contre la fraude fiscale internationale
+
+- **FATCA** (accord intergouvernemental avec les États-Unis) : les établissements identifient les « US persons » et transmettent leurs informations à l'administration fiscale ;
+- **Norme commune de déclaration (NCD / CRS)** de l'OCDE : échange automatique des informations sur les comptes financiers des non-résidents entre les États participants.
+
+## QCM d'entraînement
+
+?? Les trois étapes classiques du blanchiment sont :
+a) collecte, transfert, retrait
+b) placement, empilement, intégration
+c) dissimulation, déclaration, restitution
+d) dépôt, conversion, gel
+=b Le placement introduit les fonds, l'empilement brouille les pistes, l'intégration les réinjecte dans l'économie légale.
+
+?? La déclaration de soupçon est adressée à :
+a) l'AMF
+b) l'ACPR
+c) Tracfin
+d) la DG Trésor
+=c Tracfin est la cellule de renseignement financier française.
+
+?? Un collaborateur peut informer le client qu'une déclaration de soupçon le concernant a été effectuée :
+a) oui, par loyauté envers le client
+b) oui, si le client le demande par écrit
+c) non, cette divulgation est pénalement sanctionnée
+d) oui, après l'exécution de l'opération
+=c La confidentialité de la déclaration est absolue.
+
+?? Le bénéficiaire effectif d'une société est notamment la personne physique qui détient :
+a) plus de 10 % du capital
+b) plus de 25 % du capital ou des droits de vote
+c) plus de 50 % du capital
+d) au moins une action
+=b Ou qui exerce un contrôle par tout autre moyen.
+
+?? Le financement du terrorisme se distingue du blanchiment car :
+a) les fonds utilisés peuvent être d'origine licite
+b) il concerne uniquement des espèces
+c) il n'est pas sanctionné pénalement
+d) il suppose des montants très élevés
+=a C'est la destination des fonds qui est criminelle.
+
+?? Faute de pouvoir identifier le bénéficiaire effectif, le professionnel :
+a) ouvre le compte et régularise ultérieurement
+b) n'entre pas en relation d'affaires
+c) demande l'accord de l'AMF
+d) applique une vigilance simplifiée
+=b L'absence d'identification interdit l'entrée en relation.
+
+?? Une personne politiquement exposée fait l'objet :
+a) d'une interdiction d'entrée en relation
+b) d'une vigilance simplifiée
+c) de mesures de vigilance renforcée
+d) d'une déclaration de soupçon automatique
+=c Avec autorisation de la direction et vérification de l'origine des fonds.
+
+?? Les documents d'identification des clients sont conservés :
+a) 1 an après la clôture du compte
+b) 5 ans après la clôture du compte ou la fin de la relation
+c) 10 ans après l'ouverture du compte
+d) indéfiniment
+=b C'est la durée de conservation LCB-FT de droit commun.
+
+?? Le secret bancaire est-il opposable à Tracfin ?
+a) Oui, toujours
+b) Oui, sauf réquisition judiciaire
+c) Non
+d) Uniquement pour les clients professionnels
+=c Le secret professionnel ne fait pas obstacle à la déclaration ni aux demandes de Tracfin.
+
+?? La communication systématique d'informations (COSI) à Tracfin concerne notamment :
+a) tous les virements supérieurs à 1 000 €
+b) les dépôts et retraits d'espèces supérieurs à 10 000 € cumulés sur un mois civil
+c) les achats d'actions cotées
+d) les ouvertures de PEA
+=b Elle est automatique et indépendante de tout soupçon.
+
+?? Le registre national des gels des avoirs est tenu par :
+a) Tracfin
+b) la Banque de France
+c) la DG Trésor
+d) l'AMF
+=c La DG Trésor est l'autorité compétente en matière de gel des avoirs.
+
+?? Le programme de conformité anticorruption de la loi Sapin 2 s'impose aux sociétés de :
+a) plus de 50 salariés
+b) au moins 500 salariés et plus de 100 millions d'euros de chiffre d'affaires
+c) plus de 1 000 salariés uniquement cotées
+d) toutes les sociétés, sans seuil
+=b Le contrôle en est assuré par l'Agence française anticorruption.
+
+?? Pour un client occasionnel, l'identification est obligatoire notamment pour une opération supérieure à :
+a) 1 000 €
+b) 5 000 €
+c) 15 000 €
+d) 50 000 €
+=c Et sans seuil en cas de soupçon.
+
+?? Une déclaration de soupçon effectuée de bonne foi :
+a) engage la responsabilité civile du déclarant si le soupçon est infondé
+b) protège le déclarant de toute poursuite pour violation du secret professionnel ou dénonciation calomnieuse
+c) doit être signée par le client
+d) n'est possible qu'au-delà de 10 000 €
+=b Le régime d'irresponsabilité encourage la déclaration.
+
+?? Une opération inhabituellement élevée, sans justification économique apparente, doit :
+a) être refusée systématiquement
+b) faire l'objet d'un examen renforcé consigné par écrit
+c) être déclarée à l'AMF
+d) être exécutée sans autre formalité si le client est ancien
+=b L'examen renforcé peut conduire, le cas échéant, à une déclaration de soupçon.

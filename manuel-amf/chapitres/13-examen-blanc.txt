@@ -1,0 +1,868 @@
+# Examen blanc — 120 questions
+
+## Mode d'emploi
+
+Cet examen reproduit le format de l'examen certifié : **120 questions** à choix multiples, **une seule bonne réponse** par question, **2 heures**, sans document ni calculatrice programmable. Il se compose de deux parties, aux proportions retenues par les manuels de référence :
+
+- **Partie A** (questions 1 à 33) : connaissances réglementaires et déontologiques indispensables ;
+- **Partie C** (questions 34 à 120) : connaissances de culture financière générale, sur les 12 thèmes.
+
+> Pour réussir, il faut au moins **27 bonnes réponses sur 33** en partie A **et** au moins **70 bonnes réponses sur 87** en partie C. Aucune compensation entre les deux parties.
+
+Les questions sont originales : les sujets réels de l'examen sont confidentiels et ne sont pas publiés. Notez vos réponses sur une feuille, puis reportez-vous à la grille et aux explications en fin d'examen.
+
+[[SAUT]]
+
+## Partie A — Connaissances indispensables (33 questions)
+
+?! Parmi les autorités suivantes, laquelle est une autorité européenne de surveillance chargée des marchés financiers ?
+a) L'ESMA
+b) L'EBA
+c) L'EIOPA
+d) Le CERS
+=a Thème 1. L'EBA couvre la banque, l'EIOPA l'assurance ; le CERS est chargé du risque systémique.
+
+?! L'agrément d'une société de gestion de portefeuille est délivré par :
+a) l'AMF
+b) l'ACPR
+c) la Banque centrale européenne
+d) le ministre de l'Économie
+=a Thème 1. L'ACPR agrée les établissements de crédit et les entreprises d'investissement (après approbation par l'AMF de leur programme d'activité pour les services d'investissement).
+
+?! Un règlement européen :
+a) doit être transposé en droit national pour s'appliquer
+b) est directement applicable dans tous les États membres
+c) n'a qu'une valeur indicative
+d) ne s'applique qu'aux États qui l'ont ratifié
+=b Thème 1. La directive, elle, doit être transposée.
+
+?! Les décisions de la Commission des sanctions de l'AMF à l'égard d'un professionnel agréé sont susceptibles de recours devant :
+a) le Conseil d'État
+b) la cour d'appel de Paris
+c) la Cour de cassation directement
+d) le tribunal judiciaire
+=a Thème 1. Pour les autres personnes, le recours est porté devant la cour d'appel de Paris.
+
+?! Le FGDR garantit les dépôts d'un client par établissement à hauteur de :
+a) 70 000 €
+b) 100 000 €
+c) 150 000 €
+d) 250 000 €
+=b Thème 1. Les titres bénéficient d'une garantie distincte de 70 000 €.
+
+?! Le contrôle de troisième niveau (contrôle périodique) est exercé par :
+a) les opérationnels eux-mêmes
+b) l'audit interne
+c) le service de conformité exclusivement
+d) l'AMF
+=b Thème 2. Le premier niveau relève des opérationnels, le deuxième des fonctions de contrôle permanent.
+
+?! Face à un conflit d'intérêts qu'il ne peut gérer de façon suffisante, le prestataire doit :
+a) l'ignorer s'il est ponctuel
+b) informer clairement le client avant d'agir, en dernier ressort
+c) refuser systématiquement toute opération avec le client
+d) demander l'autorisation de l'AMF
+=b Thème 2. L'information du client est une mesure de dernier recours, après identification, prévention et gestion.
+
+?! Une « liste de surveillance » (watch list) est :
+a) publique et interdit toute transaction sur les valeurs qui y figurent
+b) confidentielle et permet au contrôle de détecter des opérations suspectes sur les valeurs concernées
+c) tenue par l'AMF
+d) une liste des clients douteux
+=b Thème 2. La liste d'interdiction (restricted list) interdit, elle, certaines opérations.
+
+?! Un collaborateur qui détient une information privilégiée sur une société cotée :
+a) peut acheter les titres pour son compte s'il conserve plus de deux ans
+b) doit s'abstenir d'opérer et de la communiquer, sauf dans le cadre normal de ses fonctions
+c) peut la transmettre à sa famille
+d) peut opérer s'il en informe le RCCI après coup
+=b Thème 2 et 4. L'abstention s'impose.
+
+?! En gestion sous mandat, les rétrocessions versées par un producteur de fonds :
+a) peuvent être conservées si le client en est informé
+b) doivent être reversées au client, sauf avantages non monétaires mineurs
+c) sont interdites dans tous les cas, même reversées
+d) sont réservées aux clients professionnels
+=b Thème 2. Même règle pour le conseil en investissement indépendant.
+
+?! Les conversations téléphoniques relatives à la réception et à la transmission d'ordres doivent être enregistrées et conservées au moins :
+a) 1 an
+b) 3 ans
+c) 5 ans
+d) 10 ans
+=c Thème 2. Jusqu'à 7 ans à la demande de l'autorité.
+
+?! Un lanceur d'alerte qui signale de bonne foi un manquement :
+a) peut être sanctionné par son employeur s'il n'a pas averti sa hiérarchie
+b) bénéficie d'une protection contre les représailles
+c) doit obligatoirement passer par la presse
+d) doit être rémunéré par l'AMF
+=b Thème 2. Le signalement peut être interne ou externe (AMF notamment), au choix depuis 2022.
+
+?! La troisième étape du blanchiment, qui consiste à réinjecter les fonds dans l'économie légale, est :
+a) le placement
+b) l'empilement
+c) l'intégration
+d) la dissimulation
+=c Thème 3. Placement, empilement (ou dispersion), intégration.
+
+?! Le bénéficiaire effectif d'une société est notamment la personne physique qui détient, directement ou indirectement :
+a) plus de 10 % du capital ou des droits de vote
+b) plus de 25 % du capital ou des droits de vote
+c) plus de 50 % du capital ou des droits de vote
+d) au moins une action
+=b Thème 3. À défaut, le représentant légal est retenu.
+
+?! Une déclaration de soupçon à Tracfin :
+a) doit être communiquée au client concerné
+b) est confidentielle et ne doit pas être révélée au client
+c) n'est possible qu'après accord du client
+d) doit être publiée dans le rapport annuel
+=b Thème 3. Révéler son existence est une infraction.
+
+?! Les documents relatifs à l'identité des clients doivent être conservés :
+a) 1 an après la fin de la relation
+b) 5 ans après la fin de la relation d'affaires
+c) 10 ans après l'ouverture du compte
+d) jusqu'au décès du client
+=b Thème 3. Les documents relatifs aux opérations, 5 ans après leur exécution.
+
+?! Une personne politiquement exposée (PPE) doit faire l'objet :
+a) d'un refus systématique d'entrée en relation
+b) de mesures de vigilance complémentaires, dont l'origine des fonds et une décision d'entrée en relation au niveau de la direction
+c) d'une simple vigilance allégée
+d) d'une déclaration automatique à Tracfin
+=b Thème 3. Être PPE n'est pas un soupçon en soi.
+
+?! La mise en œuvre des mesures nationales de gel des avoirs relève, en France :
+a) de Tracfin
+b) de la direction générale du Trésor
+c) de l'AMF
+d) de la Banque de France exclusivement
+=b Thème 3. Les établissements doivent geler sans délai les avoirs des personnes désignées.
+
+?! Une information précise, non publique, concernant un émetteur et susceptible d'influencer sensiblement le cours est :
+a) une information réglementée
+b) une information privilégiée
+c) une rumeur de marché
+d) une recommandation d'investissement
+=b Thème 4. Définition de l'article 7 de MAR.
+
+?! Les dirigeants d'un émetteur doivent déclarer leurs transactions sur ses titres :
+a) dans les 3 jours ouvrés, au-delà d'un seuil annuel de 20 000 €
+b) dans les 15 jours, quel que soit le montant
+c) une fois par an
+d) uniquement en cas de vente
+=a Thème 4. Seuil relevé à 20 000 € par le Listing Act.
+
+?! Diffuser une fausse information pour faire monter le cours d'une action est :
+a) une opération d'initié
+b) une manipulation de marché
+c) une divulgation illicite
+d) licite si l'auteur ne détient pas les titres
+=b Thème 4. La diffusion d'informations fausses ou trompeuses est une forme de manipulation.
+
+?! Les établissements doivent déclarer à l'AMF les ordres et transactions suspects d'abus de marché :
+a) dans un délai de deux mois
+b) sans délai, par une déclaration STOR
+c) uniquement si l'opération est exécutée
+d) à Tracfin uniquement
+=b Thème 4. Y compris les ordres non exécutés.
+
+?! Le franchissement à la hausse du seuil de 10 % du capital d'une société cotée doit être déclaré :
+a) au plus tard avant la clôture du 4e jour de négociation suivant
+b) dans les 15 jours
+c) uniquement à la prochaine assemblée générale
+d) le jour même avant 9 h
+=a Thème 4. L'actionnaire doit aussi déclarer ses intentions pour les seuils de 10 %, 15 %, 20 % et 25 %.
+
+?! Le démarchage bancaire ou financier ne peut pas porter sur :
+a) des parts d'OPCVM
+b) des produits dont le risque maximal n'est pas connu au moment de la souscription ou peut excéder le montant de l'apport initial
+c) des actions cotées
+d) des obligations
+=b Thème 5. Sauf exceptions prévues par les textes.
+
+?! Le délai de rétractation de droit commun en matière de démarchage financier est de :
+a) 7 jours calendaires
+b) 14 jours calendaires
+c) 30 jours calendaires
+d) 48 heures
+=b Thème 5. Il ne s'applique pas à la réception-transmission d'ordres, soumise à un délai de réflexion de 48 heures.
+
+?! Le document d'informations clés (DIC) PRIIPs comporte au maximum :
+a) 1 page
+b) 3 pages
+c) 10 pages
+d) 30 pages
+=b Thème 5. Il comprend un indicateur synthétique de risque de 1 à 7.
+
+?! Le test d'adéquation est exigé :
+a) pour toute exécution simple d'ordres
+b) en cas de conseil en investissement et de gestion de portefeuille
+c) uniquement pour les clients professionnels
+d) uniquement pour les produits complexes
+=b Thème 5. Le test du caractère approprié s'applique aux autres services, hors exécution simple sur produits non complexes.
+
+?! Depuis le 2 août 2022, le conseiller doit recueillir auprès de son client :
+a) ses préférences en matière de durabilité
+b) son avis d'imposition
+c) son relevé de patrimoine certifié
+d) l'accord de son employeur
+=a Thème 5 et 8. Elles s'ajoutent aux autres critères d'adéquation.
+
+?! Un conseiller en investissements financiers (CIF) doit :
+a) être agréé par l'ACPR
+b) être immatriculé à l'ORIAS et adhérer à une association professionnelle agréée par l'AMF
+c) détenir les fonds de ses clients
+d) être une banque
+=b Thème 5. Il remet une lettre de mission à ses clients.
+
+?! Sauf demande contraire, un client nouveau est classé par défaut comme :
+a) client professionnel
+b) client non professionnel
+c) contrepartie éligible
+d) investisseur qualifié
+=b Thème 6. Il bénéficie ainsi de la protection la plus élevée.
+
+?! Un prestataire doit traiter une réclamation écrite :
+a) en accusant réception sous 10 jours ouvrables et en répondant sous 2 mois maximum
+b) en répondant sous 6 mois
+c) uniquement si le client est professionnel
+d) en la transmettant systématiquement à l'AMF
+=a Thème 6. Sauf circonstances particulières dûment justifiées.
+
+?! Le médiateur de l'AMF :
+a) peut infliger des sanctions
+b) intervient gratuitement pour résoudre à l'amiable un litige entre un épargnant et un professionnel
+c) est saisi uniquement par les professionnels
+d) rend des décisions qui s'imposent au juge
+=b Thème 6. Sa saisine suspend la prescription de l'action civile.
+
+?! L'avis d'opéré confirmant l'exécution d'un ordre d'un client non professionnel doit lui être adressé :
+a) au plus tard le premier jour ouvrable suivant l'exécution
+b) dans le mois suivant
+c) avec le relevé annuel
+d) uniquement sur demande
+=a Thème 6. Ou à réception de la confirmation du tiers.
+
+[[SAUT]]
+
+## Partie C — Culture financière générale (87 questions)
+
+?! Le règlement général de l'AMF est homologué par :
+a) le Parlement
+b) arrêté du ministre chargé de l'Économie
+c) décret en Conseil d'État
+d) la Commission européenne
+=b Thème 1.
+
+?! Le mécanisme de surveillance unique (MSU) confie la supervision directe des grandes banques de la zone euro à :
+a) l'ESMA
+b) la BCE
+c) l'EBA
+d) le FMI
+=b Thème 1. Pilier de l'union bancaire.
+
+?! Le passeport européen permet à un prestataire agréé dans un État membre :
+a) d'exercer dans les autres États membres en libre prestation de services ou par succursale, après notification
+b) d'être exempté de toute supervision
+c) d'exercer dans le monde entier
+d) de ne plus respecter MIF 2
+=a Thème 1.
+
+?! L'AMLA, nouvelle autorité européenne de lutte contre le blanchiment, est installée à :
+a) Paris
+b) Francfort
+c) Bruxelles
+d) Luxembourg
+=b Thème 1 et 3.
+
+?! Le responsable de la conformité pour les services d'investissement (RCSI) d'une banque doit :
+a) être titulaire d'une carte professionnelle délivrée par l'AMF
+b) être obligatoirement le directeur général
+c) être un commissaire aux comptes
+d) être un salarié de l'AMF
+=a Thème 2. Comme le RCCI d'une société de gestion.
+
+?! La « muraille de Chine » désigne :
+a) une procédure de cloisonnement de l'information entre services
+b) un dispositif anti-intrusion informatique
+c) une limite de position sur les marchés asiatiques
+d) le contrôle des changes
+=a Thème 2.
+
+?! Un analyste financier qui détient des titres de la société qu'il recommande doit :
+a) le mentionner dans sa recommandation au titre des conflits d'intérêts
+b) vendre les titres avant toute publication
+c) cesser de suivre la société
+d) le déclarer à Tracfin
+=a Thème 2.
+
+?! La politique de rémunération d'un prestataire doit :
+a) inciter à vendre les produits les plus rémunérateurs pour l'établissement
+b) ne pas créer d'incitation contraire à l'intérêt des clients
+c) reposer uniquement sur le volume de ventes
+d) être fixée par l'AMF
+=b Thème 2.
+
+?! Le seuil de vigilance au-delà duquel une opération occasionnelle impose l'identification du client est de :
+a) 1 000 €
+b) 10 000 €
+c) 15 000 €
+d) 50 000 €
+=c Thème 3. Ce seuil est abaissé pour certaines opérations (transferts de fonds, change manuel).
+
+?! Le blanchiment simple est puni au maximum de :
+a) 1 an et 15 000 €
+b) 5 ans et 375 000 €
+c) 10 ans et 750 000 €
+d) 3 ans et 45 000 €
+=b Thème 3. Peines doublées en cas de blanchiment aggravé (habituel, en bande organisée…).
+
+?! Les communications systématiques d'informations (COSI) à Tracfin concernent notamment :
+a) les dépôts ou retraits d'espèces dépassant 10 000 € sur un mois
+b) toutes les opérations sur actions cotées
+c) les virements SEPA de moins de 100 €
+d) les ouvertures de PEA
+=a Thème 3.
+
+?! La loi Sapin 2 impose un programme anticorruption aux sociétés employant au moins 500 salariés et réalisant un chiffre d'affaires supérieur à :
+a) 10 M€
+b) 50 M€
+c) 100 M€
+d) 1 Md€
+=c Thème 3. Contrôle par l'Agence française anticorruption.
+
+?! Les sondages de marché (market soundings) :
+a) sont interdits
+b) sont permis si la procédure prévue par MAR est respectée (enregistrement, consentement, information)
+c) sont libres sans formalité
+d) sont réservés à l'AMF
+=b Thème 4.
+
+?! Un émetteur peut différer la publication d'une information privilégiée si :
+a) la publication immédiate risque de porter atteinte à ses intérêts légitimes, le retard n'est pas susceptible d'induire le public en erreur et la confidentialité est assurée
+b) son dirigeant le souhaite
+c) l'information est défavorable
+d) le cours est en baisse
+=a Thème 4. L'AMF est informée a posteriori du différé.
+
+?! Les listes d'initiés doivent être conservées pendant au moins :
+a) 1 an
+b) 3 ans
+c) 5 ans
+d) 10 ans
+=c Thème 4.
+
+?! La période d'interdiction (closed period) pendant laquelle les dirigeants ne peuvent pas opérer sur les titres de l'émetteur précède la publication des résultats de :
+a) 15 jours calendaires
+b) 30 jours calendaires
+c) 60 jours calendaires
+d) 90 jours calendaires
+=b Thème 4.
+
+?! Une publicité pour un instrument financier doit :
+a) être claire, exacte et non trompeuse, et présenter les risques de façon équilibrée avec les avantages
+b) mettre en avant les performances passées sans avertissement
+c) être validée préalablement par l'AMF dans tous les cas
+d) promettre un rendement minimal
+=a Thème 5.
+
+?! La publicité par voie électronique pour les contrats financiers à fort effet de levier (CFD, options binaires…) est :
+a) libre
+b) interdite (loi Sapin 2), avec des aménagements limités
+c) autorisée uniquement le soir
+d) obligatoire
+=b Thème 5.
+
+?! Les coûts et frais doivent être communiqués au client :
+a) uniquement s'il les demande
+b) ex ante, avant la fourniture du service, et ex post, au moins une fois par an
+c) uniquement en cas de perte
+d) au moment de la clôture du compte
+=b Thème 5.
+
+?! La gouvernance des produits impose au producteur de définir :
+a) un marché cible
+b) un prix de revente garanti
+c) un nombre maximal de clients
+d) une durée de détention de 10 ans
+=a Thème 5. Le distributeur définit son propre marché cible.
+
+?! Un client professionnel par nature souhaite bénéficier d'une protection plus élevée. Il peut :
+a) demander à être traité comme client non professionnel (opt-down)
+b) uniquement saisir le médiateur
+c) demander à être traité comme contrepartie éligible
+d) rien, la classification est définitive
+=a Thème 6. Le prestataire peut aussi, de sa propre initiative, lui accorder une protection plus élevée.
+
+?! Sur un compte joint, chaque cotitulaire peut :
+a) faire fonctionner seul le compte
+b) agir uniquement avec la signature de tous
+c) seulement consulter le compte
+d) agir uniquement après accord du juge
+=a Thème 6. Sur un compte indivis, la signature de tous est requise.
+
+?! La politique d'exécution des ordres doit être réexaminée au moins :
+a) tous les mois
+b) une fois par an
+c) tous les cinq ans
+d) jamais
+=b Thème 6.
+
+?! Un client non professionnel détient un instrument financier à effet de levier dont la valeur baisse de 10 % par rapport à sa valeur initiale. Le prestataire qui tient son compte doit :
+a) liquider les positions
+b) informer le client
+c) informer l'AMF
+d) suspendre le compte
+=b Thème 6. Puis à chaque multiple de 10 %, au plus tard à la fin du jour ouvrable concerné.
+
+?! Le détenteur d'une action dispose notamment :
+a) d'un droit à un coupon fixe
+b) d'un droit au dividende décidé par l'assemblée et d'un droit de vote
+c) d'un droit de remboursement à échéance
+d) d'une garantie du capital
+=b Thème 7.
+
+?! Une société cote 45 € et verse un dividende de 1,80 €. Son rendement est de :
+a) 2 %
+b) 4 %
+c) 25 %
+d) 1,8 %
+=b Thème 7. 1,80 / 45 = 4 %.
+
+?! La capitalisation boursière d'une société de 20 millions d'actions cotant 35 € est de :
+a) 700 M€
+b) 70 M€
+c) 7 Md€
+d) 57 M€
+=a Thème 7. 20 M × 35 €.
+
+?! Une OAT€i est une obligation :
+a) zéro coupon
+b) indexée sur l'inflation de la zone euro
+c) convertible en actions
+d) à taux variable indexé sur l'€STR
+=b Thème 7.
+
+?! Toutes choses égales par ailleurs, la sensibilité d'une obligation est d'autant plus forte que :
+a) sa maturité est courte et son coupon élevé
+b) sa maturité est longue et son coupon faible
+c) son émetteur est bien noté
+d) elle est cotée en bourse
+=b Thème 7.
+
+?! Une obligation convertible :
+a) peut être échangée contre des actions de l'émetteur selon une parité fixée
+b) ne verse jamais de coupon
+c) est un titre de capital dès l'émission
+d) n'a pas d'échéance
+=a Thème 7.
+
+?! Un put de prix d'exercice 80 € est « dans la monnaie » lorsque le cours du sous-jacent est :
+a) supérieur à 80 €
+b) inférieur à 80 €
+c) égal à 80 €
+d) nul uniquement
+=b Thème 7. L'exercice permet alors de vendre au-dessus du cours.
+
+?! L'acheteur d'un put paie une prime de 5 € pour un prix d'exercice de 60 €. Son point mort à l'échéance est :
+a) 65 €
+b) 55 €
+c) 60 €
+d) 5 €
+=b Thème 7. 60 − 5 = 55 € ; en dessous, il gagne.
+
+?! Un swap de taux classique consiste à échanger :
+a) un nominal contre des actions
+b) des flux d'intérêts à taux fixe contre des flux à taux variable, sans échange du nominal
+c) deux devises au comptant
+d) des titres contre des espèces
+=b Thème 7.
+
+?! L'offre au public d'un crypto-actif ne relevant ni des EMT ni des ART suppose, selon MiCA :
+a) un agrément bancaire
+b) la publication d'un livre blanc
+c) un prospectus approuvé par l'AMF
+d) aucune formalité
+=b Thème 7. Le livre blanc est notifié à l'autorité.
+
+?! La perte de la clé privée d'un portefeuille de crypto-actifs auto-conservé entraîne en général :
+a) un remboursement par le FGDR
+b) la perte définitive de l'accès aux actifs
+c) un remboursement par la plateforme d'échange
+d) une simple suspension temporaire
+=b Thème 7.
+
+?! La value at risk (VaR) mesure :
+a) la perte maximale potentielle sur un horizon donné, avec un niveau de confiance donné
+b) le gain moyen attendu
+c) le rendement sans risque
+d) la valeur nominale d'un portefeuille
+=a Thème 7.
+
+?! Un OPCVM doit permettre les rachats au moins :
+a) une fois par an
+b) deux fois par mois
+c) une fois par trimestre
+d) une fois tous les cinq ans
+=b Thème 8. En pratique, la plupart sont quotidiens.
+
+?! Un FCPI doit investir au moins :
+a) 30 % dans des PME innovantes
+b) 50 % dans des PME innovantes
+c) 70 % dans des PME innovantes
+d) 100 % dans des PME innovantes
+=c Thème 8.
+
+?! Le dépositaire d'un OPCVM doit être :
+a) la société de gestion elle-même
+b) indépendant de la société de gestion
+c) un commissaire aux comptes
+d) l'AMF
+=b Thème 8.
+
+?! Un fonds dont l'actif s'élève à 81 M€ et les dettes à 1 M€ compte 640 000 parts. Sa valeur liquidative est de :
+a) 125 €
+b) 126,56 €
+c) 12,50 €
+d) 80 €
+=a Thème 8. 80 000 000 / 640 000 = 125 €.
+
+?! Un droit d'entrée « acquis au fonds » :
+a) rémunère le distributeur
+b) bénéficie aux porteurs existants en couvrant les coûts d'investissement
+c) est reversé à l'AMF
+d) est interdit
+=b Thème 8.
+
+?! Le swing pricing consiste à :
+a) suspendre les rachats
+b) ajuster la valeur liquidative pour faire supporter les coûts de mouvements aux investisseurs entrants ou sortants
+c) changer de dépositaire
+d) modifier la stratégie d'investissement
+=b Thème 8.
+
+?! Un OPCVM peut investir jusqu'à 100 % de son actif en titres émis par un même État à condition notamment de détenir :
+a) au moins deux émissions différentes
+b) au moins six émissions différentes, aucune ne dépassant 30 % de l'actif
+c) au moins dix émissions différentes
+d) une seule émission
+=b Thème 8.
+
+?! Une gestion « bottom-up » :
+a) part de l'analyse macroéconomique
+b) part de l'analyse des entreprises, titre par titre
+c) réplique un indice
+d) est réservée aux fonds monétaires
+=b Thème 8.
+
+?! Le ratio d'information rapporte :
+a) la surperformance par rapport à l'indice à la tracking error
+b) le rendement à la volatilité totale
+c) le bêta à l'alpha
+d) les frais à la performance
+=a Thème 8.
+
+?! Le règlement Taxonomie compte :
+a) trois objectifs environnementaux
+b) six objectifs environnementaux
+c) dix-sept objectifs
+d) un seul objectif climatique
+=b Thème 8.
+
+?! Le label Greenfin :
+a) exclut notamment les entreprises du secteur des énergies fossiles et du nucléaire
+b) est réservé aux fonds monétaires
+c) est délivré par l'ESMA
+d) concerne l'épargne solidaire uniquement
+=a Thème 8. Finansol concerne l'épargne solidaire.
+
+?! Sur un marché réglementé, la négociation repose sur des règles :
+a) discrétionnaires fixées par l'opérateur au cas par cas
+b) non discrétionnaires
+c) négociées bilatéralement entre clients
+d) fixées par chaque intermédiaire
+=b Thème 9. L'exécution discrétionnaire caractérise l'OTF.
+
+?! Le SBF 120 comprend :
+a) uniquement les 120 plus petites capitalisations
+b) le CAC 40, le CAC Next 20 et 60 autres valeurs
+c) les 120 valeurs les plus anciennes de la cote
+d) 120 obligations d'État
+=b Thème 9.
+
+?! Le CAC 40 est un indice :
+a) de rendement, dividendes réinvestis
+b) de prix, pondéré par la capitalisation flottante
+c) équipondéré
+d) pondéré par le chiffre d'affaires
+=b Thème 9. Le CAC 40 GR réinvestit les dividendes.
+
+?! Pendant la pré-ouverture (7 h 15 – 9 h 00) :
+a) les ordres sont exécutés au fur et à mesure
+b) les ordres sont accumulés sans exécution
+c) aucun ordre ne peut être saisi
+d) seuls les professionnels peuvent négocier
+=b Thème 9.
+
+?! Un ordre « à cours limité » d'achat à 25 € :
+a) peut être exécuté à 25,10 €
+b) ne peut être exécuté qu'à 25 € ou moins
+c) est prioritaire sur tous les ordres au marché
+d) devient un ordre au marché à 25 €
+=b Thème 9.
+
+?! L'ordre qui devient un ordre au marché dès qu'un cours est atteint est l'ordre :
+a) à cours limité
+b) à seuil de déclenchement
+c) à la meilleure limite
+d) tout ou rien
+=b Thème 9.
+
+?! Sur le SRD, la couverture minimale en actions est de :
+a) 20 %
+b) 25 %
+c) 40 %
+d) 100 %
+=c Thème 9. 20 % en espèces, 25 % en obligations.
+
+?! La vente à découvert « à nu » d'actions est :
+a) libre
+b) interdite par le règlement européen sur la vente à découvert
+c) obligatoire pour les teneurs de marché
+d) autorisée au-delà de 0,5 % du capital
+=b Thème 9.
+
+?! Les spécialistes en valeurs du Trésor (SVT) :
+a) émettent les OAT
+b) participent aux adjudications et animent le marché secondaire des titres d'État
+c) contrôlent la Banque de France
+d) notent la dette française
+=b Thème 9. L'émetteur est l'État, via l'Agence France Trésor.
+
+?! Une cotation EUR/USD de 1,08 signifie que :
+a) un dollar vaut 1,08 euro
+b) un euro vaut 1,08 dollar
+c) l'euro s'est apprécié de 8 %
+d) le taux d'intérêt est de 1,08 %
+=b Thème 9.
+
+?! La compensation multilatérale (netting) permet :
+a) de multiplier les flux de règlement
+b) de ne régler que les positions nettes de chaque participant
+c) de supprimer l'obligation de livrer
+d) d'éviter les dépôts de garantie
+=b Thème 10.
+
+?! En cas de défaillance d'un membre, la chambre de compensation utilise en premier lieu :
+a) le fonds de défaillance des autres membres
+b) les garanties déposées par le membre défaillant
+c) les fonds publics
+d) le FGDR
+=b Thème 10. Viennent ensuite ses ressources propres puis le fonds de défaillance mutualisé.
+
+?! Le règlement-livraison des titres en France est effectué sur :
+a) T2S, en monnaie de banque centrale
+b) Euronext Growth
+c) le compte de l'AMF
+d) un système exclusivement bilatéral
+=a Thème 10.
+
+?! L'obligation de déclarer les contrats dérivés à des référentiels centraux résulte :
+a) de MAR
+b) d'EMIR
+c) de PRIIPs
+d) de SFDR
+=b Thème 10.
+
+?! Un investisseur achète des actions le vendredi. Avec le cycle actuel, le règlement intervient :
+a) le lundi suivant
+b) le mardi suivant
+c) le mercredi suivant
+d) le vendredi suivant
+=b Thème 10. Deux jours ouvrés après le vendredi.
+
+?! Les titres au porteur sont inscrits en compte :
+a) chez l'émetteur
+b) chez l'intermédiaire financier teneur de compte-conservateur
+c) à l'AMF
+d) sur un certificat papier remis à l'investisseur
+=b Thème 10.
+
+?! Le mode de détention permettant à l'émetteur de connaître ses actionnaires tout en laissant la gestion du compte à l'intermédiaire est :
+a) le nominatif pur
+b) le nominatif administré
+c) le porteur
+d) le porteur anonyme
+=b Thème 10.
+
+?! Le mécanisme de garantie des titres du FGDR couvre, par client et par établissement, jusqu'à :
+a) 30 000 €
+b) 70 000 €
+c) 100 000 €
+d) 150 000 €
+=b Thème 10. Il intervient si les titres ne peuvent être restitués.
+
+?! Le prêt-emprunt de titres sert notamment à :
+a) couvrir des ventes à découvert ou éviter des suspens de livraison
+b) augmenter le capital de l'émetteur
+c) payer les dividendes
+d) déclarer les franchissements de seuils
+=a Thème 10.
+
+?! Lors d'une introduction en bourse, la stabilisation du cours peut être réalisée pendant au plus :
+a) 5 jours
+b) 30 jours
+c) 6 mois
+d) 1 an
+=b Thème 11.
+
+?! Un engagement de « lock-up » est :
+a) un engagement de conservation des titres pris par les dirigeants ou actionnaires historiques
+b) une suspension de cotation
+c) une interdiction de dividende
+d) une clause de rachat obligatoire
+=a Thème 11.
+
+?! Lors d'une augmentation de capital avec DPS, la période de souscription ne peut être inférieure à :
+a) 2 jours de bourse
+b) 5 jours de bourse
+c) 15 jours de bourse
+d) 30 jours de bourse
+=b Thème 11.
+
+?! Une société émet 1 action nouvelle pour 3 anciennes au prix de 20 € ; le cours est de 28 €. La valeur théorique du DPS est de :
+a) 8 €
+b) 2 €
+c) 2,67 €
+d) 6 €
+=b Thème 11. (28 − 20) × 1 / 4 = 2 €.
+
+?! Une attribution gratuite d'actions (1 nouvelle pour 10 anciennes) :
+a) augmente la valeur théorique du portefeuille de 10 %
+b) ne modifie pas en théorie la valeur du portefeuille, le cours s'ajustant
+c) est financée par les actionnaires
+d) entraîne un versement d'espèces
+=b Thème 11. Elle résulte d'une incorporation de réserves.
+
+?! La date d'arrêté des positions (record date) d'un dividende intervient :
+a) la veille du détachement
+b) un jour ouvré après la date de détachement
+c) le jour de l'assemblée générale
+d) un mois après le paiement
+=b Thème 11. Avec un cycle de règlement J+2.
+
+?! Une personne qui détient 40 % des droits de vote d'une société cotée et augmente sa participation de 2 % en six mois :
+a) n'a aucune obligation
+b) doit déposer une offre publique
+c) doit seulement informer le conseil d'administration
+d) perd ses droits de vote
+=b Thème 11. Excès de vitesse : plus de 1 % en moins de douze mois entre 30 % et 50 %.
+
+?! En assemblée générale ordinaire sur première convocation, le quorum est de :
+a) un quart des actions ayant le droit de vote
+b) un cinquième des actions ayant le droit de vote
+c) la moitié des actions
+d) aucun quorum
+=b Thème 11. Aucun quorum sur deuxième convocation.
+
+?! L'information financière trimestrielle des sociétés cotées est :
+a) obligatoire dans les 45 jours
+b) facultative depuis 2015
+c) obligatoire dans les 15 jours
+d) réservée aux sociétés du compartiment C
+=b Thème 11.
+
+?! Le rapport financier semestriel doit être publié dans les :
+a) 45 jours suivant la fin du semestre
+b) 3 mois suivant la fin du semestre
+c) 4 mois suivant la fin du semestre
+d) 6 mois suivant la fin du semestre
+=b Thème 11.
+
+?! 8 000 € placés à 5 % en intérêts composés pendant 2 ans deviennent :
+a) 8 800 €
+b) 8 820 €
+c) 8 400 €
+d) 8 810 €
+=b Thème 12. 8 000 × 1,1025 = 8 820 €.
+
+?! La valeur actuelle de 2 000 € reçus dans 2 ans au taux de 4 % est d'environ :
+a) 1 840 €
+b) 1 849 €
+c) 1 923 €
+d) 2 163 €
+=b Thème 12. 2 000 / 1,0816 ≈ 1 849,11 €.
+
+?! Un projet dont la VAN est négative au taux exigé :
+a) a un TRI supérieur au taux exigé
+b) a un TRI inférieur au taux exigé
+c) est toujours rentable
+d) a un TRI nul
+=b Thème 12.
+
+?! Une obligation à taux fixe cote au-dessus du pair. Son taux actuariel est :
+a) supérieur au taux du coupon
+b) inférieur au taux du coupon
+c) égal au taux du coupon
+d) négatif nécessairement
+=b Thème 12.
+
+?! Le fonds de roulement se calcule comme :
+a) capitaux permanents − actif immobilisé
+b) stocks + créances − dettes fournisseurs
+c) chiffre d'affaires − charges
+d) trésorerie − BFR
+=a Thème 12.
+
+?! La capacité d'autofinancement (CAF) est, en simplifiant :
+a) le chiffre d'affaires moins les achats
+b) le résultat net augmenté des dotations aux amortissements et provisions (nettes des reprises)
+c) le total du bilan
+d) les dividendes versés
+=b Thème 12.
+
+?! L'EBE est proche de l'indicateur anglo-saxon :
+a) EBIT
+b) EBITDA
+c) EPS
+d) ROE
+=b Thème 12.
+
+?! La norme IFRS 16 concerne :
+a) les contrats d'assurance
+b) les contrats de location
+c) les instruments financiers
+d) les stocks
+=b Thème 12. IFRS 17 traite des contrats d'assurance, IFRS 9 des instruments financiers.
+
+?! La valeur d'entreprise est égale à :
+a) la capitalisation boursière diminuée de la dette nette
+b) la valeur des capitaux propres augmentée de la dette nette
+c) le total de l'actif comptable
+d) le chiffre d'affaires multiplié par le PER
+=b Thème 12.
+
+?! Selon le MEDAF, un titre de bêta 1,5, avec un taux sans risque de 2 % et une prime de risque du marché de 6 %, doit offrir une rentabilité de :
+a) 9 %
+b) 11 %
+c) 8 %
+d) 12 %
+=b Thème 12. 2 % + 1,5 × 6 % = 11 %.
+
+?! Deux actifs parfaitement corrélés (corrélation de + 1) :
+a) offrent le bénéfice maximal de diversification
+b) n'offrent aucun bénéfice de diversification
+c) ont nécessairement le même rendement
+d) ont une volatilité nulle
+=b Thème 12. La diversification est d'autant plus efficace que la corrélation est faible.
+
+[[SAUT]]
+
+## Corrigé
+
+Questions 1 à 33 : partie A (seuil : 27 bonnes réponses). Questions 34 à 120 : partie C (seuil : 70 bonnes réponses).
+
+[[CORRIGE]]

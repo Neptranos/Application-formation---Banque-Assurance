@@ -1,0 +1,275 @@
+# Thème 12 — Bases comptables et financières
+
+## Ce que l'examen attend
+
+Maîtriser les calculs financiers de base (intérêts, actualisation, taux équivalents, VAN, TRI, rendement actuariel), lire un bilan et un compte de résultat, calculer les principaux soldes et ratios, connaître les référentiels comptables et les méthodes de valorisation, et manier les notions statistiques utilisées en gestion (rendement, risque, corrélation, MEDAF).
+
+## 1. Les mathématiques financières
+
+### Intérêts simples et intérêts composés
+
+| | Intérêts simples | Intérêts composés |
+|---|---|---|
+| Principe | Les intérêts sont calculés sur le seul capital initial | Les intérêts s'ajoutent au capital et produisent eux-mêmes des intérêts (capitalisation) |
+| Formule | I = C × t × n (n en années ; sur le marché monétaire, n = jours / 360) | Cₙ = C₀ × (1 + t)ⁿ |
+| Usage | Opérations de moins d'un an (marché monétaire) | Placements et emprunts de plus d'un an |
+
+i> Intérêts simples : 10 000 € placés à 3 % pendant 90 jours rapportent 10 000 × 3 % × 90 / 360 = **75 €**.
+Intérêts composés : 10 000 € placés à 4 % pendant 3 ans deviennent 10 000 × 1,04³ = **11 248,64 €**.
+
+### L'actualisation
+
+Actualiser, c'est calculer la **valeur aujourd'hui** d'une somme future : V₀ = Cₙ / (1 + t)ⁿ. Un euro reçu demain vaut moins qu'un euro aujourd'hui (préférence pour le présent, inflation, risque).
+
+i> 10 000 € reçus dans 2 ans, actualisés à 5 %, valent aujourd'hui 10 000 / 1,05² = **9 070,29 €**.
+
+### Taux proportionnel, taux équivalent, taux réel
+
+- **Taux proportionnel** : taux annuel divisé par le nombre de périodes (6 % par an → 0,5 % par mois) ; il ne tient pas compte de la capitalisation ;
+- **taux équivalent** : taux qui, capitalisé sur les sous-périodes, donne le même résultat que le taux annuel : (1 + tₐ) = (1 + tₘ)¹² ; 6 % par an équivaut à environ **0,487 %** par mois ;
+- **taux réel** : rendement corrigé de l'inflation ; relation de Fisher : (1 + nominal) = (1 + réel) × (1 + inflation), soit en approximation **réel ≈ nominal − inflation**.
+
+i> Placement à 5 % avec une inflation de 2 % : taux réel ≈ 3 % (exactement 1,05 / 1,02 − 1 = 2,94 %).
+
+### VAN et TRI
+
+- **Valeur actuelle nette (VAN)** : somme des flux futurs actualisés, diminuée de l'investissement initial. Un projet est rentable si sa **VAN est positive** au taux exigé ;
+- **taux de rendement interne (TRI)** : taux d'actualisation qui **annule la VAN**. Un projet est acceptable si son TRI dépasse le taux exigé.
+
+i> Investissement de 1 000 € rapportant 400 € par an pendant 3 ans, taux exigé 8 %.
+Valeur actuelle des flux = 400 / 1,08 + 400 / 1,08² + 400 / 1,08³ = 370,37 + 342,94 + 317,53 = 1 030,84 €.
+VAN = 1 030,84 − 1 000 = **+ 30,84 €** : le projet est rentable ; son TRI est donc supérieur à 8 %.
+
+### Application aux obligations
+
+Le **prix** d'une obligation est la valeur actuelle de ses flux futurs (coupons et remboursement) au taux de rendement exigé par le marché. Le **taux de rendement actuariel** est le TRI de l'obligation pour l'investisseur qui l'achète au prix de marché et la conserve jusqu'à l'échéance (en réinvestissant les coupons à ce même taux).
+
+- Si le prix est **égal au pair**, le taux actuariel est égal au taux du coupon ;
+- si le prix est **inférieur au pair**, le taux actuariel est **supérieur** au taux du coupon ;
+- si le prix est **supérieur au pair**, il est **inférieur**.
+
+i> Obligation de 3 ans, coupon 4 %, remboursée au pair, quand le marché exige 5 % :
+Prix = 4 / 1,05 + 4 / 1,05² + 104 / 1,05³ = 3,81 + 3,63 + 89,84 = **97,28 %** du nominal.
+
+i> Coupon couru : une obligation de nominal 1 000 €, coupon 3 %, cote 98,50 %. 73 jours se sont écoulés depuis le dernier coupon (base exact/exact, année de 365 jours).
+Coupon couru = 1 000 × 3 % × 73 / 365 = 6 €, soit 0,60 %. Prix payé = 985 + 6 = **991 €** (hors frais).
+
+## 2. Les documents comptables
+
+### Le bilan
+
+Le bilan est une **photographie** du patrimoine de l'entreprise à une date donnée.
+
+| Actif (emplois) | Passif (ressources) |
+|---|---|
+| **Actif immobilisé** : immobilisations incorporelles (brevets, fonds commercial), corporelles (terrains, bâtiments, machines), financières (participations) | **Capitaux propres** : capital, réserves, résultat de l'exercice |
+| **Actif circulant** : stocks, créances clients, valeurs mobilières de placement | **Provisions** pour risques et charges |
+| **Trésorerie active** : disponibilités | **Dettes** : financières (emprunts), d'exploitation (fournisseurs, dettes fiscales et sociales) |
+
+> Actif = Passif. Les capitaux propres sont ce qui revient aux actionnaires une fois toutes les dettes payées.
+
+### Le compte de résultat
+
+Le compte de résultat est un **film** de l'activité sur l'exercice : produits − charges = résultat. Il distingue les éléments d'**exploitation**, **financiers** et **exceptionnels** (en normes françaises), puis l'impôt sur les sociétés.
+
+### Les soldes intermédiaires de gestion (SIG)
+
+| Solde | Calcul simplifié | Ce qu'il mesure |
+|---|---|---|
+| Marge commerciale | Ventes de marchandises − coût d'achat des marchandises vendues | Activité de négoce |
+| Valeur ajoutée | Production + marge commerciale − consommations en provenance des tiers | Richesse créée par l'entreprise |
+| **Excédent brut d'exploitation (EBE)** | Valeur ajoutée + subventions d'exploitation − impôts et taxes − charges de personnel | Performance économique avant amortissements et financement (proche de l'EBITDA) |
+| Résultat d'exploitation | EBE − dotations aux amortissements et provisions + reprises ± autres | Performance de l'exploitation (proche de l'EBIT) |
+| Résultat courant avant impôt | Résultat d'exploitation + résultat financier | Performance après coût du financement |
+| Résultat net | Résultat courant + résultat exceptionnel − participation − impôt sur les sociétés | Bénéfice ou perte de l'exercice |
+
+La **capacité d'autofinancement (CAF)** mesure les ressources dégagées par l'activité : en simplifiant, **résultat net + dotations aux amortissements et provisions − reprises** (± plus ou moins-values de cession).
+
+## 3. L'analyse financière
+
+### Fonds de roulement, BFR et trésorerie
+
+| Notion | Calcul | Lecture |
+|---|---|---|
+| **Fonds de roulement (FR)** | Capitaux permanents (capitaux propres + dettes à long terme) − actif immobilisé | Ressources stables disponibles après financement des immobilisations |
+| **Besoin en fonds de roulement (BFR)** | Stocks + créances clients − dettes fournisseurs (et autres dettes d'exploitation) | Besoin de financement lié au cycle d'exploitation |
+| **Trésorerie nette** | FR − BFR | Positive : excédent ; négative : recours aux concours bancaires à court terme |
+
+i> Capitaux permanents 500, actif immobilisé 380 → FR = 120.
+Stocks 90 + clients 110 − fournisseurs 120 → BFR = 80.
+Trésorerie nette = 120 − 80 = **40** (excédent de trésorerie).
+
+### Les principaux ratios
+
+| Ratio | Formule | Lecture |
+|---|---|---|
+| Rentabilité des capitaux propres (ROE) | Résultat net / capitaux propres | Rentabilité pour l'actionnaire |
+| Rentabilité économique (ROA, ROCE) | Résultat d'exploitation (après impôt) / actif économique ou capitaux employés | Rentabilité de l'outil de production |
+| Marge nette | Résultat net / chiffre d'affaires | Bénéfice pour 100 € de ventes |
+| Taux d'endettement (gearing) | Dette nette / capitaux propres | Structure financière |
+| Levier d'endettement | Dette nette / EBE (ou EBITDA) | Années d'EBE nécessaires pour rembourser la dette |
+| Liquidité générale | Actif circulant / dettes à court terme | Capacité à payer les dettes à court terme |
+
+> **Effet de levier financier** : tant que la rentabilité économique est **supérieure** au coût de la dette, l'endettement **augmente** la rentabilité des capitaux propres. Si la rentabilité économique devient inférieure au coût de la dette, l'effet s'inverse (effet « massue »). Le levier accroît donc à la fois la rentabilité espérée et le risque.
+
+## 4. Les référentiels comptables
+
+| Référentiel | Champ | Caractéristiques |
+|---|---|---|
+| **Plan comptable général (PCG)** | Comptes **individuels** des entreprises françaises | Établi par l'Autorité des normes comptables (ANC) ; logique patrimoniale, coût historique |
+| **Normes IFRS** | Comptes **consolidés** des sociétés cotées de l'Union (obligatoire depuis **2005**) | Élaborées par l'IASB, adoptées par l'Union ; recours fréquent à la **juste valeur** |
+
+Normes IFRS à connaître : **IFRS 9** (instruments financiers, dépréciation fondée sur les pertes attendues), **IFRS 16** (contrats de location inscrits au bilan), **IFRS 17** (contrats d'assurance, applicable depuis 2023), **IFRS 18** (nouvelle présentation du compte de résultat, applicable à partir de 2027).
+
+Les comptes sont **certifiés** par un ou plusieurs **commissaires aux comptes** (deux pour les sociétés qui publient des comptes consolidés), dont l'activité est supervisée par la **Haute Autorité de l'audit** (H2A, ex-H3C).
+
+## 5. La valorisation d'une entreprise
+
+| Méthode | Principe |
+|---|---|
+| **Actualisation des flux de trésorerie (DCF)** | Valeur d'entreprise = somme des flux de trésorerie disponibles futurs actualisés au coût moyen pondéré du capital (CMPC, ou WACC), plus une valeur terminale |
+| **Multiples de sociétés comparables** | Application de multiples observés (PER, VE/EBITDA, VE/CA) sur des sociétés cotées comparables |
+| **Multiples de transactions** | Multiples observés lors d'acquisitions récentes dans le même secteur |
+| **Actif net réévalué (ANR)** | Valeur des actifs réévalués, diminuée des dettes (holdings, foncières) |
+| **Modèle de Gordon-Shapiro** | Valeur de l'action = D₁ / (k − g), où D₁ = prochain dividende, k = rentabilité exigée, g = croissance perpétuelle du dividende |
+
+> **Valeur d'entreprise** (VE) = valeur des capitaux propres + dette nette. C'est la valeur de l'outil économique, quel que soit son mode de financement.
+
+i> Gordon-Shapiro : prochain dividende 3 €, rentabilité exigée 8 %, croissance perpétuelle 2 %.
+Valeur = 3 / (0,08 − 0,02) = **50 €**.
+
+## 6. Notions statistiques et théorie du portefeuille
+
+- **Rendement** d'un placement sur une période : (valeur finale − valeur initiale + revenus perçus) / valeur initiale ;
+- **moyenne** arithmétique des rendements ; **volatilité** = écart-type des rendements (une volatilité annuelle de 20 % est élevée, typique des actions) ;
+- **corrélation** (de − 1 à + 1) : mesure la tendance de deux actifs à évoluer ensemble ; plus elle est faible, plus la **diversification** réduit le risque du portefeuille ;
+- le **rendement espéré** d'un portefeuille est la moyenne pondérée des rendements espérés des actifs ; en revanche, son **risque** est inférieur à la moyenne pondérée des risques dès que les actifs ne sont pas parfaitement corrélés ;
+- on distingue le **risque spécifique**, éliminable par la diversification, et le **risque systématique** (de marché), qui ne l'est pas ;
+- le **MEDAF** (modèle d'évaluation des actifs financiers, Sharpe, 1964) : rentabilité exigée = taux sans risque + **bêta** × (rentabilité du marché − taux sans risque). Seul le risque systématique est rémunéré.
+
+i> Taux sans risque 2 %, prime de risque du marché 6 %, bêta 1,2.
+Rentabilité exigée = 2 % + 1,2 × 6 % = **9,2 %**.
+
+i> Portefeuille investi à 60 % en actions (rendement espéré 8 %) et 40 % en obligations (3 %).
+Rendement espéré = 0,6 × 8 % + 0,4 × 3 % = **6 %**.
+
+## QCM d'entraînement
+
+?? 20 000 € placés à 2,5 % en intérêts simples pendant 180 jours (base 360) rapportent :
+a) 250 €
+b) 500 €
+c) 125 €
+d) 246,58 €
+=a 20 000 × 2,5 % × 180 / 360 = 250 €.
+
+?? 5 000 € placés à 3 % en intérêts composés pendant 2 ans deviennent :
+a) 5 300,00 €
+b) 5 304,50 €
+c) 5 150,00 €
+d) 5 309,00 €
+=b 5 000 × 1,03² = 5 000 × 1,0609 = 5 304,50 €.
+
+?? La valeur actuelle de 1 100 € reçus dans un an, au taux de 10 %, est de :
+a) 990 €
+b) 1 000 €
+c) 1 010 €
+d) 1 210 €
+=b 1 100 / 1,10 = 1 000 €.
+
+?? Le taux mensuel équivalent à un taux annuel de 6 % est :
+a) égal à 0,5 %
+b) légèrement inférieur à 0,5 %
+c) légèrement supérieur à 0,5 %
+d) égal à 6 %
+=b (1,06)^(1/12) − 1 ≈ 0,487 % ; 0,5 % est le taux proportionnel.
+
+?? Un placement rapporte 4 % alors que l'inflation est de 3 %. Le taux réel est d'environ :
+a) 7 %
+b) 1 %
+c) 3 %
+d) 4 %
+=b Réel ≈ nominal − inflation.
+
+?? Le taux de rendement interne (TRI) d'un projet est le taux qui :
+a) maximise la VAN
+b) annule la VAN
+c) est égal au taux sans risque
+d) est égal au taux du coupon
+=b Un projet est acceptable si son TRI dépasse le taux exigé.
+
+?? Une obligation à taux fixe cote en dessous du pair. Son taux de rendement actuariel est :
+a) égal au taux du coupon
+b) supérieur au taux du coupon
+c) inférieur au taux du coupon
+d) nul
+=b L'acheteur bénéficie d'une prime de remboursement.
+
+?? Une obligation de nominal 1 000 €, coupon 4 %, cote 101 % ; 91,25 jours se sont écoulés sur une année de 365 jours. Le prix à payer (hors frais) est d'environ :
+a) 1 010 €
+b) 1 020 €
+c) 1 000 €
+d) 1 050 €
+=b Coupon couru = 1 000 × 4 % × 91,25 / 365 = 10 € ; prix = 1 010 + 10 = 1 020 €.
+
+?? L'excédent brut d'exploitation (EBE) se calcule avant :
+a) les charges de personnel
+b) les dotations aux amortissements et le résultat financier
+c) les consommations en provenance des tiers
+d) les impôts et taxes
+=b Il mesure la performance économique avant amortissements et financement.
+
+?? Une entreprise a un fonds de roulement de 200 et un BFR de 260. Sa trésorerie nette est :
+a) + 60
+b) − 60
+c) + 460
+d) − 460
+=b Trésorerie nette = FR − BFR ; elle doit recourir à des financements à court terme.
+
+?? Le BFR augmente notamment lorsque :
+a) les délais de paiement accordés aux clients s'allongent
+b) les délais de paiement obtenus des fournisseurs s'allongent
+c) les stocks diminuent
+d) l'entreprise réalise une augmentation de capital
+=a Les créances clients sont un emploi d'exploitation.
+
+?? Une société réalise un résultat net de 15 M€ pour des capitaux propres de 120 M€. Son ROE est de :
+a) 8 %
+b) 12,5 %
+c) 15 %
+d) 18 %
+=b 15 / 120 = 12,5 %.
+
+?? L'effet de levier financier est favorable lorsque :
+a) la rentabilité économique est supérieure au coût de la dette
+b) la rentabilité économique est inférieure au coût de la dette
+c) l'entreprise n'a aucune dette
+d) les capitaux propres sont négatifs
+=a Dans le cas contraire, l'endettement dégrade la rentabilité des capitaux propres.
+
+?? Les comptes consolidés des sociétés cotées de l'Union européenne sont établis selon :
+a) le plan comptable général
+b) les normes IFRS
+c) les normes américaines US GAAP
+d) le choix libre de la société
+=b Obligation en vigueur depuis 2005.
+
+?? Selon le modèle de Gordon-Shapiro, une action dont le prochain dividende est de 2 €, avec une rentabilité exigée de 9 % et une croissance perpétuelle de 4 %, vaut :
+a) 22,22 €
+b) 40 €
+c) 50 €
+d) 15,38 €
+=b 2 / (0,09 − 0,04) = 40 €.
+
+?? Selon le MEDAF, avec un taux sans risque de 3 %, une prime de risque de marché de 5 % et un bêta de 0,8, la rentabilité exigée est de :
+a) 7 %
+b) 8 %
+c) 4 %
+d) 6,4 %
+=a 3 % + 0,8 × 5 % = 7 %.
+
+?? La diversification d'un portefeuille permet de réduire :
+a) le risque systématique
+b) le risque spécifique
+c) tous les risques
+d) aucun risque
+=b Le risque de marché (systématique) n'est pas diversifiable.

@@ -1,0 +1,230 @@
+# Thème 6 — Relations avec les clients
+
+## Ce que l'examen attend
+
+Connaître la classification des clients, l'ouverture et le fonctionnement des comptes (y compris pour les mineurs et majeurs protégés), les ordres de bourse et la meilleure exécution, les obligations d'information et de compte rendu, la protection des avoirs, le traitement des réclamations et la médiation, ainsi que le sort des comptes inactifs.
+
+## 1. La classification des clients (MIF 2)
+
+| Catégorie | Qui | Niveau de protection |
+|---|---|---|
+| Client non professionnel | Par défaut, tout client qui n'est pas professionnel (particuliers, la plupart des PME) | Maximal |
+| Client professionnel par nature | Établissements financiers, investisseurs institutionnels, grandes entreprises dépassant 2 des 3 seuils : total de bilan ≥ 20 M€, chiffre d'affaires net ≥ 40 M€, capitaux propres ≥ 2 M€ | Intermédiaire |
+| Contrepartie éligible | Établissements de crédit, entreprises d'investissement, assureurs, OPC et leurs sociétés de gestion, États, banques centrales… pour certains services (RTO, exécution, négociation pour compte propre) | Minimal |
+
+### Les changements de catégorie
+
+**Vers moins de protection (« opt-up »).** Un client non professionnel peut demander à être traité comme professionnel s'il remplit au moins **deux des trois critères** suivants :
+
+- avoir réalisé des transactions d'une taille significative, à raison d'une **moyenne de 10 par trimestre** au cours des **quatre trimestres** précédents ;
+- détenir un portefeuille d'instruments financiers (y compris dépôts) supérieur à **500 000 €** ;
+- occuper ou avoir occupé pendant au moins **un an** une position professionnelle dans le secteur financier requérant une connaissance des transactions envisagées.
+
+La demande est écrite, le prestataire avertit clairement le client des protections qu'il perd, et le client confirme par écrit en être conscient.
+
+**Vers plus de protection (« opt-down »).** Un client professionnel peut toujours demander à être traité comme non professionnel ; c'est à lui de le demander, et le prestataire peut l'accepter.
+
+!> L'opt-up exige **deux critères sur trois**, et une procédure écrite. Un client fortuné qui ne remplit que le critère du portefeuille (500 000 €) ne peut pas être traité comme professionnel.
+
+## 2. L'entrée en relation et l'ouverture du compte
+
+L'entrée en relation suppose la **vérification de l'identité** (thème 3), la **classification** du client, la remise des **informations générales** (sur le prestataire, ses services, la protection des avoirs, les coûts), et la signature d'une **convention de compte** ou d'un contrat de service définissant les droits et obligations des parties.
+
+### La capacité juridique
+
+| Situation | Fonctionnement du compte |
+|---|---|
+| Mineur non émancipé | Le compte est géré par ses représentants légaux (administration légale par les parents) ; actes graves soumis à autorisation du juge dans certains cas |
+| Mineur émancipé | Pleine capacité pour les actes de la vie civile |
+| Sauvegarde de justice | La personne conserve l'exercice de ses droits ; mesure temporaire de protection |
+| Curatelle | La personne agit seule pour les actes d'administration ; elle est **assistée** du curateur pour les actes de disposition |
+| Tutelle | La personne est **représentée** par son tuteur |
+| Habilitation familiale | Un proche est habilité par le juge à représenter ou assister la personne |
+| Mandat de protection future | Mandat donné à l'avance par la personne, qui prend effet lorsqu'elle ne peut plus pourvoir seule à ses intérêts |
+
+### Les comptes collectifs
+
+- **Compte joint** : chaque titulaire peut faire fonctionner seul le compte (solidarité active et passive) ;
+- **compte indivis** : toutes les opérations exigent la signature de tous les cotitulaires ;
+- au **décès** d'un cotitulaire d'un compte joint, le compte continue en principe de fonctionner sous la signature du survivant (sauf opposition des héritiers) ; un compte individuel est bloqué jusqu'au règlement de la succession.
+
+## 3. Les ordres de bourse
+
+### Les types d'ordres
+
+| Ordre | Fonctionnement |
+|---|---|
+| Au marché | Exécuté en priorité, au(x) prix disponible(s) ; certitude d'exécution, pas de maîtrise du prix |
+| À la meilleure limite | Lors de son arrivée, devient un ordre limité au meilleur prix de la contrepartie |
+| À cours limité | Prix maximal à l'achat ou minimal à la vente ; maîtrise du prix, pas de certitude d'exécution |
+| À seuil de déclenchement | Devient un ordre au marché dès qu'un cours est atteint (utile comme « stop loss ») |
+| À plage de déclenchement | Devient un ordre limité dès qu'un cours est atteint, avec une limite au-delà de laquelle il ne s'exécute pas |
+
+Validité possible : jour, à date déterminée, à révocation (dans les limites fixées par le marché).
+
+### La meilleure exécution
+
+Le prestataire prend **toutes les mesures suffisantes** pour obtenir le meilleur résultat possible pour son client, compte tenu du prix, du coût, de la rapidité, de la probabilité d'exécution et de règlement, de la taille et de la nature de l'ordre. Pour un client non professionnel, le meilleur résultat s'apprécie en **coût total** (prix de l'instrument + coûts liés à l'exécution). Le prestataire établit une **politique d'exécution** communiquée au client et obtient son consentement préalable ; il la réexamine au moins une fois par an.
+
+### Le traitement des ordres
+
+Les ordres sont **horodatés**, enregistrés et exécutés de façon **rapide, équitable et dans l'ordre d'arrivée** ; le regroupement d'ordres est possible s'il n'est pas défavorable aux clients, avec une politique de répartition établie à l'avance.
+
+## 4. L'information et les comptes rendus au client
+
+| Document | Délai |
+|---|---|
+| Avis d'opéré (confirmation d'exécution) | Au plus tard le **premier jour ouvrable** suivant l'exécution (ou suivant la réception de la confirmation d'un tiers) |
+| Relevé de portefeuille (instruments et fonds détenus) | Au moins **trimestriel** |
+| Relevé de gestion (mandat de gestion) | Au moins **trimestriel** |
+| Alerte de dépréciation en gestion sous mandat | Lorsque la valeur globale du portefeuille baisse de **10 %** par rapport au dernier relevé, puis par multiple de 10 %, au plus tard à la fin du jour ouvrable |
+| Information ex post sur les coûts | Au moins annuelle |
+
+## 5. La protection des avoirs des clients
+
+Le prestataire **ségrégue** les instruments financiers et les fonds de ses clients de ses propres avoirs, de sorte qu'ils ne puissent être appréhendés par ses créanciers en cas de défaillance. Il ne peut utiliser les titres d'un client pour son propre compte sans son accord exprès. En cas de défaillance, la garantie des titres du FGDR (70 000 €) complète ce dispositif (voir thème 1).
+
+## 6. Les réclamations et la médiation
+
+### Le traitement des réclamations
+
+L'AMF (instruction DOC-2012-07) et l'ACPR fixent des règles communes :
+
+- une **réclamation** est une déclaration actant le mécontentement d'un client envers un professionnel (une demande d'information ou d'avis n'en est pas une) ;
+- le professionnel accuse réception dans un délai maximal de **10 jours ouvrables** (sauf si la réponse est apportée dans ce délai) ;
+- il répond dans un délai maximal de **2 mois** à compter de la réception de la réclamation, sauf circonstances particulières dûment justifiées ;
+- le traitement est **gratuit** ; le client est informé de la possibilité de saisir le médiateur ;
+- l'établissement tient un registre et analyse les réclamations pour corriger les dysfonctionnements.
+
+### Le médiateur de l'AMF
+
+| Caractéristique | Règle |
+|---|---|
+| Compétence | Litiges entre un investisseur (particulier ou personne morale) et un professionnel relevant de l'AMF, portant sur des placements financiers |
+| Conditions | Réclamation écrite préalable auprès du professionnel ; litige non porté devant un tribunal |
+| Coût | **Gratuit** |
+| Procédure | Confidentielle ; le médiateur rend un avis motivé en droit et en équité |
+| Portée de l'avis | Non contraignante : les parties restent libres de le suivre ou de saisir la justice |
+| Prescription | Suspendue pendant la durée de la médiation |
+
+!> Le médiateur de l'AMF n'est **pas** compétent pour les litiges fiscaux, les litiges sur la politique commerciale d'un établissement (tarifs, refus d'ouvrir un compte) ou les contrats d'assurance-vie (qui relèvent du médiateur de l'assurance). Un litige sur un compte bancaire relève du médiateur bancaire.
+
+## 7. Les comptes inactifs (loi Eckert)
+
+La loi Eckert (applicable depuis 2016) impose aux établissements de rechercher les titulaires de comptes inactifs et encadre le sort des avoirs :
+
+- un compte de titres ou d'épargne est en principe réputé **inactif** au terme de **5 ans** sans opération ni manifestation du titulaire (12 mois pour un compte courant) ; ce délai court différemment en cas de décès ;
+- les avoirs d'un compte inactif depuis **10 ans** (3 ans après le décès du titulaire) sont transférés à la **Caisse des dépôts et consignations** ;
+- ils sont acquis à l'État au terme d'un nouveau délai (20 ans après leur dépôt à la Caisse des dépôts, soit 30 ans d'inactivité ; 27 ans après le dépôt en cas de décès) ;
+- les titulaires et ayants droit peuvent rechercher leurs avoirs sur le site **Ciclade**.
+
+## 8. Le secret professionnel et les données personnelles
+
+Les établissements sont tenus au **secret professionnel** sur les informations relatives à leurs clients, sauf dans les cas prévus par la loi (autorités de contrôle, Tracfin, juge pénal, administration fiscale…). Le **RGPD** encadre le traitement des données personnelles : finalité déterminée, minimisation, durée de conservation limitée, droits d'accès, de rectification et d'opposition.
+
+## QCM d'entraînement
+
+?? Un client non professionnel peut opter pour le statut de client professionnel s'il remplit :
+a) un critère sur trois
+b) deux critères sur trois
+c) les trois critères
+d) aucune condition, sur simple demande
+=b Avec une demande écrite et la confirmation qu'il a conscience des protections perdues.
+
+?? Le critère de patrimoine pour l'option vers le statut professionnel est un portefeuille supérieur à :
+a) 100 000 €
+b) 250 000 €
+c) 500 000 €
+d) 1 000 000 €
+=c Dépôts compris.
+
+?? Une personne sous curatelle :
+a) est représentée par son curateur pour tous les actes
+b) agit seule pour les actes d'administration et est assistée pour les actes de disposition
+c) ne peut détenir aucun compte
+d) agit totalement seule
+=b C'est la tutelle qui implique une représentation.
+
+?? Un ordre à cours limité offre :
+a) la certitude d'être exécuté
+b) la maîtrise du prix, sans certitude d'exécution
+c) une exécution au prix du marché
+d) une protection contre toute perte
+=b C'est l'inverse de l'ordre au marché.
+
+?? Un ordre à seuil de déclenchement devient, une fois le seuil atteint :
+a) un ordre à cours limité
+b) un ordre au marché
+c) un ordre annulé
+d) un ordre à la meilleure limite
+=b L'ordre à plage de déclenchement devient, lui, un ordre limité.
+
+?? Pour un client non professionnel, le meilleur résultat d'exécution s'apprécie :
+a) uniquement sur la rapidité
+b) en coût total, prix et coûts d'exécution compris
+c) uniquement sur le prix affiché
+d) sur la seule probabilité d'exécution
+=b C'est la règle MIF 2 pour la clientèle de détail.
+
+?? L'avis d'opéré est adressé au client non professionnel au plus tard :
+a) le jour même
+b) le premier jour ouvrable suivant l'exécution
+c) dans la semaine
+d) en fin de mois
+=b Ou suivant la réception de la confirmation d'un tiers.
+
+?? En gestion sous mandat, le client doit être informé lorsque la valeur de son portefeuille baisse de :
+a) 5 %
+b) 10 %
+c) 20 %
+d) 25 %
+=b Puis à chaque multiple de 10 %.
+
+?? Le délai maximal de réponse à une réclamation est de :
+a) 10 jours ouvrables
+b) 1 mois
+c) 2 mois
+d) 6 mois
+=c L'accusé de réception intervient sous 10 jours ouvrables.
+
+?? Le recours au médiateur de l'AMF :
+a) est payant
+b) suppose une réclamation écrite préalable auprès du professionnel
+c) aboutit à une décision qui s'impose aux parties
+d) est réservé aux clients professionnels
+=b L'avis du médiateur n'est pas contraignant.
+
+?? Un litige portant sur un contrat d'assurance-vie relève :
+a) du médiateur de l'AMF
+b) du médiateur de l'assurance
+c) de l'ACPR
+d) de Tracfin
+=b Le médiateur de l'AMF n'est pas compétent pour l'assurance-vie.
+
+?? Sur un compte joint, chaque cotitulaire :
+a) doit obtenir la signature des autres pour toute opération
+b) peut faire fonctionner seul le compte
+c) ne peut que consulter le solde
+d) doit être de la même famille
+=b La signature de tous est requise sur un compte indivis.
+
+?? Les avoirs d'un compte-titres inactif depuis 10 ans sont transférés :
+a) à l'État immédiatement
+b) à la Caisse des dépôts et consignations
+c) à la Banque de France
+d) à l'AMF
+=b Ils sont consultables par les ayants droit sur le site Ciclade.
+
+?? Une contrepartie éligible bénéficie :
+a) du niveau de protection le plus élevé
+b) du niveau de protection le plus faible
+c) d'une protection identique à celle d'un particulier
+d) d'une garantie de l'État
+=b C'est la catégorie la moins protégée.
+
+?? La ségrégation des avoirs des clients a pour objet :
+a) de permettre au prestataire de les utiliser librement
+b) d'éviter qu'ils soient appréhendés par les créanciers du prestataire en cas de défaillance
+c) de réduire les frais de conservation
+d) de les placer automatiquement en fonds monétaires
+=b Les titres et fonds des clients ne se confondent pas avec ceux du prestataire.

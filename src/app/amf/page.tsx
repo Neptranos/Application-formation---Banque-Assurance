@@ -26,14 +26,14 @@ export default async function AmfPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Certification AMF</h1>
         <p className="mt-1 text-slate-600">
-          Préparation à l&apos;examen certifié AMF (arrêté du 4 novembre 2009) : cinq modules de cours
+          Préparation à l&apos;examen certifié AMF (règlement général de l&apos;AMF, art. 313-7-1 et s.) : cinq modules de cours
           couvrant le référentiel — cadre institutionnel, instruments financiers, gestion de
           portefeuille, déontologie, abus de marché — puis des examens blancs en conditions réelles.
         </p>
         <p className="mt-2 text-xs text-slate-400">
-          Format indicatif à titre pédagogique (QCM, environ 145 questions, seuil de réussite autour de
-          70 %, durée 2h pour l&apos;examen réel) : vérifiez les modalités exactes et à jour auprès de
-          l&apos;AMF ou de votre organisme certificateur avant de vous inscrire.
+          Examen réel : 120 QCM en 2 heures, réussite si au moins 80 % de bonnes réponses en catégorie A
+          (réglementation, déontologie) et 80 % en catégorie C (culture financière), sans
+          compensation. Les examens blancs ci-dessous appliquent un seuil global de 80 %.
         </p>
       </div>
 

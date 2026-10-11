@@ -6,12 +6,12 @@ export const examenV1: ExamenBlanc = {
   description:
     "60 questions couvrant les 5 thématiques de l'examen certifié, dans les proportions indicatives retenues par les principaux organismes de formation.",
   dureeConseilleeMinutes: 50,
-  seuilReussitePct: 70,
+  seuilReussitePct: 80,
   questions: [
     // AMF1 — Cadre institutionnel (6 questions)
     { id: "v1-01", theme: "amf1", question: "L'AMF a été créée par la fusion de la COB, du CMF et :", choix: ["Du CDGF", "De l'ACPR", "De la Banque de France", "Du Trésor public"], bonneReponse: 0, explication: "Le Conseil de discipline de la gestion financière (CDGF) est la troisième entité fusionnée en 2003." },
     { id: "v1-02", theme: "amf1", question: "Le Collège de l'AMF est composé de :", choix: ["4 membres", "16 membres", "50 membres", "1 seul président"], bonneReponse: 1, explication: "Le Collège de l'AMF compte 16 membres." },
-    { id: "v1-03", theme: "amf1", question: "L'examen certifié AMF est rendu obligatoire par :", choix: ["La loi PACTE", "L'arrêté du 4 novembre 2009", "Le règlement MAR", "La directive DDA"], bonneReponse: 1, explication: "L'arrêté du 4 novembre 2009 institue la vérification des connaissances minimales." },
+    { id: "v1-03", theme: "amf1", question: "L'examen certifié AMF est rendu obligatoire par :", choix: ["La loi PACTE", "Le règlement général de l'AMF", "Le règlement MAR", "La directive DDA"], bonneReponse: 1, explication: "Le règlement général de l'AMF (art. 313-7-1 et s.) impose la vérification des connaissances minimales depuis le 1er juillet 2010." },
     { id: "v1-04", theme: "amf1", question: "Un CIF doit obligatoirement être immatriculé à :", choix: ["L'AMF", "L'ORIAS", "L'ACPR", "La CNIL"], bonneReponse: 1, explication: "Comme les autres intermédiaires, le CIF s'immatricule à l'ORIAS." },
     { id: "v1-05", theme: "amf1", question: "La Commission des sanctions de l'AMF :", choix: ["Fait partie du Collège", "Est un organe distinct chargé de juger", "N'a aucun pouvoir de sanction pécuniaire", "Ne concerne que les personnes morales"], bonneReponse: 1, explication: "La séparation Collège/Commission des sanctions garantit l'impartialité." },
     { id: "v1-06", theme: "amf1", question: "Le médiateur de l'AMF est :", choix: ["Payant pour l'investisseur", "Gratuit et indépendant", "Réservé aux professionnels", "Compétent uniquement en matière pénale"], bonneReponse: 1, explication: "La saisine du médiateur de l'AMF est gratuite pour l'investisseur particulier." },

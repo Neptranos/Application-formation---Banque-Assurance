@@ -1,0 +1,215 @@
+# Thème 10 — Le post-marché et les infrastructures de marché
+
+## Ce que l'examen attend
+
+Connaître la chaîne de traitement d'une opération après sa négociation (compensation, règlement-livraison, conservation), le rôle de la chambre de compensation, du dépositaire central et du teneur de compte-conservateur, les modes de détention des titres, le cycle de règlement et le cadre européen (EMIR, CSDR, T2S).
+
+## 1. La chaîne de traitement d'une opération
+
+| Étape | Ce qui se passe | Acteur principal |
+|---|---|---|
+| Négociation | L'ordre est exécuté sur un lieu de négociation | Négociateur, marché |
+| Confirmation / rapprochement | Les parties vérifient les caractéristiques de l'opération | Middle office |
+| Compensation | Calcul des positions nettes ; la chambre s'interpose entre acheteur et vendeur | Chambre de compensation (CCP) |
+| Règlement-livraison | Livraison des titres contre paiement des espèces | Dépositaire central (CSD) et système de règlement |
+| Conservation | Tenue des comptes-titres des clients, traitement des opérations sur titres | Teneur de compte-conservateur |
+
+Dans un établissement, on distingue le **front office** (négociation, relation client), le **middle office** (contrôle des risques, confirmation, résultats) et le **back office** (traitement administratif, règlement, comptabilisation). Leur **séparation** est un principe de contrôle interne.
+
+## 2. La chambre de compensation (CCP)
+
+Une **contrepartie centrale** s'interpose entre l'acheteur et le vendeur : elle devient l'acheteur de tout vendeur et le vendeur de tout acheteur. C'est la **novation**. Chaque participant n'est ainsi exposé qu'à la chambre, et non à une multitude de contreparties.
+
+Ses outils de maîtrise du risque :
+
+- **compensation multilatérale** (« netting ») : seules les positions nettes sont réglées, ce qui réduit fortement les flux ;
+- **dépôt de garantie initial** (« initial margin ») exigé de chaque membre ;
+- **appels de marge** (« variation margins ») quotidiens, voire intrajournaliers, qui matérialisent les gains et pertes latents ;
+- **fonds de défaillance** alimenté par les membres compensateurs ;
+- une **cascade de défaillance** (« waterfall ») : garanties du défaillant, puis ressources propres de la CCP, puis fonds de défaillance des autres membres.
+
+Seuls les **membres compensateurs** ont un accès direct à la chambre ; les autres intermédiaires compensent par leur intermédiaire.
+
+> Pour les marchés au comptant et dérivés d'Euronext Paris, la chambre de compensation est **Euronext Clearing** (anciennement CC&G, à Rome), qui a repris l'activité de LCH SA pour les actions en novembre 2023, puis pour les dérivés financiers en septembre 2024. **LCH SA**, à Paris, reste une CCP importante, notamment pour les pensions livrées sur titres d'État et les dérivés de crédit.
+
+### Le règlement EMIR
+
+Le règlement **EMIR** (n° 648/2012), adopté après la crise de 2008, impose :
+
+- la **compensation obligatoire** par une CCP des dérivés de gré à gré standardisés (certains dérivés de taux et de crédit) ;
+- des **techniques d'atténuation des risques** pour les dérivés non compensés (échange de garanties, confirmation rapide, rapprochement des portefeuilles) ;
+- la **déclaration** de tous les contrats dérivés à des **référentiels centraux** (« trade repositories ») ;
+- l'agrément et la supervision des CCP.
+
+La révision **EMIR 3** (2024) impose en outre à certaines contreparties de détenir un **compte actif** auprès d'une CCP de l'Union pour certains dérivés, afin de réduire la dépendance aux chambres de pays tiers.
+
+## 3. Le dépositaire central et le règlement-livraison
+
+Le **dépositaire central de titres** (CSD) :
+
+- **enregistre les émissions** de titres (fonction notariale) ;
+- tient les comptes des intermédiaires (comptes « courants » de titres) ;
+- exploite le **système de règlement-livraison**.
+
+En France, le dépositaire central est **Euroclear France** (anciennement Sicovam). Le règlement des opérations s'effectue sur **T2S** (TARGET2-Securities), plateforme paneuropéenne de règlement-livraison exploitée par l'Eurosystème, à laquelle Euroclear France a migré en 2016. Le règlement se fait en **monnaie de banque centrale**, selon le principe de la **livraison contre paiement** (DvP, « delivery versus payment ») : la livraison des titres et le paiement sont simultanés et indissociables, ce qui supprime le risque de livrer sans être payé.
+
+Les paiements de gros montant transitent par **T2** (ex-TARGET2), système de règlement brut en temps réel de l'Eurosystème, renouvelé en mars 2023.
+
+### Le règlement CSDR et le cycle de règlement
+
+Le règlement **CSDR** (n° 909/2014) harmonise l'activité des dépositaires centraux et :
+
+- fixe le cycle de règlement des opérations sur titres négociées sur un lieu de négociation à **J+2** (« T+2 ») au plus tard, en vigueur dans l'Union depuis **octobre 2014** ;
+- organise la **discipline de règlement** : **pénalités en espèces** pour les suspens (défauts de livraison ou de paiement) depuis le **1er février 2022** ; le **rachat d'office** (« buy-in ») obligatoire, prévu à l'origine, est devenu un mécanisme de dernier recours depuis la révision de 2023 ;
+- impose la **dématérialisation** (inscription en compte) des valeurs mobilières négociées sur un lieu de négociation.
+
+!> Le cycle de règlement de l'Union passera à **J+1 (T+1) le 11 octobre 2027**, par une modification du règlement CSDR. Jusqu'à cette date, la règle reste **J+2**. Les États-Unis sont passés à T+1 en mai 2024.
+
+i> Un client achète des actions sur Euronext Paris le lundi. Avec le cycle J+2, le règlement-livraison intervient le **mercredi** (deux jours ouvrés plus tard) ; à partir du 11 octobre 2027, il interviendra le **mardi**.
+
+### Le transfert de propriété
+
+Pour les titres admis aux opérations d'un dépositaire central, le **transfert de propriété** résulte de l'**inscription au compte-titres de l'acheteur**, qui intervient à la **date de dénouement** de l'opération (et non à la date de négociation). Entre la négociation et le dénouement, l'acheteur ne détient qu'un droit à livraison.
+
+## 4. La conservation des titres
+
+### La dématérialisation
+
+Depuis le **3 novembre 1984** (loi de finances pour 1982), les valeurs mobilières françaises sont **dématérialisées** : elles n'existent que sous forme d'**inscription en compte**, chez l'émetteur ou chez un intermédiaire habilité.
+
+### Les modes de détention
+
+| Mode | Qui tient le compte ? | Caractéristiques |
+|---|---|---|
+| **Nominatif pur** | L'**émetteur** (ou son mandataire) | L'émetteur connaît l'actionnaire ; pas de droits de garde en général ; ordres passés via le teneur de registre |
+| **Nominatif administré** | Inscription chez l'émetteur, **gestion par l'intermédiaire financier** de l'investisseur | L'émetteur connaît l'actionnaire, l'investisseur garde un seul interlocuteur |
+| **Porteur** | L'**intermédiaire financier** (teneur de compte-conservateur) | L'émetteur ne connaît pas directement ses actionnaires ; il peut les identifier par une procédure dédiée (titres au porteur identifiables) |
+
+Le nominatif est nécessaire pour bénéficier du **droit de vote double** dans les sociétés cotées (actions détenues au nominatif depuis au moins deux ans).
+
+### Le teneur de compte-conservateur (TCC)
+
+La tenue de compte-conservation est un **service connexe** aux services d'investissement. Le TCC :
+
+- **inscrit** les titres au compte de ses clients et en assure la **garde** ;
+- traite les **opérations sur titres** : encaissement des dividendes et coupons, augmentations de capital, divisions, offres publiques ;
+- assure la **ségrégation** des avoirs des clients et la **restitution** des titres ;
+- transmet les informations aux clients (relevés, avis d'opéré, imprimé fiscal unique).
+
+> La **ségrégation** protège le client : en cas de défaillance du teneur de compte, les titres des clients ne font pas partie de son patrimoine et ne peuvent pas être saisis par ses créanciers. Le **mécanisme de garantie des titres** du FGDR (jusqu'à **70 000 €** par client) intervient si les titres ne peuvent pas être restitués.
+
+## 5. Les opérations de financement sur titres
+
+| Opération | Principe |
+|---|---|
+| **Pension livrée** (repo) | Cession de titres avec engagement de rachat à un prix et une date fixés ; économiquement, un prêt d'espèces garanti par des titres |
+| **Prêt-emprunt de titres** | Prêt de titres rémunéré, contre remise de garanties ; utilisé notamment pour couvrir les ventes à découvert ou éviter les suspens |
+
+Ces opérations sont déclarées à des référentiels centraux en application du règlement **SFTR** (2015/2365).
+
+## QCM d'entraînement
+
+?? Le mécanisme par lequel la chambre de compensation devient l'acheteur de tout vendeur et le vendeur de tout acheteur est :
+a) la novation
+b) la dématérialisation
+c) la ségrégation
+d) la livraison contre paiement
+=a La chambre supprime ainsi le risque de contrepartie entre les participants.
+
+?? Les appels de marge quotidiens servent à :
+a) rémunérer la chambre de compensation
+b) couvrir les gains et pertes latents sur les positions
+c) payer les droits de garde
+d) financer l'AMF
+=b Ils s'ajoutent au dépôt de garantie initial.
+
+?? Depuis 2023-2024, les opérations sur actions et dérivés financiers d'Euronext Paris sont compensées par :
+a) LCH SA
+b) Euronext Clearing
+c) Euroclear France
+d) la Banque de France
+=b LCH SA reste une CCP importante pour d'autres produits.
+
+?? Le règlement EMIR impose notamment :
+a) la compensation obligatoire des dérivés de gré à gré standardisés
+b) le cycle de règlement à J+2
+c) la dématérialisation des titres
+d) le document d'informations clés
+=a Il impose aussi la déclaration des dérivés à des référentiels centraux.
+
+?? Le dépositaire central de titres français est :
+a) Euronext
+b) Euroclear France
+c) LCH SA
+d) la Caisse des dépôts
+=b Anciennement Sicovam.
+
+?? Le principe de livraison contre paiement (DvP) signifie que :
+a) les titres sont livrés avant le paiement
+b) le paiement précède toujours la livraison
+c) la livraison des titres et le paiement sont simultanés et indissociables
+d) aucun paiement n'est nécessaire
+=c Il élimine le risque en principal.
+
+?? T2S est :
+a) un système multilatéral de négociation
+b) une plateforme européenne de règlement-livraison exploitée par l'Eurosystème
+c) une chambre de compensation
+d) un indice boursier
+=b TARGET2-Securities.
+
+?? Le cycle de règlement des actions négociées sur Euronext Paris est aujourd'hui de :
+a) J
+b) J+1
+c) J+2
+d) J+3
+=c Il passera à J+1 le 11 octobre 2027.
+
+?? Un client vend des actions le jeudi. Avec le cycle actuel, le dénouement intervient :
+a) le vendredi
+b) le lundi suivant
+c) le mardi suivant
+d) le jeudi suivant
+=b Deux jours ouvrés après le jeudi : vendredi (J+1), lundi (J+2).
+
+?? Le règlement CSDR prévoit, en cas de suspens de règlement :
+a) l'annulation automatique de l'opération
+b) des pénalités en espèces
+c) une sanction pénale systématique
+d) le remboursement par le FGDR
+=b En vigueur depuis le 1er février 2022.
+
+?? Pour les titres cotés, le transfert de propriété intervient :
+a) à la date de négociation
+b) lors de l'inscription au compte de l'acheteur, à la date de dénouement
+c) à la signature de l'ordre
+d) à la date de l'assemblée générale
+=b Entre-temps, l'acheteur n'a qu'un droit à livraison.
+
+?? Les valeurs mobilières françaises sont dématérialisées depuis :
+a) 1966
+b) 1984
+c) 1996
+d) 2007
+=b Loi de finances pour 1982, effective le 3 novembre 1984.
+
+?? Au nominatif pur, le compte-titres de l'actionnaire est tenu par :
+a) son intermédiaire financier
+b) l'émetteur ou son mandataire
+c) la chambre de compensation
+d) l'AMF
+=b Au nominatif administré, l'intermédiaire gère le compte pour l'actionnaire.
+
+?? La ségrégation des avoirs des clients a pour effet que :
+a) le teneur de compte peut utiliser librement les titres des clients
+b) les titres des clients ne peuvent pas être saisis par les créanciers du teneur de compte défaillant
+c) les titres sont conservés par l'AMF
+d) les clients perdent leurs droits de vote
+=b C'est la protection fondamentale des avoirs des clients.
+
+?? Une pension livrée est économiquement :
+a) un prêt d'espèces garanti par des titres
+b) une vente définitive de titres
+c) une option d'achat
+d) une augmentation de capital
+=a Le cédant s'engage à racheter les titres à une date et un prix fixés.

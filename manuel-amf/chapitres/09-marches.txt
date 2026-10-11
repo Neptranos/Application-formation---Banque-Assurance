@@ -1,0 +1,256 @@
+# Thème 9 — Fonctionnement et organisation des marchés
+
+## Ce que l'examen attend
+
+Distinguer marché primaire et secondaire, connaître les lieux d'exécution prévus par MIF 2, l'organisation d'Euronext Paris (compartiments, indices, horaires, carnet d'ordres, types d'ordres), le service de règlement différé, la vente à découvert, ainsi que les principaux marchés de taux, de dérivés et de change.
+
+## 1. Marché primaire et marché secondaire
+
+| | Marché primaire | Marché secondaire |
+|---|---|---|
+| Fonction | **Émission** de titres nouveaux : l'émetteur lève des fonds | **Échange** de titres déjà émis entre investisseurs |
+| Flux d'argent | De l'investisseur vers l'émetteur | D'un investisseur à un autre |
+| Exemples | Introduction en bourse, augmentation de capital, émission obligataire | Achat d'actions en bourse |
+
+> Le marché secondaire donne sa **liquidité** au marché primaire : on achète plus volontiers un titre nouveau si l'on sait pouvoir le revendre.
+
+On distingue également les **marchés organisés** (règles de fonctionnement, centralisation des ordres) et les **marchés de gré à gré** (OTC, transactions bilatérales), ainsi que les marchés **au comptant** et les marchés **à terme**.
+
+## 2. Les lieux d'exécution sous MIF 2
+
+| Lieu | Caractéristiques | Exemple |
+|---|---|---|
+| Marché réglementé (MR) | Système multilatéral, règles non discrétionnaires, agréé par l'autorité ; admission soumise à des obligations d'information fortes | Euronext Paris |
+| Système multilatéral de négociation (SMN / MTF) | Système multilatéral, règles non discrétionnaires, exploité par un PSI ou un opérateur de marché | Euronext Growth, Euronext Access |
+| Système organisé de négociation (SON / OTF) | Système multilatéral à exécution **discrétionnaire** ; réservé aux instruments autres que les actions (obligations, dérivés…) | Plateformes obligataires |
+| Internalisateur systématique (IS) | Un PSI exécute les ordres de ses clients **en contrepartie de son compte propre**, de façon organisée, fréquente et systématique | Grandes banques |
+
+Les PME peuvent se financer sur des marchés dédiés : **Euronext Growth** (MTF, accès allégé, label de « marché de croissance des PME ») et **Euronext Access** (MTF le plus accessible, pour les jeunes sociétés).
+
+!> Euronext Growth et Euronext Access ne sont **pas** des marchés réglementés. Certaines obligations (rapport financier semestriel selon le régime, franchissements de seuils, OPA obligatoire) y sont allégées ou différentes ; en revanche, le règlement **MAR** s'y applique pleinement.
+
+## 3. Euronext Paris
+
+Euronext est une entreprise de marché paneuropéenne qui exploite des marchés réglementés dans plusieurs pays européens (notamment Paris, Amsterdam, Bruxelles, Lisbonne, Dublin, Oslo et Milan). Sa chambre de compensation est **Euronext Clearing** (voir thème 10).
+
+### Les compartiments du marché réglementé
+
+| Compartiment | Capitalisation boursière |
+|---|---|
+| A | Supérieure à 1 milliard d'euros |
+| B | Entre 150 millions et 1 milliard d'euros |
+| C | Inférieure à 150 millions d'euros |
+
+### Les principaux indices
+
+| Indice | Composition |
+|---|---|
+| CAC 40 | 40 valeurs parmi les plus importantes et les plus liquides ; **base 1 000 au 31 décembre 1987** |
+| CAC Next 20 | Les 20 valeurs suivantes |
+| SBF 120 | CAC 40 + CAC Next 20 + 60 autres valeurs |
+| CAC All-Tradable | Large panel de valeurs cotées à Paris |
+| CAC Mid 60, CAC Small | Moyennes et petites valeurs |
+| CAC 40 ESG | Version fondée sur des critères environnementaux, sociaux et de gouvernance |
+
+Le CAC 40 est pondéré par la **capitalisation flottante** (titres réellement disponibles), avec un plafonnement du poids de chaque valeur à 15 %. Sa composition est revue trimestriellement. C'est un indice **de prix** : les dividendes ne sont pas réinvestis (le CAC 40 GR, « gross return », les réinvestit).
+
+### Les horaires d'une séance (valeurs cotées en continu)
+
+| Horaire | Phase |
+|---|---|
+| 7 h 15 – 9 h 00 | **Pré-ouverture** : accumulation des ordres sans exécution |
+| 9 h 00 | **Fixing d'ouverture** |
+| 9 h 00 – 17 h 30 | **Cotation en continu** |
+| 17 h 30 – 17 h 35 | **Pré-clôture** : accumulation des ordres |
+| 17 h 35 | **Fixing de clôture** |
+| 17 h 35 – 17 h 40 | **Négociation au dernier cours** (« trading at last ») |
+
+Les valeurs les moins liquides sont cotées **au fixing** (deux fixings par jour, à 10 h 30 et 16 h 30), sans cotation en continu.
+
+### Le carnet d'ordres
+
+Le carnet d'ordres central présente les ordres d'achat (demande) et de vente (offre) classés par prix. Les ordres sont exécutés selon la règle de **priorité prix, puis temps** : le meilleur prix est servi en premier ; à prix égal, l'ordre arrivé le premier. Lors d'un **fixing**, le cours retenu est celui qui permet d'échanger le **plus grand nombre de titres**.
+
+i> Carnet au fixing — Achats : 300 titres à 20,10 €, 500 à 20,00 €. Ventes : 200 à 19,90 €, 400 à 20,00 €.
+À 20,00 € : demande cumulée = 800 (300 + 500), offre cumulée = 600 (200 + 400) → 600 titres échangés.
+À 20,10 € : demande = 300 → 300 échangés. À 19,90 € : offre = 200 → 200 échangés.
+Le cours de fixing est **20,00 €**, prix qui maximise le volume échangé (600 titres).
+
+### Les types d'ordres
+
+| Ordre | Fonctionnement | Avantage / risque |
+|---|---|---|
+| Au marché | Prioritaire, exécuté au(x) prix disponible(s) dans le carnet | Exécution quasi certaine, prix inconnu |
+| À la meilleure limite | Exécuté au meilleur prix de la contrepartie ; le solde éventuel devient un ordre limité à ce prix | Prix maîtrisé pour la première tranche |
+| À cours limité | Prix maximal à l'achat, minimal à la vente | Prix maîtrisé, exécution incertaine |
+| À seuil de déclenchement (stop) | Devient un ordre au marché quand le cours atteint le seuil | Limite les pertes, prix d'exécution incertain |
+| À plage de déclenchement (stop limit) | Devient un ordre limité quand le seuil est atteint | Prix encadré, exécution incertaine |
+
+Durées de validité usuelles : **jour**, **à date déterminée**, **à révocation** (jusqu'à exécution ou annulation, dans une limite de durée), et conditions d'exécution comme **exécuter et annuler** (le solde non exécuté immédiatement est annulé) ou **tout ou rien**.
+
+### Les mécanismes de protection
+
+Des **seuils de réservation** (statiques, par rapport au cours de référence, et dynamiques, par rapport au dernier cours) suspendent temporairement la cotation d'une valeur dont le cours varie trop brutalement. Le marché peut aussi **suspendre** la cotation, notamment à la demande de l'AMF ou de l'émetteur dans l'attente d'une information importante.
+
+## 4. Le service de règlement différé (SRD)
+
+Le SRD permet, pour les valeurs **les plus liquides**, de différer le règlement des achats et la livraison des ventes à la **fin du mois boursier**, moyennant une **commission de règlement différé**. Il offre un **effet de levier** et permet de vendre à découvert.
+
+- **Valeurs éligibles** : en principe les valeurs dont la capitalisation dépasse **1 milliard d'euros** et dont le volume quotidien moyen dépasse **1 million d'euros** (liste établie par Euronext) ;
+- **jour de liquidation** : le **cinquième jour de bourse avant la fin du mois** ; les opérations passées après cette date sont reportées au mois suivant ;
+- **couverture minimale** : **20 %** de l'engagement en espèces ou fonds monétaires, **25 %** en obligations, **40 %** en actions (l'intermédiaire peut exiger plus) ;
+- **prorogation** (report) : le client peut reporter sa position au mois suivant, moyennant des frais.
+
+i> Avec une couverture en espèces de 10 000 €, un client peut prendre au plus une position de 10 000 / 20 % = 50 000 € sur le SRD (effet de levier de 5). Une baisse de 20 % de ses titres efface toute sa couverture.
+
+## 5. La vente à découvert
+
+Vendre à découvert consiste à vendre un titre qu'on ne possède pas pour le racheter plus tard, en espérant une baisse. Le règlement européen sur la vente à découvert (n° 236/2012) :
+
+- **interdit la vente à découvert « à nu »** d'actions et de titres de dette souveraine : le vendeur doit avoir emprunté les titres, conclu un accord d'emprunt ou disposer d'une assurance raisonnable de pouvoir les obtenir ;
+- impose de **déclarer à l'AMF** toute position courte nette égale ou supérieure à **0,1 %** du capital, puis chaque palier de 0,1 % ;
+- impose une **publication** à partir de **0,5 %** du capital ;
+- permet aux autorités de **restreindre temporairement** les ventes à découvert en cas de forte baisse.
+
+## 6. Le trading à haute fréquence et la transparence
+
+Le **trading algorithmique** et le **trading à haute fréquence** sont encadrés par MIF 2 : déclaration des algorithmes, tests, mécanismes d'arrêt d'urgence, régime de pas de cotation, limitation du ratio ordres/transactions.
+
+La **transparence** est au cœur de MIF 2 / MiFIR :
+
+- **pré-négociation** : publication des meilleurs prix à l'achat et à la vente, avec des dérogations (« waivers ») pour les ordres de grande taille ou au prix de référence (les « dark pools ») ;
+- **post-négociation** : publication des transactions (prix, volume, heure) ;
+- **déclaration des transactions** (« transaction reporting ») à l'autorité de supervision, au plus tard à la fin du jour ouvrable suivant.
+
+La révision de MiFIR (2024) prévoit un **système consolidé de publication** (« consolidated tape ») par classe d'actifs, déployé d'abord pour les obligations.
+
+## 7. Les autres marchés
+
+### Le marché des taux
+
+- **Marché interbancaire** : prêts entre banques ; taux de référence **€STR** (taux au jour le jour de la BCE, qui a remplacé l'EONIA, disparu le 3 janvier 2022) et **Euribor** (taux à terme) ;
+- **marché des titres de créances négociables** : NEU CP, NEU MTN ;
+- **marché des emprunts d'État** : l'**Agence France Trésor (AFT)** émet par **adjudication** des **BTF** (moins d'un an) et des **OAT** (moyen et long terme) ; les **spécialistes en valeurs du Trésor (SVT)** participent aux adjudications et animent le marché secondaire ;
+- la plupart des obligations s'échangent **de gré à gré**, entre professionnels.
+
+### Les marchés dérivés organisés
+
+Euronext propose des futures et options sur indices (CAC 40), sur actions et sur matières premières ; Eurex (Allemagne) et le CME (États-Unis) sont d'autres marchés majeurs. Les positions sont garanties par la chambre de compensation (dépôts de garantie et appels de marge quotidiens).
+
+### Le marché des changes
+
+Le marché des changes (Forex) est le plus grand marché du monde ; il est essentiellement **de gré à gré** et fonctionne en continu en semaine. Une cotation EUR/USD = 1,10 signifie qu'**un euro vaut 1,10 dollar**. On distingue le **comptant** (livraison à deux jours ouvrés) et le **terme**.
+
+## QCM d'entraînement
+
+?? Une augmentation de capital en numéraire relève :
+a) du marché secondaire
+b) du marché primaire
+c) du marché des changes
+d) du marché de gré à gré exclusivement
+=b Elle permet à l'émetteur de lever des fonds.
+
+?? Euronext Growth est :
+a) un marché réglementé
+b) un système multilatéral de négociation (SMN)
+c) un internalisateur systématique
+d) un système organisé de négociation pour actions
+=b C'est un MTF dédié aux PME.
+
+?? Un système organisé de négociation (OTF) :
+a) peut négocier des actions
+b) exécute les ordres de façon discrétionnaire et ne traite pas d'actions
+c) est un marché réglementé
+d) négocie pour compte propre
+=b Il concerne obligations, produits structurés, dérivés…
+
+?? Un internalisateur systématique :
+a) est un marché réglementé
+b) exécute les ordres de ses clients en contrepartie de son compte propre, de façon organisée et systématique
+c) est une chambre de compensation
+d) est un dépositaire central
+=b Ce n'est pas un système multilatéral.
+
+?? Une société dont la capitalisation est de 600 millions d'euros est classée dans le compartiment :
+a) A
+b) B
+c) C
+d) Growth
+=b Le compartiment B regroupe les sociétés entre 150 M€ et 1 Md€.
+
+?? Le CAC 40 a été créé avec une base de :
+a) 100 au 31 décembre 1987
+b) 1 000 au 31 décembre 1987
+c) 1 000 au 1er janvier 2000
+d) 10 000 au 31 décembre 1987
+=b Il est pondéré par la capitalisation flottante.
+
+?? Sur Euronext Paris, la cotation en continu se déroule :
+a) de 7 h 15 à 17 h 30
+b) de 9 h 00 à 17 h 30
+c) de 9 h 00 à 17 h 35
+d) de 8 h 00 à 17 h 00
+=b La pré-ouverture débute à 7 h 15 et le fixing de clôture a lieu à 17 h 35.
+
+?? Dans le carnet d'ordres, à prix égal, est servi en premier :
+a) l'ordre le plus important en quantité
+b) l'ordre arrivé le premier
+c) l'ordre d'un client professionnel
+d) l'ordre tiré au sort
+=b Règle de priorité prix puis temps.
+
+?? Au fixing, le cours d'équilibre est celui qui :
+a) est le plus proche du cours de la veille
+b) permet d'échanger le plus grand nombre de titres
+c) est fixé par l'AMF
+d) est la moyenne des prix proposés
+=b C'est le principe du maximum de volume échangé.
+
+?? L'ordre qui garantit le prix mais pas l'exécution est l'ordre :
+a) au marché
+b) à cours limité
+c) à seuil de déclenchement
+d) à la meilleure limite
+=b L'ordre au marché garantit l'exécution, pas le prix.
+
+?? Un ordre à seuil de déclenchement :
+a) devient un ordre au marché lorsque le seuil est atteint
+b) devient un ordre limité lorsque le seuil est atteint
+c) est exécuté immédiatement
+d) n'est valable qu'au fixing
+=a Le stop devient un ordre au marché ; la plage de déclenchement devient un ordre limité.
+
+?? Le jour de liquidation du SRD est :
+a) le dernier jour de bourse du mois
+b) le cinquième jour de bourse avant la fin du mois
+c) le premier jour du mois
+d) le 15 de chaque mois
+=b Les opérations postérieures sont reportées au mois suivant.
+
+?? Avec 8 000 € de couverture en espèces, la position maximale réglementaire sur le SRD est de :
+a) 20 000 €
+b) 32 000 €
+c) 40 000 €
+d) 80 000 €
+=c 8 000 / 20 % = 40 000 €.
+
+?? Une position courte nette sur une action doit être déclarée à l'AMF à partir de :
+a) 0,1 % du capital
+b) 0,5 % du capital
+c) 1 % du capital
+d) 5 % du capital
+=a La publication intervient à partir de 0,5 %.
+
+?? Les OAT sont émises par :
+a) la Banque de France
+b) l'Agence France Trésor, par adjudication
+c) Euronext
+d) la Caisse des dépôts uniquement
+=b Les SVT participent aux adjudications.
+
+?? Le taux de référence au jour le jour de la zone euro est aujourd'hui :
+a) l'EONIA
+b) l'€STR
+c) le Libor
+d) le TMM
+=b L'EONIA a disparu le 3 janvier 2022.
