@@ -1,298 +1,549 @@
 # Thème 8 — Gestion collective et gestion pour compte de tiers
 
-## Ce que l'examen attend
-
-Distinguer les grandes familles de placements collectifs (OPCVM et FIA), leurs formes juridiques et leurs acteurs ; connaître les principales règles de fonctionnement (valeur liquidative, ratios, frais, outils de gestion de la liquidité) ; comprendre la gestion sous mandat, les styles de gestion et les indicateurs de performance ; maîtriser le cadre de la finance durable (SFDR, taxonomie, labels).
+o> À la fin de ce chapitre, vous saurez :
+- distinguer OPCVM et FIA, SICAV et FCP, et situer les principaux fonds français (capital-investissement, immobilier, épargne salariale, fonds monétaires, ETF) ;
+- décrire le rôle de la société de gestion, du dépositaire, du commissaire aux comptes et des autres intervenants ;
+- calculer une valeur liquidative et comprendre les frais, les règles de diversification et les outils de gestion de la liquidité ;
+- présenter la gestion sous mandat, les styles de gestion et les mesures de performance ;
+- maîtriser le cadre de la finance durable : SFDR, taxonomie, labels, noms de fonds.
+Poids à l'examen : une part importante des questions techniques, en **catégorie C** pour l'essentiel.
 
 ## 1. Le principe de la gestion pour compte de tiers
 
-La gestion pour compte de tiers consiste à gérer l'épargne d'autrui, soit **individuellement** (gestion sous mandat), soit **collectivement** (placements collectifs, ou OPC). En France, elle est exercée par des **sociétés de gestion de portefeuille (SGP)** agréées par l'AMF, ainsi que par des banques et entreprises d'investissement agréées pour le service de gestion de portefeuille pour compte de tiers.
+La **gestion pour compte de tiers** consiste à gérer l'épargne d'autrui :
 
-> Le gérant agit dans l'**intérêt exclusif** des porteurs ou des mandants. Il doit être **indépendant** du dépositaire et gérer les conflits d'intérêts avec les autres activités de son groupe.
+| Forme | Principe | Exemple |
+|---|---|---|
+| **Gestion collective** | L'épargne de nombreux investisseurs est mise en commun dans un **organisme de placement collectif** (OPC), géré selon une stratégie unique | Un fonds actions européennes détenu par 50 000 porteurs |
+| **Gestion individuelle sous mandat** | Le gérant gère le portefeuille d'**un** client, selon un **mandat** adapté à son profil | Mandat de gestion « équilibré » d'un client fortuné |
+
+c> Pourquoi un fonds ? Un épargnant qui investit 5 000 € ne peut pas, seul, diversifier son placement sur 80 actions et 50 obligations, ni payer un gérant professionnel. Le fonds **mutualise** : il donne accès à la **diversification**, à une **gestion professionnelle**, à des marchés parfois inaccessibles en direct, avec une **liquidité** (rachats) et une **réglementation protectrice**. En contrepartie, l'investisseur paie des **frais** et ne choisit pas lui-même les titres.
+
+En France, la gestion pour compte de tiers est exercée par des **sociétés de gestion de portefeuille** (SGP), agréées par l'**AMF**, et par les établissements de crédit et entreprises d'investissement agréés pour la gestion sous mandat.
+
+> Le gérant agit dans l'**intérêt exclusif** des porteurs ou des mandants. Il doit être **indépendant** du dépositaire, gérer les **conflits d'intérêts** avec les autres activités de son groupe et exercer les **droits de vote** attachés aux titres détenus dans l'intérêt des porteurs (politique de vote publiée).
 
 ## 2. OPCVM et FIA
 
-L'Union européenne distingue deux grandes catégories de placements collectifs :
+L'Union européenne distingue deux grandes catégories d'OPC :
 
-| | OPCVM | FIA |
+| | **OPCVM** (UCITS) | **FIA** (fonds d'investissement alternatifs) |
 |---|---|---|
-| Texte de référence | Directive 2009/65/CE (« UCITS ») | Directive 2011/61/UE (« AIFM ») |
-| Ce qui est encadré | Le **produit** (règles d'investissement strictes) | Surtout le **gestionnaire** (agrément, reporting, dépositaire) |
-| Investisseurs | Tous, y compris le grand public | Selon le fonds : grand public ou investisseurs professionnels |
-| Passeport | Commercialisation dans toute l'UE après notification | Passeport principalement pour la commercialisation auprès des professionnels |
-| Liquidité | Rachats au moins **deux fois par mois** (en pratique quotidiens) | Variable (certains fonds sont fermés pendant plusieurs années) |
+| Texte de référence | Directive **2009/65/CE** (« UCITS ») | Directive **2011/61/UE** (« AIFM ») |
+| Logique de la réglementation | Encadre le **produit** : actifs éligibles, diversification, liquidité | Encadre surtout le **gestionnaire** : agrément, gestion des risques, dépositaire, reporting |
+| Investisseurs | Tous, y compris le grand public | Selon le fonds : grand public (FIA « grand public ») ou investisseurs professionnels |
+| Passeport européen | **Commercialisation** dans toute l'Union après simple **notification** | Passeport surtout pour la commercialisation auprès des **professionnels** |
+| Liquidité | Rachats au moins **deux fois par mois** (en pratique quotidiens) | Variable : de quotidienne à aucune pendant plusieurs années (fonds fermés) |
 
-> Un OPCVM est un fonds « coordonné » (harmonisé au niveau européen). Tout placement collectif qui n'est pas un OPCVM est un **FIA** (fonds d'investissement alternatif).
+> Un OPCVM est un fonds « **coordonné** » (harmonisé au niveau européen). **Tout OPC qui n'est pas un OPCVM est un FIA.**
 
-### Les deux formes juridiques des OPCVM
+### Les formes juridiques
 
-| | SICAV | FCP |
+| | **SICAV** (société d'investissement à capital variable) | **FCP** (fonds commun de placement) |
 |---|---|---|
-| Nature | **Société** (anonyme ou par actions simplifiée) à capital variable | **Copropriété** de valeurs mobilières, sans personnalité morale |
+| Nature | **Société** (anonyme ou par actions simplifiée) à capital variable | **Copropriété** d'instruments financiers et de dépôts, **sans personnalité morale** |
 | L'investisseur est | **Actionnaire** (droit de vote en assemblée générale) | **Porteur de parts** (pas de droit de vote) |
-| Gestion | Conseil d'administration, qui peut déléguer la gestion à une SGP | Une SGP agit au nom des porteurs |
+| Gestion | Conseil d'administration, qui délègue en général la gestion à une SGP | Une **SGP** agit au nom des porteurs et les représente |
+| Documents | **Statuts** | **Règlement** du fonds |
+
+Un même OPC peut comporter plusieurs **compartiments** (stratégies différentes sous une même structure) et plusieurs **catégories de parts** : parts de **capitalisation** (C : revenus réinvestis), de **distribution** (D : revenus versés), parts couvertes contre le risque de change, parts réservées à certains investisseurs ou à frais différents.
 
 ### Les principaux FIA de droit français
 
 | Fonds | Caractéristique principale |
 |---|---|
-| FIVG (fonds d'investissement à vocation générale) | Règles proches des OPCVM, avec plus de souplesse |
-| Fonds de fonds alternatifs | Investis dans d'autres FIA |
-| FCPR (fonds commun de placement à risque) | Au moins **50 %** en titres non cotés (ou petites capitalisations cotées, dans une limite) |
-| FCPI (fonds commun de placement dans l'innovation) | Au moins **70 %** dans des PME innovantes |
-| FIP (fonds d'investissement de proximité) | Au moins **70 %** dans des PME régionales |
-| FPCI, FPS | Fonds « professionnels », réservés aux investisseurs avertis, règles très allégées |
-| OPCI | Immobilier : au moins **60 %** d'actifs immobiliers, avec une poche de liquidités |
-| SCPI | Société civile qui détient de l'immobilier locatif ; parts peu liquides |
-| FCPE, SICAVAS | Épargne salariale et actionnariat salarié (conseil de surveillance) |
-| ELTIF | Fonds européen d'investissement à long terme (actifs réels, non coté), régime révisé en 2024 |
-| Fonds d'épargne retraite | Supports d'épargne retraite |
+| **FIVG** (fonds d'investissement à vocation générale) | Règles proches des OPCVM, avec davantage de souplesse ; ouvert au grand public |
+| **Fonds de fonds alternatifs** | Investis dans d'autres FIA |
+| **FCPR** (fonds commun de placement à risque) | Au moins **50 %** de titres **non cotés** (ou de petites capitalisations cotées, dans une limite) |
+| **FCPI** (fonds commun de placement dans l'innovation) | Au moins **70 %** dans des **PME innovantes** |
+| **FIP** (fonds d'investissement de proximité) | Au moins **70 %** dans des **PME régionales** |
+| **FPCI** et **FPS** (fonds professionnels de capital-investissement, fonds professionnels spécialisés) | Réservés aux **investisseurs avertis** ; règles très allégées |
+| **OPCI** (organisme de placement collectif immobilier) | Au moins **60 %** d'actifs immobiliers, avec une **poche de liquidités** ; plus liquide qu'une SCPI |
+| **SCPI** (société civile de placement immobilier) | Détient de l'**immobilier locatif** ; revenus réguliers ; parts **peu liquides** ; frais d'entrée élevés |
+| **FCPE**, **SICAVAS** | **Épargne salariale** et actionnariat salarié (section 6) |
+| **ELTIF** (fonds européen d'investissement à long terme) | Actifs réels et non cotés à long terme ; régime révisé en 2024 pour l'ouvrir davantage aux particuliers |
+| **Organismes de titrisation**, organismes de financement spécialisé | Financement de créances, prêts aux entreprises |
 
-Les **fonds monétaires** (règlement MMF 2017/1131) forment une catégorie à part, qu'ils soient OPCVM ou FIA : fonds à valeur liquidative variable (VNAV), à valeur liquidative constante de dette publique (CNAV) ou à faible volatilité (LVNAV) ; fonds monétaires court terme ou standard.
+!> Les fonds de capital-investissement (FCPR, FCPI, FIP) comportent un **risque de perte en capital** élevé et une **durée de blocage** souvent de **5 à 10 ans**. Les éventuels avantages fiscaux ne doivent jamais être présentés comme la justification principale de l'investissement.
 
-!> Les fonds de capital-investissement (FCPR, FCPI, FIP) comportent un **risque de perte en capital** et une **durée de blocage** souvent de 5 à 10 ans. Les avantages fiscaux éventuels ne doivent jamais être présentés comme la justification principale de l'investissement.
+### Les fonds monétaires
+
+Le règlement européen **MMF** (2017/1131) encadre les **fonds monétaires**, OPCVM ou FIA, qui investissent dans des instruments du marché monétaire à court terme de bonne qualité :
+
+| Type | Valeur liquidative |
+|---|---|
+| **VNAV** (à valeur liquidative variable) | Variable, calculée au prix de marché ; le type le plus courant en France (court terme ou standard) |
+| **CNAV** de dette publique | Constante, investie à 99,5 % en dette publique |
+| **LVNAV** (à faible volatilité) | Constante tant qu'elle reste dans une marge étroite |
+
+Ils servent à placer la trésorerie à court terme ; leur rendement suit les taux monétaires (€STR). Ils ne sont **pas** des dépôts et ne sont **pas garantis**.
+
+### Les fonds indiciels cotés (ETF)
+
+d> Un **ETF** (*exchange traded fund*, ou tracker) est un OPC dont l'objectif est de **répliquer un indice** et dont les parts sont **négociées en bourse** tout au long de la séance, comme une action. Des **teneurs de marché** assurent la liquidité ; une **valeur liquidative indicative** est publiée en continu.
+
+| Mode de réplication | Principe | Risque particulier |
+|---|---|---|
+| **Physique totale** | Détient toutes les valeurs de l'indice | Coûts de gestion du portefeuille |
+| **Physique optimisée** (échantillonnage) | Détient un échantillon représentatif | Écart de suivi plus important |
+| **Synthétique** | Détient un panier d'actifs et échange sa performance contre celle de l'indice par un **swap** | **Risque de contrepartie** sur le swap (plafonné à **10 %** de l'actif d'un OPCVM) |
+
+Avantages : frais faibles, diversification, transparence, liquidité. Les ETF éligibles au PEA répliquent parfois des indices non européens grâce à la réplication synthétique.
 
 ## 3. Les acteurs d'un OPC
 
 | Acteur | Rôle |
 |---|---|
-| Société de gestion | Prend les décisions d'investissement, gère les risques, calcule ou fait calculer la valeur liquidative |
-| Dépositaire | **Conserve** les actifs, tient le passif ou contrôle sa tenue, **contrôle la régularité** des décisions de la SGP, suit les flux de liquidités |
-| Commissaire aux comptes | Certifie les comptes et contrôle la composition de l'actif |
-| Centralisateur | Reçoit et centralise les ordres de souscription et de rachat |
-| Valorisateur | Calcule la valeur liquidative (par délégation) |
-| Commercialisateur / distributeur | Commercialise les parts auprès des clients (avec les obligations MIF 2) |
+| **Société de gestion** (SGP) | Agréée par l'AMF ; prend les **décisions d'investissement**, gère les risques (dont la liquidité), exerce les droits de vote, calcule ou fait calculer la valeur liquidative, établit la documentation |
+| **Dépositaire** | **Conserve** les actifs (ou en tient le registre), **contrôle la régularité** des décisions de la société de gestion (respect des règles et de la stratégie), suit les **flux de liquidités** ; en France, c'est en général un établissement de crédit |
+| **Commissaire aux comptes** | **Certifie** les comptes de l'OPC et contrôle la composition de l'actif |
+| **Centralisateur** | Reçoit et centralise les ordres de souscription et de rachat |
+| **Valorisateur** | Calcule la valeur liquidative, par délégation de la société de gestion |
+| **Teneur de compte émetteur** | Tient le registre des parts (passif) |
+| **Distributeur** (commercialisateur) | Commercialise les parts auprès des clients, avec les obligations MIF 2 (adéquation, information, coûts) |
 
-!> Le dépositaire doit être **distinct** de la société de gestion et indépendant d'elle. Il est responsable de la restitution des instruments financiers conservés, même en cas de perte chez un sous-conservateur (sauf événement extérieur échappant à son contrôle raisonnable).
+!> Le dépositaire doit être **distinct** et **indépendant** de la société de gestion. Il est **responsable de la restitution** des instruments financiers conservés, même en cas de perte chez un sous-conservateur (sauf événement extérieur échappant à son contrôle raisonnable). Et ce n'est **pas** lui qui prend les décisions d'investissement.
 
-## 4. Fonctionnement d'un OPC ouvert
+Pour être commercialisé en France, un OPCVM ou un FIA de droit français est **agréé** (ou déclaré, pour certains fonds professionnels) par l'**AMF** ; un OPCVM d'un autre État de l'Union est commercialisé après **notification** (passeport).
+
+## 4. Le fonctionnement d'un OPC ouvert
 
 ### La valeur liquidative
 
-> Valeur liquidative (VL) = actif net du fonds / nombre de parts (ou d'actions).
+> **Valeur liquidative** (VL) = **actif net** du fonds / **nombre de parts** (ou d'actions) en circulation.
 
-L'actif net est la valeur des actifs (évalués au prix de marché) diminuée des dettes. La VL est calculée à une fréquence fixée par le prospectus (en général quotidienne).
+L'actif net est la valeur des actifs (évalués au **prix de marché** ou à leur juste valeur) diminuée des dettes (frais à payer, notamment). La VL est calculée à la fréquence fixée par le prospectus (en général **quotidienne** pour un OPCVM).
 
-Les ordres de souscription et de rachat sont exécutés **à cours inconnu** : ils sont reçus avant une heure limite (« cut-off ») et exécutés sur la prochaine VL, qui n'est pas encore connue. Cette règle empêche les investisseurs d'arbitrer contre le fonds (« market timing »).
+Les ordres de souscription et de rachat sont exécutés **à cours inconnu** : centralisés avant une **heure limite** (*cut-off*), ils sont exécutés sur la **prochaine** VL, qui n'est pas encore connue au moment de l'ordre. Cette règle empêche les investisseurs d'arbitrer contre le fonds en profitant d'une VL déjà « dépassée » (*market timing*).
 
 i> Un fonds détient 52 M€ d'actifs et 2 M€ de dettes ; 400 000 parts sont en circulation.
-VL = (52 − 2) / 0,4 = 125 € par part.
+VL = (52 − 2) / 0,4 = **125 €** par part.
+Un client qui souscrit pour 10 000 € (sans frais d'entrée) reçoit 10 000 / 125 = 80 parts. Avec des droits d'entrée de 2 % : 10 000 × 0,98 / 125 = 78,4 parts.
 
 ### Les frais
 
 | Frais | Description |
 |---|---|
-| Droits d'entrée | Prélevés à la souscription ; « acquis » au fonds (protègent les porteurs) ou « non acquis » (rémunèrent la SGP ou le distributeur) |
-| Droits de sortie | Prélevés au rachat, selon le même principe |
-| Frais de gestion | Prélevés en continu sur l'actif, exprimés en % par an |
-| Commission de surperformance | Part de la performance au-delà d'un objectif ; encadrée (rattrapage des sous-performances passées) |
-| Coûts de transaction | Frais d'achat et de vente des titres en portefeuille |
+| **Droits d'entrée** | Prélevés à la souscription ; **acquis au fonds** (ils bénéficient aux porteurs en couvrant les coûts d'investissement des sommes nouvelles) ou **non acquis** (ils rémunèrent la société de gestion ou le distributeur) |
+| **Droits de sortie** | Prélevés au rachat, selon le même principe |
+| **Frais de gestion** | Prélevés en continu sur l'actif, exprimés en % par an ; ils rémunèrent la gestion et, souvent, le distributeur (rétrocessions) |
+| **Commission de surperformance** | Part de la performance au-delà d'un objectif ou d'un indice ; encadrée par l'ESMA (les sous-performances passées doivent être rattrapées avant de la percevoir) |
+| **Coûts de transaction** | Frais d'achat et de vente des titres en portefeuille |
 
-Le **DIC PRIIPs** présente l'ensemble des coûts (incidence annuelle des coûts, coûts ponctuels et récurrents) selon une méthode standardisée.
+Le **DIC PRIIPs** présente l'ensemble de ces coûts de façon standardisée, avec leur incidence annuelle sur le rendement (thème 5).
 
-### Les règles de diversification d'un OPCVM
+### L'affectation des résultats
 
-- **5 %** maximum de l'actif dans des titres d'un même émetteur ; cette limite peut être portée à **10 %**, à condition que les lignes dépassant 5 % ne représentent pas ensemble plus de **40 %** de l'actif (règle dite « 5/10/40 ») ;
-- **35 %** pour les titres émis ou garantis par un État ou une collectivité publique ; jusqu'à **100 %** si ces titres appartiennent à au moins **six émissions** différentes, aucune ne dépassant **30 %** ;
-- **20 %** maximum de dépôts dans un même établissement de crédit ;
-- des dérogations existent pour les fonds indiciels (jusqu'à 20 %, voire 35 % pour un seul émetteur dans des conditions exceptionnelles).
+Les revenus du fonds (dividendes, coupons) et ses plus-values réalisées peuvent être **capitalisés** (réinvestis, la VL en bénéficie) ou **distribués** aux porteurs, selon la catégorie de parts.
+
+### Les règles de diversification des OPCVM
+
+| Règle | Contenu |
+|---|---|
+| **5/10/40** | **5 %** maximum de l'actif en titres d'un même émetteur ; limite portée à **10 %** à condition que les lignes dépassant 5 % ne représentent pas ensemble plus de **40 %** de l'actif |
+| Titres d'État | **35 %** pour les titres émis ou garantis par un État ou une collectivité publique ; jusqu'à **100 %** s'ils appartiennent à au moins **six émissions** différentes, aucune ne dépassant **30 %** de l'actif |
+| Dépôts | **20 %** maximum dans un même établissement de crédit |
+| Dérivés de gré à gré | Risque de contrepartie limité à **5 %** de l'actif (**10 %** si la contrepartie est un établissement de crédit) |
+| Fonds indiciels | Jusqu'à **20 %** par émetteur (**35 %** pour un seul émetteur dans des conditions exceptionnelles) |
+| Autres OPC | En principe **20 %** maximum par OPC sous-jacent, et **30 %** au total en FIA |
+| Ratios d'emprise | Un OPCVM ne peut pas acquérir d'actions lui permettant d'exercer une influence notable sur l'émetteur ; il ne peut détenir plus de **10 %** des titres de créance ou des actions sans droit de vote d'un même émetteur |
+| Emprunts | Seulement à titre temporaire, dans la limite de **10 %** de l'actif |
 
 i> Un OPCVM de 100 M€ détient quatre lignes de 9 M€ et une ligne de 6 M€, toutes au-dessus de 5 %. Total = 42 M€, soit 42 % de l'actif : la règle des 40 % est **dépassée**, même si aucune ligne ne dépasse 10 %.
 
 ### La gestion du risque de liquidité
 
-Pour faire face à des demandes de rachat massives, un fonds peut prévoir des **outils de gestion de la liquidité** :
+Pour faire face à des demandes de rachat massives sans léser les porteurs qui restent, un fonds ouvert peut prévoir des **outils de gestion de la liquidité** :
 
-- **plafonnement des rachats** (« gates ») : seule une fraction des rachats est exécutée sur une VL, le reste est reporté ;
-- **swing pricing** : la VL est ajustée pour faire supporter les coûts de réaménagement du portefeuille aux investisseurs entrants ou sortants ;
-- **droits ajustables (anti-dilution levy)**, **préavis**, **rachats en nature**, **poches de cantonnement** (« side pockets ») ;
-- **suspension** des souscriptions et rachats en cas de circonstances exceptionnelles.
+| Outil | Principe |
+|---|---|
+| **Plafonnement des rachats** (*gates*) | Seule une fraction des rachats est exécutée sur une VL lorsque les demandes dépassent un seuil ; le reste est reporté |
+| **Swing pricing** | La VL est ajustée pour faire supporter les **coûts de réaménagement** du portefeuille aux investisseurs entrants ou sortants |
+| **Droits ajustables** (*anti-dilution levy*) | Frais variables imputés aux investisseurs qui entrent ou sortent |
+| **Préavis**, **rachats en nature** | Délai avant exécution ; remise de titres plutôt que d'espèces |
+| **Poches de cantonnement** (*side pockets*) | Isolement d'actifs devenus illiquides |
+| **Suspension** | Arrêt temporaire des souscriptions et rachats, en cas de circonstances exceptionnelles et dans l'intérêt des porteurs |
 
-La directive (UE) 2024/927, à transposer au plus tard le **16 avril 2026**, impose à tous les OPCVM et FIA ouverts de sélectionner **au moins deux** outils de gestion de la liquidité dans une liste harmonisée, en plus de la possibilité de suspendre les rachats.
+La directive (UE) **2024/927**, à transposer au plus tard le **16 avril 2026**, impose à tous les OPCVM et FIA ouverts de sélectionner **au moins deux** outils de gestion de la liquidité dans une liste harmonisée, en plus de la possibilité de suspendre.
 
-## 5. Les fonds indiciels cotés (ETF)
+c> Pourquoi ces outils ? Sans eux, les premiers à sortir d'un fonds en difficulté sont remboursés au prix fort, et les coûts de vente des actifs, puis les actifs les moins liquides, restent aux porteurs qui n'ont pas bougé : c'est une prime à la panique. Les outils de liquidité répartissent équitablement ces coûts.
 
-Un **ETF** (« exchange traded fund », ou tracker) est un OPC dont l'objectif est de **répliquer un indice** et dont les parts sont **négociées en bourse** tout au long de la séance. Des teneurs de marché assurent la liquidité ; une valeur liquidative indicative est publiée en continu.
+### La documentation et l'information des porteurs
 
-| Mode de réplication | Principe | Risque particulier |
-|---|---|---|
-| Physique totale | Détient toutes les valeurs de l'indice | Coûts de gestion du portefeuille |
-| Physique optimisée (échantillonnage) | Détient un échantillon représentatif | Écart de suivi plus important |
-| Synthétique | Détient un panier d'actifs et échange sa performance contre celle de l'indice (**swap**) | Risque de contrepartie sur le swap (plafonné à 10 % de l'actif pour un OPCVM) |
+Le **prospectus** (stratégie, risques, frais, modalités de souscription et de rachat), le **règlement** ou les **statuts**, le **DIC**, le **rapport annuel** et le **document semestriel**, la composition de l'actif, sont mis à disposition des investisseurs. Toute **modification** importante (changement de stratégie, hausse des frais, fusion) est portée à leur connaissance et, pour les plus importantes, leur ouvre la possibilité de **sortir sans frais**.
 
-## 6. La gestion sous mandat
+## 5. La gestion sous mandat
 
-La gestion sous mandat est un **service d'investissement** (gestion de portefeuille pour le compte de tiers). Elle repose sur un **mandat écrit** précisant notamment les objectifs de gestion, les catégories d'instruments autorisés, les modalités d'information, la rémunération et les conditions de résiliation.
+La **gestion de portefeuille pour le compte de tiers** est un **service d'investissement** : le gérant prend, de manière **discrétionnaire**, les décisions d'investissement pour le compte du client, dans le cadre d'un **mandat écrit**.
 
-- Le gestionnaire doit évaluer l'**adéquation** (test d'adéquation MIF 2 : connaissances et expérience, situation financière dont capacité à subir des pertes, objectifs dont tolérance au risque et préférences en matière de durabilité) ;
-- il adresse un **relevé périodique**, au moins **trimestriel** ;
-- il informe le client lorsque la valeur globale du portefeuille baisse de **10 %** depuis le dernier relevé, puis à chaque multiple de 10 %, au plus tard à la fin du jour ouvrable concerné ;
-- il ne peut, en principe, conserver des **rétrocessions** : en gestion sous mandat, les avantages reçus de tiers doivent être reversés au client (sauf avantages non monétaires mineurs).
+| Élément | Contenu |
+|---|---|
+| **Mandat** | Objectifs de gestion, profil de risque, catégories d'instruments autorisés, éventuelles restrictions (pas d'actions d'un secteur, par exemple), type de gestion, informations dues au client, rémunération, durée et conditions de résiliation |
+| **Adéquation** | Test complet : connaissances et expérience, situation financière (dont capacité à subir des pertes), objectifs (dont tolérance au risque et préférences de durabilité) ; la gestion doit rester **adéquate** dans la durée |
+| **Relevé périodique** | Au moins **trimestriel** : composition, valorisation, opérations, performance, frais |
+| **Alerte** | Lorsque la valeur globale du portefeuille baisse de **10 %** par rapport au dernier relevé, puis à chaque multiple de 10 %, au plus tard à la fin du jour ouvrable |
+| **Rétrocessions** | **Interdites** : les avantages reçus de tiers doivent être **reversés** au client, sauf avantages non monétaires mineurs |
+| **Conservation** | Les avoirs restent chez le teneur de compte-conservateur, au nom du client |
 
-## 7. Les styles de gestion et la mesure de performance
+## 6. L'épargne salariale
+
+| Dispositif | Principe |
+|---|---|
+| **Participation** | Obligatoire dans les entreprises d'au moins 50 salariés : part des bénéfices redistribuée aux salariés |
+| **Intéressement** | Facultatif : prime liée aux résultats ou aux performances de l'entreprise |
+| **Plan d'épargne entreprise** (PEE) | Les sommes sont investies, généralement en **FCPE**, et **bloquées 5 ans**, sauf cas de déblocage anticipé (mariage, naissance du troisième enfant, achat de la résidence principale, divorce, invalidité, décès, fin du contrat de travail, surendettement…) |
+| **Plan d'épargne retraite d'entreprise collectif** (PER collectif) | Bloqué jusqu'à la retraite, sauf cas de déblocage anticipé (achat de la résidence principale, accidents de la vie) |
+| **Abondement** | Versement complémentaire de l'employeur |
+
+Les **FCPE** sont des FIA dotés d'un **conseil de surveillance** (représentants des salariés porteurs de parts et de l'entreprise) qui examine la gestion, exerce les droits de vote ou décide des fusions. Les plans proposent obligatoirement un **fonds solidaire** (investi pour **5 à 10 %** dans des entreprises de l'économie sociale et solidaire).
+
+## 7. Les styles de gestion et la mesure de la performance
 
 | Style | Principe |
 |---|---|
-| Gestion active | Chercher à battre un indice de référence par la sélection de titres ou l'allocation |
-| Gestion passive (indicielle) | Répliquer un indice au moindre coût |
-| Gestion « top-down » | Part de l'analyse macroéconomique pour choisir zones et secteurs |
-| Gestion « bottom-up » | Part de l'analyse des entreprises, titre par titre |
-| Value / Growth | Valeurs décotées / valeurs à forte croissance |
-| Gestion alternative | Stratégies décorrélées des marchés (long/short, arbitrage, global macro…) |
-| Gestion à formule (fonds à formule) | Performance définie à l'avance par une formule, souvent avec protection du capital à l'échéance |
-| Multigestion | Sélection de fonds d'autres gérants |
+| **Gestion active** | Chercher à battre un indice de référence par la sélection de titres ou l'allocation d'actifs |
+| **Gestion passive** (indicielle) | Répliquer un indice au moindre coût (fonds indiciels, ETF) |
+| **Top-down** | Partir de l'analyse macroéconomique pour choisir les zones, les secteurs, puis les titres |
+| **Bottom-up** | Partir de l'analyse des entreprises, titre par titre (*stock picking*) |
+| **Value / Growth** | Valeurs décotées par rapport à leurs fondamentaux / valeurs à forte croissance attendue |
+| **Gestion alternative** | Stratégies recherchant une performance décorrélée des marchés (long/short, arbitrage, *global macro*…) |
+| **Gestion à formule** | Performance définie à l'avance par une formule, souvent avec une garantie ou une protection du capital à l'échéance |
+| **Multigestion** | Sélection de fonds d'autres gérants |
+| **Gestion flexible** | Allocation entre actions, obligations et monétaire variant fortement selon les anticipations |
 
 ### Les indicateurs à connaître
 
 | Indicateur | Formule ou définition | Interprétation |
 |---|---|---|
-| Volatilité | Écart-type des rendements | Mesure du risque total |
-| Ratio de Sharpe | (Rendement du portefeuille − taux sans risque) / volatilité | Rémunération par unité de risque ; plus il est élevé, mieux c'est |
-| Bêta | Sensibilité du portefeuille au marché | Bêta > 1 : amplifie les mouvements du marché |
-| Alpha | Surperformance non expliquée par le bêta | Valeur ajoutée du gérant |
-| Écart de suivi (tracking error) | Écart-type de la différence de performance entre le fonds et son indice | Faible pour une gestion indicielle |
-| Ratio d'information | (Rendement du fonds − rendement de l'indice) / tracking error | Régularité de la surperformance |
+| **Performance** | (VL finale − VL initiale + revenus distribués) / VL initiale | Comparée à l'indice de référence et à la catégorie |
+| **Volatilité** | Écart-type des rendements | Mesure du risque total |
+| **Ratio de Sharpe** | (Rendement du portefeuille − taux sans risque) / volatilité | Rémunération par unité de risque total ; plus il est élevé, mieux c'est |
+| **Bêta** | Sensibilité du portefeuille aux mouvements du marché | Bêta > 1 : amplifie les mouvements du marché |
+| **Alpha** | Surperformance non expliquée par l'exposition au marché (bêta) | Valeur ajoutée du gérant |
+| **Écart de suivi** (*tracking error*) | Écart-type de la différence de performance entre le fonds et son indice | Faible pour une gestion indicielle, plus élevé pour une gestion active |
+| **Ratio d'information** | (Rendement du fonds − rendement de l'indice) / tracking error | Régularité de la surperformance |
 
 i> Un fonds a réalisé 8 % sur un an, avec une volatilité de 12 %, quand le taux sans risque était de 2 %.
-Ratio de Sharpe = (8 − 2) / 12 = 0,5.
+Ratio de Sharpe = (8 − 2) / 12 = **0,5**.
+Son indice a fait 6 %, avec une tracking error de 4 % : ratio d'information = (8 − 6) / 4 = **0,5**.
 
 ## 8. La finance durable
 
+### Les approches de l'investissement responsable
+
+| Approche | Principe |
+|---|---|
+| **Exclusion** | Écarter des secteurs (armes controversées, charbon, tabac) ou des entreprises (violations des normes internationales) |
+| **Sélection ESG** (*best-in-class*, *best-in-universe*) | Retenir les entreprises les mieux notées sur les critères **environnementaux, sociaux et de gouvernance** |
+| **Thématique** | Investir dans des secteurs liés au développement durable (énergies renouvelables, eau, santé) |
+| **Impact** | Rechercher un impact positif mesurable, en plus du rendement financier |
+| **Engagement** | Dialoguer avec les entreprises et voter en assemblée générale pour améliorer leurs pratiques |
+
 ### Le règlement SFDR
 
-Le règlement **SFDR** (2019/2088), applicable depuis le **10 mars 2021**, impose aux acteurs financiers de publier des informations sur la prise en compte de la durabilité. Il distingue :
+Le règlement **SFDR** (2019/2088), applicable depuis le **10 mars 2021**, impose aux acteurs financiers de publier des informations sur la prise en compte de la durabilité, au niveau de l'entité et de chaque produit :
 
 | Catégorie | Contenu |
 |---|---|
-| Article 6 | Produits qui ne font pas de promotion environnementale ou sociale ; ils doivent expliquer comment les **risques de durabilité** sont intégrés |
-| Article 8 | Produits qui **promeuvent** des caractéristiques environnementales ou sociales (sous réserve de bonnes pratiques de gouvernance des entreprises investies) |
-| Article 9 | Produits qui ont un **objectif d'investissement durable** |
+| **Article 6** | Produits qui ne font pas de promotion environnementale ou sociale ; ils expliquent comment les **risques de durabilité** sont intégrés (ou pourquoi ils ne le sont pas) |
+| **Article 8** | Produits qui **promeuvent** des caractéristiques environnementales ou sociales, sous réserve que les entreprises investies appliquent des pratiques de **bonne gouvernance** |
+| **Article 9** | Produits qui ont un **objectif d'investissement durable** |
 
-SFDR définit aussi les **principales incidences négatives** (PAI) : les effets négatifs des investissements sur les facteurs de durabilité (émissions de gaz à effet de serre, biodiversité, droits humains…).
+SFDR définit aussi :
 
-!> SFDR est un règlement de **transparence**, pas un label. En novembre 2025, la Commission européenne a proposé de le réviser en profondeur (remplacement des articles 8 et 9 par des catégories de produits : « durable », « transition » et « ESG basics »). À la date de ce manuel, cette révision est **en cours de négociation** : retenez le régime en vigueur (articles 6, 8, 9).
+- l'**investissement durable** : investissement dans une activité qui contribue à un objectif environnemental ou social, sans causer de préjudice important à un autre objectif, dans une entreprise appliquant de bonnes pratiques de gouvernance ;
+- les **principales incidences négatives** (PAI) : les effets négatifs des investissements sur les facteurs de durabilité (émissions de gaz à effet de serre, biodiversité, droits humains…).
+
+!> SFDR est un règlement de **transparence**, pas un **label** : « article 8 » ou « article 9 » ne garantit pas une qualité durable donnée, seulement des informations publiées. En novembre 2025, la Commission européenne a proposé de le réviser profondément (catégories de produits « durable », « transition » et « ESG basics », avec un seuil minimal d'investissements conformes à la stratégie revendiquée). À la date de ce manuel, cette révision est **en cours de négociation** : retenez le régime en vigueur (articles 6, 8, 9).
 
 ### La taxonomie européenne
 
-Le règlement **Taxonomie** (2020/852) définit les activités économiques « durables sur le plan environnemental ». Une activité doit **contribuer substantiellement** à au moins l'un des **six objectifs** environnementaux, **ne causer de préjudice important** à aucun des autres (principe « DNSH ») et respecter des **garanties sociales minimales**.
+Le règlement **Taxonomie** (2020/852) définit les activités économiques « **durables sur le plan environnemental** ». Une activité doit :
 
-Les six objectifs : atténuation du changement climatique ; adaptation au changement climatique ; utilisation durable et protection des ressources aquatiques et marines ; transition vers une économie circulaire ; prévention et réduction de la pollution ; protection et restauration de la biodiversité et des écosystèmes.
+1. **contribuer substantiellement** à au moins l'un des **six objectifs** environnementaux ;
+2. **ne causer de préjudice important** à aucun des cinq autres (principe « **DNSH** », *do no significant harm*) ;
+3. respecter des **garanties sociales minimales** (normes internationales du travail, droits humains) ;
+4. respecter les **critères techniques** fixés par la Commission.
 
-### Les labels et les noms de fonds
+Les six objectifs : **atténuation** du changement climatique ; **adaptation** au changement climatique ; utilisation durable et protection des **ressources aquatiques et marines** ; transition vers une **économie circulaire** ; **prévention et réduction de la pollution** ; protection et restauration de la **biodiversité** et des écosystèmes.
+
+m> Les six objectifs : « **Atténuer, Adapter, l'Eau, le Circulaire, la Pollution, la Biodiversité** ».
+
+### Les labels
 
 | Label | Principe |
 |---|---|
-| Label ISR (créé en 2016, soutenu par l'État) | Référentiel renforcé depuis le **1er mars 2024** : sélectivité portée à **30 %** de l'univers d'investissement, exclusion des entreprises qui développent de nouveaux projets d'énergies fossiles, prise en compte d'une trajectoire de transition |
-| Label Greenfin | Financement de la transition écologique ; exclut notamment les énergies fossiles et le nucléaire |
-| Label Finansol | Épargne solidaire (financement d'activités à forte utilité sociale ou environnementale) |
+| **Label ISR** (créé en 2016, soutenu par l'État) | Référentiel renforcé depuis le **1er mars 2024** : sélectivité portée à **30 %** de l'univers d'investissement, exclusion des entreprises qui développent de nouveaux projets d'énergies fossiles et de celles trop exposées au charbon et aux hydrocarbures non conventionnels, prise en compte d'une trajectoire de transition climatique |
+| **Label Greenfin** | Financement de la **transition écologique** ; exclut notamment les énergies fossiles et le nucléaire |
+| **Label Finansol** | Épargne **solidaire** (financement d'activités à forte utilité sociale ou environnementale) |
 
-Les **orientations de l'ESMA sur les noms de fonds** (applicables depuis le 21 novembre 2024 aux nouveaux fonds et depuis le 21 mai 2025 aux fonds existants) imposent qu'un fonds dont le nom contient un terme ESG ou « durable » investisse au moins **80 %** de ses actifs conformément à ces caractéristiques, et applique des **exclusions** (notamment celles des indices de référence « accord de Paris »).
+### Les noms de fonds
 
-> Lors du conseil, le conseiller doit recueillir les **préférences en matière de durabilité** du client (depuis le 2 août 2022) et proposer des produits cohérents avec ces préférences, sans les substituer aux autres critères d'adéquation.
+Les **orientations de l'ESMA sur les noms de fonds** utilisant des termes ESG ou liés à la durabilité (applicables depuis le **21 novembre 2024** aux nouveaux fonds et depuis le **21 mai 2025** aux fonds existants) imposent :
+
+- d'investir au moins **80 %** des actifs conformément aux caractéristiques ou objectifs mis en avant ;
+- d'appliquer des **exclusions** : celles des indices de référence « **accord de Paris** » (exclusion notamment des entreprises tirant une part importante de leurs revenus des énergies fossiles) pour les termes environnementaux, d'impact ou de durabilité ; celles des indices « **transition climatique** » pour les termes liés à la transition, au social ou à la gouvernance ;
+- pour les fonds utilisant le mot « **durable** », d'investir de manière significative dans des investissements durables au sens de SFDR.
+
+> Lors du conseil, le conseiller recueille les **préférences en matière de durabilité** du client (depuis le 2 août 2022) et propose des produits cohérents avec ces préférences, sans les substituer aux autres critères d'adéquation (thème 5). Les investisseurs institutionnels français publient en outre leur politique de prise en compte des critères ESG et climatiques (article 29 de la loi énergie-climat de 2019).
+
+## L'essentiel
+
+> - **OPCVM** (directive UCITS) : produit harmonisé, grand public, passeport, rachats au moins **2 fois par mois**. Tout autre OPC est un **FIA** (directive AIFM, qui encadre surtout le gestionnaire).
+> - **SICAV** = société, investisseur **actionnaire** (vote) ; **FCP** = **copropriété sans personnalité morale**, porteur de parts, représenté par la SGP.
+> - FCPR **50 %** non coté ; FCPI **70 %** PME innovantes ; FIP **70 %** PME régionales ; OPCI **60 %** immobilier ; blocage de 5 à 10 ans pour le capital-investissement.
+> - **SGP** agréée par l'**AMF** : décide ; **dépositaire** : conserve, **contrôle la régularité**, suit les flux, indépendant ; **CAC** : certifie.
+> - **VL = actif net / nombre de parts** ; ordres à **cours inconnu** (cut-off).
+> - Droits d'entrée **acquis au fonds** (protègent les porteurs) ou **non acquis** (rémunèrent le distributeur).
+> - Diversification OPCVM : **5/10/40** ; **35 %** État, **100 %** si **6 émissions** et 30 % max ; **20 %** dépôts ; contrepartie **5 % / 10 %**.
+> - Liquidité : **gates**, **swing pricing**, side pockets, suspension ; au moins **2 outils** obligatoires (directive 2024/927, avril 2026).
+> - **ETF** synthétique = swap + **risque de contrepartie** (≤ 10 %).
+> - Mandat : **relevé trimestriel**, alerte **−10 %**, **pas de rétrocessions** conservées.
+> - **PEE** : blocage **5 ans** ; FCPE avec **conseil de surveillance** ; fonds **solidaire** obligatoire.
+> - **Sharpe** = (R − Rf) / volatilité ; **tracking error** = écart-type de l'écart avec l'indice ; **ratio d'information** = surperformance / tracking error.
+> - **SFDR** : art. **6** (risques de durabilité), art. **8** (promotion E/S), art. **9** (objectif durable) ; c'est de la **transparence**, pas un label.
+> - **Taxonomie** : 6 objectifs, contribution substantielle + **DNSH** + garanties sociales.
+> - Label **ISR** : sélectivité **30 %** et exclusions fossiles depuis le **1er mars 2024** ; **Greenfin** : transition écologique (hors fossiles et nucléaire) ; **Finansol** : solidaire.
+> - Noms de fonds ESG : **80 %** des actifs + exclusions (orientations ESMA).
 
 ## QCM d'entraînement
 
-?? Un OPCVM est encadré par :
+?? [C] Un OPCVM est régi par :
 a) la directive AIFM
-b) la directive UCITS 2009/65/CE
+b) la directive UCITS
 c) le règlement MiCA
-d) le règlement PRIIPs uniquement
 =b Les FIA relèvent de la directive AIFM.
 
-?? Le souscripteur d'une SICAV est :
-a) un porteur de parts sans droit de vote
-b) un actionnaire disposant d'un droit de vote
+?? [C] Un fonds qui n'est pas un OPCVM est :
+a) un FIA
+b) un fonds interdit
+c) un produit structuré
+=a Tout OPC non coordonné est un fonds d'investissement alternatif.
+
+?? [C] La directive AIFM encadre principalement :
+a) le gestionnaire du fonds
+b) les seuls actifs éligibles
+c) la fiscalité des porteurs
+=a La directive UCITS encadre surtout le produit.
+
+?? [C] Un OPCVM doit permettre le rachat de ses parts au moins :
+a) une fois par an
+b) deux fois par mois
+c) une fois par trimestre
+=b En pratique, la plupart sont quotidiens.
+
+?? [C] Le souscripteur d'une SICAV est :
+a) un actionnaire disposant d'un droit de vote en assemblée générale
+b) un porteur de parts sans droit de vote
 c) un créancier de la société de gestion
-d) un copropriétaire sans aucun droit
-=b La SICAV est une société ; le FCP est une copropriété sans personnalité morale.
+=a La SICAV est une société.
 
-?? Un FCP :
-a) a la personnalité morale
+?? [C] Un FCP :
+a) est une société anonyme
 b) est une copropriété d'instruments financiers sans personnalité morale
-c) est un FIA dans tous les cas
-d) est obligatoirement coté
-=b La SGP agit au nom des porteurs de parts.
+c) est obligatoirement un FIA
+=b La société de gestion agit au nom des porteurs.
 
-?? Le dépositaire d'un OPC :
-a) prend les décisions d'investissement
-b) conserve les actifs et contrôle la régularité des décisions de la société de gestion
-c) certifie les comptes
-d) commercialise le fonds
-=b La certification des comptes revient au commissaire aux comptes.
+?? [C] Les parts de capitalisation d'un OPC :
+a) versent chaque année leurs revenus aux porteurs
+b) réinvestissent les revenus, qui viennent augmenter la valeur liquidative
+c) ne peuvent pas être rachetées
+=b Les parts de distribution versent les revenus.
 
-?? Un fonds a un actif net de 30 M€ pour 250 000 parts. Sa valeur liquidative est de :
-a) 12 €
-b) 120 €
-c) 1 200 €
-d) 83 €
-=b 30 000 000 / 250 000 = 120 €.
+?? [C] Un FCPI doit investir au moins :
+a) 50 % dans des PME innovantes
+b) 70 % dans des PME innovantes
+c) 90 % dans des PME innovantes
+=b Le FCPR doit investir au moins 50 % en titres non cotés.
 
-?? Les ordres de souscription et de rachat d'OPC sont exécutés :
-a) à cours connu
-b) à cours inconnu
-c) au cours du jour précédent
-d) au cours choisi par le client
-=b Cette règle évite le « market timing ».
+?? [C] Un OPCI doit détenir au moins :
+a) 60 % d'actifs immobiliers
+b) 90 % d'actifs immobiliers
+c) 30 % d'actifs immobiliers
+=a Il détient aussi une poche de liquidités.
 
-?? Selon la règle « 5/10/40 », un OPCVM :
-a) ne peut détenir plus de 40 % d'un même émetteur
-b) peut détenir jusqu'à 10 % d'un émetteur si les lignes au-dessus de 5 % ne dépassent pas ensemble 40 %
-c) doit détenir au moins 40 émetteurs
-d) ne peut investir plus de 5 % en actions
-=b C'est la règle de diversification de base.
+?? [C] Les parts de SCPI présentent notamment :
+a) une liquidité quotidienne garantie
+b) une liquidité réduite et des frais d'entrée élevés
+c) une garantie du capital
+=b Elles sont destinées à un placement de long terme.
 
-?? Un mécanisme qui permet de n'exécuter qu'une partie des rachats lorsque ceux-ci dépassent un seuil est :
-a) le swing pricing
-b) le plafonnement des rachats (gate)
-c) la side pocket
-d) le cut-off
-=b Le reste des ordres est reporté.
+?? [C] Un fonds monétaire :
+a) est garanti comme un dépôt bancaire
+b) investit dans des instruments du marché monétaire à court terme et n'est pas garanti
+c) est réservé aux banques
+=b Son rendement suit les taux monétaires.
 
-?? Un ETF à réplication synthétique :
+?? [C] Un ETF à réplication synthétique :
 a) détient toutes les valeurs de l'indice
 b) obtient la performance de l'indice grâce à un swap, d'où un risque de contrepartie
 c) n'est pas coté
-d) n'a pas d'indice de référence
-=b Le risque de contrepartie est plafonné pour un OPCVM.
+=b Le risque de contrepartie est plafonné à 10 % de l'actif pour un OPCVM.
 
-?? En gestion sous mandat, le client doit être informé lorsque la valeur du portefeuille baisse de :
-a) 5 %
-b) 10 %
-c) 20 %
-d) 50 %
-=b Puis à chaque multiple de 10 %.
+?? [C] Les parts d'un ETF :
+a) se négocient en bourse tout au long de la séance
+b) ne peuvent être rachetées qu'une fois par mois
+c) sont réservées aux investisseurs professionnels
+=a Des teneurs de marché assurent la liquidité.
 
-?? Un fonds réalise 10 % avec une volatilité de 16 % ; le taux sans risque est de 2 %. Son ratio de Sharpe est de :
-a) 0,625
-b) 0,5
-c) 0,75
-d) 8
-=b (10 − 2) / 16 = 0,5.
+?? [C] Le dépositaire d'un OPC :
+a) prend les décisions d'investissement
+b) conserve les actifs et contrôle la régularité des décisions de la société de gestion
+c) certifie les comptes du fonds
+=b La certification revient au commissaire aux comptes.
 
-?? Une faible tracking error caractérise :
+?? [C] Le dépositaire d'un OPCVM doit être :
+a) la société de gestion elle-même
+b) distinct et indépendant de la société de gestion
+c) l'AMF
+=b Il est responsable de la restitution des instruments conservés.
+
+?? [C] Les comptes d'un OPC sont certifiés par :
+a) le dépositaire
+b) le commissaire aux comptes
+c) le centralisateur
+=b Il contrôle aussi la composition de l'actif.
+
+?? [C] Un fonds a un actif de 61 M€, des dettes de 1 M€ et 500 000 parts. Sa valeur liquidative est de :
+a) 122 €
+b) 120 €
+c) 12 €
+=b (61 − 1) / 0,5 = 120 €.
+
+?? [C] Les ordres de souscription et de rachat de parts d'OPC sont exécutés :
+a) à cours connu
+b) à cours inconnu, sur la prochaine valeur liquidative
+c) au cours choisi par le client
+=b Cette règle évite le market timing.
+
+?? [C] Un droit d'entrée « acquis au fonds » :
+a) rémunère le distributeur
+b) bénéficie aux porteurs existants en couvrant les coûts d'investissement des sommes nouvelles
+c) est reversé à l'AMF
+=b Les droits non acquis rémunèrent la société de gestion ou le distributeur.
+
+?? [C] Selon la règle « 5/10/40 », un OPCVM :
+a) peut détenir jusqu'à 10 % d'un même émetteur si les lignes dépassant 5 % ne représentent pas plus de 40 % de l'actif
+b) doit détenir au moins 40 émetteurs
+c) ne peut investir plus de 5 % en actions
+=a C'est la règle de diversification de base.
+
+?? [C] Un OPCVM peut investir jusqu'à 100 % de son actif en titres d'un même État à condition notamment de détenir :
+a) au moins deux émissions
+b) au moins six émissions différentes, aucune ne dépassant 30 % de l'actif
+c) une seule émission notée AAA
+=b Sinon, la limite est de 35 %.
+
+?? [C] Un OPCVM détient six lignes de 7 % chacune (soit 42 % de l'actif) et le reste en lignes inférieures à 5 %. Il :
+a) respecte la règle des 5/10/40
+b) ne respecte pas la règle des 5/10/40
+c) n'est soumis à aucune règle
+=b Les lignes de plus de 5 % dépassent ensemble 40 %.
+
+?? [C] Le plafonnement des rachats (gate) consiste à :
+a) suspendre définitivement le fonds
+b) n'exécuter qu'une partie des rachats lorsque les demandes dépassent un seuil, le reste étant reporté
+c) refuser les souscriptions
+=b C'est un outil de gestion de la liquidité.
+
+?? [C] Le swing pricing consiste à :
+a) ajuster la valeur liquidative pour faire supporter les coûts de mouvement aux investisseurs entrants ou sortants
+b) changer de dépositaire
+c) modifier la stratégie d'investissement
+=a Il protège les porteurs qui restent dans le fonds.
+
+?? [C] Depuis la directive (UE) 2024/927, les fonds ouverts doivent sélectionner au moins :
+a) un outil de gestion de la liquidité
+b) deux outils de gestion de la liquidité
+c) cinq outils de gestion de la liquidité
+=b En plus de la possibilité de suspendre les rachats.
+
+?? [A] En gestion sous mandat, le relevé périodique est adressé au client au moins :
+a) chaque mois
+b) chaque trimestre
+c) chaque année
+=b Il est complété par l'alerte en cas de baisse de 10 %.
+
+?? [A] En gestion sous mandat, les rétrocessions versées par des sociétés de gestion :
+a) peuvent être conservées si le client en est informé
+b) doivent être reversées au client, sauf avantages non monétaires mineurs
+c) sont versées à l'AMF
+=b Même règle que pour le conseil indépendant.
+
+?? [C] Les sommes investies dans un plan d'épargne entreprise sont en principe bloquées :
+a) 2 ans
+b) 5 ans
+c) jusqu'à la retraite
+=b Sauf cas de déblocage anticipé prévus par la loi.
+
+?? [C] Un FCPE est doté :
+a) d'un conseil de surveillance comprenant des représentants des salariés porteurs de parts
+b) d'une assemblée générale d'actionnaires
+c) d'un médiateur propre
+=a Il examine la gestion et exerce, le cas échéant, les droits de vote.
+
+?? [C] Une gestion « top-down » :
+a) part de l'analyse des entreprises, titre par titre
+b) part de l'analyse macroéconomique pour choisir zones et secteurs, puis les titres
+c) réplique un indice
+=b La gestion bottom-up part des entreprises.
+
+?? [C] Un fonds réalise 10 % avec une volatilité de 16 %, le taux sans risque étant de 2 %. Son ratio de Sharpe est de :
+a) 0,5
+b) 0,625
+c) 8
+=a (10 − 2) / 16 = 0,5.
+
+?? [C] Une faible tracking error caractérise :
 a) un fonds de gestion alternative
 b) un fonds indiciel
 c) un FCPR
-d) un fonds à formule
 =b L'écart de suivi mesure la proximité avec l'indice.
 
-?? Un fonds classé « article 9 » SFDR :
-a) promeut des caractéristiques environnementales ou sociales
-b) a un objectif d'investissement durable
-c) ne prend pas en compte la durabilité
-d) est obligatoirement labellisé ISR
-=b L'article 8 correspond à la promotion de caractéristiques E/S.
+?? [C] Le ratio d'information rapporte :
+a) la surperformance par rapport à l'indice à la tracking error
+b) le rendement à la volatilité totale
+c) les frais à la performance
+=a Il mesure la régularité de la surperformance.
 
-?? Le principe « DNSH » de la taxonomie européenne signifie :
+?? [C] Un fonds classé « article 8 » au sens de SFDR :
+a) a un objectif d'investissement durable
+b) promeut des caractéristiques environnementales ou sociales
+c) ne prend pas en compte la durabilité
+=b L'article 9 correspond à l'objectif d'investissement durable.
+
+?? [C] Le règlement SFDR est :
+a) un label de qualité environnementale
+b) un règlement de transparence en matière de durabilité
+c) une norme comptable
+=b « Article 8 » ou « article 9 » ne constituent pas des labels.
+
+?? [C] Le principe « DNSH » de la taxonomie européenne signifie :
 a) contribuer à tous les objectifs environnementaux
 b) ne pas causer de préjudice important aux autres objectifs environnementaux
 c) exclure toutes les entreprises industrielles
-d) investir 80 % dans des obligations vertes
-=b « Do no significant harm ».
+=b *Do no significant harm*.
 
-?? Selon les orientations de l'ESMA, un fonds dont le nom contient un terme lié à la durabilité doit investir conformément à ces caractéristiques au moins :
+?? [C] Le règlement Taxonomie compte :
+a) trois objectifs environnementaux
+b) six objectifs environnementaux
+c) dix-sept objectifs
+=b Dont l'atténuation et l'adaptation au changement climatique.
+
+?? [C] Depuis le 1er mars 2024, le label ISR exige notamment :
+a) une sélectivité portant sur 30 % de l'univers d'investissement et des exclusions dans les énergies fossiles
+b) un investissement à 100 % en obligations vertes
+c) une garantie du capital
+=a La sélectivité était auparavant de 20 %.
+
+?? [C] Le label Greenfin :
+a) exclut notamment les entreprises des secteurs des énergies fossiles et du nucléaire
+b) concerne l'épargne solidaire
+c) est délivré par l'ESMA
+=a Finansol concerne l'épargne solidaire.
+
+?? [C] Selon les orientations de l'ESMA, un fonds dont le nom contient un terme lié à la durabilité doit investir conformément à ces caractéristiques au moins :
 a) 50 % de ses actifs
-b) 70 % de ses actifs
-c) 80 % de ses actifs
-d) 100 % de ses actifs
-=c Avec, en plus, des exclusions.
+b) 80 % de ses actifs
+c) 100 % de ses actifs
+=b Il doit aussi appliquer des exclusions.
