@@ -1,295 +1,660 @@
 # Thème 7 — Instruments financiers, crypto-actifs et leurs risques
 
-## Ce que l'examen attend
-
-Connaître la typologie juridique des instruments financiers, le fonctionnement et la valorisation des actions et obligations, les produits dérivés (contrats à terme, options, swaps), les produits structurés, les crypto-actifs au sens de MiCA, et savoir identifier et mesurer les risques associés à chacun.
+o> À la fin de ce chapitre, vous saurez :
+- identifier ce qui est (ou n'est pas) un instrument financier ;
+- décrire les actions, les obligations et les titres de créance négociables, et calculer leurs principaux indicateurs (PER, rendement, coupon couru, sensibilité) ;
+- expliquer le fonctionnement des contrats à terme, des options, des swaps, des warrants, des turbos et des CFD ;
+- analyser un produit structuré et ses risques réels ;
+- présenter les crypto-actifs et le règlement MiCA ;
+- nommer et mesurer les risques d'un placement.
+Poids à l'examen : probablement le thème **le plus lourd** de la partie technique, essentiellement en **catégorie C**.
 
 ## 1. Qu'est-ce qu'un instrument financier ?
 
-Selon l'article L. 211-1 du CMF, les instruments financiers sont :
+d> Selon l'article **L. 211-1 du CMF**, les **instruments financiers** sont les **titres financiers** et les **contrats financiers**.
+- Les **titres financiers** comprennent : les **titres de capital** émis par les sociétés par actions (actions) ; les **titres de créance** (obligations, titres de créances négociables), à l'exclusion des effets de commerce et des bons de caisse ; les **parts ou actions d'organismes de placement collectif**.
+- Les **contrats financiers**, aussi appelés **instruments financiers à terme**, sont les contrats à terme dont la liste est fixée par décret : options, contrats à terme fermes (futures, forwards), contrats d'échange (swaps), contrats sur différences (CFD), dérivés de crédit, sur matières premières, sur variables climatiques, etc.
 
-- les **titres financiers** : titres de capital (actions), titres de créance (obligations, titres de créances négociables), parts ou actions d'organismes de placement collectif ;
-- les **contrats financiers** (ou instruments financiers à terme) : options, contrats à terme, swaps, contrats sur différences (CFD), dérivés de crédit…
+| Instrument financier | Pas un instrument financier |
+|---|---|
+| Actions, obligations, NEU CP, NEU MTN | Dépôts bancaires, livrets (Livret A, LDDS), comptes à terme |
+| Parts de FCP, actions de SICAV, parts de SCPI et d'OPCI | Contrat d'**assurance-vie** (c'est un contrat d'assurance, même si ses unités de compte sont des instruments financiers) |
+| Options, futures, swaps, CFD, warrants | **Effets de commerce**, **bons de caisse** |
+| *Security tokens* (jetons ayant les caractéristiques d'un titre) | **Crypto-actifs** relevant de MiCA (bitcoin, stablecoins), or physique, œuvres d'art, vins, forêts |
 
-!> Ne sont **pas** des instruments financiers : les effets de commerce, les bons de caisse, les dépôts bancaires, les contrats d'assurance-vie (qui sont des contrats d'assurance), l'or physique. Les crypto-actifs ne sont pas des instruments financiers, sauf s'ils en présentent les caractéristiques (« security tokens »), auquel cas ils relèvent de MIF 2 et non de MiCA.
+c> Pourquoi cette frontière compte-t-elle ? Parce que la qualification d'**instrument financier** déclenche l'application de MIF 2 (règles de bonne conduite, agrément des intermédiaires), de MAR (abus de marché) et, pour l'offre au public, du règlement Prospectus. Les crypto-actifs « ordinaires » relèvent d'un régime distinct, MiCA ; les placements « atypiques » (vins, forêts, manuscrits) relèvent du régime des **intermédiaires en biens divers**, enregistrés auprès de l'AMF.
 
-Les titres financiers sont **dématérialisés** en France depuis 1984 : ils n'existent que par leur inscription en compte (voir thème 10).
+Les titres financiers français sont **dématérialisés** depuis 1984 : ils n'existent que par une **inscription en compte** (thème 10). Chaque titre est identifié par un **code ISIN** (12 caractères, commençant par le code pays : FR pour la France).
 
 ## 2. Les actions
 
-L'action est un titre de propriété représentant une fraction du capital d'une société. Elle confère :
+### Définition et droits
 
-- un **droit financier** : droit au dividende (non garanti, voté par l'assemblée générale), droit au boni de liquidation ;
-- un **droit politique** : droit de vote en assemblée, droit à l'information ;
-- un **droit préférentiel de souscription** (DPS) lors des augmentations de capital en numéraire.
+d> Une **action** est un **titre de capital** représentant une fraction du capital d'une société par actions (SA, SAS, SCA). L'actionnaire est un **associé** : il partage les bénéfices et les risques de l'entreprise, sans que sa perte puisse dépasser le montant de son apport.
 
-Variantes : **actions de préférence** (droits particuliers, éventuellement sans droit de vote), **actions à droit de vote double** (de droit dans les sociétés cotées pour les actions nominatives détenues depuis au moins deux ans, sauf clause contraire des statuts — loi Florange de 2014), certificats d'investissement (historiques).
+| Droit | Contenu |
+|---|---|
+| **Droits financiers** | Droit au **dividende**, s'il est décidé par l'assemblée générale (il n'est jamais garanti) ; droit sur les **réserves** ; droit au **boni de liquidation** (après remboursement de tous les créanciers) |
+| **Droits politiques** | **Droit de vote** en assemblée générale ; droit à l'**information** (comptes, rapports) ; droit de poser des questions écrites |
+| **Droit préférentiel de souscription** (DPS) | Priorité pour souscrire aux augmentations de capital en numéraire, proportionnellement à sa participation (thème 11) |
+| **Droit de cession** | L'action est **négociable** (librement, sauf clauses d'agrément dans les sociétés non cotées) |
 
-### Les principaux indicateurs de valorisation
+### Les catégories d'actions
+
+| Catégorie | Caractéristiques |
+|---|---|
+| **Action ordinaire** | Une action = une voix, dividende proportionnel |
+| **Action à droit de vote double** | De **droit** dans les sociétés cotées pour les actions entièrement libérées inscrites **au nominatif depuis au moins deux ans** au nom du même actionnaire, sauf clause contraire des statuts (loi Florange, 2014) |
+| **Action de préférence** | Droits particuliers (dividende majoré, droit de vote renforcé ou supprimé, droits d'information…) |
+| **Action de préférence à droits de vote multiples** | Admises depuis la loi « Attractivité » du **13 juin 2024** lors d'une **première introduction** en bourse, pour une durée limitée (dix ans au plus, renouvelable) : elles permettent aux fondateurs de garder le contrôle |
+| **Bons de souscription d'actions** (BSA) | Droit de souscrire des actions nouvelles à un prix fixé, pendant une période donnée (proche d'un call) |
+
+### Les indicateurs de valorisation
 
 | Indicateur | Formule | Lecture |
 |---|---|---|
-| Capitalisation boursière | Cours × nombre d'actions | Valeur de marché des fonds propres |
-| Bénéfice par action (BPA) | Résultat net / nombre d'actions | Bénéfice revenant à chaque action |
-| PER (price earning ratio) | Cours / BPA (ou capitalisation / résultat net) | Nombre d'années de bénéfices « payées » par l'investisseur |
-| Rendement | Dividende / cours | Rémunération courante de l'actionnaire |
-| Taux de distribution | Dividendes / résultat net | Part du bénéfice distribuée |
-| Price to book (PBR) | Capitalisation / capitaux propres comptables | Prime ou décote par rapport à l'actif net comptable |
-| VE / EBITDA | Valeur d'entreprise / excédent brut d'exploitation | Multiple d'exploitation, indépendant de la structure de financement |
+| **Capitalisation boursière** | Cours × nombre d'actions | Valeur de marché des capitaux propres |
+| **Bénéfice par action** (BPA) | Résultat net / nombre d'actions | Bénéfice revenant à chaque action |
+| **PER** (*price earning ratio*) | Cours / BPA (ou capitalisation / résultat net) | Nombre d'années de bénéfices « payées » par l'acheteur ; un PER élevé traduit des **anticipations de croissance** (ou une surévaluation) |
+| **Rendement** de l'action | Dividende / cours | Rémunération courante de l'actionnaire |
+| **Taux de distribution** (*payout*) | Dividendes / résultat net | Part du bénéfice distribuée |
+| **PBR** (*price to book ratio*) | Capitalisation / capitaux propres comptables | Prime ou décote sur l'actif net comptable |
+| **VE / EBITDA** | Valeur d'entreprise / excédent brut d'exploitation | Multiple d'exploitation, indépendant de la structure de financement (thème 12) |
 
-i> Une société cote 60 € et réalise un bénéfice de 5 € par action ; elle verse 2,40 € de dividende.
-PER = 60 / 5 = 12. Rendement = 2,40 / 60 = 4 %. Taux de distribution = 2,40 / 5 = 48 %.
+i> Une société compte 10 millions d'actions cotant 60 €. Son résultat net est de 50 M€ ; elle distribue 24 M€ de dividendes.
+- Capitalisation = 10 M × 60 = **600 M€**.
+- BPA = 50 / 10 = **5 €** ; PER = 60 / 5 = **12**.
+- Dividende par action = 2,40 € ; rendement = 2,40 / 60 = **4 %** ; taux de distribution = 24 / 50 = **48 %**.
+
+### Les risques de l'action
+
+Risque de **marché** (variation des cours), **risque spécifique** à l'entreprise (mauvaise gestion, perte d'un marché, faillite : perte possible de **100 %** de l'investissement), risque de **liquidité** (petites valeurs), risque de **change** (actions étrangères). En cas de faillite, l'actionnaire est remboursé **en dernier**, après tous les créanciers.
 
 ## 3. Les obligations
 
-L'obligation est un titre de créance : l'investisseur prête à l'émetteur, qui s'engage à verser des intérêts (**coupons**) et à rembourser le capital (**nominal**) à l'échéance.
+### Définition et vocabulaire
 
-### Le vocabulaire
+d> Une **obligation** est un **titre de créance** négociable : l'investisseur **prête** à l'émetteur (État, collectivité, entreprise, banque), qui s'engage à lui verser des **intérêts** (coupons) et à lui **rembourser** le capital selon des modalités fixées à l'émission. L'obligataire est un **créancier** : il ne participe pas aux décisions (pas de droit de vote) mais est remboursé **avant** les actionnaires.
 
-- **Valeur nominale** : base de calcul des coupons ;
-- **taux nominal (facial)** : taux du coupon ;
-- **prix d'émission**, **prix de remboursement** : au pair, au-dessus (prime) ou en dessous ;
-- **cotation en pourcentage du nominal**, **pied de coupon** (hors coupon couru) ;
-- **coupon couru** : fraction du coupon acquise depuis le dernier détachement, ajoutée au prix ;
-- **taux de rendement actuariel** : taux qui égalise le prix payé et la valeur actuelle des flux futurs.
-
-### Les principaux types
-
-| Type | Particularité |
+| Terme | Signification |
 |---|---|
-| Taux fixe | Coupon constant |
-| Taux variable / révisable | Coupon indexé sur un taux de marché (€STR, Euribor) |
-| Indexée sur l'inflation (OATi, OAT€i) | Nominal et coupon indexés sur l'inflation |
-| Zéro coupon | Aucun coupon ; émise en dessous du pair, remboursée au pair |
-| Convertible | Peut être convertie en actions selon une parité fixée |
-| Échangeable | Peut être échangée contre des actions d'une autre société |
-| OCEANE | Obligation convertible et/ou échangeable en actions nouvelles ou existantes |
-| Subordonnée | Remboursée après les créanciers ordinaires en cas de liquidation |
-| Perpétuelle | Sans échéance fixe (souvent avec option de remboursement de l'émetteur) |
-| Obligation verte (green bond) | Fonds affectés à des projets environnementaux |
+| **Valeur nominale** | Montant de référence de l'obligation, base de calcul des coupons |
+| **Taux nominal** (facial) | Taux du coupon, appliqué à la valeur nominale |
+| **Prix d'émission** | Au pair (100 % du nominal), au-dessous (décote) ou au-dessus (prime) |
+| **Prix de remboursement** | En général au pair ; une **prime de remboursement** augmente le rendement |
+| **Remboursement** | **In fine** (en une fois à l'échéance, le plus courant), ou par **amortissement** (séries, annuités constantes) |
+| **Cotation** | En **pourcentage du nominal**, **pied de coupon** (hors coupon couru) |
+| **Coupon couru** | Fraction du coupon acquise depuis le dernier détachement ; l'acheteur la **paie** au vendeur en plus du prix coté |
+| **Taux de rendement actuariel** | Taux qui égalise le prix payé et la valeur actuelle des flux futurs (coupons et remboursement) : c'est le rendement réel de l'investisseur qui conserve le titre jusqu'à l'échéance (thème 12) |
 
-Les **titres de créances négociables** (NEU CP à court terme, NEU MTN à moyen terme) complètent les obligations sur le marché monétaire.
+i> Coupon couru : une obligation de nominal 1 000 €, coupon annuel de 3 %, cote 98,50 %. 73 jours se sont écoulés depuis le dernier coupon (base exact/exact, année de 365 jours).
+Coupon couru = 1 000 × 3 % × 73 / 365 = **6 €** (soit 0,60 % du nominal).
+Prix payé par l'acheteur = 985 + 6 = **991 €** hors frais. À la prochaine échéance, il percevra le coupon entier de 30 €.
 
-### Le prix et les taux : la relation fondamentale
+### Les principales catégories d'obligations
 
-> Le prix d'une obligation à taux fixe **varie en sens inverse** des taux d'intérêt du marché. Si les taux montent, les obligations anciennes, qui versent un coupon plus faible, perdent de la valeur.
+| Catégorie | Particularité |
+|---|---|
+| **Taux fixe** | Coupon constant, connu à l'avance |
+| **Taux variable ou révisable** | Coupon indexé sur un taux de marché (€STR, Euribor) : le prix varie peu avec les taux |
+| **Indexée sur l'inflation** (OATi : inflation française ; OAT€i : inflation de la zone euro) | Nominal et coupon indexés : protection contre l'inflation |
+| **Zéro coupon** | Aucun coupon ; émise très en dessous du pair, remboursée au pair ; tout le rendement provient de l'écart |
+| **Convertible** (OC) | Peut être **convertie** en actions de l'émetteur selon une parité fixée ; coupon plus faible en contrepartie de l'option |
+| **OCEANE** | Obligation convertible et/ou **échangeable** en actions nouvelles ou existantes |
+| **Remboursable en actions** (ORA) | Remboursée **obligatoirement** en actions : c'est économiquement du capital différé |
+| **Obligation à bons de souscription d'actions** (OBSA) | Obligation assortie de BSA détachables |
+| **Subordonnée** | Remboursée **après** les créanciers ordinaires en cas de liquidation : rendement plus élevé |
+| **Perpétuelle** (TSDI) | Sans échéance fixe ; souvent remboursable au gré de l'émetteur |
+| **Contingent convertible** (CoCo, AT1) | Émise par les banques : convertie en actions ou dépréciée si les fonds propres de la banque passent sous un seuil |
+| **Obligation sécurisée** (*covered bond*, obligation foncière) | Garantie par un panier d'actifs de qualité (prêts immobiliers) |
+| **Obligation verte** (*green bond*), sociale, durable | Fonds affectés à des projets environnementaux ou sociaux ; standard européen volontaire des obligations vertes (EuGB) depuis fin 2024 |
+| **Obligation indexée sur la durabilité** (*sustainability-linked*) | Coupon modifié si l'émetteur n'atteint pas des objectifs de durabilité |
 
-La **sensibilité** mesure la variation en pourcentage du prix pour une variation de 1 point des taux. La **duration** (durée de vie moyenne des flux pondérée par leur valeur actuelle) est d'autant plus élevée que l'échéance est lointaine et que le coupon est faible ; une obligation zéro coupon a une duration égale à sa maturité.
+Les **emprunts d'État** français sont les **OAT** (obligations assimilables du Trésor, de 2 à 50 ans) et les **BTF** (bons du Trésor à taux fixe, moins d'un an), émis par l'**Agence France Trésor** (thème 9).
+
+### Les titres de créances négociables
+
+| Titre | Durée | Émetteurs |
+|---|---|---|
+| **NEU CP** (*Negotiable European Commercial Paper*) | **Un an au plus** | Entreprises, banques, collectivités |
+| **NEU MTN** (*Medium Term Note*) | **Plus d'un an** | Entreprises, banques |
+
+Ils sont émis sur le **marché monétaire** et obligataire court, essentiellement auprès d'investisseurs professionnels (montant unitaire élevé), et forment une part importante de l'actif des fonds monétaires.
+
+### Prix et taux : la relation fondamentale
+
+[[FIG:prix_taux]]
+
+> Le prix d'une obligation à taux fixe **varie en sens inverse** des taux d'intérêt du marché. Si les taux montent, les obligations anciennes, qui versent un coupon devenu moins attractif, perdent de la valeur ; si les taux baissent, elles en gagnent.
+
+| Mesure | Définition | À retenir |
+|---|---|---|
+| **Sensibilité** | Variation **en pourcentage** du prix pour une variation de **1 point** (100 points de base) des taux | Variation du prix ≈ − sensibilité × variation des taux |
+| **Duration** | Durée de vie moyenne des flux, pondérée par leur valeur actuelle (en années) | D'autant plus longue que l'**échéance est lointaine** et que le **coupon est faible** ; égale à la **maturité** pour un **zéro coupon** |
+| **Convexité** | Courbure de la relation prix-taux | Une forte convexité est favorable : le prix monte plus qu'il ne baisse pour une même variation des taux |
 
 i> Une obligation de sensibilité 6 cote 100 %. Les taux de marché montent de 0,5 point.
-Variation de prix ≈ − 6 × 0,5 = − 3 %. Le prix passe à environ 97 %.
+Variation de prix ≈ − 6 × 0,5 = **− 3 %**. Le prix passe à environ **97 %**.
+Si les taux avaient **baissé** de 0,5 point, le prix aurait monté d'environ 3 % (un peu plus en réalité, grâce à la convexité).
+
+!> Une obligation à **taux variable** a une sensibilité **très faible** : son coupon s'ajuste aux taux du marché. Une obligation **zéro coupon** à long terme a au contraire une sensibilité **très forte**.
 
 ### Le risque de crédit et la notation
 
-Les agences de notation (S&P, Moody's, Fitch…, supervisées par l'ESMA) évaluent la qualité de crédit des émetteurs. Les notes de **AAA à BBB−** (Baa3 chez Moody's) sont dites **« investment grade »** ; en dessous, la catégorie **spéculative** (« high yield »). L'écart de rendement par rapport à un emprunt d'État de même durée s'appelle le **spread** de crédit.
+Les **agences de notation** (S&P, Moody's, Fitch et d'autres, comme l'européenne Scope ; dans l'Union, elles sont enregistrées et **supervisées par l'ESMA**) évaluent la capacité d'un émetteur à honorer ses dettes.
+
+| S&P / Fitch | Moody's | Catégorie |
+|---|---|---|
+| AAA | Aaa | Qualité maximale |
+| AA | Aa | |
+| A | A | |
+| BBB (jusqu'à BBB−) | Baa (jusqu'à Baa3) | Dernier cran de l'« **investment grade** » |
+| BB, B | Ba, B | **Spéculatif** (*high yield*) |
+| CCC à C | Caa à C | Risque de défaut très élevé |
+| D | — | Défaut |
+
+L'écart de rendement entre une obligation et un emprunt d'État de même durée s'appelle le **spread de crédit** : il rémunère le risque de défaut. Une **dégradation** de la note fait monter le spread et **baisser** le prix de l'obligation.
 
 ## 4. Les produits dérivés
 
-Un produit dérivé est un contrat dont la valeur dépend de celle d'un actif sous-jacent (action, indice, taux, devise, matière première, crédit).
+d> Un **produit dérivé** est un contrat dont la valeur **dépend** de celle d'un actif ou d'une variable **sous-jacents** (action, indice, taux d'intérêt, devise, matière première, risque de crédit). Il sert à se **couvrir** contre un risque, à **spéculer** avec un effet de levier ou à **arbitrer** des écarts de prix.
 
-### Contrats à terme : forwards et futures
+### Les contrats à terme : forwards et futures
 
-| | Forward (gré à gré) | Future (marché organisé) |
+Un **contrat à terme ferme** engage les deux parties à acheter (pour l'une) et à vendre (pour l'autre) un sous-jacent à une **date future** et à un **prix fixé aujourd'hui**.
+
+| | **Forward** (gré à gré) | **Future** (marché organisé) |
 |---|---|---|
-| Négociation | Bilatérale, sur mesure | Standardisée, sur un marché réglementé |
-| Risque de contrepartie | Oui | Neutralisé par la chambre de compensation |
-| Garanties | Négociées | Dépôt de garantie initial et **appels de marge** quotidiens |
-| Engagement | Ferme pour les deux parties | Ferme pour les deux parties |
+| Négociation | Bilatérale, sur mesure | Sur un marché organisé, contrats **standardisés** (taille, échéance) |
+| Risque de contrepartie | Oui | Neutralisé par la **chambre de compensation** |
+| Garanties | Négociées entre les parties (EMIR) | **Dépôt de garantie** initial et **appels de marge** quotidiens |
+| Dénouement | Livraison ou règlement en espèces à l'échéance | Le plus souvent par une opération inverse avant l'échéance |
+| Engagement | **Ferme** pour les deux parties | **Ferme** pour les deux parties |
+
+i> Effet de levier d'un future : un investisseur achète un contrat future sur l'indice CAC 40 d'une valeur notionnelle de 80 000 €, en déposant une garantie de 8 000 €. Si l'indice monte de 5 %, il gagne 4 000 €, soit **50 %** de sa mise ; s'il baisse de 5 %, il perd 4 000 € et doit répondre aux **appels de marge** quotidiens. Le levier est ici de 10.
 
 ### Les options
 
-Une option donne à son **acheteur** le **droit** (et non l'obligation) d'acheter (**call**) ou de vendre (**put**) un sous-jacent à un prix fixé (**prix d'exercice**, ou strike), à une date (option **européenne**) ou jusqu'à une date (option **américaine**), moyennant le paiement d'une **prime** au vendeur.
+d> Une **option** donne à son **acheteur** le **droit**, mais **non l'obligation**, d'**acheter** (option d'achat, **call**) ou de **vendre** (option de vente, **put**) un sous-jacent à un **prix fixé** (**prix d'exercice**, ou *strike*), **à** une date donnée (option **européenne**) ou **jusqu'à** cette date (option **américaine**), moyennant le paiement d'une **prime** au **vendeur**. Le vendeur, lui, a l'**obligation** de livrer ou d'acheter si l'acheteur exerce.
 
 | Position | Anticipation | Gain maximal | Perte maximale |
 |---|---|---|---|
-| Achat de call | Hausse | Illimité | Prime payée |
-| Achat de put | Baisse | Prix d'exercice − prime | Prime payée |
-| Vente de call | Stabilité ou baisse | Prime reçue | Illimitée |
-| Vente de put | Stabilité ou hausse | Prime reçue | Prix d'exercice − prime |
+| **Achat de call** | Hausse | **Illimité** | **Prime** payée |
+| **Achat de put** | Baisse | Prix d'exercice − prime | **Prime** payée |
+| **Vente de call** | Stabilité ou baisse | **Prime** reçue | **Illimitée** |
+| **Vente de put** | Stabilité ou hausse | **Prime** reçue | Prix d'exercice − prime |
 
-La prime se décompose en **valeur intrinsèque** (gain en cas d'exercice immédiat : cours − strike pour un call, strike − cours pour un put, si positif) et **valeur temps**. Elle augmente avec la **volatilité** et la **durée de vie restante** ; un call vaut d'autant plus que le sous-jacent est haut et le strike bas.
+[[FIG:options]]
+
+m> « L'**acheteur** d'option paie pour avoir un **droit** : il ne peut perdre que la prime. Le **vendeur** encaisse la prime et prend un **risque** : c'est lui qui peut perdre beaucoup. »
+
+**La valeur d'une option** (la prime) se décompose en :
+
+- **valeur intrinsèque** : gain obtenu en exerçant immédiatement, s'il est positif (call : cours − prix d'exercice ; put : prix d'exercice − cours) ;
+- **valeur temps** : le reste de la prime, qui reflète la probabilité que l'option gagne de la valeur d'ici l'échéance ; elle diminue avec le temps et s'annule à l'échéance.
 
 | Situation | Call | Put |
 |---|---|---|
-| Dans la monnaie | Cours > strike | Cours < strike |
-| À la monnaie | Cours = strike | Cours = strike |
-| En dehors de la monnaie | Cours < strike | Cours > strike |
+| **Dans la monnaie** (valeur intrinsèque positive) | Cours > prix d'exercice | Cours < prix d'exercice |
+| **À la monnaie** | Cours = prix d'exercice | Cours = prix d'exercice |
+| **En dehors de la monnaie** (valeur intrinsèque nulle) | Cours < prix d'exercice | Cours > prix d'exercice |
 
-i> Un investisseur achète un call de strike 50 € pour une prime de 3 €. À l'échéance, l'action vaut 58 €.
-Gain = (58 − 50) − 3 = 5 € par option. Point mort : 53 €. Si l'action finit à 49 €, il abandonne l'option et perd la prime, soit 3 €.
+| Quand ce facteur augmente… | Prime du **call** | Prime du **put** |
+|---|---|---|
+| Cours du sous-jacent | Augmente | Diminue |
+| Prix d'exercice | Diminue | Augmente |
+| **Volatilité** | **Augmente** | **Augmente** |
+| **Durée de vie restante** | **Augmente** | **Augmente** (en général) |
+| Taux d'intérêt | Augmente | Diminue |
 
-### Swaps, warrants, turbos, CFD
+i> Un investisseur achète un call de prix d'exercice 50 € pour une prime de 3 €. Le cours est alors de 51 € : valeur intrinsèque 1 €, valeur temps 2 €.
+- À l'échéance, l'action vaut 58 € : gain = (58 − 50) − 3 = **5 €** par option.
+- Point mort : 50 + 3 = **53 €**.
+- Si l'action finit à 49 €, il n'exerce pas : il perd la **prime**, soit **3 €**.
 
-- **Swap de taux** : échange de flux d'intérêts (taux fixe contre taux variable) sur un nominal qui n'est pas échangé ;
-- **CDS (credit default swap)** : protection contre le défaut d'un émetteur moyennant une prime périodique ;
-- **warrant** : option émise par un établissement financier et cotée, accessible aux particuliers ;
-- **turbo / certificat à barrière désactivante** : produit à effet de levier qui disparaît si la barrière est touchée ;
-- **CFD** : contrat sur la différence de prix d'un sous-jacent, avec fort effet de levier ; commercialisation aux particuliers fortement encadrée (levier plafonné, protection contre le solde négatif, avertissement sur la proportion de comptes perdants).
+Usages typiques : l'**achat d'un put** sur une action détenue protège contre la baisse (assurance) ; la **vente d'un call** sur une action détenue (*covered call*) procure un revenu en renonçant à une partie de la hausse.
 
-## 5. Les produits structurés et la titrisation
+### Les swaps
 
-Un **produit structuré** combine en général une composante obligataire (souvent zéro coupon, assurant tout ou partie du capital) et une composante optionnelle (offrant une exposition à un sous-jacent). Selon la formule : capital garanti, protégé partiellement, ou non protégé ; exemple courant : les produits « autocall », remboursés par anticipation si l'indice est au-dessus d'un niveau à une date d'observation. Ils sont souvent émis sous forme d'**EMTN** et sont des produits **complexes**.
+| Swap | Principe |
+|---|---|
+| **Swap de taux** | Échange de flux d'intérêts calculés sur un même **nominal**, qui n'est **pas échangé** : typiquement taux fixe contre taux variable ; permet à une entreprise endettée à taux variable de se protéger contre une hausse des taux |
+| **Swap de devises** | Échange de flux (et de nominal) dans deux devises différentes |
+| **Credit default swap** (CDS) | L'acheteur de protection verse une prime périodique ; le vendeur l'indemnise si l'émetteur de référence fait **défaut** |
+| **Total return swap** | Échange de la performance totale d'un actif contre un taux (utilisé par les ETF synthétiques, thème 8) |
 
-!> « Capital garanti » ne signifie pas absence de risque : la garantie dépend de la **solvabilité de l'émetteur ou du garant** et ne vaut généralement qu'à **l'échéance**. En cas de sortie anticipée, la valeur peut être inférieure au capital investi.
+### Les produits à effet de levier pour les particuliers
 
-La **titrisation** transforme des créances (crédits immobiliers, prêts à la consommation) en titres négociables émis par un véhicule dédié (fonds commun de titrisation en France).
+| Produit | Fonctionnement | Risque principal |
+|---|---|---|
+| **Warrant** | Option (call ou put) **émise par un établissement financier** et **cotée** en bourse ; la perte est limitée à la mise | Perte totale de la mise si le warrant finit hors de la monnaie ; effet de levier |
+| **Turbo** (certificat à barrière désactivante) | Effet de levier ; le produit est **désactivé** et perd tout ou presque toute sa valeur si le sous-jacent touche la **barrière** | Perte totale rapide |
+| **Certificat** (*tracker*, *bonus*…) | Réplique la performance d'un sous-jacent, parfois avec une protection conditionnelle | Risque de l'émetteur, risque de marché |
+| **CFD** (contrat sur différence) | Contrat de gré à gré qui verse la différence de prix d'un sous-jacent entre l'ouverture et la clôture de la position ; fort **effet de levier** | Pertes rapides pouvant dépasser la mise sans protection ; pour les particuliers : levier plafonné, **protection contre le solde négatif**, fermeture automatique des positions |
 
-## 6. Les crypto-actifs
+!> La plupart des particuliers **perdent de l'argent** sur les CFD (les prestataires doivent publier le pourcentage de comptes perdants, souvent supérieur à 70 %). C'est pourquoi leur publicité électronique est interdite (thème 5) et leur levier plafonné.
+
+## 5. Les produits structurés
+
+d> Un **produit structuré** est un produit dont la performance dépend, selon une **formule** prédéfinie, de l'évolution d'un ou plusieurs **sous-jacents** (indice, panier d'actions, taux). Il combine généralement une **composante obligataire** (souvent zéro coupon), qui assure tout ou partie du remboursement du capital, et une **composante optionnelle**, qui procure l'exposition au sous-jacent.
+
+| Type | Mécanisme |
+|---|---|
+| **Capital garanti** | Le capital est remboursé à 100 % à l'échéance, quel que soit le sous-jacent (sauf défaut de l'émetteur ou du garant) |
+| **Capital protégé** (partiellement) | Une partie du capital (90 %, par exemple) est protégée à l'échéance |
+| **Protection conditionnelle** (barrière) | Le capital est remboursé si le sous-jacent n'a pas baissé au-delà d'une **barrière** (par exemple −40 %) ; sinon, l'investisseur subit toute la baisse |
+| **Autocall** (remboursement anticipé automatique) | À chaque date d'observation, si l'indice est au-dessus d'un niveau donné, le produit est remboursé avec un gain prédéfini ; sinon il continue |
+| **Reverse convertible** | Coupon élevé, mais remboursement possible en actions dépréciées si le cours baisse |
+
+Ils sont émis sous forme de **titres de créance** (EMTN, certificats) ou logés dans des **fonds à formule**, ou proposés comme unités de compte d'assurance-vie. Ce sont des produits **complexes** (test du caractère approprié, thème 5).
+
+!> « Capital garanti » ne veut pas dire « sans risque » :
+- la garantie dépend de la **solvabilité de l'émetteur ou du garant** (risque de crédit) ;
+- elle ne joue en général qu'**à l'échéance** : en cas de sortie anticipée, le prix de rachat peut être inférieur au capital ;
+- elle porte sur le capital **hors frais** et **hors inflation** ;
+- le gain dépend d'une formule qui peut plafonner la hausse ou exclure les dividendes.
+
+i> Un autocall sur l'indice Euro Stoxx 50, durée maximale 8 ans, barrière de protection à −40 %, gain de 7 % par année écoulée en cas de remboursement anticipé.
+- Si, au bout d'un an, l'indice est au-dessus de son niveau initial : remboursement de 107 %.
+- Sinon, le produit continue ; à l'échéance, si l'indice a baissé de 30 % : remboursement de 100 % (barrière non franchie).
+- Si l'indice a baissé de 45 % à l'échéance : remboursement de **55 %** seulement (perte de 45 %).
+- Et si l'émetteur fait défaut : perte possible de tout ou partie du capital, quelle que soit l'évolution de l'indice.
+
+## 6. La titrisation
+
+d> La **titrisation** consiste à transformer des **créances** (crédits immobiliers, prêts à la consommation, créances commerciales) en **titres négociables** émis par un véhicule dédié (en France, un **organisme de titrisation** : fonds commun de titrisation ou société de titrisation). Les titres sont découpés en **tranches** de risque différent (senior, mezzanine, *equity*), remboursées par ordre de priorité.
+
+La titrisation permet aux banques de refinancer leurs crédits et de transférer une partie du risque ; mal encadrée, elle a été au cœur de la crise des *subprimes* de 2007-2008. Le règlement européen de 2017 impose désormais que l'initiateur **conserve au moins 5 %** du risque et définit une titrisation **simple, transparente et standardisée** (STS).
+
+## 7. Les crypto-actifs
 
 ### Notions de base
 
-Un **crypto-actif** est une représentation numérique d'une valeur ou d'un droit, pouvant être transférée et stockée électroniquement au moyen de la **technologie des registres distribués** (blockchain) ou d'une technologie similaire. Les transactions sont validées par un mécanisme de consensus (preuve de travail, preuve d'enjeu) ; l'accès aux actifs repose sur une **clé privée** conservée dans un **portefeuille** (« wallet »).
+d> Un **crypto-actif** est une représentation numérique d'une valeur ou d'un droit, pouvant être transférée et stockée de manière électronique au moyen de la **technologie des registres distribués** (*blockchain*) ou d'une technologie similaire.
+
+- Une **blockchain** est un registre partagé entre de nombreux participants, où les transactions sont regroupées en blocs validés par un **mécanisme de consensus** (preuve de travail pour le bitcoin, preuve d'enjeu pour la plupart des réseaux récents) et ne peuvent plus être modifiées.
+- L'accès aux crypto-actifs repose sur une **clé privée**, conservée dans un **portefeuille** (*wallet*), soit par l'utilisateur lui-même (auto-conservation), soit par un prestataire (conservateur).
+- Les **jetons** (*tokens*) sont émis sur une blockchain existante ; un **NFT** (jeton non fongible) est unique et ne relève en principe pas de MiCA.
 
 ### Le règlement MiCA
 
-Le règlement **MiCA** (Markets in Crypto-Assets, 2023/1114) s'applique depuis le **30 juin 2024** pour les jetons se référant à des actifs et les jetons de monnaie électronique, et depuis le **30 décembre 2024** pour le reste.
+Le règlement **MiCA** (*Markets in Crypto-Assets*, règlement 2023/1114) s'applique depuis le **30 juin 2024** aux jetons se référant à des actifs et aux jetons de monnaie électronique, et depuis le **30 décembre 2024** à l'ensemble des autres crypto-actifs et aux prestataires.
 
-| Catégorie MiCA | Définition | Émetteur |
+| Catégorie MiCA | Définition | Émetteur et exigences |
 |---|---|---|
-| Jeton de monnaie électronique (EMT) | Stabilise sa valeur par référence à **une seule monnaie officielle** (ex. un « stablecoin » adossé à l'euro) | Établissement de crédit ou établissement de monnaie électronique |
-| Jeton se référant à un ou des actifs (ART) | Stabilise sa valeur par référence à une autre valeur, un droit ou une combinaison (panier de devises, matières premières…) | Émetteur agréé |
-| Autres crypto-actifs | Ni EMT ni ART (bitcoin, la plupart des jetons utilitaires) | Livre blanc notifié, sans agrément préalable |
+| **Jeton de monnaie électronique** (EMT, *e-money token*) | Vise à stabiliser sa valeur par référence à **une seule monnaie officielle** (un « stablecoin » adossé à l'euro, par exemple) | Émis par un **établissement de crédit** ou un **établissement de monnaie électronique** ; remboursable au pair à tout moment ; **pas d'intérêts** versés aux détenteurs |
+| **Jeton se référant à un ou des actifs** (ART, *asset-referenced token*) | Vise à stabiliser sa valeur par référence à une autre valeur ou un droit, ou une combinaison (panier de devises, matières premières, crypto-actifs) | Émetteur **agréé** ; réserve d'actifs ; pas d'intérêts ; les jetons « importants » sont supervisés par l'**EBA** |
+| **Autres crypto-actifs** | Ni EMT ni ART : bitcoin, ether, jetons utilitaires… | Publication et **notification** d'un **livre blanc** (*white paper*) avant l'offre au public ou l'admission à la négociation, sans approbation préalable |
 
-Obligations clés :
+Exclus de MiCA : les crypto-actifs qui sont des **instruments financiers** (*security tokens* : MIF 2), les **NFT** véritablement uniques, les dépôts.
 
-- l'offre au public d'un crypto-actif suppose la publication d'un **livre blanc** (« white paper ») ;
-- les **prestataires de services sur crypto-actifs (PSCA, ou CASP)** doivent être **agréés** et bénéficient d'un passeport européen ;
-- MiCA contient un régime d'**abus de marché** propre aux crypto-actifs.
+### Les prestataires de services sur crypto-actifs (PSCA)
 
-En France, les anciens **PSAN** (prestataires de services sur actifs numériques enregistrés auprès de l'AMF) ont bénéficié d'une période transitoire qui a pris fin le **1er juillet 2026** : depuis, seuls les PSCA agréés au titre de MiCA peuvent fournir ces services. Exercer sans agrément est pénalement sanctionné.
+Les services sur crypto-actifs (conservation et administration pour le compte de clients, exploitation d'une plateforme de négociation, échange contre des fonds ou d'autres crypto-actifs, exécution, réception-transmission d'ordres, placement, conseil, gestion de portefeuille, transfert) ne peuvent être fournis que par des **PSCA agréés** (en France, par l'**AMF**, après avis de l'ACPR), qui bénéficient d'un **passeport européen**. Ils sont soumis à des exigences de fonds propres, de gouvernance, de **ségrégation** des actifs des clients, de traitement des réclamations, de gestion des conflits d'intérêts et de cybersécurité. Les établissements de crédit et entreprises d'investissement peuvent fournir ces services après une simple notification.
 
-### Les risques spécifiques
+En France, les anciens **PSAN** (prestataires de services sur actifs numériques, enregistrés auprès de l'AMF depuis la loi PACTE de 2019) ont bénéficié d'une **période transitoire** qui a pris fin le **1er juillet 2026** : depuis cette date, seuls les **PSCA agréés** au titre de MiCA (ou les prestataires passeportés d'un autre État) peuvent fournir ces services en France. Fournir ces services sans agrément est un délit.
 
-Volatilité extrême, risque de perte totale, risque de cyberattaque et de perte de la clé privée (sans possibilité de récupération), risque de contrepartie sur la plateforme, absence de garantie des dépôts, risque de liquidité, risque de fraude et de manipulation, incertitudes réglementaires et fiscales.
+MiCA prévoit aussi un **régime d'abus de marché** propre aux crypto-actifs (opérations d'initiés, manipulations), et la règle du « **voyage** » (*travel rule*, règlement TFR) impose depuis le 30 décembre 2024 que les transferts de crypto-actifs soient accompagnés de l'identité du donneur d'ordre et du bénéficiaire.
 
-## 7. Les risques et leur mesure
+### Les risques spécifiques des crypto-actifs
 
-| Risque | Définition |
+| Risque | Description |
 |---|---|
-| Risque de marché | Variation défavorable des prix (actions, taux, change, matières premières) |
-| Risque de taux | Variation des taux d'intérêt affectant la valeur des obligations |
-| Risque de crédit / de signature | Défaut ou dégradation de la qualité de l'émetteur |
-| Risque de contrepartie | Défaillance de la partie avec laquelle on a conclu une opération |
-| Risque de liquidité | Impossibilité de vendre rapidement sans décote importante |
-| Risque de change | Variation du cours d'une devise étrangère |
-| Risque de levier | Amplification des gains et des pertes |
-| Risque opérationnel | Défaillance humaine, technique ou de procédure |
-| Risque de durabilité | Événement environnemental, social ou de gouvernance pouvant affecter la valeur |
+| Volatilité extrême | Variations de plusieurs dizaines de pour cent en quelques jours |
+| Perte totale | Aucune valeur intrinsèque pour la plupart des crypto-actifs ; projets abandonnés |
+| Perte ou vol de la **clé privée** | Pas de récupération possible en auto-conservation |
+| Cyberattaques, fraude | Piratage des plateformes, escroqueries (faux sites, « rug pulls ») |
+| **Contrepartie** | Faillite de la plateforme ou du conservateur |
+| Liquidité | Certains jetons sont très peu échangés |
+| **Absence de garantie** | Ni garantie des dépôts, ni garantie des titres |
+| Stablecoins | Risque de perte de l'ancrage si les réserves sont insuffisantes |
 
-Mesures usuelles : **volatilité** (écart-type des rendements), **bêta** (sensibilité d'un titre aux mouvements du marché : bêta de 1,2 → le titre varie en moyenne de 12 % quand le marché varie de 10 %), **sensibilité** et **duration** (obligations), **value at risk** (perte maximale potentielle pour un horizon et un niveau de confiance donnés), **perte maximale historique** (« max drawdown »).
+## 8. Les risques et leur mesure
 
-> Le couple **rendement / risque** est indissociable : aucun placement n'offre un rendement élevé sans risque. Un rendement promis très supérieur à celui du marché est un signal d'alerte.
+### Les principaux risques
+
+| Risque | Définition | Exemples de produits très exposés |
+|---|---|---|
+| **De marché** | Variation défavorable des prix | Actions, fonds actions, matières premières |
+| **De taux** | Variation des taux d'intérêt, qui affecte la valeur des obligations | Obligations à taux fixe longues, zéro coupon |
+| **De crédit** (de signature) | Défaut ou dégradation de la qualité de l'émetteur | Obligations *high yield*, produits structurés |
+| **De contrepartie** | Défaillance de la partie avec laquelle on a conclu une opération | Dérivés de gré à gré, CFD |
+| **De liquidité** | Impossibilité de vendre rapidement sans forte décote | Petites valeurs, immobilier non coté, FCPR |
+| **De change** | Variation du cours d'une devise | Actifs libellés en dollars, en yens |
+| **De levier** | Amplification des gains et des pertes | Futures, CFD, turbos, SRD |
+| **D'inflation** | Érosion du pouvoir d'achat | Placements à rendement fixe faible |
+| **Opérationnel** | Défaillance humaine, technique, de procédure, fraude | Tous les acteurs |
+| **De durabilité** | Événement environnemental, social ou de gouvernance pouvant affecter la valeur | Entreprises exposées au climat, à la réglementation environnementale |
+| **De perte en capital** | Possibilité de récupérer moins que la somme investie | Tous les placements non garantis |
+
+### Les mesures du risque
+
+| Mesure | Définition | Lecture |
+|---|---|---|
+| **Volatilité** | Écart-type des rendements, en général annualisé | Plus elle est élevée, plus le placement est risqué ; actions : souvent 15 à 25 % par an |
+| **Bêta** | Sensibilité d'un titre aux mouvements du marché | Bêta de 1,2 : le titre varie en moyenne de 12 % quand le marché varie de 10 % ; bêta < 1 : titre défensif |
+| **Sensibilité, duration** | Exposition d'une obligation aux taux | Voir section 3 |
+| **Value at risk** (VaR) | Perte maximale potentielle sur un **horizon** donné, avec un **niveau de confiance** donné | VaR à 1 mois à 95 % de 5 000 € : dans 95 % des cas, la perte sur un mois ne dépassera pas 5 000 € |
+| **Perte maximale historique** (*max drawdown*) | Plus forte baisse constatée entre un plus haut et un plus bas | Mesure concrète du « pire scénario » vécu |
+| **Note de crédit**, spread | Risque de défaut | Voir section 3 |
+| **SRI** du DIC | Indicateur synthétique de 1 à 7 | Combine risque de marché et de crédit (thème 5) |
+
+> Le couple **rendement / risque** est indissociable : aucun placement n'offre durablement un rendement élevé sans risque élevé. Un rendement promis très supérieur à celui du marché, « sans risque », est le signal d'alerte classique d'une **escroquerie**.
+
+## L'essentiel
+
+> - Instruments financiers (L. 211-1) = **titres financiers** (actions, obligations, TCN, parts d'OPC) + **contrats financiers** (dérivés). Pas les effets de commerce, bons de caisse, dépôts, assurance-vie, crypto-actifs MiCA.
+> - Action : titre de **capital** ; droits financiers (dividende **non garanti**), politiques (vote), DPS ; vote double de droit après **2 ans au nominatif** (sociétés cotées) ; votes multiples possibles lors d'une IPO depuis **2024**.
+> - **PER = cours / BPA** ; **rendement = dividende / cours** ; capitalisation = cours × nombre d'actions.
+> - Obligation : titre de **créance** ; cotation en % **pied de coupon** + **coupon couru** payé par l'acheteur ; remboursée avant les actionnaires.
+> - **Prix et taux varient en sens inverse** ; variation du prix ≈ − **sensibilité** × variation des taux ; **duration** = maturité pour un **zéro coupon**.
+> - **Investment grade** jusqu'à **BBB− / Baa3** ; en dessous : spéculatif.
+> - NEU CP ≤ **1 an** ; NEU MTN > 1 an.
+> - Future : standardisé, chambre de compensation, **dépôt de garantie + appels de marge**, engagement **ferme**.
+> - Option : l'**acheteur** a un **droit** (perte limitée à la **prime**) ; le **vendeur** a une **obligation** (vente de call : perte **illimitée**). Prime = valeur intrinsèque + valeur temps ; elle **augmente avec la volatilité** et la durée.
+> - Swap de taux : échange fixe/variable, **nominal non échangé** ; CDS : protection contre le défaut.
+> - Produit structuré = obligation (zéro coupon) + options ; « garanti » = **à l'échéance**, sous réserve de la **solvabilité de l'émetteur**.
+> - MiCA : **EMT** (une seule monnaie officielle, émis par une banque ou un EME), **ART** (panier), autres (livre blanc) ; **PSCA agréés** ; fin du régime PSAN le **1er juillet 2026**.
+> - Risques : marché, taux, crédit, contrepartie, liquidité, change, levier, inflation, opérationnel, durabilité ; mesures : volatilité, bêta, sensibilité, VaR, max drawdown.
 
 ## QCM d'entraînement
 
-?? Lequel de ces éléments n'est pas un instrument financier au sens du CMF ?
-a) Une action
-b) Une part de FCP
-c) Un bon de caisse
-d) Une option
-=c Les bons de caisse et effets de commerce ne sont pas des instruments financiers.
+?? [C] Lequel de ces placements est un instrument financier au sens du CMF ?
+a) un Livret A
+b) une part de FCP
+c) un contrat d'assurance-vie
+=b Le Livret A est un dépôt, l'assurance-vie un contrat d'assurance.
 
-?? Une société cote 80 € pour un bénéfice par action de 4 €. Son PER est de :
-a) 5
-b) 20
-c) 32
-d) 0,05
-=b PER = cours / BPA = 80 / 4.
+?? [C] Les contrats financiers sont :
+a) les instruments financiers à terme, comme les options, les futures et les swaps
+b) les contrats d'assurance-vie
+c) les conventions de compte-titres
+=a Ils forment, avec les titres financiers, la catégorie des instruments financiers.
 
-?? Si les taux d'intérêt du marché montent, le prix d'une obligation à taux fixe existante :
-a) monte
-b) baisse
-c) reste inchangé
-d) est garanti par l'émetteur
-=b Prix et taux évoluent en sens inverse.
+?? [C] Lequel de ces titres n'est pas un instrument financier ?
+a) une obligation d'entreprise
+b) un effet de commerce
+c) une action de SICAV
+=b Les effets de commerce et les bons de caisse sont exclus des titres financiers.
 
-?? Une obligation a une sensibilité de 5. Les taux baissent de 1 point. Son prix :
-a) baisse d'environ 5 %
-b) monte d'environ 5 %
-c) monte d'environ 1 %
-d) ne varie pas
-=b La variation de prix est opposée à celle des taux : − 5 × (− 1) = + 5 %.
+?? [C] Un jeton (token) qui présente les caractéristiques d'une action relève :
+a) du règlement MiCA
+b) de la réglementation des instruments financiers (MIF 2)
+c) d'aucune réglementation
+=b MiCA exclut les crypto-actifs qui sont des instruments financiers.
 
-?? Une obligation zéro coupon :
-a) verse un coupon annuel fixe
-b) ne verse aucun coupon et est émise en dessous du pair
-c) est toujours convertible en actions
-d) n'a pas d'échéance
-=b Sa duration est égale à sa maturité.
+?? [C] Le dividende versé à l'actionnaire :
+a) est garanti chaque année
+b) est décidé par l'assemblée générale et n'est jamais garanti
+c) est fixé à l'émission de l'action
+=b C'est un droit financier conditionné aux bénéfices et à la décision de l'assemblée.
 
-?? La note « BBB− » (S&P) correspond à :
-a) la catégorie spéculative
-b) la plus basse note de la catégorie « investment grade »
-c) un émetteur en défaut
-d) la meilleure note possible
-=b En dessous commence la catégorie « high yield ».
+?? [C] Dans une société cotée, le droit de vote double est attribué de plein droit, sauf clause contraire des statuts, aux actions :
+a) détenues au porteur depuis un an
+b) entièrement libérées et inscrites au nominatif depuis au moins deux ans au nom du même actionnaire
+c) achetées lors de l'introduction en bourse
+=b C'est l'apport de la loi Florange de 2014.
 
-?? L'acheteur d'un put anticipe :
-a) une hausse du sous-jacent
-b) une baisse du sous-jacent
-c) une hausse de la volatilité uniquement
-d) un versement de dividende
-=b Le put donne le droit de vendre à un prix fixé.
+?? [C] Une société cote 75 € pour un bénéfice par action de 5 €. Son PER est de :
+a) 15
+b) 6,7
+c) 375
+=a PER = cours / BPA = 75 / 5.
 
-?? La perte maximale du vendeur d'un call non couvert est :
-a) limitée à la prime
-b) limitée au prix d'exercice
-c) théoriquement illimitée
-d) nulle
-=c Si le sous-jacent monte sans limite, sa perte aussi.
+?? [C] Une action cote 50 € et verse un dividende de 2 €. Son rendement est de :
+a) 2 %
+b) 4 %
+c) 25 %
+=b 2 / 50 = 4 %.
 
-?? Un call de strike 100 € coûte 4 €. À l'échéance, le sous-jacent vaut 110 €. Le résultat net de l'acheteur est de :
-a) + 10 €
-b) + 6 €
-c) − 4 €
-d) + 14 €
-=b (110 − 100) − 4 = 6 €.
+?? [C] Une société de 40 millions d'actions cotant 25 € a une capitalisation boursière de :
+a) 1 milliard d'euros
+b) 100 millions d'euros
+c) 1,6 milliard d'euros
+=a 40 M × 25 € = 1 000 M€.
 
-?? Un contrat future se distingue d'un forward notamment par :
-a) l'absence d'engagement ferme
+?? [C] Un PER élevé traduit en général :
+a) des anticipations de croissance des bénéfices
+b) une société en faillite
+c) un dividende élevé
+=a Ou une surévaluation de l'action.
+
+?? [C] En cas de liquidation d'une société, l'obligataire est remboursé :
+a) après les actionnaires
+b) avant les actionnaires
+c) en même temps que les actionnaires
+=b Il est créancier ; l'actionnaire est associé.
+
+?? [C] Une obligation de nominal 1 000 €, coupon annuel 5 %, cote 102 % ; 146 jours se sont écoulés depuis le dernier coupon (année de 365 jours). Le prix payé, hors frais, est de :
+a) 1 020 €
+b) 1 040 €
+c) 1 070 €
+=b Coupon couru = 1 000 × 5 % × 146 / 365 = 20 € ; prix = 1 020 + 20 = 1 040 €.
+
+?? [C] Le coupon couru :
+a) est payé par l'acheteur au vendeur, en plus du prix coté
+b) est payé par le vendeur à l'acheteur
+c) est versé par l'émetteur à la date d'achat
+=a Le prix des obligations est coté pied de coupon.
+
+?? [C] Si les taux d'intérêt du marché baissent, le prix d'une obligation à taux fixe existante :
+a) baisse
+b) monte
+c) ne varie pas
+=b Prix et taux varient en sens inverse.
+
+?? [C] Une obligation de sensibilité 4 voit les taux de marché monter de 1,5 point. Son prix varie d'environ :
+a) + 6 %
+b) − 6 %
+c) − 4 %
+=b − 4 × 1,5 = − 6 %.
+
+?? [C] La duration d'une obligation zéro coupon est :
+a) égale à sa maturité
+b) nulle
+c) supérieure à sa maturité
+=a Tous les flux sont versés à l'échéance.
+
+?? [C] Toutes choses égales par ailleurs, la sensibilité est la plus faible pour :
+a) une obligation zéro coupon à 20 ans
+b) une obligation à taux variable
+c) une obligation à taux fixe à 30 ans
+=b Son coupon s'ajuste aux taux du marché.
+
+?? [C] Une OATi est une obligation d'État :
+a) à taux variable indexé sur l'€STR
+b) indexée sur l'inflation française
+c) convertible en actions
+=b L'OAT€i est indexée sur l'inflation de la zone euro.
+
+?? [C] Une obligation remboursable en actions (ORA) :
+a) est remboursée obligatoirement en actions
+b) peut être convertie au choix du porteur
+c) est toujours remboursée en espèces
+=a Elle s'apparente à du capital différé.
+
+?? [C] La dernière note de la catégorie « investment grade » chez S&P est :
+a) A−
+b) BBB−
+c) BB+
+=b Chez Moody's, c'est Baa3.
+
+?? [C] La dégradation de la note d'un émetteur a en général pour effet :
+a) de faire baisser le prix de ses obligations
+b) de faire monter le prix de ses obligations
+c) d'augmenter le coupon des obligations déjà émises à taux fixe
+=a Le spread exigé par le marché augmente.
+
+?? [C] Un NEU CP est un titre de créance négociable d'une durée :
+a) d'un an au plus
+b) supérieure à un an
+c) indéterminée
+=a Le NEU MTN a une durée supérieure à un an.
+
+?? [C] Un contrat future se caractérise notamment par :
+a) sa négociation de gré à gré et sur mesure
 b) sa standardisation et l'intervention d'une chambre de compensation
-c) l'absence de sous-jacent
-d) sa négociation exclusivement de gré à gré
-=b Le future est négocié sur un marché organisé, avec appels de marge quotidiens.
+c) l'absence d'engagement de l'acheteur
+=b Les positions donnent lieu à des appels de marge quotidiens.
 
-?? La prime d'une option augmente notamment lorsque :
-a) la volatilité du sous-jacent diminue
-b) la durée de vie restante diminue
-c) la volatilité du sous-jacent augmente
-d) l'option arrive à échéance
-=c La valeur temps croît avec la volatilité et la durée de vie.
+?? [C] L'acheteur d'un contrat future :
+a) a le droit, mais non l'obligation, d'acheter
+b) s'engage fermement à acheter le sous-jacent au prix convenu
+c) paie une prime au vendeur
+=b Le contrat à terme est un engagement ferme pour les deux parties.
 
-?? Selon MiCA, un jeton qui stabilise sa valeur par référence à une seule monnaie officielle est :
-a) un jeton se référant à un ou des actifs (ART)
-b) un jeton de monnaie électronique (EMT)
-c) un jeton non fongible
-d) un instrument financier
-=b Il doit être émis par un établissement de crédit ou de monnaie électronique.
+?? [C] Les appels de marge sur un contrat future :
+a) matérialisent chaque jour les gains et pertes sur la position
+b) rémunèrent la chambre de compensation
+c) ne sont dus qu'à l'échéance
+=a Ils s'ajoutent au dépôt de garantie initial.
 
-?? Depuis le 1er juillet 2026, en France, la fourniture de services sur crypto-actifs suppose :
-a) un simple enregistrement PSAN
-b) un agrément de PSCA au titre de MiCA
+?? [C] L'acheteur d'un call anticipe :
+a) une baisse du sous-jacent
+b) une hausse du sous-jacent
+c) une stabilité du sous-jacent
+=b Il a le droit d'acheter à un prix fixé.
+
+?? [C] La perte maximale de l'acheteur d'une option est :
+a) illimitée
+b) limitée à la prime payée
+c) égale au prix d'exercice
+=b C'est l'avantage de l'acheteur d'option.
+
+?? [C] La position qui présente un risque de perte théoriquement illimité est :
+a) l'achat d'un call
+b) la vente d'un call non couverte
+c) l'achat d'un put
+=b Si le sous-jacent monte sans limite, la perte du vendeur aussi.
+
+?? [C] Un put de prix d'exercice 40 € alors que l'action cote 36 € est :
+a) dans la monnaie
+b) en dehors de la monnaie
+c) à la monnaie
+=a Sa valeur intrinsèque est de 4 €.
+
+?? [C] Un call de prix d'exercice 100 € coûte 6 €. À l'échéance, le sous-jacent vaut 103 €. L'acheteur :
+a) exerce et réalise un résultat net de − 3 €
+b) n'exerce pas et perd 6 €
+c) exerce et gagne 3 €
+=a Il récupère 3 € de valeur intrinsèque, ce qui limite sa perte à 3 €.
+
+?? [C] Le point mort à l'échéance de l'acheteur d'un put de prix d'exercice 80 € payé 5 € est de :
+a) 85 €
+b) 75 €
+c) 80 €
+=b En dessous de 75 €, il est gagnant.
+
+?? [C] Toutes choses égales par ailleurs, une hausse de la volatilité du sous-jacent :
+a) fait baisser la prime des calls et des puts
+b) fait monter la prime des calls et des puts
+c) fait monter la prime des calls et baisser celle des puts
+=b L'option a plus de chances de gagner de la valeur.
+
+?? [C] La valeur temps d'une option :
+a) augmente à l'approche de l'échéance
+b) diminue avec le temps et s'annule à l'échéance
+c) est toujours égale à la valeur intrinsèque
+=b À l'échéance, la prime se réduit à la valeur intrinsèque.
+
+?? [C] Un investisseur qui détient des actions et veut se protéger contre une baisse peut :
+a) acheter un put sur ces actions
+b) acheter un call sur ces actions
+c) vendre un put sur ces actions
+=a L'achat de put fonctionne comme une assurance.
+
+?? [C] Dans un swap de taux d'intérêt classique :
+a) les deux parties échangent le nominal au début et à la fin
+b) les parties échangent des flux d'intérêts calculés sur un nominal qui n'est pas échangé
+c) une partie verse une prime unique à l'autre
+=b Typiquement taux fixe contre taux variable.
+
+?? [C] Un credit default swap (CDS) permet :
+a) de se protéger contre le défaut d'un émetteur
+b) d'échanger deux devises
+c) de souscrire à une augmentation de capital
+=a L'acheteur de protection verse une prime périodique.
+
+?? [C] Un warrant est :
+a) une option émise par un établissement financier et cotée en bourse
+b) un contrat d'assurance
+c) une obligation d'État
+=a La perte est limitée à la mise.
+
+?? [C] Un turbo dont le sous-jacent touche la barrière désactivante :
+a) est remboursé avec un gain garanti
+b) est désactivé et perd tout ou presque toute sa valeur
+c) est converti en action
+=b C'est son principal risque.
+
+?? [C] Pour les clients non professionnels, les CFD sont notamment soumis à :
+a) une protection contre le solde négatif et un effet de levier plafonné
+b) une garantie du capital
+c) une interdiction totale en France
+=a Les options binaires, elles, sont interdites à ces clients.
+
+?? [C] Un produit structuré « à capital garanti » :
+a) ne comporte aucun risque
+b) garantit en général le capital à l'échéance, sous réserve de la solvabilité de l'émetteur ou du garant
+c) garantit le capital à tout moment, même en cas de sortie anticipée
+=b Avant l'échéance, la valeur de rachat peut être inférieure au capital.
+
+?? [C] Un produit structuré comporte une barrière de protection à −40 %. À l'échéance, l'indice a baissé de 50 %. L'investisseur :
+a) récupère 100 % de son capital
+b) subit la baisse de l'indice et récupère environ 50 % de son capital
+c) récupère 60 % de son capital
+=b La barrière ayant été franchie, la protection disparaît.
+
+?? [C] Dans une titrisation, l'initiateur doit conserver au moins :
+a) 1 % du risque
+b) 5 % du risque
+c) 50 % du risque
+=b Cette règle aligne ses intérêts sur ceux des investisseurs.
+
+?? [C] Selon MiCA, un jeton qui vise à stabiliser sa valeur par référence à une seule monnaie officielle est :
+a) un jeton de monnaie électronique (EMT)
+b) un jeton se référant à un ou des actifs (ART)
+c) un NFT
+=a Il est émis par un établissement de crédit ou de monnaie électronique.
+
+?? [C] Les détenteurs de jetons de monnaie électronique (EMT) :
+a) reçoivent des intérêts versés par l'émetteur
+b) ne peuvent pas recevoir d'intérêts de l'émetteur et peuvent obtenir le remboursement au pair
+c) ne peuvent jamais obtenir de remboursement
+=b MiCA interdit le versement d'intérêts sur les EMT et les ART.
+
+?? [C] L'offre au public d'un crypto-actif autre qu'un EMT ou un ART suppose :
+a) la publication et la notification d'un livre blanc
+b) l'approbation d'un prospectus par l'AMF
+c) un agrément bancaire de l'émetteur
+=a Le livre blanc n'est pas approuvé, mais notifié.
+
+?? [C] Depuis le 1er juillet 2026, en France, la fourniture de services sur crypto-actifs nécessite :
+a) un simple enregistrement comme PSAN
+b) un agrément de PSCA au titre de MiCA (ou un passeport européen)
 c) aucune autorisation
-d) un agrément bancaire
-=b La période transitoire pour les PSAN a pris fin à cette date.
+=b La période transitoire des PSAN a pris fin à cette date.
 
-?? Un produit structuré « à capital garanti » :
-a) ne présente aucun risque
-b) dépend de la solvabilité de l'émetteur ou du garant et ne garantit en général le capital qu'à l'échéance
-c) est un produit non complexe
-d) est couvert par le FGDR
-=b La garantie est conditionnelle.
+?? [C] La perte de la clé privée d'un portefeuille de crypto-actifs auto-conservé entraîne en général :
+a) un remboursement par le FGDR
+b) la perte définitive de l'accès aux crypto-actifs
+c) une restitution par la blockchain
+=b Les crypto-actifs ne bénéficient d'aucune garantie publique.
 
-?? Un titre de bêta 1,5 :
-a) varie en moyenne moins que le marché
-b) varie en moyenne 1,5 fois plus que le marché
-c) n'est pas corrélé au marché
-d) a une volatilité de 1,5 %
-=b Si le marché monte de 10 %, il monte en moyenne de 15 %.
-
-?? Le risque de ne pas pouvoir vendre un titre rapidement sans décote importante est le risque :
+?? [C] Le risque de ne pas pouvoir vendre rapidement un placement sans forte décote est le risque :
 a) de crédit
 b) de liquidité
 c) de change
-d) opérationnel
-=b Il est élevé pour les petites valeurs et certains fonds immobiliers.
+=b Il est élevé pour les petites valeurs et l'immobilier non coté.
+
+?? [C] Un titre de bêta 0,8 :
+a) varie en moyenne plus que le marché
+b) varie en moyenne moins que le marché
+c) varie en sens inverse du marché
+=b Si le marché monte de 10 %, il monte en moyenne de 8 %.
+
+?? [C] Une VaR à 1 mois à 99 % de 10 000 € signifie que :
+a) la perte sur un mois ne dépassera pas 10 000 € dans 99 % des cas
+b) le gain sur un mois atteindra 10 000 € dans 99 % des cas
+c) la perte maximale possible est de 10 000 €
+=a Dans 1 % des cas, la perte peut être supérieure.
