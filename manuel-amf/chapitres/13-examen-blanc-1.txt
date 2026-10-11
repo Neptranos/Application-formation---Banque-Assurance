@@ -1,0 +1,749 @@
+# Examen blanc n° 1
+
+## Mode d'emploi des examens blancs
+
+Les trois examens blancs reproduisent le format de l'examen certifié :
+
+- **120 questions** à choix multiples, **trois propositions**, **une seule bonne réponse** ;
+- **2 heures**, sans document ;
+- **première partie** (questions 1 à 56) : thèmes 1 à 6, environnement réglementaire et déontologique ;
+- **seconde partie** (questions 57 à 120) : thèmes 7 à 12, connaissances techniques ;
+- **33 questions de catégorie A** (étiquette **A**) et **87 de catégorie C** (étiquette **C**).
+
+> Pour réussir : au moins **27 bonnes réponses sur les 33 questions A** et au moins **70 sur les 87 questions C**. Aucune compensation entre les deux catégories.
+
+Conseils : passez chaque examen d'une traite, chronomètre en main, en notant vos réponses sur une feuille. Corrigez-vous ensuite avec la grille, calculez séparément vos scores A et C, puis relisez les explications et les sections du cours correspondant à **chaque** erreur avant de passer à l'examen suivant. Les questions sont originales : les sujets réels sont confidentiels. Le classement A ou C est une estimation fondée sur la nature du sujet.
+
+[[SAUT]]
+
+## Partie 1 — Environnement réglementaire et déontologique (questions 1 à 56)
+
+?! [C] Les règlements et directives européens en matière financière sont adoptés, sur proposition de la Commission, par :
+a) le Parlement européen et le Conseil de l'Union européenne
+b) l'ESMA
+c) la Banque centrale européenne
+=a Thème 1. L'ESMA prépare des normes techniques et des orientations, mais n'adopte pas les textes de niveau 1.
+
+?! [C] Les normes techniques de réglementation (RTS) relèvent, dans le processus Lamfalussy, du :
+a) niveau 1
+b) niveau 2
+c) niveau 4
+=b Thème 1. Elles sont adoptées par la Commission, le plus souvent sur projet des autorités européennes de surveillance.
+
+?! [C] L'Autorité bancaire européenne (EBA) a pour champ de compétence :
+a) les marchés financiers
+b) les banques
+c) l'assurance
+=b Thème 1. Les marchés relèvent de l'ESMA, l'assurance de l'EIOPA.
+
+?! [C] Le Conseil de résolution unique (CRU) est chargé :
+a) de la résolution des banques défaillantes de l'union bancaire
+b) de l'agrément des sociétés de gestion
+c) de la politique monétaire
+=a Thème 1. Il s'appuie sur le Fonds de résolution unique.
+
+?! [C] Depuis le changement de cadre opérationnel de 2024, le taux directeur de la BCE qui pilote en pratique les taux du marché monétaire est :
+a) le taux de la facilité de dépôt
+b) le taux de la facilité de prêt marginal
+c) le taux de l'usure
+=a Thème 1. Il oriente notamment l'€STR.
+
+?! [C] Le Pacte de stabilité et de croissance retient une valeur de référence du déficit public égale à :
+a) 1 % du PIB
+b) 3 % du PIB
+c) 60 % du PIB
+=b Thème 1. 60 % du PIB est la référence de la dette publique.
+
+?! [C] Le Collège de l'AMF compte :
+a) 7 membres
+b) 12 membres
+c) 16 membres
+=c Thème 1. La Commission des sanctions compte 12 membres.
+
+?! [C] Pour alerter le public sur les sites et entités proposant des placements sans autorisation, l'AMF publie notamment :
+a) des listes noires
+b) la cote officielle
+c) le registre des bénéficiaires effectifs
+=a Thème 1. Elle peut aussi demander au juge le blocage de sites illicites.
+
+?! [C] Une grande banque française « importante » au sens de l'union bancaire est supervisée, sur le plan prudentiel :
+a) par la seule AMF
+b) par la BCE, dans le cadre du mécanisme de surveillance unique, avec l'ACPR
+c) par l'EBA directement
+=b Thème 1. Les banques moins importantes restent supervisées directement par l'ACPR.
+
+?! [C] En France, l'agrément d'un prestataire de services sur crypto-actifs (PSCA) est délivré par :
+a) l'ACPR seule
+b) l'AMF, après avis de l'ACPR
+c) la Banque de France
+=b Thème 1 et 7. Le PSCA bénéficie ensuite d'un passeport européen.
+
+?! [A] Une personne qui fournit à titre habituel des services d'investissement sans être agréée :
+a) commet une infraction pénale
+b) doit seulement s'immatriculer à l'ORIAS après coup
+c) n'encourt aucune sanction si ses clients sont satisfaits
+=a Thème 1. Les services d'investissement sont réservés aux prestataires agréés.
+
+?! [C] Le passeport européen d'un prestataire agréé en France lui permet d'exercer notamment en :
+a) Norvège
+b) Suisse
+c) Royaume-Uni
+=a Thème 1. Il couvre l'Espace économique européen (Union, Islande, Liechtenstein, Norvège).
+
+?! [C] Le ratio de levier minimal imposé aux banques par Bâle III est de :
+a) 3 %
+b) 8 %
+c) 100 %
+=a Thème 1. Il rapporte les fonds propres de catégorie 1 à l'exposition totale non pondérée.
+
+?! [C] En cas de défaillance d'une banque, le FGDR indemnise en principe les déposants dans un délai de :
+a) 7 jours ouvrables
+b) 3 mois
+c) 1 an
+=a Thème 1. Sauf cas particuliers.
+
+?! [A] Un négociateur de la salle des marchés souhaite acheter des actions pour son propre compte. Il doit :
+a) respecter la procédure de l'établissement sur les transactions personnelles (déclaration, autorisation éventuelle)
+b) passer l'ordre par un courtier extérieur pour éviter tout contrôle
+c) attendre la fin de l'année civile
+=a Thème 2. Les transactions personnelles des personnes concernées sont encadrées et enregistrées.
+
+?! [A] Un établissement conseille un émetteur pour une augmentation de capital et diffuse de la recherche sur ce même émetteur. Il doit notamment :
+a) cesser toute activité de recherche dans tous les cas
+b) organiser des barrières à l'information et mentionner ce conflit d'intérêts dans sa recherche
+c) informer seulement l'émetteur
+=b Thème 2. La recherche mentionne les conflits et intérêts significatifs.
+
+?! [A] Le contrôle permanent de deuxième niveau est exercé par :
+a) les opérationnels eux-mêmes
+b) des équipes dédiées, indépendantes des opérationnels
+c) les commissaires aux comptes
+=b Thème 2. Le troisième niveau est le contrôle périodique (audit).
+
+?! [A] Dans le cadre d'un conseil en investissement indépendant, le prestataire peut accepter :
+a) des rétrocessions sur les fonds recommandés, à condition de les mentionner
+b) des avantages non monétaires mineurs
+c) un voyage offert par une société de gestion
+=b Thème 2. Les rétrocessions perçues doivent être reversées au client.
+
+?! [A] La protection accordée aux lanceurs d'alerte s'étend notamment :
+a) aux facilitateurs qui les ont aidés à effectuer le signalement
+b) aux personnes visées par le signalement
+c) aux concurrents de l'entreprise
+=a Thème 2. Loi Waserman de 2022.
+
+?! [C] Le règlement DORA, applicable depuis le 17 janvier 2025, porte sur :
+a) la résilience opérationnelle numérique du secteur financier
+b) les produits d'investissement packagés
+c) la vente à découvert
+=a Thème 2. Il impose notamment la déclaration des incidents informatiques majeurs.
+
+?! [A] L'ancien gouverneur d'une banque centrale étrangère, qui a quitté ses fonctions il y a six mois, souhaite ouvrir un compte. Il :
+a) n'est plus une personne politiquement exposée
+b) est encore une personne politiquement exposée
+c) doit faire l'objet d'une déclaration de soupçon automatique
+=b Thème 3. La qualité de PPE demeure moins d'un an après la cessation des fonctions.
+
+?! [A] Lorsque Tracfin s'oppose à l'exécution d'une opération déclarée :
+a) l'opération ne peut pas être exécutée pendant la durée de l'opposition
+b) l'établissement doit informer le client de l'opposition
+c) l'opération est exécutée immédiatement
+=a Thème 3. Le délai est de 10 jours ouvrables, prolongeable par le juge.
+
+?! [A] Une société employant 600 salariés et réalisant 80 millions d'euros de chiffre d'affaires :
+a) est soumise à l'obligation de programme anticorruption de la loi Sapin 2
+b) n'y est pas soumise, car elle ne dépasse pas le seuil de 100 millions d'euros
+c) y est soumise seulement si elle est cotée
+=b Thème 3. Les deux seuils (500 salariés et 100 M€) doivent être atteints.
+
+?! [A] Le salarié d'une agence de communication qui rédige le communiqué annonçant une offre publique et achète auparavant des actions de la société visée :
+a) commet une opération d'initié
+b) réalise une opération licite puisqu'il n'est pas dirigeant
+c) commet seulement une faute professionnelle
+=a Thème 4. Toute personne qui détient une information privilégiée et le sait est initiée.
+
+?! [A] Des transactions croisées entre deux comptes appartenant à la même personne, sans changement réel de propriétaire, pour simuler une activité, constituent :
+a) une manipulation de marché (wash trades)
+b) une pratique de marché admise
+c) un contrat de liquidité
+=a Thème 4. Elles donnent des indications trompeuses sur l'offre et la demande.
+
+?! [A] Un conseiller appelle, sans sollicitation préalable, un médecin qu'il ne connaît pas pour lui proposer de souscrire un fonds. Il s'agit :
+a) d'un acte de démarchage
+b) d'une simple publicité
+c) d'un conseil sans incidence réglementaire
+=a Thème 5. Prise de contact non sollicitée avec une personne déterminée.
+
+?! [A] La carte de démarchage d'une personne physique démarchant pour le compte d'un établissement est délivrée par :
+a) l'AMF
+b) l'établissement mandant
+c) l'ORIAS
+=b Thème 5. Le mandant est civilement responsable de ses démarcheurs.
+
+?! [A] Le marché cible négatif d'un produit désigne :
+a) les clients auxquels le produit ne convient pas
+b) les clients qui ont subi des pertes
+c) les pays où le produit est interdit
+=a Thème 5. Le producteur le définit dans le cadre de la gouvernance des produits.
+
+?! [A] Un client souhaite, de sa propre initiative et sans conseil, acheter des parts d'un OPCVM actions non structuré. Le prestataire :
+a) peut exécuter l'ordre en exécution simple, en avertissant le client que le caractère approprié n'est pas évalué
+b) doit obligatoirement réaliser un test d'adéquation
+c) doit refuser l'ordre
+=a Thème 5. Les OPCVM non structurés sont des instruments non complexes.
+
+?! [A] Dans le cadre d'un conseil, l'adéquation d'une recommandation de remplacement d'un produit par un autre (switch) suppose notamment de vérifier :
+a) que les avantages attendus l'emportent sur les coûts du changement
+b) que le nouveau produit est plus récent
+c) que le client a déjà détenu le nouveau produit
+=a Thème 5. L'adéquation tient compte des coûts.
+
+?! [C] Lors de l'entrée en relation, le CIF remet à son client un document présentant notamment son statut, son association et ses liens avec les producteurs, appelé :
+a) document d'entrée en relation
+b) prospectus
+c) avis d'opéré
+=a Thème 5. Il signe ensuite une lettre de mission avec le client.
+
+?! [A] Une entreprise présente un total de bilan de 25 M€, un chiffre d'affaires net de 30 M€ et des capitaux propres de 5 M€. Elle est :
+a) cliente professionnelle par nature
+b) cliente non professionnelle
+c) contrepartie éligible pour tous les services
+=a Thème 6. Elle dépasse deux seuils sur trois (bilan ≥ 20 M€ et capitaux propres ≥ 2 M€).
+
+?! [A] Le critère d'expérience professionnelle de l'option pour le statut de client professionnel exige d'avoir occupé une fonction dans le secteur financier pendant au moins :
+a) 6 mois
+b) 1 an
+c) 5 ans
+=b Thème 6. Deux critères sur trois sont nécessaires.
+
+?! [A] Saisi d'une demande d'opt-up remplissant formellement les critères, le prestataire :
+a) est tenu de l'accepter
+b) peut la refuser
+c) doit consulter l'AMF
+=b Thème 6. Il vérifie les critères et n'est pas obligé d'accepter.
+
+?! [A] Une contrepartie éligible qui demande un conseil en investissement est traitée, pour ce service, comme :
+a) une contrepartie éligible
+b) un client professionnel
+c) un client non professionnel
+=b Thème 6. La catégorie de contrepartie éligible ne vaut que pour la RTO, l'exécution et la négociation pour compte propre.
+
+?! [A] Un mineur de 14 ans souhaite vendre les actions qu'il a reçues en donation. L'ordre est donné :
+a) par le mineur seul
+b) par ses administrateurs légaux, dans les conditions prévues pour les actes de disposition
+c) par la banque d'office
+=b Thème 6. Le mineur non émancipé est représenté.
+
+?! [A] Un mineur émancipé :
+a) a la pleine capacité pour les actes de la vie civile
+b) reste sous administration légale
+c) ne peut pas ouvrir de compte-titres
+=a Thème 6. L'émancipation lui confère la capacité.
+
+?! [A] En curatelle renforcée :
+a) le curateur perçoit les revenus de la personne et règle ses dépenses
+b) la personne agit seule pour tous ses placements
+c) la personne est représentée par un tuteur
+=a Thème 6. L'excédent est déposé sur un compte ouvert au nom de la personne.
+
+?! [A] Un mandat de protection future prend effet :
+a) dès sa signature
+b) lorsque le mandant ne peut plus pourvoir seul à ses intérêts
+c) au décès du mandant
+=b Thème 6. Il permet d'organiser à l'avance sa propre protection.
+
+?! [A] Sur un compte joint présentant un solde débiteur, chaque cotitulaire :
+a) n'est tenu que de la moitié du solde
+b) est tenu de la totalité du solde (solidarité passive)
+c) n'est tenu de rien
+=b Thème 6. La solidarité active permet à chacun de faire fonctionner seul le compte.
+
+?! [A] L'usufruitier de titres démembrés souhaite les vendre. En principe :
+a) il peut les vendre seul
+b) l'accord du nu-propriétaire est nécessaire
+c) seul le nu-propriétaire peut les vendre
+=b Thème 6. L'usufruitier perçoit les revenus ; la vente suppose l'accord des deux.
+
+?! [A] Peut constituer un support durable :
+a) un courriel comportant un document au format PDF
+b) une conversation téléphonique non enregistrée
+c) un message affiché quelques secondes sur un écran
+=a Thème 6. Le support durable permet de stocker et de reproduire l'information à l'identique.
+
+?! [A] Pour exécuter les ordres d'un client en dehors d'une plateforme de négociation, le prestataire doit obtenir :
+a) le consentement exprès préalable du client
+b) l'autorisation de l'AMF
+c) l'accord de l'entreprise de marché
+=a Thème 6. Le client consent aussi à la politique d'exécution.
+
+?! [A] L'avis d'opéré adressé au client mentionne notamment :
+a) l'instrument, le sens, la quantité, le prix, le lieu d'exécution et les frais
+b) uniquement le solde du compte
+c) la politique de rémunération du conseiller
+=a Thème 6. Il est adressé au plus tard le premier jour ouvrable suivant l'exécution.
+
+?! [A] Un client non professionnel détient un turbo. Le prestataire doit l'informer lorsque la valeur de ce produit baisse de :
+a) 5 % par rapport à sa valeur initiale
+b) 10 % par rapport à sa valeur initiale, puis par multiple de 10 %
+c) 50 % par rapport à sa valeur initiale
+=b Thème 6. Au plus tard à la fin du jour ouvrable concerné.
+
+?! [A] Une entreprise d'investissement qui détient des fonds pour le compte de ses clients doit notamment :
+a) les utiliser pour son propre compte afin de les rémunérer
+b) les déposer auprès d'une banque centrale, d'un établissement de crédit ou d'un fonds monétaire qualifié
+c) les conserver en espèces dans ses locaux
+=b Thème 6. Les fonds des clients sont ségrégués.
+
+?! [A] Un client demande à sa banque de ne plus recevoir de prospection commerciale par courriel. Il exerce :
+a) son droit d'opposition prévu par le RGPD
+b) son droit de rétractation
+c) un recours devant le médiateur
+=a Thème 6. La banque doit respecter ce choix.
+
+?! [A] Dans le cadre de son droit de communication, l'administration fiscale demande à une banque des informations sur les comptes d'un client. La banque :
+a) peut opposer le secret professionnel
+b) ne peut pas opposer le secret professionnel
+c) doit d'abord obtenir l'accord du client
+=b Thème 6. Le secret n'est pas opposable à l'administration fiscale agissant dans ce cadre.
+
+?! [C] Le médiateur de l'AMF rend en principe son avis dans un délai de :
+a) 15 jours
+b) 90 jours à compter de la saisine complète
+c) 1 an
+=b Thème 6. La médiation est gratuite et confidentielle.
+
+?! [C] Le délai de réponse de deux mois à une réclamation court à compter :
+a) de l'envoi de la réclamation par le client
+b) de la saisine du médiateur
+c) de la clôture du compte
+=a Thème 6. L'accusé de réception est dû dans les 10 jours ouvrables.
+
+?! [C] Le document qui récapitule chaque année les revenus et cessions de valeurs mobilières du client, pour sa déclaration de revenus, est :
+a) l'imprimé fiscal unique (IFU)
+b) le DIC
+c) la déclaration d'adéquation
+=a Thème 6. Il est établi par le teneur de compte.
+
+?! [C] Le site public permettant de rechercher les avoirs d'un compte inactif transférés à la Caisse des dépôts s'appelle :
+a) Ciclade
+b) Agira
+c) Géorisques
+=a Thème 6. Agira concerne la recherche de contrats d'assurance-vie.
+
+?! [C] Les versements cumulés sur un PEA et un PEA-PME d'une même personne ne peuvent excéder :
+a) 150 000 €
+b) 225 000 €
+c) 300 000 €
+=b Thème 6 et 12. Le PEA seul est plafonné à 150 000 €.
+
+?! [C] Lorsqu'un prestataire groupe l'ordre d'un client avec d'autres ordres, il doit notamment :
+a) avertir le client que le groupage peut, ponctuellement, le désavantager
+b) obtenir l'accord de l'AMF
+c) exécuter l'ordre du client en dernier
+=a Thème 6. Une politique de répartition est établie à l'avance.
+
+?! [C] Au décès de son titulaire, un PEA :
+a) est transmis aux héritiers avec son antériorité fiscale
+b) est clôturé
+c) est transformé en assurance-vie
+=b Thème 6 et 12. Un PEA ne peut avoir qu'un titulaire vivant.
+
+?! [C] Le transfert d'un PEA vers un autre établissement :
+a) entraîne sa clôture
+b) se fait sans clôture et conserve l'antériorité fiscale du plan
+c) est interdit
+=b Thème 6. Des frais de transfert peuvent être facturés dans les limites prévues.
+
+[[SAUT]]
+
+## Partie 2 — Connaissances techniques (questions 57 à 120)
+
+?! [C] Les titres de capital émis par les sociétés par actions sont :
+a) les actions
+b) les obligations
+c) les NEU CP
+=a Thème 7. Les obligations et TCN sont des titres de créance.
+
+?! [C] Le code ISIN d'une action française commence par :
+a) FR
+b) EU
+c) PA
+=a Thème 7. Le code ISIN compte 12 caractères.
+
+?! [C] Une action de préférence :
+a) confère des droits particuliers définis par les statuts
+b) est toujours dépourvue de droit au dividende
+c) est une obligation convertible
+=a Thème 7. Elle peut, par exemple, offrir un dividende majoré ou un droit de vote supprimé.
+
+?! [C] Une société a une capitalisation boursière de 300 M€ et des capitaux propres comptables de 200 M€. Son PBR est de :
+a) 0,67
+b) 1,5
+c) 100 M€
+=b Thème 7. Capitalisation / capitaux propres = 300 / 200.
+
+?! [C] Une société affiche un BPA de 4 € et verse un dividende de 1,60 € par action. Son taux de distribution est de :
+a) 40 %
+b) 1,6 %
+c) 250 %
+=a Thème 7. 1,60 / 4 = 40 %.
+
+?! [C] Une obligation zéro coupon :
+a) est émise en dessous du pair et remboursée au pair
+b) verse un coupon chaque trimestre
+c) n'est jamais remboursée
+=a Thème 7. Tout le rendement provient de l'écart entre le prix d'émission et le remboursement.
+
+?! [C] Une obligation de sensibilité 7 voit les taux de marché baisser de 0,5 point. Son prix varie d'environ :
+a) + 3,5 %
+b) − 3,5 %
+c) + 7 %
+=a Thème 7. − 7 × (− 0,5) = + 3,5 %.
+
+?! [C] Toutes choses égales par ailleurs, la duration d'une obligation est d'autant plus élevée que :
+a) son coupon est faible et son échéance lointaine
+b) son coupon est élevé et son échéance proche
+c) son émetteur est bien noté
+=a Thème 7. Elle est égale à la maturité pour un zéro coupon.
+
+?! [C] Le spread de crédit d'une obligation d'entreprise :
+a) rémunère le risque de défaut de l'émetteur par rapport à un emprunt d'État de même durée
+b) correspond aux frais de courtage
+c) est fixé par l'AMF
+=a Thème 7. Il augmente si la note de l'émetteur se dégrade.
+
+?! [C] Une obligation contingente convertible (CoCo) émise par une banque est :
+a) convertie en actions ou dépréciée si les fonds propres de la banque passent sous un seuil
+b) garantie par l'État
+c) remboursable à tout moment au gré du porteur
+=a Thème 7. C'est un instrument d'absorption des pertes.
+
+?! [C] Une option américaine peut être exercée :
+a) seulement à l'échéance
+b) à tout moment jusqu'à l'échéance
+c) seulement le premier jour
+=b Thème 7. L'option européenne ne s'exerce qu'à l'échéance.
+
+?! [C] Un call de prix d'exercice 55 € alors que l'action cote 60 € a une valeur intrinsèque de :
+a) 0 €
+b) 5 €
+c) 60 €
+=b Thème 7. Cours − prix d'exercice = 5 €.
+
+?! [C] La prime d'une option est de 7 € et sa valeur intrinsèque de 4 €. Sa valeur temps est de :
+a) 3 €
+b) 11 €
+c) 4 €
+=a Thème 7. Prime = valeur intrinsèque + valeur temps.
+
+?! [C] Le vendeur d'un put anticipe :
+a) une forte baisse du sous-jacent
+b) une stabilité ou une hausse du sous-jacent
+c) une hausse de la volatilité
+=b Thème 7. Il encaisse la prime et s'engage à acheter au prix d'exercice.
+
+?! [C] Une position sur un contrat future est généralement dénouée avant l'échéance :
+a) par une opération de sens inverse
+b) par la livraison physique obligatoire
+c) par l'abandon de la prime
+=a Thème 7. La position est alors soldée par la chambre de compensation.
+
+?! [C] Dans un produit structuré de type autocall :
+a) le produit est remboursé par anticipation si le sous-jacent atteint un niveau prédéfini à une date d'observation
+b) le capital est toujours garanti
+c) le coupon est fixe et versé chaque mois
+=a Thème 7. Sinon, il continue jusqu'à la date d'observation suivante ou l'échéance.
+
+?! [C] Selon MiCA, un jeton qui vise à stabiliser sa valeur par référence à un panier de devises est :
+a) un jeton se référant à un ou des actifs (ART)
+b) un jeton de monnaie électronique (EMT)
+c) un instrument financier
+=a Thème 7. L'EMT se réfère à une seule monnaie officielle.
+
+?! [C] Le risque d'inflation est particulièrement élevé pour :
+a) un placement à rendement fixe faible et de longue durée
+b) une OAT indexée sur l'inflation
+c) un fonds monétaire à court terme
+=a Thème 7. L'inflation érode le pouvoir d'achat du capital et des revenus.
+
+?! [C] Un fonds professionnel de capital-investissement (FPCI) est réservé :
+a) aux investisseurs avertis
+b) aux mineurs
+c) aux seuls salariés de la société de gestion
+=a Thème 8. Ses règles d'investissement sont très allégées.
+
+?! [C] Une SICAV ou un FCP peut être organisé en plusieurs compartiments :
+a) qui correspondent à des stratégies d'investissement distinctes au sein d'une même structure
+b) qui sont obligatoirement cotés
+c) qui ont chacun un dépositaire différent
+=a Thème 8. Chaque compartiment a son propre actif.
+
+?! [C] Un fonds détient 40,5 M€ d'actifs et 0,5 M€ de dettes ; 400 000 parts sont en circulation. Sa valeur liquidative est de :
+a) 100 €
+b) 101,25 €
+c) 10 €
+=a Thème 8. (40,5 − 0,5) / 0,4 = 100 €.
+
+?! [C] Un client investit 5 000 € dans un fonds dont la valeur liquidative est de 97 €, avec des droits d'entrée de 3 %. Il obtient :
+a) 50 parts
+b) 51,5 parts
+c) 48,5 parts
+=a Thème 8. (5 000 × 0,97) / 97 = 50 parts.
+
+?! [C] Selon les orientations de l'ESMA, la commission de surperformance d'un fonds :
+a) peut être prélevée même si les sous-performances passées n'ont pas été rattrapées
+b) ne peut être prélevée qu'après rattrapage des sous-performances passées
+c) est interdite
+=b Thème 8. Elle doit être cohérente avec l'objectif de gestion.
+
+?! [C] Un OPCVM peut investir dans les titres d'un même État ou d'une même collectivité publique, sans condition particulière, jusqu'à :
+a) 10 % de son actif
+b) 35 % de son actif
+c) 100 % de son actif
+=b Thème 8. Jusqu'à 100 % avec au moins six émissions, aucune ne dépassant 30 %.
+
+?! [C] Un OPCVM ne peut placer plus de 20 % de son actif en dépôts auprès :
+a) d'un même établissement de crédit
+b) de la Banque de France
+c) de tous les établissements de crédit confondus
+=a Thème 8. C'est une règle de diversification du risque de contrepartie.
+
+?! [C] Le type de fonds monétaire le plus courant en France, dont la valeur liquidative varie avec le prix de marché des actifs, est le fonds :
+a) VNAV
+b) CNAV de dette publique
+c) indiciel coté
+=a Thème 8. VNAV signifie valeur liquidative variable.
+
+?! [C] Un ETF à réplication physique optimisée :
+a) détient un échantillon représentatif des valeurs de l'indice
+b) détient toutes les valeurs de l'indice
+c) obtient la performance de l'indice par un swap
+=a Thème 8. L'écart de suivi peut être un peu plus élevé qu'en réplication totale.
+
+?! [C] Dans un plan d'épargne entreprise, le fonds solidaire proposé aux salariés investit dans des entreprises de l'économie sociale et solidaire à hauteur de :
+a) 5 à 10 % de son actif
+b) 50 % de son actif
+c) 100 % de son actif
+=a Thème 8. Le reste est investi de façon diversifiée.
+
+?! [C] Une gestion « value » privilégie :
+a) les valeurs décotées par rapport à leurs fondamentaux
+b) les valeurs à très forte croissance attendue
+c) la réplication d'un indice
+=a Thème 8. La gestion « growth » privilégie les valeurs de croissance.
+
+?! [C] Au sens de SFDR, les « principales incidences négatives » (PAI) sont :
+a) les effets négatifs des investissements sur les facteurs de durabilité
+b) les pertes financières des fonds
+c) les frais de gestion
+=a Thème 8. Par exemple les émissions de gaz à effet de serre des entreprises investies.
+
+?! [C] Un système multilatéral de négociation (SMN) fonctionne selon des règles :
+a) non discrétionnaires
+b) discrétionnaires
+c) fixées par chaque client
+=a Thème 9. Les SON ont une exécution discrétionnaire.
+
+?! [C] En France, un marché réglementé est agréé :
+a) par le ministre chargé de l'Économie, sur proposition de l'AMF
+b) par l'ESMA
+c) par la BCE
+=a Thème 9. Il est géré par une entreprise de marché.
+
+?! [C] Une société cotée sur Euronext Paris dont la capitalisation est de 90 millions d'euros appartient au compartiment :
+a) A
+b) B
+c) C
+=c Thème 9. Compartiment C : moins de 150 M€.
+
+?! [C] Le CAC 40 est pondéré par :
+a) la capitalisation flottante des valeurs qui le composent
+b) le chiffre d'affaires des sociétés
+c) le nombre de salariés
+=a Thème 9. Le poids de chaque valeur est plafonné à 15 %.
+
+?! [C] Les valeurs peu liquides d'Euronext Paris cotées au fixing font l'objet de deux fixings quotidiens, à :
+a) 10 h 30 et 16 h 30
+b) 9 h 00 et 17 h 35
+c) 12 h 00 et 18 h 00
+=a Thème 9. Elles ne font pas l'objet d'une cotation en continu.
+
+?! [C] La fourchette (spread) d'un titre est :
+a) l'écart entre le meilleur prix à l'achat et le meilleur prix à la vente dans le carnet
+b) la variation du cours sur la journée
+c) la commission de l'intermédiaire
+=a Thème 9. Elle est étroite pour les valeurs liquides.
+
+?! [C] Un ordre à la meilleure limite :
+a) est exécuté au meilleur prix de la contrepartie présent à son arrivée, le solde devenant un ordre limité à ce prix
+b) est exécuté à n'importe quel prix
+c) n'est exécuté qu'au fixing de clôture
+=a Thème 9. Il maîtrise le prix de la première tranche.
+
+?! [C] Un ordre « exécuter et annuler » (fill and kill) :
+a) est exécuté immédiatement pour la quantité disponible, le solde étant annulé
+b) est exécuté en totalité ou annulé
+c) reste valable jusqu'à révocation
+=a Thème 9. Le « tout ou rien » exige une exécution totale.
+
+?! [C] Sur le SRD, la couverture minimale constituée d'obligations est de :
+a) 20 %
+b) 25 %
+c) 40 %
+=b Thème 9. 20 % en espèces, 40 % en actions.
+
+?! [C] Les entreprises qui pratiquent le trading algorithmique doivent notamment :
+a) tester leurs algorithmes et disposer de mécanismes d'arrêt d'urgence
+b) publier leur code source
+c) obtenir l'accord de chaque client avant chaque ordre
+=a Thème 9. MIF 2 encadre le trading algorithmique et à haute fréquence.
+
+?! [C] L'Euribor est :
+a) un taux à terme du marché interbancaire de la zone euro, de 1 semaine à 12 mois
+b) le taux au jour le jour de la BCE
+c) un indice actions européen
+=a Thème 9. Le taux au jour le jour est l'€STR.
+
+?! [C] Seuls ont un accès direct à une chambre de compensation :
+a) les membres compensateurs
+b) tous les investisseurs particuliers
+c) les émetteurs
+=a Thème 10. Les autres intermédiaires compensent par leur intermédiaire.
+
+?! [C] Le fonds de défaillance d'une chambre de compensation est alimenté :
+a) par les membres compensateurs
+b) par l'État
+c) par les émetteurs
+=a Thème 10. Il est mobilisé après les garanties du membre défaillant et une part des fonds propres de la CCP.
+
+?! [C] T2, le système de règlement brut en temps réel de l'Eurosystème, sert à :
+a) régler les paiements de gros montant en monnaie de banque centrale
+b) négocier les actions
+c) conserver les titres des particuliers
+=a Thème 10. Il a remplacé TARGET2 en mars 2023.
+
+?! [C] Avec un cycle de règlement à J+2, des actions achetées le mercredi sont livrées :
+a) le jeudi
+b) le vendredi
+c) le lundi suivant
+=b Thème 10. Deux jours ouvrés après le mercredi.
+
+?! [C] Au nominatif administré :
+a) les titres sont inscrits au registre de l'émetteur et le compte est géré par l'intermédiaire de l'actionnaire
+b) l'émetteur ignore l'identité de l'actionnaire
+c) le compte est tenu par la chambre de compensation
+=a Thème 10. Au nominatif pur, l'émetteur tient lui-même le compte.
+
+?! [C] Le traitement des opérations sur titres (dividendes, augmentations de capital, divisions) pour le compte des clients incombe :
+a) au teneur de compte-conservateur
+b) à l'AMF
+c) à l'entreprise de marché
+=a Thème 10. Il informe aussi les clients et leur transmet l'IFU.
+
+?! [C] Le règlement SFTR impose la déclaration à des référentiels centraux :
+a) des opérations de financement sur titres (pensions, prêts-emprunts de titres)
+b) des transactions sur actions au comptant
+c) des souscriptions de parts d'OPCVM
+=a Thème 10. Les dérivés sont déclarés au titre d'EMIR.
+
+?! [C] Dans un placement garanti :
+a) la banque garantit à l'émetteur la souscription d'un montant minimal
+b) la banque ne prend aucun engagement
+c) l'État garantit l'opération
+=a Thème 11. En prise ferme, la banque achète directement les titres.
+
+?! [C] La construction d'un livre d'ordres (book building) consiste à :
+a) recueillir les intentions de souscription des investisseurs à différents niveaux de prix avant de fixer le prix
+b) tenir le registre des actionnaires nominatifs
+c) publier le carnet d'ordres d'Euronext
+=a Thème 11. Elle permet de fixer le prix au niveau de la demande réelle.
+
+?! [C] Dans une offre à prix minimal (OPM) :
+a) seul un prix minimal est fixé ; les ordres à un prix trop élevé sont éliminés
+b) le prix est fixé à l'avance
+c) il n'y a aucun prix
+=a Thème 11. Les autres ordres sont servis selon un taux de réduction.
+
+?! [C] Lors d'une stabilisation, la banque stabilisatrice ne peut acheter les titres à un prix supérieur :
+a) au prix de l'offre
+b) au plus haut historique
+c) au cours de clôture de la veille
+=a Thème 11. La stabilisation dure au plus 30 jours.
+
+?! [C] Le document d'enregistrement universel (URD) :
+a) est un document annuel qui facilite et accélère les futures approbations de prospectus de l'émetteur
+b) est le registre des actionnaires
+c) est obligatoire pour toutes les PME non cotées
+=a Thème 11. Il peut aussi tenir lieu de rapport financier annuel.
+
+?! [C] Depuis le 5 juin 2026, une offre au public de titres de moins de 12 M€ sur 12 mois :
+a) est en principe dispensée de prospectus, les États pouvant retenir un seuil de 5 M€
+b) exige toujours un prospectus approuvé
+c) est interdite
+=a Thème 11. Seuil européen harmonisé par le Listing Act.
+
+?! [C] Une société émet 1 action nouvelle pour 2 anciennes au prix de 30 € ; le cours est de 39 €. La valeur théorique du DPS est de :
+a) 3 €
+b) 4,50 €
+c) 9 €
+=a Thème 11. (39 − 30) × 1 / 3 = 3 €.
+
+?! [C] Après un regroupement de 10 actions anciennes en 1 action nouvelle, une action qui cotait 2 € cote en théorie :
+a) 0,20 €
+b) 20 €
+c) 2 €
+=b Thème 11. La valeur du portefeuille est inchangée.
+
+?! [C] Un acompte sur dividende peut être versé :
+a) en cours d'exercice, sur la base d'un bilan certifié faisant apparaître un bénéfice distribuable
+b) librement par le directeur financier
+c) uniquement en actions
+=a Thème 11. Il est imputé sur le dividende de l'exercice.
+
+?! [C] Une offre publique de rachat d'actions (OPRA) est une offre :
+a) par laquelle une société propose de racheter ses propres actions
+b) obligatoire au-delà de 30 % du capital
+c) de retrait obligatoire
+=a Thème 11. Les actions rachetées sont en général annulées.
+
+?! [C] 10 000 € placés à 2 % en intérêts composés pendant 2 ans deviennent :
+a) 10 400 €
+b) 10 404 €
+c) 10 200 €
+=b Thème 12. 10 000 × 1,02² = 10 404 €.
+
+?! [C] Une entreprise a des capitaux permanents de 800, un actif immobilisé de 650 et un BFR de 100. Sa trésorerie nette est de :
+a) + 50
+b) − 50
+c) + 150
+=a Thème 12. FR = 150 ; trésorerie nette = 150 − 100 = 50.
+
+?! [C] Une société a un résultat net de 9 M€ et des capitaux propres de 60 M€. Son ROE est de :
+a) 15 %
+b) 6,7 %
+c) 9 %
+=a Thème 12. 9 / 60 = 15 %.
+
+?! [C] En 2026, des intérêts de 1 000 € perçus sur un compte à terme et soumis au PFU supportent au total :
+a) 300 €
+b) 314 €
+c) 128 €
+=b Thème 12. 12,8 % d'impôt + 18,6 % de prélèvements sociaux = 31,4 %.
+
+?! [C] Une méthode de valorisation adaptée à une société holding ou à une foncière est :
+a) l'actif net réévalué
+b) le PER
+c) le taux de distribution
+=a Thème 12. Elle réévalue les actifs détenus et déduit les dettes.
+
+?! [C] Sont exclus de l'assiette de l'impôt sur la fortune immobilière :
+a) les actions de sociétés industrielles cotées
+b) les parts de SCPI
+c) un appartement mis en location
+=a Thème 12. Seul le patrimoine immobilier est taxable.
+
+[[SAUT]]
+
+## Corrigé de l'examen blanc n° 1
+
+[[CORRIGE]]

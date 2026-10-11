@@ -1,275 +1,531 @@
-# Thème 12 — Bases comptables et financières
+# Thème 12 — Bases comptables, financières et fiscales
 
-## Ce que l'examen attend
-
-Maîtriser les calculs financiers de base (intérêts, actualisation, taux équivalents, VAN, TRI, rendement actuariel), lire un bilan et un compte de résultat, calculer les principaux soldes et ratios, connaître les référentiels comptables et les méthodes de valorisation, et manier les notions statistiques utilisées en gestion (rendement, risque, corrélation, MEDAF).
+o> À la fin de ce chapitre, vous saurez :
+- effectuer les calculs financiers de base : intérêts simples et composés, actualisation, taux équivalents, VAN, TRI, prix et rendement d'une obligation ;
+- lire un bilan et un compte de résultat, calculer les soldes intermédiaires de gestion, la CAF, le fonds de roulement, le BFR et les principaux ratios ;
+- distinguer les normes comptables françaises et IFRS, et connaître les méthodes de consolidation et de valorisation ;
+- manier les notions statistiques de la gestion de portefeuille (rendement, volatilité, corrélation, MEDAF) ;
+- connaître les grands principes de la **fiscalité des sociétés** et de la **fiscalité des placements des particuliers** (PFU, PEA, assurance-vie, IFI).
+Poids à l'examen : environ **6 questions**, en **catégorie C**. Les calculs sont simples : entraînez-vous à les faire de tête ou avec une calculatrice simple.
 
 ## 1. Les mathématiques financières
 
 ### Intérêts simples et intérêts composés
 
-| | Intérêts simples | Intérêts composés |
+| | Intérêts **simples** | Intérêts **composés** |
 |---|---|---|
-| Principe | Les intérêts sont calculés sur le seul capital initial | Les intérêts s'ajoutent au capital et produisent eux-mêmes des intérêts (capitalisation) |
-| Formule | I = C × t × n (n en années ; sur le marché monétaire, n = jours / 360) | Cₙ = C₀ × (1 + t)ⁿ |
-| Usage | Opérations de moins d'un an (marché monétaire) | Placements et emprunts de plus d'un an |
+| Principe | Les intérêts sont calculés sur le seul **capital initial** | Les intérêts s'ajoutent au capital et produisent eux-mêmes des intérêts (**capitalisation**) |
+| Formule | I = C × t × n (n en années ; sur le marché monétaire, n = nombre de jours / 360) | Cₙ = C₀ × (1 + t)ⁿ |
+| Usage | Opérations de **moins d'un an** (marché monétaire, livrets) | Placements et emprunts de **plus d'un an** |
 
 i> Intérêts simples : 10 000 € placés à 3 % pendant 90 jours rapportent 10 000 × 3 % × 90 / 360 = **75 €**.
-Intérêts composés : 10 000 € placés à 4 % pendant 3 ans deviennent 10 000 × 1,04³ = **11 248,64 €**.
+Intérêts composés : 10 000 € placés à 4 % pendant 3 ans deviennent 10 000 × 1,04³ = **11 248,64 €**, soit 1 248,64 € d'intérêts, contre 1 200 € en intérêts simples : l'écart vient des « intérêts sur les intérêts ».
+
+m> **Règle de 72** : un capital placé à t % double en environ 72 / t années. À 6 %, il double en 12 ans ; à 3 %, en 24 ans.
 
 ### L'actualisation
 
-Actualiser, c'est calculer la **valeur aujourd'hui** d'une somme future : V₀ = Cₙ / (1 + t)ⁿ. Un euro reçu demain vaut moins qu'un euro aujourd'hui (préférence pour le présent, inflation, risque).
+d> **Actualiser**, c'est calculer la **valeur aujourd'hui** d'une somme future : V₀ = Cₙ / (1 + t)ⁿ. Un euro reçu demain vaut moins qu'un euro aujourd'hui, à cause de la préférence pour le présent, de l'inflation et du risque. Le taux t est le **taux d'actualisation**.
 
-i> 10 000 € reçus dans 2 ans, actualisés à 5 %, valent aujourd'hui 10 000 / 1,05² = **9 070,29 €**.
+i> 10 000 € reçus dans 2 ans, actualisés à 5 %, valent aujourd'hui 10 000 / 1,05² = **9 070,29 €**. Plus le taux d'actualisation est élevé ou l'échéance lointaine, plus la valeur actuelle est faible.
 
 ### Taux proportionnel, taux équivalent, taux réel
 
-- **Taux proportionnel** : taux annuel divisé par le nombre de périodes (6 % par an → 0,5 % par mois) ; il ne tient pas compte de la capitalisation ;
-- **taux équivalent** : taux qui, capitalisé sur les sous-périodes, donne le même résultat que le taux annuel : (1 + tₐ) = (1 + tₘ)¹² ; 6 % par an équivaut à environ **0,487 %** par mois ;
-- **taux réel** : rendement corrigé de l'inflation ; relation de Fisher : (1 + nominal) = (1 + réel) × (1 + inflation), soit en approximation **réel ≈ nominal − inflation**.
+- **Taux proportionnel** : taux annuel divisé par le nombre de périodes (6 % par an → 0,5 % par mois) ; il ignore la capitalisation.
+- **Taux équivalent** : taux qui, capitalisé sur les sous-périodes, donne le même résultat que le taux annuel : (1 + tₐ) = (1 + tₘ)¹². 6 % par an équivaut à environ **0,487 %** par mois (et non 0,5 %).
+- **Taux réel** : rendement corrigé de l'inflation ; relation de **Fisher** : (1 + taux nominal) = (1 + taux réel) × (1 + inflation), soit en approximation **taux réel ≈ taux nominal − inflation**.
 
-i> Placement à 5 % avec une inflation de 2 % : taux réel ≈ 3 % (exactement 1,05 / 1,02 − 1 = 2,94 %).
+i> Un placement rapporte 5 % alors que l'inflation est de 2 % : taux réel ≈ 3 % (exactement 1,05 / 1,02 − 1 = 2,94 %). Un livret à 1,5 % avec une inflation de 2 % a un rendement réel **négatif**.
 
 ### VAN et TRI
 
-- **Valeur actuelle nette (VAN)** : somme des flux futurs actualisés, diminuée de l'investissement initial. Un projet est rentable si sa **VAN est positive** au taux exigé ;
-- **taux de rendement interne (TRI)** : taux d'actualisation qui **annule la VAN**. Un projet est acceptable si son TRI dépasse le taux exigé.
+- **Valeur actuelle nette** (VAN) : somme des flux futurs actualisés au taux exigé, diminuée de l'investissement initial. Un projet est **rentable** si sa **VAN est positive**.
+- **Taux de rendement interne** (TRI) : taux d'actualisation qui **annule la VAN**. Un projet est acceptable si son **TRI dépasse le taux exigé** (coût du capital).
 
-i> Investissement de 1 000 € rapportant 400 € par an pendant 3 ans, taux exigé 8 %.
+i> Investissement de 1 000 € rapportant 400 € par an pendant 3 ans, taux exigé de 8 %.
 Valeur actuelle des flux = 400 / 1,08 + 400 / 1,08² + 400 / 1,08³ = 370,37 + 342,94 + 317,53 = 1 030,84 €.
-VAN = 1 030,84 − 1 000 = **+ 30,84 €** : le projet est rentable ; son TRI est donc supérieur à 8 %.
+VAN = 1 030,84 − 1 000 = **+ 30,84 €** : le projet est rentable ; son TRI est donc supérieur à 8 % (il est d'environ 9,7 %).
 
 ### Application aux obligations
 
-Le **prix** d'une obligation est la valeur actuelle de ses flux futurs (coupons et remboursement) au taux de rendement exigé par le marché. Le **taux de rendement actuariel** est le TRI de l'obligation pour l'investisseur qui l'achète au prix de marché et la conserve jusqu'à l'échéance (en réinvestissant les coupons à ce même taux).
+Le **prix** d'une obligation est la valeur actuelle de ses flux futurs (coupons et remboursement), actualisés au taux de rendement exigé par le marché. Le **taux de rendement actuariel** est le TRI de l'obligation pour l'investisseur qui l'achète au prix du marché et la conserve jusqu'à l'échéance, en réinvestissant les coupons à ce même taux.
 
-- Si le prix est **égal au pair**, le taux actuariel est égal au taux du coupon ;
-- si le prix est **inférieur au pair**, le taux actuariel est **supérieur** au taux du coupon ;
-- si le prix est **supérieur au pair**, il est **inférieur**.
+| Prix de l'obligation | Taux actuariel par rapport au taux du coupon |
+|---|---|
+| **Au pair** (100 %) | **Égal** |
+| **Sous le pair** | **Supérieur** (l'acheteur gagne aussi la différence jusqu'au remboursement au pair) |
+| **Au-dessus du pair** | **Inférieur** |
 
-i> Obligation de 3 ans, coupon 4 %, remboursée au pair, quand le marché exige 5 % :
-Prix = 4 / 1,05 + 4 / 1,05² + 104 / 1,05³ = 3,81 + 3,63 + 89,84 = **97,28 %** du nominal.
-
-i> Coupon couru : une obligation de nominal 1 000 €, coupon 3 %, cote 98,50 %. 73 jours se sont écoulés depuis le dernier coupon (base exact/exact, année de 365 jours).
-Coupon couru = 1 000 × 3 % × 73 / 365 = 6 €, soit 0,60 %. Prix payé = 985 + 6 = **991 €** (hors frais).
+i> Obligation de 3 ans, coupon 4 %, remboursée au pair, alors que le marché exige 5 % :
+Prix = 4 / 1,05 + 4 / 1,05² + 104 / 1,05³ = 3,81 + 3,63 + 89,84 = **97,28 %** du nominal. L'obligation cote sous le pair parce que son coupon (4 %) est inférieur au rendement exigé (5 %).
 
 ## 2. Les documents comptables
 
 ### Le bilan
 
-Le bilan est une **photographie** du patrimoine de l'entreprise à une date donnée.
+Le bilan est une **photographie** du patrimoine de l'entreprise à une date donnée (la date de clôture de l'exercice).
 
-| Actif (emplois) | Passif (ressources) |
+| **Actif** (emplois : ce que l'entreprise possède) | **Passif** (ressources : comment elle l'a financé) |
 |---|---|
-| **Actif immobilisé** : immobilisations incorporelles (brevets, fonds commercial), corporelles (terrains, bâtiments, machines), financières (participations) | **Capitaux propres** : capital, réserves, résultat de l'exercice |
-| **Actif circulant** : stocks, créances clients, valeurs mobilières de placement | **Provisions** pour risques et charges |
-| **Trésorerie active** : disponibilités | **Dettes** : financières (emprunts), d'exploitation (fournisseurs, dettes fiscales et sociales) |
+| **Actif immobilisé** : immobilisations incorporelles (brevets, logiciels, fonds commercial), corporelles (terrains, bâtiments, machines), financières (participations, prêts) | **Capitaux propres** : capital, primes, réserves, report à nouveau, **résultat de l'exercice** |
+| **Actif circulant** : stocks, créances clients, autres créances, valeurs mobilières de placement | **Provisions** pour risques et charges |
+| **Trésorerie active** : disponibilités | **Dettes** : financières (emprunts bancaires et obligataires), d'exploitation (fournisseurs, dettes fiscales et sociales), autres ; **trésorerie passive** (découverts) |
 
-> Actif = Passif. Les capitaux propres sont ce qui revient aux actionnaires une fois toutes les dettes payées.
+> **Actif = Passif**. Les capitaux propres représentent ce qui revient aux actionnaires une fois toutes les dettes payées : c'est l'actif net comptable.
+
+Les **amortissements** constatent la dépréciation des immobilisations dues à l'usage ou au temps ; les **dépréciations** et **provisions** constatent les pertes probables (créance douteuse, litige). Ce sont des **charges** qui ne donnent pas lieu à un décaissement (charges « calculées »).
 
 ### Le compte de résultat
 
-Le compte de résultat est un **film** de l'activité sur l'exercice : produits − charges = résultat. Il distingue les éléments d'**exploitation**, **financiers** et **exceptionnels** (en normes françaises), puis l'impôt sur les sociétés.
+Le compte de résultat est un **film** de l'activité sur l'exercice : **produits − charges = résultat**. En normes françaises, il distingue les éléments d'**exploitation**, **financiers** et **exceptionnels**, puis la participation des salariés et l'**impôt sur les sociétés**.
 
 ### Les soldes intermédiaires de gestion (SIG)
 
 | Solde | Calcul simplifié | Ce qu'il mesure |
 |---|---|---|
-| Marge commerciale | Ventes de marchandises − coût d'achat des marchandises vendues | Activité de négoce |
-| Valeur ajoutée | Production + marge commerciale − consommations en provenance des tiers | Richesse créée par l'entreprise |
-| **Excédent brut d'exploitation (EBE)** | Valeur ajoutée + subventions d'exploitation − impôts et taxes − charges de personnel | Performance économique avant amortissements et financement (proche de l'EBITDA) |
-| Résultat d'exploitation | EBE − dotations aux amortissements et provisions + reprises ± autres | Performance de l'exploitation (proche de l'EBIT) |
-| Résultat courant avant impôt | Résultat d'exploitation + résultat financier | Performance après coût du financement |
-| Résultat net | Résultat courant + résultat exceptionnel − participation − impôt sur les sociétés | Bénéfice ou perte de l'exercice |
+| **Marge commerciale** | Ventes de marchandises − coût d'achat des marchandises vendues | Activité de négoce |
+| **Valeur ajoutée** | Production + marge commerciale − consommations en provenance des tiers | Richesse créée par l'entreprise, à partager entre salariés, État, prêteurs et actionnaires |
+| **Excédent brut d'exploitation** (EBE) | Valeur ajoutée + subventions d'exploitation − impôts et taxes − charges de personnel | Performance économique **avant** amortissements et **avant** financement (proche de l'**EBITDA**) |
+| **Résultat d'exploitation** | EBE − dotations aux amortissements et provisions + reprises ± autres produits et charges | Performance de l'exploitation (proche de l'**EBIT**) |
+| **Résultat courant avant impôt** | Résultat d'exploitation + résultat financier | Performance après coût du financement |
+| **Résultat net** | Résultat courant + résultat exceptionnel − participation − impôt sur les sociétés | Bénéfice ou perte de l'exercice |
 
-La **capacité d'autofinancement (CAF)** mesure les ressources dégagées par l'activité : en simplifiant, **résultat net + dotations aux amortissements et provisions − reprises** (± plus ou moins-values de cession).
+i> Une entreprise réalise une valeur ajoutée de 500, verse 300 de salaires et charges sociales, 20 d'impôts et taxes ; ses dotations aux amortissements sont de 60 ; ses charges d'intérêts de 30 ; l'impôt sur les sociétés de 22.
+EBE = 500 − 300 − 20 = **180**. Résultat d'exploitation = 180 − 60 = **120**. Résultat courant avant impôt = 120 − 30 = **90**. Résultat net = 90 − 22 = **68**.
+
+### La capacité d'autofinancement
+
+d> La **capacité d'autofinancement** (CAF) mesure les ressources internes dégagées par l'activité, disponibles pour investir, rembourser les dettes ou verser des dividendes. En simplifiant : **CAF = résultat net + dotations aux amortissements et provisions − reprises** (± plus ou moins-values de cession d'actifs).
+
+i> Avec les chiffres précédents : CAF = 68 + 60 = **128**.
 
 ## 3. L'analyse financière
 
 ### Fonds de roulement, BFR et trésorerie
 
+[[FIG:bilan]]
+
 | Notion | Calcul | Lecture |
 |---|---|---|
-| **Fonds de roulement (FR)** | Capitaux permanents (capitaux propres + dettes à long terme) − actif immobilisé | Ressources stables disponibles après financement des immobilisations |
-| **Besoin en fonds de roulement (BFR)** | Stocks + créances clients − dettes fournisseurs (et autres dettes d'exploitation) | Besoin de financement lié au cycle d'exploitation |
-| **Trésorerie nette** | FR − BFR | Positive : excédent ; négative : recours aux concours bancaires à court terme |
+| **Fonds de roulement** (FR) | Capitaux permanents (capitaux propres + dettes à plus d'un an) − actif immobilisé | Ressources stables disponibles après le financement des immobilisations |
+| **Besoin en fonds de roulement** (BFR) | Stocks + créances clients (et autres créances d'exploitation) − dettes fournisseurs (et autres dettes d'exploitation) | Besoin de financement né du **décalage** entre encaissements et décaissements du cycle d'exploitation |
+| **Trésorerie nette** | **FR − BFR** (= trésorerie active − trésorerie passive) | Positive : excédent de trésorerie ; négative : recours aux concours bancaires à court terme |
 
 i> Capitaux permanents 500, actif immobilisé 380 → FR = 120.
 Stocks 90 + clients 110 − fournisseurs 120 → BFR = 80.
-Trésorerie nette = 120 − 80 = **40** (excédent de trésorerie).
+Trésorerie nette = 120 − 80 = **40** (excédent).
+Si les clients paient plus tard (créances clients 150), le BFR passe à 120 et la trésorerie tombe à 0 : une entreprise rentable peut manquer de trésorerie si son BFR s'envole.
+
+c> Le BFR **augmente** quand les stocks augmentent, quand les clients paient plus lentement ou quand les fournisseurs sont payés plus vite. La grande distribution, qui encaisse ses clients au comptant et paie ses fournisseurs à terme, a souvent un BFR **négatif** : son cycle d'exploitation génère de la trésorerie.
 
 ### Les principaux ratios
 
 | Ratio | Formule | Lecture |
 |---|---|---|
-| Rentabilité des capitaux propres (ROE) | Résultat net / capitaux propres | Rentabilité pour l'actionnaire |
-| Rentabilité économique (ROA, ROCE) | Résultat d'exploitation (après impôt) / actif économique ou capitaux employés | Rentabilité de l'outil de production |
-| Marge nette | Résultat net / chiffre d'affaires | Bénéfice pour 100 € de ventes |
-| Taux d'endettement (gearing) | Dette nette / capitaux propres | Structure financière |
-| Levier d'endettement | Dette nette / EBE (ou EBITDA) | Années d'EBE nécessaires pour rembourser la dette |
-| Liquidité générale | Actif circulant / dettes à court terme | Capacité à payer les dettes à court terme |
+| **Rentabilité des capitaux propres** (ROE) | Résultat net / capitaux propres | Rentabilité pour l'actionnaire |
+| **Rentabilité économique** (ROA, ROCE) | Résultat d'exploitation (après impôt) / actif économique ou capitaux employés | Rentabilité de l'outil de production, indépendamment du financement |
+| **Marge nette** | Résultat net / chiffre d'affaires | Bénéfice pour 100 € de ventes |
+| **Taux d'endettement** (*gearing*) | Dette nette / capitaux propres | Structure financière |
+| **Levier d'endettement** | Dette nette / EBE (ou EBITDA) | Nombre d'années d'EBE nécessaires pour rembourser la dette ; au-delà de 3 à 4, l'endettement est jugé élevé |
+| **Couverture des intérêts** | Résultat d'exploitation / charges d'intérêts | Capacité à payer les intérêts |
+| **Liquidité générale** | Actif circulant / dettes à court terme | Capacité à payer les dettes à court terme |
 
-> **Effet de levier financier** : tant que la rentabilité économique est **supérieure** au coût de la dette, l'endettement **augmente** la rentabilité des capitaux propres. Si la rentabilité économique devient inférieure au coût de la dette, l'effet s'inverse (effet « massue »). Le levier accroît donc à la fois la rentabilité espérée et le risque.
+La **dette nette** est égale aux dettes financières diminuées de la trésorerie disponible.
 
-## 4. Les référentiels comptables
+> **Effet de levier financier** : tant que la **rentabilité économique** est **supérieure** au **coût de la dette** (après impôt), l'endettement **augmente** la rentabilité des capitaux propres. Si la rentabilité économique devient inférieure au coût de la dette, l'effet s'inverse (effet « massue »). Le levier accroît donc à la fois la rentabilité espérée et le **risque** de l'actionnaire.
+
+i> Une entreprise a un actif économique de 1 000, une rentabilité économique de 10 % et un coût de la dette de 4 % (impôt ignoré).
+- Financée à 100 % par capitaux propres : ROE = 10 %.
+- Financée par 500 de capitaux propres et 500 de dettes : résultat = 100 − 500 × 4 % = 80 ; ROE = 80 / 500 = **16 %**.
+- Si la rentabilité économique tombe à 2 % : résultat = 20 − 20 = 0 ; ROE = **0 %** (contre 2 % sans dette).
+
+## 4. Les référentiels comptables et la consolidation
 
 | Référentiel | Champ | Caractéristiques |
 |---|---|---|
-| **Plan comptable général (PCG)** | Comptes **individuels** des entreprises françaises | Établi par l'Autorité des normes comptables (ANC) ; logique patrimoniale, coût historique |
-| **Normes IFRS** | Comptes **consolidés** des sociétés cotées de l'Union (obligatoire depuis **2005**) | Élaborées par l'IASB, adoptées par l'Union ; recours fréquent à la **juste valeur** |
+| **Plan comptable général** (PCG) | Comptes **individuels** (sociaux) des entreprises françaises | Établi par l'**Autorité des normes comptables** (ANC) ; logique patrimoniale ; principe du **coût historique** et de **prudence** |
+| **Normes IFRS** | Comptes **consolidés** des sociétés **cotées** sur un marché réglementé de l'Union (obligatoire depuis **2005**) | Élaborées par l'**IASB**, adoptées par l'Union ; recours fréquent à la **juste valeur** ; primauté de la substance économique sur la forme juridique |
 
-Normes IFRS à connaître : **IFRS 9** (instruments financiers, dépréciation fondée sur les pertes attendues), **IFRS 16** (contrats de location inscrits au bilan), **IFRS 17** (contrats d'assurance, applicable depuis 2023), **IFRS 18** (nouvelle présentation du compte de résultat, applicable à partir de 2027).
+Normes IFRS à connaître : **IFRS 9** (instruments financiers ; dépréciation fondée sur les **pertes attendues**), **IFRS 16** (contrats de **location** inscrits au bilan), **IFRS 17** (contrats d'**assurance**, depuis 2023), **IFRS 15** (reconnaissance du chiffre d'affaires), **IFRS 18** (nouvelle présentation du compte de résultat, applicable à partir de 2027).
 
-Les comptes sont **certifiés** par un ou plusieurs **commissaires aux comptes** (deux pour les sociétés qui publient des comptes consolidés), dont l'activité est supervisée par la **Haute Autorité de l'audit** (H2A, ex-H3C).
+### Les comptes consolidés
+
+Les **comptes consolidés** présentent le patrimoine et les résultats d'un **groupe** comme s'il s'agissait d'une seule entité.
+
+| Lien avec la filiale | Méthode de consolidation |
+|---|---|
+| **Contrôle exclusif** (en général plus de 50 % des droits de vote) | **Intégration globale** : on reprend 100 % des actifs, passifs, produits et charges, en isolant la part des minoritaires (intérêts ne donnant pas le contrôle) |
+| **Influence notable** (présumée entre 20 % et 50 %) ou **coentreprise** | **Mise en équivalence** : on remplace la valeur des titres par la quote-part des capitaux propres de la société |
+
+L'**écart d'acquisition** (*goodwill*), différence entre le prix payé pour une société et la juste valeur de son actif net, est inscrit à l'actif ; en IFRS, il n'est pas amorti mais soumis à un **test de dépréciation** au moins annuel.
+
+Les comptes sont **certifiés** par un ou plusieurs **commissaires aux comptes** (deux pour les sociétés qui publient des comptes consolidés), supervisés par la **Haute Autorité de l'audit** (H2A). Les sociétés publient leurs comptes, leur **rapport de gestion** (activité, risques, perspectives, informations de durabilité), et les sociétés cotées leurs rapports financiers annuel et semestriel (thème 11).
 
 ## 5. La valorisation d'une entreprise
 
 | Méthode | Principe |
 |---|---|
-| **Actualisation des flux de trésorerie (DCF)** | Valeur d'entreprise = somme des flux de trésorerie disponibles futurs actualisés au coût moyen pondéré du capital (CMPC, ou WACC), plus une valeur terminale |
-| **Multiples de sociétés comparables** | Application de multiples observés (PER, VE/EBITDA, VE/CA) sur des sociétés cotées comparables |
-| **Multiples de transactions** | Multiples observés lors d'acquisitions récentes dans le même secteur |
-| **Actif net réévalué (ANR)** | Valeur des actifs réévalués, diminuée des dettes (holdings, foncières) |
-| **Modèle de Gordon-Shapiro** | Valeur de l'action = D₁ / (k − g), où D₁ = prochain dividende, k = rentabilité exigée, g = croissance perpétuelle du dividende |
+| **Actualisation des flux de trésorerie** (DCF) | Valeur d'entreprise = somme des **flux de trésorerie disponibles** futurs actualisés au **coût moyen pondéré du capital** (CMPC, ou WACC), plus une **valeur terminale** |
+| **Multiples de sociétés comparables** | Application de multiples observés sur des sociétés cotées comparables (PER, VE/EBITDA, VE/chiffre d'affaires) |
+| **Multiples de transactions** | Multiples observés lors d'acquisitions récentes dans le même secteur (ils incluent une prime de contrôle) |
+| **Actif net réévalué** (ANR) | Valeur des actifs réévalués, diminuée des dettes : adapté aux holdings et aux foncières |
+| **Modèle de Gordon-Shapiro** | Valeur de l'action = **D₁ / (k − g)** : D₁ = prochain dividende, k = rentabilité exigée, g = taux de croissance perpétuelle du dividende |
 
-> **Valeur d'entreprise** (VE) = valeur des capitaux propres + dette nette. C'est la valeur de l'outil économique, quel que soit son mode de financement.
+> **Valeur d'entreprise** (VE) = valeur des **capitaux propres** + **dette nette**. C'est la valeur de l'outil économique, quel que soit son mode de financement.
 
-i> Gordon-Shapiro : prochain dividende 3 €, rentabilité exigée 8 %, croissance perpétuelle 2 %.
-Valeur = 3 / (0,08 − 0,02) = **50 €**.
+i> Gordon-Shapiro : prochain dividende 3 €, rentabilité exigée 8 %, croissance perpétuelle 2 % : valeur = 3 / (0,08 − 0,02) = **50 €**.
+Valeur d'entreprise : une société dont la capitalisation est de 800 M€ et la dette nette de 200 M€ a une VE de **1 000 M€** ; avec un EBITDA de 125 M€, son multiple VE/EBITDA est de **8**.
 
 ## 6. Notions statistiques et théorie du portefeuille
 
-- **Rendement** d'un placement sur une période : (valeur finale − valeur initiale + revenus perçus) / valeur initiale ;
-- **moyenne** arithmétique des rendements ; **volatilité** = écart-type des rendements (une volatilité annuelle de 20 % est élevée, typique des actions) ;
-- **corrélation** (de − 1 à + 1) : mesure la tendance de deux actifs à évoluer ensemble ; plus elle est faible, plus la **diversification** réduit le risque du portefeuille ;
-- le **rendement espéré** d'un portefeuille est la moyenne pondérée des rendements espérés des actifs ; en revanche, son **risque** est inférieur à la moyenne pondérée des risques dès que les actifs ne sont pas parfaitement corrélés ;
-- on distingue le **risque spécifique**, éliminable par la diversification, et le **risque systématique** (de marché), qui ne l'est pas ;
-- le **MEDAF** (modèle d'évaluation des actifs financiers, Sharpe, 1964) : rentabilité exigée = taux sans risque + **bêta** × (rentabilité du marché − taux sans risque). Seul le risque systématique est rémunéré.
+- **Rendement** d'un placement sur une période : (valeur finale − valeur initiale + revenus perçus) / valeur initiale.
+- **Moyenne** arithmétique des rendements ; **volatilité** = **écart-type** des rendements (une volatilité annuelle de 20 % est typique d'un indice actions).
+- **Corrélation** (de − 1 à + 1) : mesure la tendance de deux actifs à évoluer ensemble. Plus elle est **faible**, plus la **diversification** réduit le risque du portefeuille ; avec une corrélation de + 1, aucun gain de diversification.
+- Le **rendement espéré** d'un portefeuille est la **moyenne pondérée** des rendements espérés des actifs ; en revanche, son **risque** est **inférieur** à la moyenne pondérée des risques dès que les actifs ne sont pas parfaitement corrélés.
+- On distingue le **risque spécifique** (propre à chaque titre), **éliminable** par la diversification, et le **risque systématique** (de marché), **non diversifiable**.
+- Le **MEDAF** (modèle d'évaluation des actifs financiers, Sharpe, 1964) : **rentabilité exigée = taux sans risque + bêta × (rentabilité du marché − taux sans risque)**. Seul le risque systématique, mesuré par le bêta, est rémunéré.
+- La **frontière efficiente** (Markowitz, 1952) regroupe les portefeuilles qui offrent le meilleur rendement pour chaque niveau de risque.
 
-i> Taux sans risque 2 %, prime de risque du marché 6 %, bêta 1,2.
-Rentabilité exigée = 2 % + 1,2 × 6 % = **9,2 %**.
+i> MEDAF : taux sans risque 2 %, prime de risque du marché 6 %, bêta 1,2 → rentabilité exigée = 2 % + 1,2 × 6 % = **9,2 %**.
+Portefeuille investi à 60 % en actions (rendement espéré 8 %) et à 40 % en obligations (3 %) : rendement espéré = 0,6 × 8 % + 0,4 × 3 % = **6 %**.
 
-i> Portefeuille investi à 60 % en actions (rendement espéré 8 %) et 40 % en obligations (3 %).
-Rendement espéré = 0,6 × 8 % + 0,4 × 3 % = **6 %**.
+## 7. La fiscalité des sociétés
+
+### L'impôt sur les sociétés
+
+| Élément | Règle |
+|---|---|
+| **Taux normal** | **25 %** du bénéfice imposable |
+| **Taux réduit des PME** | **15 %** jusqu'à **42 500 €** de bénéfice, pour les sociétés dont le chiffre d'affaires est inférieur à 10 M€, au capital entièrement libéré et détenu à au moins 75 % par des personnes physiques |
+| Contributions supplémentaires | Contribution sociale de 3,3 % pour les grandes sociétés ; contribution exceptionnelle sur les très grandes entreprises (chiffre d'affaires supérieur à 1,5 Md€ en 2026) |
+| **Déficits** | Reportables **en avant** sans limite de durée (imputation plafonnée chaque année à 1 M€ + 50 % du bénéfice au-delà) ; report **en arrière** (*carry-back*) sur le bénéfice de l'exercice précédent, dans la limite de 1 M€ |
+
+### Le régime des dividendes et plus-values de participations
+
+| Régime | Conditions | Effet |
+|---|---|---|
+| **Régime mère-fille** | Participation d'au moins **5 %** du capital, conservée au moins **2 ans** | Les dividendes reçus de la filiale sont **exonérés**, sauf une **quote-part de frais et charges** de **5 %** réintégrée (1 % dans un groupe fiscalement intégré) |
+| **Plus-values sur titres de participation** | Titres de participation détenus depuis au moins **2 ans** | Plus-values **exonérées**, sauf une quote-part de frais et charges de **12 %** |
+| **Intégration fiscale** | Société mère détenant au moins **95 %** de ses filiales | Le groupe paie un impôt unique sur la somme des résultats (compensation des bénéfices et des pertes) |
+
+c> Pourquoi ces régimes ? Pour éviter qu'un même bénéfice soit imposé plusieurs fois en remontant une chaîne de sociétés (filiale, puis mère, puis actionnaire final).
+
+La **taxe sur les transactions financières** (TTF) frappe les **achats** d'actions de sociétés françaises dont la capitalisation dépasse **1 milliard d'euros** ; son taux a été porté de 0,3 % à **0,4 %** au 1er avril 2025.
+
+## 8. La fiscalité des placements des particuliers
+
+### L'impôt sur le revenu : le barème progressif
+
+Barème 2026 (revenus de 2025), par part de quotient familial :
+
+| Tranche de revenu imposable par part | Taux |
+|---|---|
+| Jusqu'à 11 600 € | 0 % |
+| De 11 601 € à 29 579 € | 11 % |
+| De 29 580 € à 84 577 € | 30 % |
+| De 84 578 € à 181 917 € | 41 % |
+| Au-delà de 181 917 € | 45 % |
+
+Le **taux marginal d'imposition** (TMI) est le taux de la tranche la plus haute atteinte : c'est lui qui s'applique à un revenu supplémentaire. Le **taux moyen** (impôt / revenu) est toujours inférieur. Une **contribution exceptionnelle sur les hauts revenus** (3 % ou 4 %) et une **contribution différentielle** (taux minimal de 20 %) visent les revenus les plus élevés.
+
+### Le prélèvement forfaitaire unique (PFU, ou « flat tax »)
+
+d> Depuis 2018, les **revenus de capitaux mobiliers** (dividendes, intérêts) et les **plus-values de cession** de valeurs mobilières sont soumis au **prélèvement forfaitaire unique** : **12,8 %** d'impôt sur le revenu + **prélèvements sociaux**. Depuis 2026, les prélèvements sociaux sur la plupart des revenus du capital sont de **18,6 %** (hausse de la CSG de 9,2 % à 10,6 % par la loi de financement de la sécurité sociale pour 2026), soit un PFU global de **31,4 %**.
+
+| Point | Règle |
+|---|---|
+| Prélèvements sociaux | **18,6 %** en règle générale (CSG 10,6 %, CRDS 0,5 %, prélèvement de solidarité 7,5 %) ; **17,2 %** maintenus notamment pour l'**assurance-vie**, l'épargne logement, les revenus fonciers et les plus-values immobilières |
+| **Option pour le barème** | **Globale** (pour tous les revenus et plus-values de l'année soumis au PFU), sur la déclaration de revenus ; intéressante pour les foyers peu imposés |
+| En cas d'option : dividendes | **Abattement de 40 %** sur les dividendes ; une partie de la CSG est déductible |
+| En cas d'option : plus-values | Abattements pour durée de détention (50 % de 2 à 8 ans, 65 % au-delà) uniquement pour les titres acquis **avant 2018** |
+| **Prélèvement à la source** (acompte) | Lors du versement, la banque prélève un **acompte non libératoire de 12,8 %** (imputé sur l'impôt dû l'année suivante) et les prélèvements sociaux ; **dispense** possible sur demande si le revenu fiscal de référence est inférieur à **25 000 €** (personne seule) ou **50 000 €** (couple) pour les intérêts, **50 000 €** ou **75 000 €** pour les dividendes |
+| **Moins-values** | Imputables sur les plus-values de même nature de l'année et des **10 années** suivantes |
+
+i> M. et Mme Bernard perçoivent 2 000 € de dividendes en 2026.
+- Au PFU : 2 000 × 31,4 % = **628 €** (256 € d'impôt + 372 € de prélèvements sociaux).
+- En optant pour le barème avec un TMI de 11 % : impôt = 2 000 × 60 % × 11 % = 132 €, plus 372 € de prélèvements sociaux (moins l'effet de la CSG déductible), soit environ 504 € : l'option est avantageuse pour ce foyer.
+
+### Le plan d'épargne en actions (PEA)
+
+| Point | Règle |
+|---|---|
+| Titulaire | Un seul par personne (un par époux), contribuable domicilié en France ; **PEA jeune** pour les 18-25 ans rattachés au foyer de leurs parents (plafond **20 000 €**) |
+| Plafond des versements | **150 000 €** ; **PEA-PME** : 225 000 €, plafond commun avec le PEA (total ≤ 225 000 €) |
+| Titres éligibles | Actions de sociétés de l'Union européenne (et de l'EEE) soumises à l'impôt sur les sociétés, OPC investis à au moins 75 % en ces actions |
+| Retrait **avant 5 ans** | Entraîne en principe la **clôture** du plan (sauf exceptions : licenciement, invalidité, mise à la retraite anticipée, création ou reprise d'entreprise) ; gain imposé au **PFU** (12,8 % + prélèvements sociaux) |
+| Retrait **après 5 ans** | Gain **exonéré d'impôt sur le revenu** ; seuls les **prélèvements sociaux** sont dus ; depuis la loi PACTE, les retraits partiels n'entraînent plus la clôture et les versements restent possibles |
+| Revenus dans le plan | Dividendes et plus-values réinvestis **en franchise d'impôt** tant qu'ils restent dans le plan |
+
+### L'assurance-vie
+
+L'assurance-vie n'est pas un instrument financier mais un **contrat d'assurance**, dont les supports peuvent être un **fonds en euros** (capital garanti par l'assureur, nets de frais) ou des **unités de compte** (OPC, actions, SCPI… sans garantie du capital).
+
+| Rachats (gains) | Primes versées depuis le 27 septembre 2017 |
+|---|---|
+| Contrat de **moins de 8 ans** | PFU : **12,8 %** + prélèvements sociaux de **17,2 %** |
+| Contrat de **plus de 8 ans** | Abattement annuel de **4 600 €** (**9 200 €** pour un couple) sur les gains ; au-delà, **7,5 %** pour la part des primes n'excédant pas **150 000 €**, 12,8 % au-delà ; prélèvements sociaux de **17,2 %** |
+
+| Transmission au décès | Règle |
+|---|---|
+| Primes versées **avant 70 ans** (art. 990 I du CGI) | Abattement de **152 500 €** par bénéficiaire ; au-delà, prélèvement de **20 %** jusqu'à 700 000 €, puis **31,25 %** |
+| Primes versées **après 70 ans** (art. 757 B du CGI) | Abattement global de **30 500 €** (tous contrats et bénéficiaires confondus) ; au-delà, **droits de succession** sur les primes ; les **gains** sont exonérés |
+| Conjoint ou partenaire de PACS bénéficiaire | **Exonéré** |
+
+c> L'assurance-vie se transmet **hors succession** au(x) bénéficiaire(s) désigné(s) dans la clause bénéficiaire, avec une fiscalité propre : c'est l'un des outils de transmission les plus utilisés en France. Elle ne relève pas de la compétence de l'AMF mais de l'ACPR, sauf pour les unités de compte, qui sont des instruments financiers.
+
+### Les autres placements à connaître
+
+| Placement | Fiscalité |
+|---|---|
+| **Livret A, LDDS, LEP**, livret jeune | Intérêts **exonérés** d'impôt et de prélèvements sociaux |
+| **Plan d'épargne retraite** (PER) | Versements volontaires **déductibles** du revenu imposable, dans un plafond ; à la sortie, le capital correspondant aux versements déduits est imposé au barème, les gains au PFU ; la loi de finances pour 2026 a porté à **cinq ans** le report des plafonds de déduction non utilisés |
+| **Plus-values sur crypto-actifs** des particuliers (activité non professionnelle) | Imposées au PFU (ou, sur option, au barème) lors de la conversion en monnaie ou de l'achat d'un bien ; exonération si le total des cessions de l'année ne dépasse pas **305 €** |
+
+### L'impôt sur la fortune immobilière (IFI)
+
+| Point | Règle |
+|---|---|
+| Assiette | Patrimoine **immobilier** net (immeubles détenus directement ou indirectement, parts de SCPI, part immobilière de certaines unités de compte), au 1er janvier |
+| Seuil d'imposition | Patrimoine net taxable supérieur à **1,3 million d'euros** |
+| Barème | Progressif de **0,5 % à 1,5 %** (à partir de 800 000 €), avec une décote entre 1,3 et 1,4 M€ |
+| Résidence principale | Abattement de **30 %** |
+| Hors champ | Actions (hors sociétés à prépondérance immobilière), obligations, fonds en euros d'assurance-vie, liquidités |
+
+!> Depuis 2018, l'**IFI** a remplacé l'ISF : les **placements financiers** (actions, obligations, fonds en euros, liquidités) n'y sont **pas** soumis ; seul l'immobilier l'est.
+
+## L'essentiel
+
+> - Intérêts simples : **C × t × n** (jours / 360) ; composés : **C × (1 + t)ⁿ** ; actualisation : **C / (1 + t)ⁿ** ; règle de **72**.
+> - Taux équivalent mensuel de 6 % ≈ **0,487 %** (< taux proportionnel 0,5 %) ; taux réel ≈ nominal − inflation.
+> - **VAN > 0** : projet rentable ; **TRI** = taux qui annule la VAN.
+> - Obligation **sous le pair** → taux actuariel **> coupon** ; au-dessus du pair → **< coupon**.
+> - Bilan (photo) : actif = passif ; compte de résultat (film) : produits − charges.
+> - **EBE** ≈ EBITDA (avant amortissements et financement) ; résultat d'exploitation ≈ EBIT ; **CAF ≈ résultat net + dotations − reprises**.
+> - **FR** = capitaux permanents − actif immobilisé ; **BFR** = stocks + clients − fournisseurs ; **trésorerie = FR − BFR**.
+> - **ROE** = résultat net / capitaux propres ; **levier** favorable si rentabilité économique > coût de la dette.
+> - PCG (comptes individuels) ; **IFRS** (comptes consolidés des sociétés cotées, depuis **2005**) ; intégration globale (contrôle), mise en équivalence (influence notable).
+> - **VE = capitaux propres + dette nette** ; Gordon-Shapiro **D₁ / (k − g)** ; MEDAF **Rf + β (Rm − Rf)** ; diversification : élimine le risque **spécifique**, pas le risque **systématique**.
+> - IS : **25 %**, **15 %** jusqu'à **42 500 €** pour les PME ; mère-fille : **5 %** de participation, **2 ans**, quote-part de **5 %**.
+> - Barème IR 2026 : **0 / 11 / 30 / 41 / 45 %** (seuil d'entrée **11 600 €**).
+> - **PFU** : **12,8 % + 18,6 % = 31,4 %** (prélèvements sociaux maintenus à **17,2 %** pour l'assurance-vie) ; option **globale** pour le barème (abattement de **40 %** sur les dividendes).
+> - **PEA** : **150 000 €** ; après **5 ans**, exonération d'IR (prélèvements sociaux dus).
+> - Assurance-vie : après **8 ans**, abattement **4 600 / 9 200 €**, puis **7,5 %** (jusqu'à 150 000 € de primes) ; décès : **152 500 €** par bénéficiaire (primes avant 70 ans), **30 500 €** global (après 70 ans).
+> - **IFI** : immobilier seulement, au-delà de **1,3 M€**, de **0,5 % à 1,5 %**.
 
 ## QCM d'entraînement
 
-?? 20 000 € placés à 2,5 % en intérêts simples pendant 180 jours (base 360) rapportent :
+?? [C] 20 000 € placés à 2,5 % en intérêts simples pendant 180 jours (base 360) rapportent :
 a) 250 €
 b) 500 €
 c) 125 €
-d) 246,58 €
 =a 20 000 × 2,5 % × 180 / 360 = 250 €.
 
-?? 5 000 € placés à 3 % en intérêts composés pendant 2 ans deviennent :
+?? [C] 5 000 € placés à 3 % en intérêts composés pendant 2 ans deviennent :
 a) 5 300,00 €
 b) 5 304,50 €
 c) 5 150,00 €
-d) 5 309,00 €
-=b 5 000 × 1,03² = 5 000 × 1,0609 = 5 304,50 €.
+=b 5 000 × 1,03² = 5 304,50 €.
 
-?? La valeur actuelle de 1 100 € reçus dans un an, au taux de 10 %, est de :
+?? [C] Selon la règle de 72, un capital placé à 8 % par an double en environ :
+a) 6 ans
+b) 9 ans
+c) 12 ans
+=b 72 / 8 = 9 ans.
+
+?? [C] La valeur actuelle de 1 100 € reçus dans un an, au taux de 10 %, est de :
 a) 990 €
 b) 1 000 €
-c) 1 010 €
-d) 1 210 €
+c) 1 210 €
 =b 1 100 / 1,10 = 1 000 €.
 
-?? Le taux mensuel équivalent à un taux annuel de 6 % est :
+?? [C] Le taux mensuel équivalent à un taux annuel de 6 % est :
 a) égal à 0,5 %
 b) légèrement inférieur à 0,5 %
 c) légèrement supérieur à 0,5 %
-d) égal à 6 %
-=b (1,06)^(1/12) − 1 ≈ 0,487 % ; 0,5 % est le taux proportionnel.
+=b Environ 0,487 % ; 0,5 % est le taux proportionnel.
 
-?? Un placement rapporte 4 % alors que l'inflation est de 3 %. Le taux réel est d'environ :
+?? [C] Un placement rapporte 4 % alors que l'inflation est de 3 %. Son taux réel est d'environ :
 a) 7 %
 b) 1 %
 c) 3 %
-d) 4 %
-=b Réel ≈ nominal − inflation.
+=b Taux réel ≈ taux nominal − inflation.
 
-?? Le taux de rendement interne (TRI) d'un projet est le taux qui :
+?? [C] Le taux de rendement interne (TRI) d'un projet est le taux qui :
 a) maximise la VAN
 b) annule la VAN
 c) est égal au taux sans risque
-d) est égal au taux du coupon
 =b Un projet est acceptable si son TRI dépasse le taux exigé.
 
-?? Une obligation à taux fixe cote en dessous du pair. Son taux de rendement actuariel est :
+?? [C] Un projet dont la VAN est négative au taux exigé :
+a) a un TRI supérieur au taux exigé
+b) a un TRI inférieur au taux exigé
+c) est toujours rentable
+=b Il détruit de la valeur au regard de la rentabilité exigée.
+
+?? [C] Une obligation à taux fixe cote en dessous du pair. Son taux de rendement actuariel est :
 a) égal au taux du coupon
 b) supérieur au taux du coupon
 c) inférieur au taux du coupon
-d) nul
-=b L'acheteur bénéficie d'une prime de remboursement.
+=b L'acheteur gagne aussi l'écart jusqu'au remboursement au pair.
 
-?? Une obligation de nominal 1 000 €, coupon 4 %, cote 101 % ; 91,25 jours se sont écoulés sur une année de 365 jours. Le prix à payer (hors frais) est d'environ :
-a) 1 010 €
-b) 1 020 €
-c) 1 000 €
-d) 1 050 €
-=b Coupon couru = 1 000 × 4 % × 91,25 / 365 = 10 € ; prix = 1 010 + 10 = 1 020 €.
+?? [C] Les dotations aux amortissements :
+a) sont des charges qui ne donnent pas lieu à un décaissement
+b) sont des produits exceptionnels
+c) augmentent le résultat net
+=a Elles constatent la dépréciation des immobilisations.
 
-?? L'excédent brut d'exploitation (EBE) se calcule avant :
+?? [C] L'excédent brut d'exploitation se calcule avant :
 a) les charges de personnel
 b) les dotations aux amortissements et le résultat financier
 c) les consommations en provenance des tiers
-d) les impôts et taxes
-=b Il mesure la performance économique avant amortissements et financement.
+=b Il est proche de l'EBITDA.
 
-?? Une entreprise a un fonds de roulement de 200 et un BFR de 260. Sa trésorerie nette est :
+?? [C] Une entreprise a une valeur ajoutée de 400, des charges de personnel de 250, des impôts et taxes de 10 et des dotations aux amortissements de 40. Son EBE est de :
+a) 140
+b) 100
+c) 150
+=a 400 − 250 − 10 = 140 ; le résultat d'exploitation serait de 100.
+
+?? [C] Une entreprise réalise un résultat net de 50 avec 30 de dotations aux amortissements et 5 de reprises de provisions. Sa CAF est d'environ :
+a) 75
+b) 85
+c) 50
+=a 50 + 30 − 5 = 75.
+
+?? [C] Le fonds de roulement se calcule comme :
+a) capitaux permanents − actif immobilisé
+b) stocks + créances clients − dettes fournisseurs
+c) chiffre d'affaires − charges
+=a Le second calcul est celui du BFR.
+
+?? [C] Une entreprise a un fonds de roulement de 200 et un BFR de 260. Sa trésorerie nette est de :
 a) + 60
 b) − 60
 c) + 460
-d) − 460
-=b Trésorerie nette = FR − BFR ; elle doit recourir à des financements à court terme.
+=b Trésorerie nette = FR − BFR : elle doit recourir à des financements à court terme.
 
-?? Le BFR augmente notamment lorsque :
+?? [C] Le BFR augmente notamment lorsque :
 a) les délais de paiement accordés aux clients s'allongent
 b) les délais de paiement obtenus des fournisseurs s'allongent
 c) les stocks diminuent
-d) l'entreprise réalise une augmentation de capital
 =a Les créances clients sont un emploi d'exploitation.
 
-?? Une société réalise un résultat net de 15 M€ pour des capitaux propres de 120 M€. Son ROE est de :
+?? [C] Une société réalise un résultat net de 15 M€ pour des capitaux propres de 120 M€. Son ROE est de :
 a) 8 %
 b) 12,5 %
 c) 15 %
-d) 18 %
 =b 15 / 120 = 12,5 %.
 
-?? L'effet de levier financier est favorable lorsque :
+?? [C] L'effet de levier financier est favorable à l'actionnaire lorsque :
 a) la rentabilité économique est supérieure au coût de la dette
 b) la rentabilité économique est inférieure au coût de la dette
 c) l'entreprise n'a aucune dette
-d) les capitaux propres sont négatifs
 =a Dans le cas contraire, l'endettement dégrade la rentabilité des capitaux propres.
 
-?? Les comptes consolidés des sociétés cotées de l'Union européenne sont établis selon :
+?? [C] Une société a une dette nette de 300 M€ et un EBITDA de 100 M€. Son levier d'endettement est de :
+a) 0,33
+b) 3
+c) 30
+=b Dette nette / EBITDA = 3 années.
+
+?? [C] Les comptes consolidés des sociétés cotées de l'Union européenne sont établis selon :
 a) le plan comptable général
 b) les normes IFRS
-c) les normes américaines US GAAP
-d) le choix libre de la société
+c) les normes américaines
 =b Obligation en vigueur depuis 2005.
 
-?? Selon le modèle de Gordon-Shapiro, une action dont le prochain dividende est de 2 €, avec une rentabilité exigée de 9 % et une croissance perpétuelle de 4 %, vaut :
+?? [C] Une filiale contrôlée de manière exclusive est consolidée par :
+a) intégration globale
+b) mise en équivalence
+c) simple inscription des dividendes reçus
+=a La mise en équivalence s'applique en cas d'influence notable.
+
+?? [C] La norme IFRS 16 concerne :
+a) les contrats d'assurance
+b) les contrats de location
+c) les instruments financiers
+=b IFRS 17 traite des contrats d'assurance, IFRS 9 des instruments financiers.
+
+?? [C] La valeur d'entreprise est égale à :
+a) la capitalisation boursière diminuée de la dette nette
+b) la valeur des capitaux propres augmentée de la dette nette
+c) le total de l'actif comptable
+=b C'est la valeur de l'outil économique.
+
+?? [C] Selon le modèle de Gordon-Shapiro, une action dont le prochain dividende est de 2 €, avec une rentabilité exigée de 9 % et une croissance perpétuelle de 4 %, vaut :
 a) 22,22 €
 b) 40 €
 c) 50 €
-d) 15,38 €
 =b 2 / (0,09 − 0,04) = 40 €.
 
-?? Selon le MEDAF, avec un taux sans risque de 3 %, une prime de risque de marché de 5 % et un bêta de 0,8, la rentabilité exigée est de :
+?? [C] Selon le MEDAF, avec un taux sans risque de 3 %, une prime de risque de marché de 5 % et un bêta de 0,8, la rentabilité exigée est de :
 a) 7 %
 b) 8 %
-c) 4 %
-d) 6,4 %
+c) 6,4 %
 =a 3 % + 0,8 × 5 % = 7 %.
 
-?? La diversification d'un portefeuille permet de réduire :
+?? [C] La diversification d'un portefeuille permet de réduire :
 a) le risque systématique
 b) le risque spécifique
 c) tous les risques
-d) aucun risque
-=b Le risque de marché (systématique) n'est pas diversifiable.
+=b Le risque de marché n'est pas diversifiable.
+
+?? [C] Deux actifs dont la corrélation est de + 1 :
+a) offrent le bénéfice maximal de diversification
+b) n'offrent aucun bénéfice de diversification
+c) ont nécessairement le même rendement
+=b La diversification est d'autant plus efficace que la corrélation est faible.
+
+?? [C] Le taux normal de l'impôt sur les sociétés est de :
+a) 25 %
+b) 33,33 %
+c) 15 %
+=a Un taux réduit de 15 % s'applique jusqu'à 42 500 € pour certaines PME.
+
+?? [C] Le régime mère-fille permet d'exonérer les dividendes reçus d'une filiale, sauf une quote-part de frais et charges de 5 %, à condition notamment de détenir au moins :
+a) 5 % du capital pendant au moins 2 ans
+b) 50 % du capital pendant au moins 5 ans
+c) 95 % du capital
+=a 95 % est le seuil de l'intégration fiscale.
+
+?? [C] Un contribuable dont le revenu imposable par part atteint 40 000 € a un taux marginal d'imposition de :
+a) 11 %
+b) 30 %
+c) 41 %
+=b La tranche à 30 % s'applique de 29 580 € à 84 577 € par part.
+
+?? [C] En 2026, le prélèvement forfaitaire unique applicable à la plupart des dividendes et plus-values mobilières représente au total :
+a) 30 %
+b) 31,4 %
+c) 12,8 %
+=b 12,8 % d'impôt sur le revenu + 18,6 % de prélèvements sociaux.
+
+?? [C] L'option pour le barème progressif de l'impôt sur le revenu, à la place du PFU :
+a) est globale et porte sur l'ensemble des revenus et plus-values de l'année concernés
+b) peut être choisie titre par titre
+c) est réservée aux non-résidents
+=a Elle permet notamment de bénéficier de l'abattement de 40 % sur les dividendes.
+
+?? [C] Un retrait sur un PEA ouvert depuis plus de 5 ans :
+a) entraîne la clôture du plan et l'imposition au PFU
+b) est exonéré d'impôt sur le revenu, seuls les prélèvements sociaux étant dus, sans clôture du plan
+c) est interdit
+=b Depuis la loi PACTE, les retraits partiels après 5 ans n'entraînent plus la clôture.
+
+?? [C] Pour un contrat d'assurance-vie de plus de 8 ans, les gains rachetés bénéficient d'un abattement annuel de :
+a) 4 600 € pour une personne seule et 9 200 € pour un couple
+b) 30 500 €
+c) 152 500 €
+=a Au-delà, le taux est de 7,5 % jusqu'à 150 000 € de primes.
+
+?? [C] Au décès de l'assuré, les capitaux d'assurance-vie issus de primes versées avant 70 ans bénéficient d'un abattement par bénéficiaire de :
+a) 30 500 €
+b) 100 000 €
+c) 152 500 €
+=c Pour les primes versées après 70 ans, l'abattement est de 30 500 €, global.
+
+?? [C] L'impôt sur la fortune immobilière porte sur :
+a) l'ensemble du patrimoine, y compris les actions
+b) le seul patrimoine immobilier net, au-delà de 1,3 million d'euros
+c) les seuls comptes bancaires
+=b Les placements financiers non immobiliers n'y sont pas soumis.
